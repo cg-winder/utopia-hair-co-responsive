@@ -1,7 +1,6 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination, Scrollbar, A11y, Autoplay } from "swiper";
-import "swiper/css/bundle";
 import salon1 from "../imgs/salonmirrored.jpeg";
 import salon2 from "../imgs/salonmug.jpeg";
 import salon3 from "../imgs/utopiawash.jpeg";

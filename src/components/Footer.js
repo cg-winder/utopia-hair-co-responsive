@@ -1,7 +1,7 @@
 import React from "react";
-import FooterDetails from "./FooterComponents.js/FooterDetails";
-import FooterSocials from "./FooterComponents.js/FooterSocials";
-import FooterSitemap from "./FooterComponents.js/FooterSitemap";
+import FooterDetails from "./FooterComponents/FooterDetails";
+import FooterSocials from "./FooterComponents/FooterSocials";
+import FooterSitemap from "./FooterComponents/FooterSitemap";
 import logo from "./imgs/utopiahairco-logo.jpeg";
 
 const Footer = () => {

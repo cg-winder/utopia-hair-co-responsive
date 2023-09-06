@@ -1,5 +1,5 @@
 import profileplaceholder from "../imgs/profile-placeholder.jpeg";
-import instagramlogo from "/Users/chloewinder/Desktop/ /Code/Projects/Utopia Hair Co/src/components/imgs/nav-icon3-instagram.svg";
+import instagramlogo from "/Users/chloewinder/Desktop/ /Code/Projects/utopia-hair-co-responsive/src/components/imgs/nav-icon3-instagram.svg"
 import React from "react";
 
 const TeamGirls = () => {

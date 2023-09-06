@@ -2,7 +2,7 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faStar } from "@fortawesome/free-solid-svg-icons";
 
-const Testimonials = () => {
+const HomeTestimonials = () => {
   return (
     <div className="testimonials-page-wrap">
       <div className="testimonials-header">Testimonials</div>
@@ -255,4 +255,4 @@ const Testimonials = () => {
   );
 };
 
-export default Testimonials;
+export default HomeTestimonials;

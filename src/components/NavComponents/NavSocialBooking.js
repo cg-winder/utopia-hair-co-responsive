@@ -1,8 +1,8 @@
 import React from "react";
-import tiktoklogo from "/Users/chloewinder/Desktop/ /Code/Projects/Utopia Hair Co/src/components/imgs/tiktok3-removebg-preview.png";
-import instagramlogo from "/Users/chloewinder/Desktop/ /Code/Projects/Utopia Hair Co/src/components/imgs/nav-icon3-instagram.svg";
+import tiktoklogo from "../imgs/tiktok3-removebg-preview.png";
+import instagramlogo from "../imgs/nav-icon3-instagram.svg";
 
-const SocialsBooking = () => {
+const NavSocialBooking = () => {
   return (
     <div className="socials-booking">
       <span className="buttons">
@@ -28,4 +28,4 @@ const SocialsBooking = () => {
   );
 };
 
-export default SocialsBooking;
+export default NavSocialBooking;
