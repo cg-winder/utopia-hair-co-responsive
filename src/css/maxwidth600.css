@@ -130,13 +130,14 @@
         width: 100%;
         font-family: "lato";
         color: rgb(134, 112, 112);
+        background-color: rgb(218, 208, 196);
     }
 
     .footer-address {
         display: flex;
         flex-direction: column;
         margin-top: 2%;
-        padding-right: 8%;
+        padding-right: 8.6%;
         font-size: 12px;
     }
 
@@ -258,7 +259,6 @@
         color: rgb(105, 88, 88);
         text-align: center;
         font-size: 5px;
-        background-color: rgb(218, 208, 196);
         padding-bottom: 0.5%;
     }
 
