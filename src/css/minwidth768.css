@@ -1,7 +1,5 @@
 @media only screen and (min-width:768px) {
 
-    /*FOOTER*/
-
     .main-footer {
         border-top: 0.5px solid white;
         bottom: 0;
@@ -16,8 +14,8 @@
         display: flex;
         flex-direction: column;
         margin-top: 2%;
-        padding-right: 7.5%;
-        font-size: 15px;
+        padding-right: 8.6%;
+        font-size: 12px;
     }
 
     .footer-address-list {
@@ -41,7 +39,7 @@
     }
 
     .footer-weekdays {
-        font-size: 10px;
+        font-size: 8px;
         list-style: none;
         text-decoration: none;
         text-align: left;
@@ -55,19 +53,19 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        margin-bottom: 4%;
     }
 
     .footer-socials img {
-        height: 27px;
-        width: 27px;
+        height: 22px;
+        width: 22px;
         padding: 0px 7px;
-        margin-bottom: 10%;
         max-width: 100%;
     }
 
     .tiktok-footer img {
-        width: 29px;
-        height: 31px;
+        width: 25px;
+        height: 27px;
         max-width: 100%;
         /* display: block; */
     }
@@ -75,13 +73,13 @@
     .sitemap {
         display: flex;
         flex-direction: column;
-        margin-bottom: 3%;
+        margin-bottom: 11%;
     }
 
     .sitemap-list {
         display: flex;
         margin: 0 auto;
-        padding-right: 7%;
+        padding-right: 10%;
 
     }
 
@@ -97,8 +95,8 @@
     }
 
     .footer-logo img {
-        max-width: 130px;
-        max-height: 130px;
+        max-width: 100px;
+        max-height: 100px;
         border-radius: 50%;
         display: flex;
         margin: 0 auto;
@@ -137,9 +135,8 @@
     .footer-disclaimer {
         color: rgb(105, 88, 88);
         text-align: center;
-        font-size: 6px;
+        font-size: 5px;
         padding-bottom: 0.5%;
     }
-
 
 }
