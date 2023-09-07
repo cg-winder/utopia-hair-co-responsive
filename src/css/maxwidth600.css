@@ -1,3 +1,256 @@
 @media only screen and (max-width: 600px) {
-    
+
+
+    * {
+        margin: 1;
+        max-width: 100vw;
+        ;
+    }
+
+    body {
+        background-color: rgb(214, 204, 190);
+        width: 100%;
+    }
+
+
+    /*NAVBAR*/
+    .navbar {
+        border-bottom: 0.5px solid white;
+    }
+
+    /*NAVBAR LINKS*/
+    .navbar-logo {
+        width: 25%;
+        height: 30%;
+        display: flex;
+        margin: 0 auto;
+        margin-top: 4%;
+    }
+
+    .navbar-links {
+        margin: 5% 4% 4% 4%;
+        justify-content: space-between;
+        display: flex;
+        flex: 1;
+    }
+
+    .navbar-links a {
+        font-size: 80%;
+        text-decoration: none;
+        color: rgb(138, 116, 116);
+        display: flex;
+    }
+
+    .navbar-links a:hover {
+        cursor: pointer;
+    }
+
+    /*NAVBAR BOOK BUTTON*/
+    .book-now-button {
+        display: flex;
+        width: 32%;
+        margin: 0 auto;
+        font-family: "italiana";
+        font-size: 20px;
+        color: white;
+        border: 1px solid white;
+        border-radius: 2px;
+        background-color: rgb(190, 181, 169);
+        transition: 0.3s ease-in-out;
+        box-shadow: inset 0 0 0 0 #e3dfd8;
+    }
+
+    .book-now-button:hover {
+        font-size: 18px;
+        border-radius: 50px;
+        border: 2px solid white;
+        box-shadow: inset 140px 0 0 0 #cec4c1;
+    }
+
+    .book-now-button span {
+        display: flex;
+        margin: 0 auto;
+        z-index: 1;
+        background-color: transparent;
+    }
+
+    .book-now-button span:hover {
+        color: whitesmoke;
+    }
+
+    /*NAVBAR SOCIALS*/
+
+    .social-icon a {
+        width: 40px;
+        height: 40px;
+        background: transparent;
+        background-color: rgb(190, 181, 169);
+        display: inline-flex;
+        border-radius: 50%;
+        margin-right: 3%;
+        align-items: center;
+        justify-content: center;
+        line-height: 1;
+        border: 1px solid white;
+    }
+
+    .social-icon aa:before {
+        content: "";
+        background-color: #cec4c1;
+        border: 2px solid white;
+        border-radius: 50%;
+        transform: scale(0);
+        transition: 0.3s ease-in-out;
+    }
+
+    .social-icon a:hover::before {
+        transform: scale(1);
+    }
+
+    .social-icon a img {
+        width: 50%;
+        z-index: 1;
+        transition: 0.3s ease-in-out;
+        background-color: transparent;
+    }
+
+    .social-icon a:hover img {
+        outline: none;
+        background-color: #cec4c1;
+    }
+
+    /*FOOTER*/
+
+    .main-footer {
+        border-top: 0.5px solid white;
+        bottom: 0;
+        width: 100%;
+        font-family: "lato";
+        color: rgb(134, 112, 112);
+    }
+
+    .footer-address {
+        display: flex;
+        flex-direction: column;
+        font-size: 10px;
+    }
+
+    .footer-address-list {
+        list-style: none;
+        display: flex;
+        margin: 0 auto;
+        color: white;
+    }
+
+    .footer-address-list li {
+        margin-left: 1%;
+    }
+
+    .footer-opening-times {}
+
+    .footer-weekdays {
+        font-size: 8px;
+        list-style: none;
+        text-decoration: none;
+        text-align: left;
+    }
+
+    .footer-current-day {
+        color: white;
+    }
+
+    .footer-socials {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-socials img {
+        height: 22px;
+        width: 22px;
+        max-width: 100%;
+    }
+
+    .tiktok-footer img {
+        width: 20px;
+        height: 20px;
+        max-width: 100%;
+        /* display: block; */
+    }
+
+    .sitemap {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    .sitemap-list a {
+        margin-left: 2%;
+        font-size: 11px;
+        text-decoration: none;
+        color: rgb(134, 112, 112);
+    }
+
+    .sitemap-list a:hover {
+        color: white;
+    }
+
+    .footer-logo img {
+        max-width: 100px;
+        max-height: 100px;
+        border-radius: 50%;
+        display: flex;
+        margin: 0 auto;
+        margin-bottom: 4%;
+        animation: gelatine 8.5s infinite;
+    }
+
+    @keyframes gelatine {
+
+        from,
+        to {
+            transform: scale(1, 1);
+        }
+
+        25% {
+            transform: scale(0.9, 1.1);
+        }
+
+        50% {
+            transform: scale(1.1, 0.9);
+        }
+
+        75% {
+            transform: scale(0.95, 1.05);
+        }
+    }
+
+    .footer-logo img:hover {
+        cursor: pointer;
+    }
+
+    .footer-hr {
+        margin: 0;
+    }
+
+    .footer-disclaimer {
+        color: rgb(105, 88, 88);
+        text-align: center;
+        font-size: 5px;
+        background-color: rgb(218, 208, 196);
+        padding-bottom: 0.5%;
+    }
+
+
+
 }
+
+/* for any imgs :
+
+ max-width: 100%;
+  display: block;
+
+
+  still use width and height on top of this
+
+*/
