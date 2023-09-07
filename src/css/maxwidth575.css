@@ -17,6 +17,7 @@
     .navbar {
         position: fixed;
         top: 0;
+        width: 100%;
         border-bottom: 0.5px solid white;
     }
 
@@ -202,8 +203,7 @@
     .sitemap-list {
         display: flex;
         margin: 0 auto;
-        padding-right: 10%;
-
+        padding-right: 12%;
     }
 
     .sitemap-list a {
