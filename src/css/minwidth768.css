@@ -15,7 +15,7 @@
         flex-direction: column;
         margin-top: 2%;
         padding-right: 8.6%;
-        font-size: 12px;
+        font-size: 16px;
     }
 
     .footer-address-list {
@@ -39,7 +39,7 @@
     }
 
     .footer-weekdays {
-        font-size: 8px;
+        font-size: 11px;
         list-style: none;
         text-decoration: none;
         text-align: left;
@@ -58,8 +58,8 @@
 
 
     .footer-socials img {
-        height: 22px;
-        width: 22px;
+        height: 31px;
+        width: 31px;
         padding: 0px 5px;
         margin-right: 11px;
         max-width: 100%;
@@ -85,7 +85,7 @@
 
     .sitemap-list a {
         margin-left: 10px;
-        font-size: 12px;
+        font-size: 16px;
         text-decoration: none;
         color: rgb(134, 112, 112);
     }
@@ -95,8 +95,8 @@
     }
 
     .footer-logo img {
-        max-width: 100px;
-        max-height: 100px;
+        max-width: 140px;
+        max-height: 140px;
         border-radius: 50%;
         display: flex;
         margin: 0 auto;
@@ -135,7 +135,7 @@
     .footer-disclaimer {
         color: rgb(105, 88, 88);
         text-align: center;
-        font-size: 5px;
+        font-size: 6px;
         padding-bottom: 0.5%;
     }
 

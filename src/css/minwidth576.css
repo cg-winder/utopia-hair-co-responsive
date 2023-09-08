@@ -15,7 +15,13 @@
         flex-direction: column;
         margin-top: 2%;
         padding-right: 8.6%;
-        font-size: 12px;
+        font-size: 15px;
+    }
+
+    @media only screen and (min-width:670px) {
+        .footer-address {
+            padding-right: 7%;
+        }
     }
 
     .footer-address-list {
@@ -39,7 +45,7 @@
     }
 
     .footer-weekdays {
-        font-size: 8px;
+        font-size: 11px;
         list-style: none;
         text-decoration: none;
         text-align: left;
@@ -57,8 +63,8 @@
     }
 
     .footer-socials img {
-        height: 22px;
-        width: 22px;
+        height: 30px;
+        width: 30px;
         padding: 0px 5px;
         margin-right: 11px;
         max-width: 100%;
@@ -82,9 +88,15 @@
 
     }
 
+    @media only screen and (min-width:670px) {
+        .sitemap-list {
+            padding-right: 7.5%;
+        }
+    }
+
     .sitemap-list a {
         margin-left: 10px;
-        font-size: 12px;
+        font-size: 15px;
         text-decoration: none;
         color: rgb(134, 112, 112);
     }
@@ -94,8 +106,8 @@
     }
 
     .footer-logo img {
-        max-width: 100px;
-        max-height: 100px;
+        max-width: 150px;
+        max-height: 150px;
         border-radius: 50%;
         display: flex;
         margin: 0 auto;
@@ -134,7 +146,7 @@
     .footer-disclaimer {
         color: rgb(105, 88, 88);
         text-align: center;
-        font-size: 5px;
+        font-size: 6px;
         padding-bottom: 0.5%;
     }
 
