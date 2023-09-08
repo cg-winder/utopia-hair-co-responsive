@@ -3,7 +3,6 @@
     .main-footer {
         border-top: 0.5px solid white;
         bottom: 0;
-        position: fixed;
         width: 100%;
         font-family: "lato";
         color: rgb(134, 112, 112);
@@ -13,7 +12,7 @@
     .footer-address {
         display: flex;
         flex-direction: column;
-        margin-top: 2%;
+        margin-top: 3%;
         padding-right: 8.6%;
         font-size: 15px;
     }
@@ -39,7 +38,7 @@
 
     .footer-opening-times {
         align-items: center;
-        margin: 7px 0%;
+        margin: 11px 0%;
         display: flex;
         flex-direction: column;
     }
@@ -51,6 +50,10 @@
         text-align: left;
     }
 
+    .footer-weekdays th {
+        padding-right: 5px;
+    }
+
     .footer-current-day {
         color: white;
     }
@@ -59,14 +62,14 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin: 10px 0px;
+        margin: 18px 0px;
     }
 
     .footer-socials img {
         height: 30px;
         width: 30px;
-        padding: 0px 5px;
-        margin-right: 11px;
+        padding: 0px 8px;
+        margin-right: 14px;
         max-width: 100%;
     }
 
@@ -78,7 +81,7 @@
     .sitemap {
         display: flex;
         flex-direction: column;
-        margin-bottom: 15px;
+        margin: 20px 0px;
     }
 
     .sitemap-list {
@@ -88,7 +91,7 @@
 
     }
 
-    @media only screen and (min-width:670px) {
+    @media only screen and (min-width:650px) {
         .sitemap-list {
             padding-right: 7.5%;
         }
@@ -111,7 +114,7 @@
         border-radius: 50%;
         display: flex;
         margin: 0 auto;
-        margin-bottom: 15px;
+        margin-bottom: 16px;
         animation: gelatine 8.5s infinite;
     }
 
@@ -147,7 +150,7 @@
         color: rgb(105, 88, 88);
         text-align: center;
         font-size: 6px;
-        padding-bottom: 0.5%;
+        padding-bottom: 0.3%;
     }
 
 }

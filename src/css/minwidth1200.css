@@ -3,7 +3,6 @@
     .main-footer {
         border-top: 0.5px solid white;
         bottom: 0;
-        position: fixed;
         width: 100%;
         font-family: "lato";
         color: rgb(134, 112, 112);
@@ -14,8 +13,14 @@
         display: flex;
         flex-direction: column;
         margin-top: 2%;
-        padding-right: 8.6%;
+        padding-right: 2%;
         font-size: 19px;
+    }
+
+    @media only screen and (min-width:1207px) {
+        .footer-address {
+            margin-top: 1%;
+        }
     }
 
     .footer-address-list {
@@ -33,7 +38,7 @@
 
     .footer-opening-times {
         align-items: center;
-        margin: 7px 0%;
+        margin: 13px 0%;
         display: flex;
         flex-direction: column;
     }
@@ -45,6 +50,10 @@
         text-align: left;
     }
 
+    .footer-weekdays th {
+        padding-right: 5px;
+    }
+
     .footer-current-day {
         color: white;
     }
@@ -53,14 +62,14 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin: 10px 0px;
+        margin: 20px 0px;
     }
 
     .footer-socials img {
         height: 35px;
         width: 35px;
-        padding: 0px 5px;
-        margin-right: 11px;
+        padding: 0px 11px;
+        margin-right: 17px;
         max-width: 100%;
     }
 
@@ -72,14 +81,20 @@
     .sitemap {
         display: flex;
         flex-direction: column;
-        margin-bottom: 15px;
+        margin: 22px 0px;
     }
 
     .sitemap-list {
         display: flex;
         margin: 0 auto;
-        padding-right: 10%;
+        padding-right: 2.8%;
 
+    }
+
+    @media only screen and (min-width:1790px) {
+        .sitemap-list {
+            padding-right: 3%;
+        }
     }
 
     .sitemap-list a {
@@ -94,12 +109,12 @@
     }
 
     .footer-logo img {
-        max-width: 170px;
-        max-height: 170px;
+        max-width: 160px;
+        max-height: 160px;
         border-radius: 50%;
         display: flex;
         margin: 0 auto;
-        margin-bottom: 15px;
+        margin-bottom: 22px;
         animation: gelatine 8.5s infinite;
     }
 
@@ -135,7 +150,7 @@
         color: rgb(105, 88, 88);
         text-align: center;
         font-size: 8px;
-        padding-bottom: 0.5%;
+        padding-bottom: 0.1%;
     }
 
 }
