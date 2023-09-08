@@ -6,7 +6,7 @@ import ServicesRecommendation from "./ServicesComponents/ServicesRecommendation"
 const Services = () => {
   return (
     <div className="services-page-wrap">
-      {/* <div className="homepage-contents" id="services-head-pic">
+      <div className="homepage-contents" id="services-head-pic">
         <div className="homepage-img">
           <img src={salon} alt="" />
         </div>
@@ -15,7 +15,7 @@ const Services = () => {
         </div>
       </div>
       <ServicesRecommendation />
-      <SmallUtopiaEmbed /> */}
+      <SmallUtopiaEmbed />
     </div>
   );
 };
