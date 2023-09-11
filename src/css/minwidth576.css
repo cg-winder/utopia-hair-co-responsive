@@ -15,7 +15,7 @@
     .navbar {
         top: 0;
         width: 100%;
-        border-bottom: 0.5px solid white;
+        margin-bottom: 1%;
     }
 
     .nav-img {
@@ -49,8 +49,6 @@
         color: white;
         display: flex;
     }
-
-
 
     .navbar-links a:hover {
         cursor: pointer;
@@ -93,9 +91,9 @@
         cursor: pointer;
     }
 
-    @media only screen and (min-width:624px) {
+    @media only screen and (min-width:576px) {
         .navbar-links a {
-            font-size: 120%;
+            font-size: 115%;
         }
 
         .navbar-links {
@@ -103,13 +101,13 @@
         }
 
         .book-now-button span {
-            font-size: 28px;
+            font-size: 23px;
         }
     }
 
     @media only screen and (min-width:624px) {
         .navbar-links a {
-            font-size: 130%;
+            font-size: 120%;
         }
 
         .navbar-links {
@@ -117,9 +115,24 @@
         }
 
         .book-now-button span {
-            font-size: 30px;
+            font-size: 25px;
         }
     }
+
+    @media only screen and (min-width:680px) {
+        .navbar-links a {
+            font-size: 120%;
+        }
+
+        .navbar-links {
+            margin-bottom: 1%;
+        }
+
+        .book-now-button span {
+            font-size: 25px;
+        }
+    }
+
 
     @media only screen and (min-width:715px) {
         .navbar-links a {
@@ -131,7 +144,7 @@
         }
 
         .book-now-button span {
-            font-size: 31px;
+            font-size: 27px;
         }
     }
 
