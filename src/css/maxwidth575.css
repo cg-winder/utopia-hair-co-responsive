@@ -51,6 +51,8 @@
         display: flex;
     }
 
+
+
     .navbar-links a:hover {
         cursor: pointer;
         color: rgb(138, 116, 116);
@@ -84,6 +86,64 @@
         margin: 0 auto;
         z-index: 1;
         background-color: transparent;
+    }
+
+
+    @media only screen and (min-width:430px) {
+        .book-now-button span {
+            font-size: 22px;
+        }
+
+        .navbar-links {
+            margin-bottom: -2%;
+        }
+
+        .navbar-links a {
+            font-size: 97%;
+        }
+    }
+
+
+    @media only screen and (min-width:480px) {
+        .navbar-links a {
+            font-size: 99%;
+        }
+
+        .navbar-links {
+            margin-bottom: -1.2%;
+        }
+
+        .book-now-button span {
+            font-size: 24px;
+        }
+    }
+
+    @media only screen and (min-width:520px) {
+        .navbar-links a {
+            font-size: 107%;
+        }
+
+        .navbar-links {
+            margin-bottom: -0.7%;
+        }
+
+        .book-now-button span {
+            font-size: 25px;
+        }
+    }
+
+    @media only screen and (min-width:570px) {
+        .navbar-links a {
+            font-size: 110%;
+        }
+
+        .navbar-links {
+            margin-bottom: -0.3%;
+        }
+
+        .book-now-button span {
+            font-size: 26px;
+        }
     }
 
     /* .book-now-button span:hover {
