@@ -4,10 +4,10 @@ const FooterSitemap = () => {
   return (
     <div className="sitemap">
       <ul className="sitemap-list">
-        <a href="http://localhost:3000/home">Home</a>
-        <a href="http://localhost:3000/salon">The Salon</a>
-        <a href="http://localhost:3000/services">Services</a>
-        <a href="http://localhost:3000/team">Our Team</a>
+        <a href="/home">Home</a>
+        <a href="/salon">The Salon</a>
+        <a href="/services">Services</a>
+        <a href="/team">Our Team</a>
       </ul>
     </div>
   );

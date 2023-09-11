@@ -2,6 +2,7 @@ import React from "react";
 import NavLinks from "./NavComponents/NavLinks";
 import NavSocialBooking from "./NavComponents/NavSocialBooking";
 import lightsign from "./imgs/utopialight.png";
+import salon from "./imgs/salonpic3.jpeg";
 
 const Nav = () => {
   return (
@@ -11,6 +12,9 @@ const Nav = () => {
       </a>
       <NavLinks />
       <NavSocialBooking />
+      <div className="nav-img">
+          <img src={salon} alt="" />
+        </div>
     </div>
   );
 };

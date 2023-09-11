@@ -13,7 +13,7 @@ const NavLinks = () => {
         <span className="span-link">SERVICES</span>
       </a>
       <a href="/team">
-        <span className="span-link">MEET THE TEAM</span>
+        <span className="span-link">OUR TEAM</span>
       </a>
     </div>
   );

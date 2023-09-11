@@ -19,55 +19,65 @@
         border-bottom: 0.5px solid white;
     }
 
+    .nav-img {
+        top: 0;
+        position: absolute;
+    }
+
     /*NAVBAR LINKS*/
     .navbar-logo {
+        z-index: 99;
+        position: relative;
         width: 40%;
         height: 45%;
         display: flex;
         margin: 0 auto;
-        margin-top: 8%;
+        margin-top: 5%;
     }
 
     .navbar-links {
-        margin: 5% 4% 4% 4%;
+        z-index: 99;
+        position: relative;
+        margin: 5.8% 4% -2.4% 4%;
         justify-content: space-between;
         display: flex;
         flex: 1;
     }
 
     .navbar-links a {
-        font-size: 80%;
+        font-size: 88%;
         text-decoration: none;
-        color: rgb(138, 116, 116);
         color: white;
         display: flex;
     }
 
     .navbar-links a:hover {
         cursor: pointer;
+        color: rgb(138, 116, 116);
     }
 
     /*NAVBAR BOOK BUTTON*/
     .book-now-button {
         display: flex;
-        width: 32%;
+        width: 50%;
         margin: 0 auto;
-        font-family: "italiana";
-        font-size: 20px;
+        margin-bottom: 5%;
+        font-family: "playfair display";
+        font-size: 19px;
         color: white;
-        border: 1px solid white;
-        border-radius: 2px;
+        /* border: 1px solid white;
+        border-radius: 50px;
         background-color: rgb(190, 181, 169);
         transition: 0.3s ease-in-out;
-        box-shadow: inset 0 0 0 0 #e3dfd8;
+        box-shadow: inset 0 0 0 0 #e3dfd8; */
     }
 
-    .book-now-button:hover {
-        font-size: 18px;
-        border-radius: 50px;
+    /* .book-now-button:hover {
+        font-size: 14px;
+        border-radius: 2px;
         border: 2px solid white;
         box-shadow: inset 140px 0 0 0 #cec4c1;
-    }
+    } */
 
     .book-now-button span {
         display: flex;
@@ -76,15 +86,26 @@
         background-color: transparent;
     }
 
-    .book-now-button span:hover {
+    /* .book-now-button span:hover {
         color: whitesmoke;
-    }
+    } */
+
+
 
     /*NAVBAR SOCIALS*/
 
+    /* .social-icon {
+        display: inline-flex;
+        margin-left: 2%;
+    } */
+
+
     .social-icon a {
-        width: 40px;
-        height: 40px;
+        width: 0px;
+        height: 0px;
+    }
+
+    .social-icon a {
         background: transparent;
         background-color: rgb(190, 181, 169);
         display: inline-flex;
@@ -93,7 +114,7 @@
         align-items: center;
         justify-content: center;
         line-height: 1;
-        border: 1px solid white;
+        /* border: 1px solid white; */
     }
 
     .social-icon aa:before {
