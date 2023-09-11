@@ -9,6 +9,190 @@
         width: 100%;
     }
 
+
+
+    /*NAVBAR*/
+    .navbar {
+        top: 0;
+        width: 100%;
+        border-bottom: 0.5px solid white;
+    }
+
+    .nav-img {
+        top: 0;
+        position: absolute;
+    }
+
+    /*NAVBAR LINKS*/
+    .navbar-logo {
+        z-index: 99;
+        position: relative;
+        width: 40%;
+        height: 45%;
+        display: flex;
+        margin: 0 auto;
+        margin-top: 5%;
+    }
+
+    .navbar-links {
+        z-index: 99;
+        position: relative;
+        margin: 5.8% 4% -0.3% 4%;
+        justify-content: space-between;
+        display: flex;
+        flex: 1;
+    }
+
+    .navbar-links a {
+        font-size: 110%;
+        text-decoration: none;
+        color: white;
+        display: flex;
+    }
+
+
+
+    .navbar-links a:hover {
+        cursor: pointer;
+        color: rgb(138, 116, 116);
+        color: rgb(234, 194, 201);
+    }
+
+    /*NAVBAR BOOK BUTTON*/
+    .book-now-button {
+        display: flex;
+        width: 50%;
+        margin: 0 auto;
+        margin-bottom: 5%;
+        font-family: "playfair display";
+        font-size: 26px;
+        color: white;
+        /* border: 1px solid white;
+        border-radius: 50px;
+        background-color: rgb(190, 181, 169);
+        transition: 0.3s ease-in-out;
+        box-shadow: inset 0 0 0 0 #e3dfd8; */
+    }
+
+    /* .book-now-button:hover {
+        font-size: 14px;
+        border-radius: 2px;
+        border: 2px solid white;
+        box-shadow: inset 140px 0 0 0 #cec4c1;
+    } */
+
+    .book-now-button span {
+        display: flex;
+        margin: 0 auto;
+        z-index: 1;
+        background-color: transparent;
+    }
+
+    .book-now-button span:hover {
+        color: rgb(234, 194, 201);
+        cursor: pointer;
+    }
+
+    @media only screen and (min-width:624px) {
+        .navbar-links a {
+            font-size: 120%;
+        }
+
+        .navbar-links {
+            margin-bottom: 0.5%;
+        }
+
+        .book-now-button span {
+            font-size: 28px;
+        }
+    }
+
+    @media only screen and (min-width:624px) {
+        .navbar-links a {
+            font-size: 130%;
+        }
+
+        .navbar-links {
+            margin-bottom: 0.2%;
+        }
+
+        .book-now-button span {
+            font-size: 30px;
+        }
+    }
+
+    @media only screen and (min-width:715px) {
+        .navbar-links a {
+            font-size: 140%;
+        }
+
+        .navbar-links {
+            margin-bottom: 0.6%;
+        }
+
+        .book-now-button span {
+            font-size: 31px;
+        }
+    }
+
+    /* .book-now-button span:hover {
+        color: whitesmoke;
+    } */
+
+
+
+    /*NAVBAR SOCIALS*/
+
+    /* .social-icon {
+        display: inline-flex;
+        margin-left: 2%;
+    } */
+
+
+    .social-icon a {
+        width: 0px;
+        height: 0px;
+    }
+
+    .social-icon a {
+        background: transparent;
+        background-color: rgb(190, 181, 169);
+        display: inline-flex;
+        border-radius: 50%;
+        margin-right: 3%;
+        align-items: center;
+        justify-content: center;
+        line-height: 1;
+        /* border: 1px solid white; */
+    }
+
+    .social-icon aa:before {
+        content: "";
+        background-color: #cec4c1;
+        border: 2px solid white;
+        border-radius: 50%;
+        transform: scale(0);
+        transition: 0.3s ease-in-out;
+    }
+
+    .social-icon a:hover::before {
+        transform: scale(1);
+    }
+
+    .social-icon a img {
+        width: 50%;
+        z-index: 1;
+        transition: 0.3s ease-in-out;
+        background-color: transparent;
+    }
+
+    .social-icon a:hover img {
+        outline: none;
+        background-color: #cec4c1;
+    }
+
+
+
     /*FOOTER*/
 
     .main-footer {
