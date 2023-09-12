@@ -155,6 +155,34 @@
         width: 25px;
     }
 
+    /*HOMEPAGE TITLES*/
+
+    .homepage-head {
+        position: absolute;
+        color: whitesmoke;
+        font-family: "playfair display";
+        width: 100%;
+        text-align: center;
+        margin-top: 9%;
+    }
+
+    #team-head {
+        font-size: 100px;
+    }
+
+    #salon-head {
+        font-size: 110px;
+    }
+
+    #services-head {
+        font-size: 110px;
+        margin-top: 6%;
+    }
+
+    .homepage-head {
+        font-size: 110px;
+    }
+
     /*FOOTER*/
 
     .main-footer {

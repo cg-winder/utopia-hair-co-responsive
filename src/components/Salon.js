@@ -11,9 +11,9 @@ const Salon = () => {
   return (
     <div className="salon-page-wrap">
       <div className="homepage-contents" id="salon-head-pic">
-        <div className="homepage-img">
+        {/* <div className="homepage-img">
           <img src={salon} alt="" />
-        </div>
+        </div> */}
         <div className="homepage-head" id="salon-head">
           <div>The Salon</div>
         </div>

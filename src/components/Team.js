@@ -6,9 +6,9 @@ const Team = () => {
   return (
     <div className="team-page-wrap">
       <div className="homepage-contents" id="team-head-pic">
-        <div className="homepage-img">
+        {/* <div className="homepage-img">
           <img src={salon} alt="" />
-        </div>
+        </div> */}
         <div className="homepage-head" id="team-head">
           <div>Meet The Team</div>
         </div>
