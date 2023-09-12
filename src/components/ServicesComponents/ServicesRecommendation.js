@@ -2,7 +2,7 @@ import React from "react";
 
 const ServicesRecommedation = () => {
   return (
-    <div className="services-recommendation">
+    <div className="services-recommendation-wrap">
       <h2 className="recommendation-header">
         Stuck on your style and need some inspiration?
       </h2>

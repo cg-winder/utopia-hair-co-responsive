@@ -5,6 +5,7 @@ import "./css/minwidth576.css"
 import "./css/minwidth768.css";
 import "./css/minwidth992.css";
 import "./css/minwidth1200.css"
+import "./css/minwidth1349.css";
 import Nav from "./components/Nav";
 import { Route, Routes } from "react-router-dom";
 import Home from "./components/Home";

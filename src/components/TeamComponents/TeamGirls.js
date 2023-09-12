@@ -4,7 +4,7 @@ import React from "react";
 
 const TeamGirls = () => {
   return (
-    <div>
+    <div className="teamgirls-wrap">
       <div className="team-girls">
         <div className="flex-name-treatment">
           <h2 className="team-h2">NICOLA</h2>

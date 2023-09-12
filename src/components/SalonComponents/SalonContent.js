@@ -4,7 +4,7 @@ import salonwash from "../imgs/utopiawash.jpeg";
 
 const SalonContent = () => {
   return (
-    <div className="salon-whole">
+    <div className="saloncontent-wrap">
       <div className-="salon-info-pics">
         <div className="salon-about-info-1">
           <p>

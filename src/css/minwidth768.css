@@ -13,6 +13,7 @@
     /*NAVBAR*/
 
     .navbar {
+        animation: fade-in-down 4s ease;
         top: 0;
         width: 100%;
         font-family: 'Playfair Display', serif;
@@ -25,15 +26,27 @@
         flex-wrap: wrap;
     }
 
+    @keyframes fade-in-down {
+        0% {
+            opacity: 0;
+            transform: translateY(-20px);
+        }
+
+        100% {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
     .nav-img {
         top: 0;
         position: absolute;
     }
 
+
     .navbar-logo {
         width: 90px;
         height: 70px;
-        margin: 25px 20px 10px 40px;
         margin: -72% 0% 0% 28%;
     }
 
@@ -43,7 +56,7 @@
     .navbar-links {
         display: flex;
         flex: 1;
-        margin: 3.9% 4% 13% 5%;
+        margin: 4.2% 4% 13% 5%;
     }
 
     .navbar-links a {
@@ -74,7 +87,7 @@
         width: 140px;
         border-radius: 2px;
         color: white;
-        border: 1px solid white;
+        /* border: 1px solid white; */
         background-color: rgb(190, 181, 169);
         background-color: transparent;
         padding: 7% 7%;
@@ -95,7 +108,7 @@
         width: 140px;
         font-size: 14px;
         border-radius: 50px;
-        border: 2px solid white;
+        /* border: 1px solid white; */
         box-shadow: inset 140px 0 0 0 #cec4c1;
     }
 
@@ -118,6 +131,7 @@
         height: 44px;
         background: transparent;
         background-color: rgb(190, 181, 169);
+        background-color: transparent;
         display: inline-flex;
         border-radius: 50%;
         align-items: center;
@@ -155,33 +169,176 @@
         width: 25px;
     }
 
+    /*NAVBAR MEDIA QUERIES*/
+    @media only screen and (min-width:900px) {
+        .navbar-links {
+            margin: 4.4% 4% 13% 5%;
+        }
+
+
+
+        .navbar-logo {
+            margin: -78% 0% 0% 28%;
+        }
+
+        .buttons {
+            margin-bottom: 26%;
+        }
+    }
+
+    @media only screen and (min-width:980px) {
+        .navbar-links {
+            margin: 4.5% 4% 13% 5%;
+        }
+
+        .navbar-links a {
+            font-size: 14px;
+        }
+
+        .navbar-logo {
+            margin: -81% 0% 0% 28%;
+        }
+
+        .buttons {
+            margin-bottom: 29%;
+        }
+
+        .book-now-button span {
+            font-size: 19px;
+        }
+    }
+
+
+
     /*HOMEPAGE TITLES*/
 
+    .homepage-head,
+    #team-head,
+    #salon-head,
+    #services-head {
+        animation: fade-in-down 4s ease;
+    }
+
+    @keyframes fade-in-down {
+        0% {
+            opacity: 0;
+            transform: translateY(-20px);
+        }
+
+        100% {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
     .homepage-head {
-        position: absolute;
-        color: whitesmoke;
+        position: relative;
+        color: white;
         font-family: "playfair display";
         width: 100%;
-        text-align: center;
-        margin-top: 9%;
-    }
-
-    #team-head {
         font-size: 100px;
-    }
-
-    #salon-head {
-        font-size: 110px;
-    }
-
-    #services-head {
-        font-size: 110px;
+        text-align: center;
         margin-top: 6%;
     }
 
-    .homepage-head {
-        font-size: 110px;
+    #team-head {
+        font-size: 95px;
     }
+
+    #salon-head,
+    #services-head {
+        font-size: 110px;
+        margin-top: 4%;
+    }
+
+
+    @media only screen and (min-width:850px) {
+        .homepage-head {
+            width: 100%;
+            text-align: center;
+            margin-top: 7%;
+        }
+
+        #team-head {
+            font-size: 95px;
+        }
+
+        #salon-head,
+        #services-head {
+            font-size: 110px;
+            margin-top: 4%;
+        }
+
+    }
+
+    @media only screen and (min-width:910px) {
+        .homepage-head {
+            width: 100%;
+            text-align: center;
+            margin-top: 8%;
+            font-size: 105px;
+        }
+
+        #team-head {
+            font-size: 100px;
+        }
+
+        #salon-head,
+        #services-head {
+            font-size: 115px;
+            margin-top: 6%;
+        }
+
+    }
+
+
+
+    /*TOP PAGE WRAPS*/
+
+    .homedetail-wrap,
+    .teamgirls-wrap,
+    .saloncontent-wrap,
+    .services-recommendation-wrap {
+        padding-top: 25%;
+    }
+
+    @media only screen and (min-width:787px) {
+
+        .teamgirls-wrap,
+        .saloncontent-wrap,
+        .services-recommendation-wrap {
+            padding-top: 26%;
+        }
+    }
+
+    @media only screen and (min-width:810px) {
+
+        .teamgirls-wrap,
+        .saloncontent-wrap,
+        .services-recommendation-wrap {
+            padding-top: 27%;
+        }
+    }
+
+    @media only screen and (min-width:858px) {
+
+        .teamgirls-wrap,
+        .saloncontent-wrap,
+        .services-recommendation-wrap {
+            padding-top: 28%;
+        }
+    }
+
+    @media only screen and (min-width:886px) {
+
+        .teamgirls-wrap,
+        .saloncontent-wrap,
+        .services-recommendation-wrap {
+            padding-top: 29%;
+        }
+    }
+
+
 
     /*FOOTER*/
 

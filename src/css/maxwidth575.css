@@ -282,6 +282,20 @@
         background-color: #cec4c1;
     }
 
+
+    .homepage-head {
+        color: transparent;
+        font-size: 1px;
+    }
+
+    /*TOP PAGE WRAPS*/
+    .homedetail-wrap,
+    .teamgirls-wrap,
+    .saloncontent-wrap,
+    .services-recommendation-wrap {
+        padding-top: 4%;
+    }
+
     /*FOOTER*/
 
     .main-footer {
