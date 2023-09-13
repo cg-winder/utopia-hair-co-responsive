@@ -30,8 +30,8 @@
     }
 
     .navbar-logo {
-        width: 100px;
-        height: 80px;
+        width: 120px;
+        height: 100px;
         margin: 25px 20px 10px 40px;
         margin: -93% 0% 0% 28%;
     }
@@ -169,7 +169,7 @@
         }
 
         .navbar-logo {
-            margin: -100% 0% 0% 28%;
+            margin: -93% 0% 0% 28%;
         }
 
         .buttons {
