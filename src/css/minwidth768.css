@@ -178,7 +178,6 @@
         }
 
 
-
         .navbar-logo {
             margin: -78% 0% 0% 28%;
         }
@@ -205,9 +204,6 @@
             margin-bottom: 29%;
         }
 
-        .book-now-button span {
-            font-size: 19px;
-        }
     }
 
 
@@ -301,7 +297,7 @@
     .teamgirls-wrap,
     .saloncontent-wrap,
     .services-recommendation-wrap {
-        padding-top: 25%;
+        padding-top: 23%;
     }
 
     @media only screen and (min-width:787px) {
@@ -309,7 +305,7 @@
         .teamgirls-wrap,
         .saloncontent-wrap,
         .services-recommendation-wrap {
-            padding-top: 26%;
+            padding-top: 24%;
         }
     }
 
@@ -318,7 +314,7 @@
         .teamgirls-wrap,
         .saloncontent-wrap,
         .services-recommendation-wrap {
-            padding-top: 27%;
+            padding-top: 25%;
         }
     }
 
@@ -327,7 +323,7 @@
         .teamgirls-wrap,
         .saloncontent-wrap,
         .services-recommendation-wrap {
-            padding-top: 28%;
+            padding-top: 26%;
         }
     }
 
@@ -336,7 +332,7 @@
         .teamgirls-wrap,
         .saloncontent-wrap,
         .services-recommendation-wrap {
-            padding-top: 29%;
+            padding-top: 27%;
         }
     }
 

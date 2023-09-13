@@ -266,44 +266,19 @@
     .teamgirls-wrap,
     .saloncontent-wrap,
     .services-recommendation-wrap {
-        padding-top: 25%;
+        padding-top: 33%;
     }
 
-    @media only screen and (min-width:787px) {
+    @media only screen and (min-width:1870px) {
 
+        .homedetail-wrap,
         .teamgirls-wrap,
         .saloncontent-wrap,
         .services-recommendation-wrap {
-            padding-top: 26%;
+            padding-top: 34%;
         }
     }
 
-    @media only screen and (min-width:810px) {
-
-        .teamgirls-wrap,
-        .saloncontent-wrap,
-        .services-recommendation-wrap {
-            padding-top: 27%;
-        }
-    }
-
-    @media only screen and (min-width:858px) {
-
-        .teamgirls-wrap,
-        .saloncontent-wrap,
-        .services-recommendation-wrap {
-            padding-top: 28%;
-        }
-    }
-
-    @media only screen and (min-width:886px) {
-
-        .teamgirls-wrap,
-        .saloncontent-wrap,
-        .services-recommendation-wrap {
-            padding-top: 29%;
-        }
-    }
 
 
     /*FOOTER*/

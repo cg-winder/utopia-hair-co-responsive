@@ -286,45 +286,48 @@
     .teamgirls-wrap,
     .saloncontent-wrap,
     .services-recommendation-wrap {
-        padding-top: 25%;
+        padding-top: 29%;
     }
 
-    @media only screen and (min-width:787px) {
+    @media only screen and (min-width:1440px) {
 
+        .homedetail-wrap,
         .teamgirls-wrap,
         .saloncontent-wrap,
         .services-recommendation-wrap {
-            padding-top: 26%;
+            padding-top: 30%;
         }
     }
 
-    @media only screen and (min-width:810px) {
+    @media only screen and (min-width:1550px) {
 
+        .homedetail-wrap,
         .teamgirls-wrap,
         .saloncontent-wrap,
         .services-recommendation-wrap {
-            padding-top: 27%;
+            padding-top: 32%;
         }
     }
 
-    @media only screen and (min-width:858px) {
+    @media only screen and (min-width:1679px) {
 
+        .homedetail-wrap,
         .teamgirls-wrap,
         .saloncontent-wrap,
         .services-recommendation-wrap {
-            padding-top: 28%;
+            padding-top: 33%;
         }
     }
 
-    @media only screen and (min-width:886px) {
+    @media only screen and (min-width:1780px) {
 
+        .homedetail-wrap,
         .teamgirls-wrap,
         .saloncontent-wrap,
         .services-recommendation-wrap {
-            padding-top: 29%;
+            padding-top: 34%;
         }
     }
-
 
     /*FOOTER*/
 
