@@ -71,29 +71,31 @@
 
     .book-now-button {
         font-family: 'Italiana', serif;
-        width: 140px;
+        width: 135px;
+        height: 45px;
         border-radius: 2px;
         color: white;
         border: 1px solid white;
         background-color: rgb(190, 181, 169);
-        background-color: transparent;
-        padding: 7% 7%;
+        /* background-color: transparent; */
+        padding: 5% 1%;
+        margin-right: 4%;
         position: relative;
         transition: 0.3s ease-in-out;
         box-shadow: inset 0 0 0 0 #e3dfd8;
         cursor: pointer;
+        z-index: 1;
     }
 
     .book-now-button span {
         z-index: 1;
-        font-size: 20px;
+        font-size: 16px;
         background-color: transparent;
     }
 
     .book-now-button:hover {
-        font-size: 12px;
-        width: 140px;
-        font-size: 14px;
+        width: 135px;
+        font-size: 16px;
         border-radius: 50px;
         border: 2px solid white;
         box-shadow: inset 140px 0 0 0 #cec4c1;
@@ -110,7 +112,7 @@
     .social-icon {
         display: inline-flex;
         margin-left: 14px;
-        margin-top: 2%;
+        margin-top: -1%;
     }
 
     .social-icon a {

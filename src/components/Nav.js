@@ -17,7 +17,7 @@ const Nav = () => {
           <img src={salon} alt="" />
         </div> */}
         <picture className="nav-img">
-          <source media="(min-width:1349px)" srcSet={salonstretch}/>
+          <source media="(min-width:1348px)" srcSet={salonstretch}/>
           <img src={salon}/>
         </picture>
     </div>
