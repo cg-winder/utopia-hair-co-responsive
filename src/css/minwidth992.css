@@ -13,6 +13,7 @@
     /*NAVBAR*/
 
     .navbar {
+        animation: fade-in-down 4s ease;
         top: 0;
         width: 100%;
         font-family: 'Playfair Display', serif;
@@ -24,6 +25,18 @@
         /* overflow-x: hidden; */
         flex-wrap: wrap;
     }
+    @keyframes fade-in-down {
+        0% {
+            opacity: 0;
+            transform: translateY(-20px);
+        }
+
+        100% {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
 
     .nav-img {
         top: 0;
@@ -43,7 +56,7 @@
     .navbar-links {
         display: flex;
         flex: 1;
-        margin: 4.5% 8% 13% 5%;
+        margin: 4.2% 8% 13% 5%;
     }
 
     .navbar-links a {
@@ -54,7 +67,7 @@
         padding: 0 10px;
         cursor: pointer;
         text-decoration: none;
-        font-size: 15.5px;
+        font-size: 16.5px;
     }
 
     .span-link:hover {
@@ -294,6 +307,19 @@
         font-family: "lato";
         color: rgb(134, 112, 112);
         background-color: rgb(218, 208, 196);
+        animation: fade-in-left 2s ease;
+    }
+
+    @keyframes fade-in-left {
+        0% {
+            opacity: 0;
+            transform: translateX(-20px);
+        }
+
+        100% {
+            opacity: 1;
+            transform: translateX(0);
+        }
     }
 
     .footer-address {

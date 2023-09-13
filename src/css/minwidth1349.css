@@ -67,7 +67,7 @@
         padding: 0 30px;
         cursor: pointer;
         text-decoration: none;
-        font-size: 18.5px;
+        font-size: 19.5px;
     }
 
     .span-link:hover {
@@ -85,7 +85,7 @@
 
     .book-now-button {
         font-family: 'Italiana', serif;
-        width: 150px;
+        width: 160px;
         height: 50px;
         border-radius: 2px;
         border: 1px solid white;
@@ -107,7 +107,7 @@
     }
 
     .book-now-button:hover {
-        width: 150px;
+        width: 160px;
         font-size: 16px;
         border-radius: 50px;
         /* border: 1px solid white; */
@@ -181,6 +181,16 @@
     @media only screen and (min-width:1600px) {
         .social-icon {
             margin-top: -3%;
+        }
+    }
+
+    @media only screen and (min-width:1650px) {
+        .social-icon {
+            margin-top: -3%;
+        }
+
+        .buttons {
+            margin-bottom: 36%;
         }
     }
 
@@ -346,6 +356,19 @@
         font-family: "lato";
         color: rgb(134, 112, 112);
         background-color: rgb(218, 208, 196);
+        animation: fade-in-left 2s ease;
+    }
+
+    @keyframes fade-in-left {
+        0% {
+            opacity: 0;
+            transform: translateX(-20px);
+        }
+
+        100% {
+            opacity: 1;
+            transform: translateX(0);
+        }
     }
 
     .footer-address {

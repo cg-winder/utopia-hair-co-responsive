@@ -16,7 +16,6 @@
     .navbar {
         top: 0;
         width: 100%;
-        /* border-bottom: 0.5px solid white; */
     }
 
     .nav-img {
@@ -305,6 +304,19 @@
         font-family: "lato";
         color: rgb(134, 112, 112);
         background-color: rgb(218, 208, 196);
+        animation: fade-in-left 2s ease;
+    }
+
+    @keyframes fade-in-left {
+        0% {
+            opacity: 0;
+            transform: translateX(-20px);
+        }
+
+        100% {
+            opacity: 1;
+            transform: translateX(0);
+        }
     }
 
     .footer-address {
