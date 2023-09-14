@@ -66,19 +66,9 @@
         font-family: "playfair display";
         font-size: 19px;
         color: white;
-        /* border: 1px solid white;
-        border-radius: 50px;
-        background-color: rgb(190, 181, 169);
-        transition: 0.3s ease-in-out;
-        box-shadow: inset 0 0 0 0 #e3dfd8; */
     }
 
-    /* .book-now-button:hover {
-        font-size: 14px;
-        border-radius: 2px;
-        border: 2px solid white;
-        box-shadow: inset 140px 0 0 0 #cec4c1;
-    } */
+
 
     .book-now-button span:hover {
         color: rgb(234, 194, 201);
@@ -223,22 +213,6 @@
 
 
 
-
-
-    /* .book-now-button span:hover {
-        color: whitesmoke;
-    } */
-
-
-
-    /*NAVBAR SOCIALS*/
-
-    /* .social-icon {
-        display: inline-flex;
-        margin-left: 2%;
-    } */
-
-
     .social-icon a {
         width: 0px;
         height: 0px;
@@ -294,6 +268,199 @@
     .services-recommendation-wrap {
         padding-top: 4%;
     }
+
+
+    /*PAGES*/
+
+    /* TEAM PAGE */
+
+    .team-page-wrap {
+        font-family: "italiana";
+        animation: fade-in-left 3s ease;
+        margin-bottom: 3%;
+    }
+
+    @keyframes fade-in-left {
+        0% {
+            opacity: 0;
+            transform: translateX(-20px);
+        }
+
+        100% {
+            opacity: 1;
+            transform: translateX(0);
+        }
+    }
+
+    #team-head {
+        padding-top: 7%;
+        font-size: 30px;
+        color: whitesmoke;
+        font-family: "playfair display";
+        text-align: center;
+    }
+
+
+    .team-girls {
+        margin-top: 6%;
+    }
+
+
+    /* Team buttons */
+
+    .team-buttons {
+        display: inline-flex;
+        margin: 3% 0% 5% 3%;
+    }
+
+    .team-book-now-button {
+        width: 120px;
+        display: inline-flex;
+        border-radius: 50px;
+        font-size: 9px;
+        color: whitesmoke;
+        border: 1px solid rgb(135, 110, 110);
+        background-color: #d1cac7;
+        padding: 8% 10%;
+        position: relative;
+        transition: 0.3s ease-in-out;
+        box-shadow: inset 0 0 0 0 #D3C4BE;
+        cursor: pointer;
+        font-family: "lato";
+        margin-left: 7%;
+    }
+
+    .team-book-now-button span {
+        z-index: 1;
+        background-color: transparent;
+    }
+
+    .team-book-now-button:hover {
+        color: rgb(135, 110, 110);
+        border: 1px solid rgb(135, 110, 110);
+        box-shadow: inset 140px 0 0 0 #D3C4BE;
+    }
+
+    .team-social-button a {
+        width: 44px;
+        height: 44px;
+        background: transparent;
+        border: 1px solid rgb(135, 110, 110);
+        background-color: #d1cac7;
+        display: inline-flex;
+        border-radius: 50%;
+        margin-left: 3%;
+        align-items: center;
+        justify-content: center;
+        line-height: 1;
+        border: 1px solid rgb(135, 110, 110);
+    }
+
+    .team-social-button a::before {
+        content: "";
+        width: 44px;
+        height: 44px;
+        position: absolute;
+        background-color: #cec4c1;
+        border: 2px solid white;
+        border-radius: 50%;
+        transform: scale(0);
+        transition: 0.3s ease-in-out;
+    }
+
+    .team-social-button a:hover::before {
+        transform: scale(1);
+        border: 2px solid rgb(135, 110, 110);
+        box-shadow: inset 140px 0 0 0 #D3C4BE;
+    }
+
+    .team-social-button a img {
+        width: 45%;
+        z-index: 1;
+        transition: 0.3s ease-in-out;
+        background-color: transparent;
+    }
+
+    .team-social-button a:hover img {
+        outline: none;
+        background-color: #cec4c1;
+    }
+
+
+    /* Team treatment type */
+
+    .flex-name-treatment {
+        display: flex;
+        margin-bottom: 2%;
+    }
+
+    .treatment-type {
+        width: 70px;
+        height: 40px;
+        margin-left: 4%;
+        display: inline-flex;
+        font-size: 16px;
+        color: rgb(135, 110, 110);
+        border: 1px solid rgb(134, 110, 110);
+        border: 1px solid whitesmoke;
+    }
+
+    .treatment-type span {
+        margin: 0 auto;
+        padding-top: 16%;
+    }
+
+    .treatment-type-erin {
+        width: 80px;
+        height: 40px;
+        font-size: 9px;
+        display: inline-flex;
+        color: rgb(135, 110, 110);
+        border: 1px solid whitesmoke;
+        margin-left: 4%;
+    }
+
+    .treatment-type-erin span {
+        margin: 0 auto;
+        padding-top: 13%;
+        text-align: center;
+    }
+
+
+
+    /* Team profiles */
+    .team-h2 {
+        color: white;
+        font-size: 28px;
+        margin: 1.5% 0% 0% 3%;
+        /* font-family: "playfair display"; */
+    }
+
+    .team-pics img {
+        height: 300px;
+        width: 300px;
+        display: flex;
+        padding-bottom: 3.5%;
+        margin: 0 auto;
+    }
+
+    .team-about {
+        color: rgb(135, 110, 110);
+        /* color: whitesmoke; */
+        font-size: 14px;
+        line-height: 1.8;
+        margin: 0% 3%;
+        padding-bottom: 10%;
+        font-family: "playfair display";
+    }
+
+    /* TEAM MEDIA QUERIES */
+    @media only screen and (min-width: px) {
+        .team-pics img {}
+    }
+
+
+
 
     /*FOOTER*/
 

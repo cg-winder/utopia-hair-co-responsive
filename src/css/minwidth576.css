@@ -66,19 +66,7 @@
         font-family: "playfair display";
         font-size: 26px;
         color: white;
-        /* border: 1px solid white;
-        border-radius: 50px;
-        background-color: rgb(190, 181, 169);
-        transition: 0.3s ease-in-out;
-        box-shadow: inset 0 0 0 0 #e3dfd8; */
     }
-
-    /* .book-now-button:hover {
-        font-size: 14px;
-        border-radius: 2px;
-        border: 2px solid white;
-        box-shadow: inset 140px 0 0 0 #cec4c1;
-    } */
 
     .book-now-button span {
         display: flex;
@@ -149,18 +137,6 @@
         }
     }
 
-    /* .book-now-button span:hover {
-        color: whitesmoke;
-    } */
-
-
-
-    /*NAVBAR SOCIALS*/
-
-    /* .social-icon {
-        display: inline-flex;
-        margin-left: 2%;
-    } */
 
 
     .social-icon a {

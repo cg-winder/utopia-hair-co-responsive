@@ -13,9 +13,6 @@ const Nav = () => {
       </a>
       <NavLinks />
       <NavSocialBooking />
-      {/* <div className="nav-img">
-          <img src={salon} alt="" />
-        </div> */}
         <picture className="nav-img">
           <source media="(min-width:1348px)" srcSet={salonstretch}/>
           <img src={salon}/>

@@ -9,10 +9,8 @@ import SalonContact from "./SalonComponents/SalonContact";
 const Salon = () => {
   return (
     <div className="salon-page-wrap">
-      <div className="homepage-contents" id="salon-head-pic">
-        <div className="homepage-head" id="salon-head">
+      <div className="homepage-head" id="salon-head">
           <div>The Salon</div>
-        </div>
       </div>
       <SalonContent />
       <SalonTreatments />
