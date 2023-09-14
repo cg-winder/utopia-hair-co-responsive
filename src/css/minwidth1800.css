@@ -198,6 +198,11 @@
         }
     }
 
+    .page-intro {
+        font-size: 0px;
+        color: transparent;
+    }
+
     .homepage-head {
         position: relative;
         color: white;

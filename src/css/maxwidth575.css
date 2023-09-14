@@ -292,17 +292,15 @@
         }
     }
 
-    #team-head {
-        padding-top: 7%;
-        font-size: 30px;
-        color: whitesmoke;
-        font-family: "playfair display";
+    .page-intro {
+        margin-top: 8%;
+        font-size: 20px;
+        color: white;
         text-align: center;
     }
 
-
     .team-girls {
-        margin-top: 6%;
+        margin-top: 5%;
     }
 
 
@@ -455,10 +453,57 @@
     }
 
     /* TEAM MEDIA QUERIES */
-    @media only screen and (min-width: px) {
-        .team-pics img {}
+    @media only screen and (min-width: 380px) {
+        .page-intro {
+            font-size: 23px;
+        }
+
+        .team-pics img {
+            height: 340px;
+            width: 340px;
+        }
     }
 
+    @media only screen and (min-width: 460px) {
+        .page-intro {
+            font-size: 26px;
+        }
+
+        .team-pics img {
+            height: 390px;
+            width: 390px;
+        }
+    }
+
+    @media only screen and (min-width: 510px) {
+        .page-intro {
+            font-size: 29px;
+        }
+
+        .team-h2 {
+            margin-top: 1%;
+        }
+
+        .team-pics img {
+            height: 400px;
+            width: 400px;
+        }
+    }
+
+    @media only screen and (min-width: 540px) {
+        .page-intro {
+            font-size: 32px;
+        }
+
+        .team-h2 {
+            margin-top: 1%;
+        }
+
+        .team-pics img {
+            height: 420px;
+            width: 420px;
+        }
+    }
 
 
 

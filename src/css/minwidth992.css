@@ -25,6 +25,7 @@
         /* overflow-x: hidden; */
         flex-wrap: wrap;
     }
+
     @keyframes fade-in-down {
         0% {
             opacity: 0;
@@ -210,6 +211,11 @@
             opacity: 1;
             transform: translateY(0);
         }
+    }
+
+    .page-intro {
+        font-size: 0px;
+        color: transparent;
     }
 
     .homepage-head {
