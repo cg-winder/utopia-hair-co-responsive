@@ -6,31 +6,33 @@ const TeamGirls = () => {
   return (
     <div className="teamgirls-wrap">
       <div className="team-girls">
-      <div className="team-pics">
-              <img src={profileplaceholder} />
-            </div>
-            <div className="flex-name-treatment">
-              <h2 className="team-h2">NICOLA</h2>
-              <div className="treatment-type">
-                <span>HAIR</span>
-              </div>
-            </div>
-            <div className="team-buttons">
-              <div className="team-social-button">
-                <a href="https://www.instagram.com/nicola_utopiahairco/">
-                  <img src={instagramlogo} alt="instagram-icon" />
-                </a>
-              </div>
-              <button
-                className="team-book-now-button"
-                onClick={(e) => {
-                  e.preventDefault();
-                  window.location.href =
-                    "https://www.fresha.com/a/nicola-utopia-hair-co-preston-clifton-fields-ensjjwax";
-                }}
-              >
-                BOOK WITH NICOLA
-              </button>
+        <div className="team-pic-name-flex">
+          <div className="team-pics">
+                  <img src={profileplaceholder} />
+                </div>
+                <div className="flex-name-treatment">
+                  <h2 className="team-h2">NICOLA</h2>
+                  <div className="treatment-type">
+                    <span>HAIR</span>
+                  </div>
+                </div>
+                <div className="team-buttons">
+                  <div className="team-social-button">
+                    <a href="https://www.instagram.com/nicola_utopiahairco/">
+                      <img src={instagramlogo} alt="instagram-icon" />
+                    </a>
+                  </div>
+                  <button
+                    className="team-book-now-button"
+                    onClick={(e) => {
+                      e.preventDefault();
+                      window.location.href =
+                        "https://www.fresha.com/a/nicola-utopia-hair-co-preston-clifton-fields-ensjjwax";
+                    }}
+                  >
+                    BOOK WITH NICOLA
+                  </button>
+                </div>
             </div>
           <div className="team-about">
             Hi I'm Nicola, owner of Utopia Hair Co! I started my hairdressing
@@ -44,31 +46,33 @@ const TeamGirls = () => {
       </div>
 
       <div className="team-girls">
-      <div className="team-pics">
-            <img src={profileplaceholder} />
-          </div>
-        <div className="flex-name-treatment">
-          <h2 className="team-h2">ALANNAH</h2>
-          <div className="treatment-type">
-            <span>HAIR</span>
-          </div>
-        </div>
-        <div className="team-buttons">
-          <div className="team-social-button">
-            <a href="https://www.instagram.com/alannahjepsonhair/">
-              <img src={instagramlogo} alt="instagram-icon" />
-            </a>
-          </div>
-          <button
-            className="team-book-now-button"
-            onClick={(e) => {
-              e.preventDefault();
-              window.location.href =
-                "https://www.fresha.com/a/alannahjepsonhair-clifton-uk-qxkz7ud9?pId=833656";
-            }}
-          >
-            BOOK WITH ALANNAH
-          </button>
+      <div className="team-pic-name-flex">
+          <div className="team-pics">
+                <img src={profileplaceholder} />
+              </div>
+            <div className="flex-name-treatment">
+              <h2 className="team-h2">ALANNAH</h2>
+              <div className="treatment-type">
+                <span>HAIR</span>
+              </div>
+            </div>
+            <div className="team-buttons">
+              <div className="team-social-button">
+                <a href="https://www.instagram.com/alannahjepsonhair/">
+                  <img src={instagramlogo} alt="instagram-icon" />
+                </a>
+              </div>
+              <button
+                className="team-book-now-button"
+                onClick={(e) => {
+                  e.preventDefault();
+                  window.location.href =
+                    "https://www.fresha.com/a/alannahjepsonhair-clifton-uk-qxkz7ud9?pId=833656";
+                }}
+              >
+                BOOK WITH ALANNAH
+              </button>
+            </div>
         </div>
           <div className="team-about">
             I'm Alannah, a self employed hair stylist based at Utopia Hair Co. I
@@ -77,31 +81,33 @@ const TeamGirls = () => {
       </div>
 
       <div className="team-girls">
-         <div className="team-pics">
-            <img src={profileplaceholder} />
-          </div>
-        <div className="flex-name-treatment">
-          <h2 className="team-h2">ELLIE</h2>
-          <div className="treatment-type">
-            <span>HAIR</span>
-          </div>
-        </div>
-        <div className="team-buttons">
-          <div className="team-social-button">
-            <a href="https://www.instagram.com/creativehair_by_elliemonica/">
-              <img src={instagramlogo} alt="instagram-icon" />
-            </a>
-          </div>
-          <button
-            className="team-book-now-button"
-            onClick={(e) => {
-              e.preventDefault();
-              window.location.href =
-                "https://www.fresha.com/a/creative-hair-by-ellie-monica-clifton-uk-vkrlxmy3?pId=833656";
-            }}
-          >
-            BOOK WITH ELLIE
-          </button>
+      <div className="team-pic-name-flex">
+            <div className="team-pics">
+                <img src={profileplaceholder} />
+              </div>
+            <div className="flex-name-treatment">
+              <h2 className="team-h2">ELLIE</h2>
+              <div className="treatment-type">
+                <span>HAIR</span>
+              </div>
+            </div>
+            <div className="team-buttons">
+              <div className="team-social-button">
+                <a href="https://www.instagram.com/creativehair_by_elliemonica/">
+                  <img src={instagramlogo} alt="instagram-icon" />
+                </a>
+              </div>
+              <button
+                className="team-book-now-button"
+                onClick={(e) => {
+                  e.preventDefault();
+                  window.location.href =
+                    "https://www.fresha.com/a/creative-hair-by-ellie-monica-clifton-uk-vkrlxmy3?pId=833656";
+                }}
+              >
+                BOOK WITH ELLIE
+              </button>
+            </div>
         </div>
           <div className="team-about">
             I'm a self employed hair stylist, waiting to start you on your new
@@ -111,31 +117,33 @@ const TeamGirls = () => {
       </div>
 
       <div className="team-girls">
-      <div className="team-pics">
-            <img src={profileplaceholder} />
-          </div>
-        <div className="flex-name-treatment">
-          <h2 className="team-h2">ERIN</h2>
-          <div className="treatment-type-erin">
-            <span>NAILS, LASHES & BROWS</span>
-          </div>
-        </div>
-        <div className="team-buttons">
-          <div className="team-social-button">
-            <a href="https://www.instagram.com/beautybyerinobrien/">
-              <img src={instagramlogo} alt="instagram-icon" />
-            </a>
-          </div>
-          <button
-            className="team-book-now-button"
-            onClick={(e) => {
-              e.preventDefault();
-              window.location.href =
-                "https://www.fresha.com/a/beauty-by-erin-obrien-clifton-uk-sqfh9xvb?pId=833656";
-            }}
-          >
-            BOOK WITH ERIN
-          </button>
+      <div className="team-pic-name-flex">
+          <div className="team-pics">
+                <img src={profileplaceholder} />
+              </div>
+            <div className="flex-name-treatment">
+              <h2 className="team-h2">ERIN</h2>
+              <div className="treatment-type-erin">
+                <span>NAILS, LASHES & BROWS</span>
+              </div>
+            </div>
+            <div className="team-buttons">
+              <div className="team-social-button">
+                <a href="https://www.instagram.com/beautybyerinobrien/">
+                  <img src={instagramlogo} alt="instagram-icon" />
+                </a>
+              </div>
+              <button
+                className="team-book-now-button"
+                onClick={(e) => {
+                  e.preventDefault();
+                  window.location.href =
+                    "https://www.fresha.com/a/beauty-by-erin-obrien-clifton-uk-sqfh9xvb?pId=833656";
+                }}
+              >
+                BOOK WITH ERIN
+              </button>
+            </div>
         </div>
           <div className="team-about">
             I am a qualified beautician passionate about selfcare and all things

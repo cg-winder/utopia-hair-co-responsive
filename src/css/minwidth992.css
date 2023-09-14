@@ -282,15 +282,12 @@
 
     }
 
-
-
-
     /*TOP PAGE WRAPS*/
     .homedetail-wrap,
     .teamgirls-wrap,
     .saloncontent-wrap,
     .services-recommendation-wrap {
-        padding-top: 25%;
+        padding-top: 17%;
     }
 
     @media only screen and (min-width:1050px) {
@@ -298,7 +295,7 @@
         .teamgirls-wrap,
         .saloncontent-wrap,
         .services-recommendation-wrap {
-            padding-top: 27%;
+            padding-top: 19%;
         }
     }
 

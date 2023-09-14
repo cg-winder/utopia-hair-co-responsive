@@ -310,7 +310,7 @@
     .teamgirls-wrap,
     .saloncontent-wrap,
     .services-recommendation-wrap {
-        padding-top: 24%;
+        padding-top: 15%;
     }
 
     @media only screen and (min-width:1440px) {
@@ -319,7 +319,7 @@
         .teamgirls-wrap,
         .saloncontent-wrap,
         .services-recommendation-wrap {
-            padding-top: 25%;
+            padding-top: 16%;
         }
     }
 
@@ -329,7 +329,7 @@
         .teamgirls-wrap,
         .saloncontent-wrap,
         .services-recommendation-wrap {
-            padding-top: 27%;
+            padding-top: 18%;
         }
     }
 
@@ -339,7 +339,7 @@
         .teamgirls-wrap,
         .saloncontent-wrap,
         .services-recommendation-wrap {
-            padding-top: 27%;
+            padding-top: 18%;
         }
     }
 
@@ -349,7 +349,7 @@
         .teamgirls-wrap,
         .saloncontent-wrap,
         .services-recommendation-wrap {
-            padding-top: 27%;
+            padding-top: 18%;
         }
     }
 

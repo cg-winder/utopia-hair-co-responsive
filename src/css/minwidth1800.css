@@ -249,7 +249,7 @@
     .teamgirls-wrap,
     .saloncontent-wrap,
     .services-recommendation-wrap {
-        padding-top: 25%;
+        padding-top: 16%;
     }
 
     @media only screen and (min-width:1870px) {
@@ -258,11 +258,9 @@
         .teamgirls-wrap,
         .saloncontent-wrap,
         .services-recommendation-wrap {
-            padding-top: 26%;
+            padding-top: 16%;
         }
     }
-
-
 
     /*FOOTER*/
 
