@@ -393,8 +393,9 @@
 
     .team-buttons {
         display: flex;
-        margin: 26% 0% 5% -24%;
+        margin-left: 2.2%;
     }
+
 
     .team-book-now-button {
         width: 130px;
@@ -405,13 +406,13 @@
         color: whitesmoke;
         border: 1px solid rgb(135, 110, 110);
         background-color: #d1cac7;
-        padding: 8% 11%;
+        padding: 2% 3%;
         position: relative;
         transition: 0.3s ease-in-out;
         box-shadow: inset 0 0 0 0 #D3C4BE;
         cursor: pointer;
         font-family: "lato";
-        margin-left: 7%;
+        margin-left: 2%;
     }
 
     .team-book-now-button span {
@@ -474,7 +475,7 @@
     /* Team treatment type */
 
     .flex-name-treatment {
-        margin: 17% 0% 0% 10%;
+        margin: 25% 0% 0% 10%;
         display: flex;
     }
 
@@ -501,7 +502,7 @@
         display: inline-flex;
         color: rgb(135, 110, 110);
         border: 1px solid whitesmoke;
-        margin-left: 6%;
+        margin-left: 7%;
     }
 
     .treatment-type-erin span {
@@ -528,11 +529,10 @@
 
     .team-about {
         color: rgb(135, 110, 110);
-        /* color: whitesmoke; */
         font-size: 17px;
-        line-height: 1.9;
+        line-height: 2.1;
         margin: 0% 3%;
-        padding-bottom: 4%;
+        padding-bottom: 5%;
         font-family: "playfair display";
     }
 

@@ -9,7 +9,7 @@ const SalonContent = () => {
         <div className="salon-about-info-1">
           <p>
             Welcome to Utopia Hair Co... A spa-like salon that is home to
-            freelance artists Nicola, Alannah, Ellie and Erin.
+            freelance artists Nicola, Alannah, Ellie, Erin and Millie.
           </p>
           <p>
             Our salon is in a beautiful barn conversion on Clifton Fields, just
