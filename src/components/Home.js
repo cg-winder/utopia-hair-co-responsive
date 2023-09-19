@@ -1,7 +1,7 @@
 import React from "react";
 import HomePage from "./HomeComponents/HomePage";
 import HomeDetail from "./HomeComponents/HomeDetail";
-import CollageMenu from "./HomeComponents/CollageMenu";
+import HomeStylists from "./HomeComponents/HomeStylists";
 import HomeContact from "./HomeComponents/HomeContact";
 import HomeTestimonials from "./HomeComponents/HomeTestimonials";
 
@@ -10,7 +10,7 @@ const Home = () => {
     <div className="page-wrap">
       <HomePage />
       <HomeDetail />
-      <CollageMenu />
+      <HomeStylists/>
       <HomeContact />
       <HomeTestimonials />
     </div>

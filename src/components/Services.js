@@ -9,7 +9,7 @@ const Services = () => {
           <div>Services</div>
       </div>
       <ServicesRecommendation />
-      <SmallUtopiaEmbed />
+      {/* <SmallUtopiaEmbed /> */}
     </div>
   );
 };

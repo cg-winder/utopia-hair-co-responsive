@@ -186,14 +186,100 @@
         font-size: 1px;
     }
 
-    /*TOP PAGE WRAPS*/
-    .homedetail-wrap,
-    .teamgirls-wrap,
-    .saloncontent-wrap,
-    .services-recommendation-wrap {
-        padding-top: 4%;
+
+
+    /* HOME PAGE */
+
+    /* Home Detail */
+
+    .homedetail-wrap {
+        background-color: rgb(205, 199, 186);
+        border: 1px solid white;
+        margin: 4% 5% 6% 5%;
     }
 
+    .homedetail-text {
+        margin-top: 3%;
+        text-align: center;
+        font-size: 30px;
+        color: whitesmoke;
+        font-family: "italiana";
+    }
+
+    .homedetail-welcome {
+        text-align: center;
+        margin-top: 2%;
+        color: white;
+        font-style: italic;
+        font-family: "italiana";
+        font-size: 16px;
+    }
+
+    .homedetail-subtext {
+        line-height: 25px;
+        font-family: "italiana", serif;
+        font-size: 15px;
+        text-align: center;
+        color: white;
+        margin: 2% 5%;
+    }
+
+    .homedetail-book-button {
+        display: flex;
+        margin: 0 auto;
+        margin-bottom: 2%;
+        background-color: #bcb2af;
+        border: 1px solid whitesmoke;
+        padding: 2% 5%;
+        color: white;
+        font-family: "italiana", serif;
+        font-size: 15px;
+        transition: 0.3s ease-in-out;
+        box-shadow: inset 0 0 0 0 rgb(221, 211, 211);
+    }
+
+    .homedetail-book-button span {
+        padding-top: 2%;
+    }
+
+    .homedetail-book-button:hover {
+        border: 2px solid white;
+        box-shadow: inset 140px 0 0 0 rgb(190, 181, 169);
+    }
+
+    .homedetail-book-button span:hover {
+        color: whitesmoke;
+    }
+
+    /* HOME DETAIL QUERIES */
+    @media only screen and (min-width: 620px) {
+        .homedetail-text {
+            font-size: 32px;
+        }
+
+        .homedetail-welcome {
+            font-size: 18px;
+            margin-top: 2%;
+        }
+
+        .homedetail-subtext {
+            font-size: 17px;
+            margin: 2% 5%;
+        }
+
+        .homedetail-book-button {
+            padding: 2.5% 5%;
+            font-size: 17px;
+        }
+    }
+
+    /* Home Detail finish */
+
+    /* Home Stylists */
+
+    /* HOME STYLIST QUERIES*/
+
+    /* Home Stylists finish*/
 
     /* TEAM PAGE */
 
@@ -232,7 +318,7 @@
 
     .team-buttons {
         display: inline-flex;
-        margin: 3% 0% 5% 3%;
+        margin: 2% 0% 5% 3%;
     }
 
     .team-book-now-button {
@@ -371,7 +457,7 @@
         /* color: whitesmoke; */
         font-size: 17px;
         line-height: 1.9;
-        margin: 0% 3%;
+        margin: -2% 3%;
         padding-bottom: 10%;
         font-family: "playfair display";
     }

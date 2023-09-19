@@ -243,24 +243,98 @@
     }
 
 
-    /*TOP PAGE WRAPS*/
+    /* HOME PAGE */
 
-    .homedetail-wrap,
-    .teamgirls-wrap,
-    .saloncontent-wrap,
-    .services-recommendation-wrap {
-        padding-top: 16%;
+    /* Home Detail */
+
+    .homedetail-wrap {
+        background-color: rgb(205, 199, 186);
+        border: 1px solid white;
+        margin: 27% 5% 6% 5%;
     }
 
-    @media only screen and (min-width:1870px) {
+    .homedetail-text {
+        margin-top: 3%;
+        text-align: center;
+        font-size: 45px;
+        color: whitesmoke;
+        font-family: "italiana";
+    }
 
-        .homedetail-wrap,
-        .teamgirls-wrap,
-        .saloncontent-wrap,
-        .services-recommendation-wrap {
-            padding-top: 16%;
+    .homedetail-welcome {
+        text-align: center;
+        margin-top: 2%;
+        color: white;
+        font-style: italic;
+        font-family: "italiana";
+        font-size: 30px;
+    }
+
+    .homedetail-subtext {
+        line-height: 42px;
+        font-family: "italiana", serif;
+        font-size: 28px;
+        text-align: center;
+        color: white;
+        margin: 2% 8%;
+    }
+
+    .homedetail-book-button {
+        display: flex;
+        margin: 0 auto;
+        margin-bottom: 2%;
+        background-color: #bcb2af;
+        border: 1px solid whitesmoke;
+        padding: 2% 5%;
+        color: white;
+        font-family: "italiana", serif;
+        font-size: 28px;
+        transition: 0.3s ease-in-out;
+        box-shadow: inset 0 0 0 0 rgb(221, 211, 211);
+    }
+
+    .homedetail-book-button span {
+        padding-top: 2%;
+    }
+
+    .homedetail-book-button:hover {
+        border: 2px solid white;
+        box-shadow: inset 140px 0 0 0 rgb(190, 181, 169);
+    }
+
+    .homedetail-book-button span:hover {
+        color: whitesmoke;
+    }
+
+    /* HOME DETAIL QUERIES */
+    @media only screen and (min-width: 1900px) {
+        .homedetail-text {
+            font-size: 47px;
+        }
+
+        .homedetail-welcome {
+            font-size: 32px;
+        }
+
+        .homedetail-subtext {
+            font-size: 30px;
+            line-height: 44px;
+        }
+
+        .homedetail-book-button {
+            font-size: 29px;
         }
     }
+
+    /* Home Detail finish */
+
+    /* Home Stylists */
+
+    /* HOME STYLIST QUERIES*/
+
+    /* Home Stylists finish*/
+
+
 
     /* TEAM PAGE */
 
@@ -282,9 +356,8 @@
         }
     }
 
-
-    .team-girls {
-        margin-top: 5%;
+    .teamgirls-wrap {
+        margin-top: 25%;
     }
 
     .team-pic-name-flex {
@@ -434,7 +507,7 @@
         color: rgb(135, 110, 110);
         font-size: 29px;
         line-height: 2.1;
-        margin: -2% 3%;
+        margin: -2% 2%;
         padding-bottom: 5%;
         font-family: "playfair display";
     }
