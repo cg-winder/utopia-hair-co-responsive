@@ -324,21 +324,23 @@
         margin-bottom: 2%;
         background-color: #bcb2af;
         border: 1px solid whitesmoke;
-        padding: 2% 5%;
+        padding: 1% 1%;
         color: white;
         font-family: "italiana", serif;
-        font-size: 20px;
+        font-size: 17px;
         transition: 0.3s ease-in-out;
         box-shadow: inset 0 0 0 0 rgb(221, 211, 211);
     }
 
     .homedetail-book-button span {
         padding-top: 2%;
+        display: flex;
+        margin: 0 auto;
     }
 
     .homedetail-book-button:hover {
         border: 2px solid white;
-        box-shadow: inset 140px 0 0 0 rgb(190, 181, 169);
+        box-shadow: inset 600px 0 0 0 rgb(190, 181, 169);
     }
 
     .homedetail-book-button span:hover {
@@ -361,15 +363,133 @@
         }
 
         .homedetail-book-button {
-            font-size: 21px;
+            font-size: 18px;
         }
     }
 
     /* Home Detail finish */
 
     /* Home Stylists */
+    .homestylists-wrap {
+        margin-top: 10%;
+    }
+
+    .homestylists-header {
+        margin: 0% 2%;
+        line-height: 36px;
+        color: white;
+        font-size: 34px;
+        text-align: center;
+        font-family: "italiana";
+    }
+
+    .homestylists-text-img {
+        display: inline-flex;
+        margin: 1% 3%;
+        flex-direction: row-reverse;
+    }
+
+
+    .homestylists-subtext {
+        margin: 6.5% 4% 0% 2%;
+        color: rgb(135, 110, 110);
+        font-family: "lato";
+        font-size: 23px;
+        line-height: 43px;
+        text-align: left;
+    }
+
+    .homestylists-button {
+        display: flex;
+        text-decoration: none;
+        margin: 0 auto;
+        width: 18%;
+        height: 3%;
+        background-color: #bcb2af;
+        border: 1px solid whitesmoke;
+        padding: 1% 1%;
+        border-radius: 50px;
+        font-family: "italiana", serif;
+        transition: 0.3s ease-in-out;
+        box-shadow: inset 0 0 0 0 rgb(221, 211, 211);
+    }
+
+    .homestylists-button span {
+        color: white;
+        font-size: 15px;
+        padding-top: 0.5%;
+        display: flex;
+        margin: 0 auto;
+    }
+
+
+    .homestylists-button:hover {
+        border: 2px solid white;
+        color: rgb(135, 110, 110);
+        box-shadow: inset 400px 0 0 0 rgb(190, 181, 169);
+    }
+
+
+    .homestylists-img {
+        width: 290px;
+        height: 270px;
+        display: flex;
+        margin: 3% auto;
+    }
 
     /* HOME STYLIST QUERIES*/
+    @media only screen and (min-width:1030px) {
+        .homestylists-header {
+            font-size: 36px;
+        }
+
+        .homestylists-subtext {
+            font-size: 24.5px;
+            line-height: 45px;
+        }
+
+        .homestylists-img {
+            width: 300px;
+            height: 280px;
+        }
+
+        .homestylists-button span {
+            font-size: 15.5px;
+        }
+    }
+
+    @media only screen and (min-width: 1090px) {
+
+        .homestylists-subtext {
+            font-size: 26px;
+            line-height: 45px;
+        }
+    }
+
+    @media only screen and (min-width: 1120px) {
+
+        .homestylists-subtext {
+            font-size: 27px;
+            line-height: 46px;
+        }
+
+        .homestylists-img {
+            width: 310px;
+            height: 290px;
+        }
+
+        .homestylists-button span {
+            font-size: 16px;
+        }
+    }
+
+    @media only screen and (min-width: 1180px) {
+
+        .homestylists-subtext {
+            font-size: 28px;
+            line-height: 46px;
+        }
+    }
 
     /* Home Stylists finish*/
 

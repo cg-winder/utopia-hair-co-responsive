@@ -308,16 +308,18 @@
         margin-bottom: 2%;
         background-color: #bcb2af;
         border: 1px solid whitesmoke;
-        padding: 3% 5%;
+        padding: 1% 1%;
         color: white;
         font-family: "italiana", serif;
-        font-size: 15px;
+        font-size: 11px;
         transition: 0.3s ease-in-out;
         box-shadow: inset 0 0 0 0 rgb(221, 211, 211);
     }
 
     .homedetail-book-button span {
         padding-top: 3%;
+        display: flex;
+        margin: 0 auto;
     }
 
     .homedetail-book-button:hover {
@@ -364,8 +366,90 @@
     /* Home Detail finish */
 
     /* Home Stylists */
+    .homestylists-wrap {
+        margin-top: 10%;
+    }
+
+    .homestylists-header {
+        margin: 0% 2%;
+        line-height: 28px;
+        color: white;
+        font-size: 23px;
+        text-align: center;
+        font-family: "italiana";
+    }
+
+    .homestylists-subtext {
+        margin: 1% 3% 0% 3%;
+        color: rgb(135, 110, 110);
+        font-family: "lato";
+        font-size: 13px;
+        line-height: 26px;
+        text-align: center;
+    }
+
+    .homestylists-button {
+        display: flex;
+        text-decoration: none;
+        margin: 2% auto;
+        width: 22%;
+        height: 3%;
+        background-color: #bcb2af;
+        border: 1px solid whitesmoke;
+        padding: 1% 1%;
+        border-radius: 50px;
+        font-family: "italiana", serif;
+        transition: 0.3s ease-in-out;
+        box-shadow: inset 0 0 0 0 rgb(221, 211, 211);
+    }
+
+    .homestylists-button span {
+        color: white;
+        font-size: 11px;
+        padding-top: 1%;
+        display: flex;
+        margin: 0 auto;
+    }
+
+
+    .homestylists-button:hover {
+        border: 2px solid white;
+        box-shadow: inset 400px 0 0 0 rgb(190, 181, 169);
+    }
+
+
+    .homestylists-img {
+        width: 220px;
+        height: 200px;
+        display: flex;
+        margin: 4% auto;
+    }
 
     /* HOME STYLIST QUERIES*/
+    @media only screen and (min-width: 400px) {
+        .homestylists-button span {
+            font-size: 11px
+        }
+
+        .homestylists-img {
+            width: 240px;
+            height: 220px;
+        }
+
+        .homestylists-header {
+            font-size: 27px
+        }
+    }
+
+    @media only screen and (min-width: 500px) {
+        .homestylists-subtext {
+            font-size: 15px;
+        }
+
+        .homestylists-header {
+            font-size: 28px
+        }
+    }
 
     /* Home Stylists finish*/
 
