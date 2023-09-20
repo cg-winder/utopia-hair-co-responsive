@@ -501,15 +501,15 @@
 
 
     .team-book-now-button {
-        width: 185px;
-        height: 70px;
+        width: 155px;
+        height: 60px;
         display: inline-flex;
         border-radius: 50px;
-        font-size: 15px;
+        font-size: 13px;
         color: whitesmoke;
         border: 1px solid rgb(135, 110, 110);
         background-color: #d1cac7;
-        padding: 1.2% 3%;
+        padding: 1.2% 2%;
         position: relative;
         transition: 0.3s ease-in-out;
         box-shadow: inset 0 0 0 0 #D3C4BE;
@@ -521,6 +521,8 @@
     .team-book-now-button span {
         z-index: 1;
         background-color: transparent;
+        display: flex;
+        margin: 0 auto;
     }
 
     .team-book-now-button:hover {
@@ -530,8 +532,8 @@
     }
 
     .team-social-button a {
-        width: 70px;
-        height: 70px;
+        width: 60px;
+        height: 60px;
         background: transparent;
         border: 1px solid rgb(135, 110, 110);
         background-color: #d1cac7;
@@ -546,8 +548,8 @@
 
     .team-social-button a::before {
         content: "";
-        width: 70px;
-        height: 70px;
+        width: 60px;
+        height: 60px;
         position: absolute;
         background-color: #cec4c1;
         border: 2px solid white;
@@ -578,16 +580,16 @@
     /* Team treatment type */
 
     .flex-name-treatment {
-        margin: 26.5% 0% 0% 10%;
+        margin: 19.5% 0% 0% 10%;
         display: flex;
     }
 
     .treatment-type {
-        width: 125px;
-        height: 65px;
+        width: 120px;
+        height: 60px;
         margin-left: 6%;
         display: inline-flex;
-        font-size: 23px;
+        font-size: 22px;
         color: rgb(135, 110, 110);
         border: 1px solid rgb(134, 110, 110);
         border: 1px solid whitesmoke;
@@ -617,14 +619,14 @@
     /* Team profiles */
     .team-h2 {
         color: white;
-        font-size: 57px;
-        margin: 1% 0% 0% 3%;
+        font-size: 46px;
+        margin: 2% 0% 0% 3%;
         /* font-family: "playfair display"; */
     }
 
     .team-pics img {
-        height: 520px;
-        width: 520px;
+        height: 300px;
+        width: 300px;
         display: flex;
         padding-bottom: 3.5%;
         margin-left: 6%
@@ -632,75 +634,35 @@
 
     .team-about {
         color: rgb(135, 110, 110);
-        font-size: 26px;
+        font-size: 20px;
         line-height: 2.1;
-        margin: -2% 3%;
+        margin: -2% 1%;
+        margin-right: 8%;
         padding-bottom: 5%;
         font-family: "playfair display";
     }
 
     /*TEAM MEDIA QUERIES*/
-    @media only screen and (min-width: 1550px) {
-        .treatment-type span {
-            padding-top: 21%;
-        }
-
-        .team-h2 {
-            font-size: 60px;
-            margin-top: -0.3%
-        }
-
-        .team-about {
-            font-size: 29px;
-        }
-
-
+    @media only screen and (min-width: 1500px) {
         .team-book-now-button {
-            width: 200px;
-            height: 80px;
-            font-size: 17px;
-            padding: 1.3% 3%;
-        }
-
-        .team-social-button a {
-            width: 80px;
-            height: 80px;
-        }
-
-        .team-social-button a::before {
-            width: 80px;
-            height: 80px;
-        }
-
-    }
-
-    @media only screen and (min-width:1710px) {
-        .team-book-now-button {
-            width: 210px;
-            height: 80px;
-            font-size: 17px;
-            padding: 1.2% 3%;
-        }
-
-        .treatment-type span {
-            padding-top: 22%;
-        }
-
-        .team-h2 {
-            font-size: 65px;
-            margin-top: 0.5%
-        }
-
-        .treatment-type {
-            width: 135px;
-            height: 75px;
-            font-size: 25px;
+            padding: 0.8% 2%;
+            font-size: 15px;
         }
 
         .treatment-type-erin {
-            width: 165px;
-            height: 75px;
-            font-size: 16.5px;
+            width: 150px;
+            height: 60px;
+            font-size: 14.5px;
+        }
+
+        .treatment-type-erin span {
+            padding-top: 12%;
+        }
+
+        @media only screen and (min-width: 1700px) {
+            .team-book-now-button {
+                padding: 0.7% 1%;
+            }
         }
     }
 
