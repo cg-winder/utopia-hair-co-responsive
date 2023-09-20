@@ -401,6 +401,7 @@
     /* Home Stylists */
     .homestylists-wrap {
         margin-top: 10%;
+        margin-bottom: 10%;
     }
 
     .homestylists-header {
@@ -423,7 +424,7 @@
         margin: 4.5% 4% 0% 2%;
         color: rgb(135, 110, 110);
         font-family: "lato";
-        font-size: 19px;
+        font-size: 16px;
         line-height: 38px;
         text-align: left;
     }
@@ -431,7 +432,8 @@
     .homestylists-button {
         display: flex;
         text-decoration: none;
-        margin: 0 auto;
+        margin-left: 4.5%;
+        margin-top: -9%;
         width: 18%;
         height: 3%;
         background-color: #bcb2af;
@@ -469,8 +471,14 @@
     /* HOME STYLIST QUERIES*/
     @media only screen and (min-width: 850px) {
         .homestylists-subtext {
-            font-size: 20.5px;
+            font-size: 16.5px;
             line-height: 42px;
+        }
+    }
+
+    @media only screen and (min-width: 850px) and (max-width: 879px) {
+        .homestylists-button {
+            margin-top: -8%;
         }
     }
 
@@ -480,7 +488,7 @@
         }
 
         .homestylists-subtext {
-            font-size: 21.5px;
+            font-size: 17px;
             line-height: 42px;
         }
 
@@ -496,7 +504,7 @@
 
     @media only screen and (min-width: 950px) {
         .homestylists-subtext {
-            font-size: 23px;
+            font-size: 17.5px;
             margin-top: 6.5%;
         }
 
