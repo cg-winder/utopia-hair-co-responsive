@@ -99,6 +99,16 @@ const HomeContact = () => {
           >
             ERIN
           </a>
+          <a
+            className="homecontact-book-with"
+            onClick={(e) => {
+              e.preventDefault();
+              window.location.href =
+                "https://www.fresha.com/a/beauty-by-erin-obrien-clifton-uk-sqfh9xvb?pId=833656";
+            }}
+          >
+            MILLIE
+          </a>
         </div>
       </div>
     </div>
