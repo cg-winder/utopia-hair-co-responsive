@@ -360,6 +360,87 @@
 
     /* Home Stylists finish*/
 
+    /* Home Contact */
+    .homecontact-page-wrap {
+        font-family: "italiana", serif;
+        border-top: 1px solid whitesmoke;
+        margin: 10% 4%;
+    }
+
+    .homecontact-banner {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .homecontact-address {
+        padding-top: 9%;
+    }
+
+
+    .homecontact-address-h4 {
+        color: white;
+        font-size: 22px;
+        text-align: center;
+        margin-bottom: 1.5%;
+    }
+
+    .homecontact-address-table {
+        list-style: none;
+        margin: 0 auto;
+        color: rgb(157, 127, 127);
+        line-height: 23px;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .homecontact-openingtimes,
+    .homecontact-book {
+        padding: 4% 0%;
+    }
+
+    .homecontact-openingtimes-h4 {
+        color: white;
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .homecontact-weekdays {
+        line-height: 18px;
+        font-size: 14px;
+        padding-top: 2%;
+        margin: 0 auto;
+        color: rgb(157, 127, 127);
+        text-align: center;
+    }
+
+
+    .homecontact-book-h4 {
+        color: white;
+        font-size: 22px;
+        text-align: center;
+        padding-bottom: 2%;
+    }
+
+    .homecontact-book a {
+        display: flex;
+        padding-top: 2%;
+        justify-content: center;
+        text-decoration: none;
+        font-size: 15px;
+        line-height: 18px;
+        color: rgb(157, 127, 127);
+    }
+
+    .homecontact-book a:hover {
+        color: white;
+        cursor: pointer;
+    }
+
+    /* HOME CONTACT QUERIES */
+
+    /* Home Contact Finish */
+
+
     /* TEAM PAGE */
 
     .team-page-wrap {

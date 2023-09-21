@@ -440,7 +440,7 @@
         }
 
         .homestylists-button {
-            width: 25%;
+            width: 26%;
             height: 3%;
             padding: 2% 2%;
         }
@@ -486,9 +486,8 @@
     /* Home Contact */
     .homecontact-page-wrap {
         font-family: "italiana", serif;
-        border: 1.5px solid whitesmoke;
+        border-top: 1px solid whitesmoke;
         margin: 10% 4%;
-        background-color: rgb(218, 210, 196);
     }
 
     .homecontact-banner {
@@ -497,61 +496,65 @@
     }
 
     .homecontact-address {
-        padding-top: 4%;
+        padding-top: 12%;
     }
 
 
     .homecontact-address-h4 {
         color: white;
-        font-size: 17px;
+        font-size: 17.5px;
         text-align: center;
-        margin-bottom: -3%;
     }
 
-    .homecontact-address-ul li {
-        list-style: none;
-        margin-right: 14%;
+    .homecontact-address-table {
+        padding-top: 3%;
+        font-size: 13.5px;
+        margin: 0 auto;
+        line-height: 20px;
         color: rgb(157, 127, 127);
-        line-height: 22px;
         text-align: center;
-        font-size: 13px;
+    }
+
+    .homecontact-address li {
+        list-style: none;
     }
 
     .homecontact-openingtimes {
-        padding: 4% 0%;
+        padding: 6% 0%;
+    }
+
+    .homecontact-book {
+        padding: 2% 0%;
     }
 
     .homecontact-openingtimes-h4 {
         color: white;
-        font-size: 17px;
+        font-size: 17.5px;
         text-align: center;
     }
 
     .homecontact-weekdays {
-        font-size: 12px;
+        font-size: 12.5px;
         padding-top: 3%;
-        margin-left: 26.5%;
+        margin: 0 auto;
         color: rgb(157, 127, 127);
         text-align: center;
     }
 
-    .homecontact-book {
-        padding: 4% 0%;
-    }
 
     .homecontact-book-h4 {
         color: white;
-        font-size: 17px;
+        font-size: 17.5px;
         text-align: center;
         padding-bottom: 2%;
     }
 
     .homecontact-book a {
         display: flex;
-        padding-top: 3%;
+        padding-top: 4%;
         justify-content: center;
         text-decoration: none;
-        font-size: 12px;
+        font-size: 13px;
         color: rgb(157, 127, 127);
     }
 
@@ -561,8 +564,20 @@
     }
 
     /* HOME CONTACT QUERIES */
+    @media only screen and (min-width: px) {}
 
     /* Home Contact Finish */
+
+
+    /* Testimonials */
+    .testimonials-page-wrap {
+        margin: 10% 4%;
+        border-top: 1px solid whitesmoke;
+    }
+
+    /* TESTIMONIALS QUERIES */
+
+    /* Testimonials Finish */
 
 
 

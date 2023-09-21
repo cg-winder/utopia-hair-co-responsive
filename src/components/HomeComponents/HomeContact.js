@@ -17,12 +17,12 @@ const HomeContact = () => {
       <div className="homecontact-banner">
         <div className="homecontact-address">
           <div className="homecontact-address-h4">ADDRESS</div>
-          <ul className="homecontact-address-ul">
+          <table className="homecontact-address-table">
             <li>Big Shippon,</li>
             <li>Clifton Fields,</li>
             <li>Preston,</li>
             <li>PR4 0XG</li>
-          </ul>
+          </table>
         </div>
         <div className="homecontact-openingtimes">
           <div className="homecontact-openingtimes-h4">OPENING TIMES</div>
