@@ -487,6 +487,7 @@
     .homecontact-page-wrap {
         font-family: "italiana", serif;
         border-top: 1px solid whitesmoke;
+        border-bottom: 1px solid whitesmoke;
         margin: 10% 4%;
     }
 
@@ -558,22 +559,82 @@
         color: rgb(157, 127, 127);
     }
 
+    .homecontact-book {
+        padding-bottom: 10%;
+    }
+
     .homecontact-book a:hover {
         color: white;
         cursor: pointer;
     }
 
     /* HOME CONTACT QUERIES */
-    @media only screen and (min-width: px) {}
+    @media only screen and (min-width: 400px) {
+        .homecontact-address-h4 {
+            font-size: 19px;
+        }
+
+        .homecontact-address-table {
+            font-size: 14.5px;
+            line-height: 22px;
+        }
+
+        .homecontact-openingtimes-h4 {
+            font-size: 19px;
+        }
+
+        .homecontact-weekdays {
+            font-size: 13px;
+            padding-top: 3%;
+        }
+
+
+        .homecontact-book-h4 {
+            font-size: 19px;
+        }
+
+        .homecontact-book a {
+            padding-top: 3.5%;
+            font-size: 14px;
+        }
+    }
+
+    @media only screen and (min-width: 500px) {
+        .homecontact-address-h4 {
+            font-size: 19.5px;
+        }
+
+        .homecontact-address-table {
+            font-size: 15px;
+            line-height: 22.5px;
+        }
+
+        .homecontact-openingtimes-h4 {
+            font-size: 19.5px;
+        }
+
+        .homecontact-weekdays {
+            font-size: 14px;
+            padding-top: 3.5%;
+        }
+
+
+        .homecontact-book-h4 {
+            font-size: 19.5px;
+        }
+
+        .homecontact-book a {
+            padding-top: 3.5%;
+            font-size: 14.5px;
+        }
+    }
+
 
     /* Home Contact Finish */
 
 
     /* Testimonials */
-    .testimonials-page-wrap {
-        margin: 10% 4%;
-        border-top: 1px solid whitesmoke;
-    }
+
 
     /* TESTIMONIALS QUERIES */
 
@@ -622,11 +683,11 @@
     }
 
     .team-book-now-button {
-        width: 100px;
+        width: 96px;
         height: 40px;
         display: inline-flex;
         border-radius: 50px;
-        font-size: 11px;
+        font-size: 10.5px;
         color: whitesmoke;
         border: 1px solid rgb(135, 110, 110);
         background-color: #d1cac7;
@@ -773,7 +834,7 @@
         }
 
         .team-about {
-            font-size: 16px;
+            font-size: 14px;
         }
 
         .team-book-now-button {
@@ -782,7 +843,7 @@
             display: inline-flex;
             border-radius: 50px;
             font-size: 11px;
-            padding: 6.5% 1%;
+            padding: 7% 1%;
         }
 
         .team-social-button a {
@@ -799,7 +860,7 @@
 
     @media only screen and (min-width: 412px) {
         .team-about {
-            font-size: 18px;
+            font-size: 16px;
         }
 
         .team-pics img {

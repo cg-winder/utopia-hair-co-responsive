@@ -341,7 +341,7 @@
     .homedetail-subtext {
         line-height: 25px;
         font-family: "italiana", serif;
-        font-size: 17px;
+        font-size: 12px;
         text-align: center;
         color: white;
         margin: 2% 5%;
@@ -356,7 +356,7 @@
         padding: 1% 1%;
         color: white;
         font-family: "italiana", serif;
-        font-size: 14px;
+        font-size: 13px;
         transition: 0.3s ease-in-out;
         box-shadow: inset 0 0 0 0 rgb(221, 211, 211);
     }
@@ -388,11 +388,11 @@
 
         .homedetail-subtext {
             line-height: 30px;
-            font-size: 19px;
+            font-size: 13px;
         }
 
         .homedetail-book-button {
-            font-size: 15px;
+            font-size: 14px;
         }
     }
 
@@ -421,10 +421,10 @@
 
 
     .homestylists-subtext {
-        margin: 4.5% 4% 0% 2%;
+        margin: 8% 4% 0% 2%;
         color: rgb(135, 110, 110);
         font-family: "lato";
-        font-size: 16px;
+        font-size: 10.5px;
         line-height: 38px;
         text-align: left;
     }
@@ -433,8 +433,8 @@
         display: flex;
         text-decoration: none;
         margin-left: 4.5%;
-        margin-top: -9%;
-        width: 18%;
+        margin-top: -11%;
+        width: 13%;
         height: 3%;
         background-color: #bcb2af;
         border: 1px solid whitesmoke;
@@ -447,7 +447,7 @@
 
     .homestylists-button span {
         color: white;
-        font-size: 14px;
+        font-size: 10px;
         padding-top: 0.5%;
         display: flex;
         margin: 0 auto;
@@ -471,14 +471,16 @@
     /* HOME STYLIST QUERIES*/
     @media only screen and (min-width: 850px) {
         .homestylists-subtext {
-            font-size: 16.5px;
+            font-size: 11px;
             line-height: 42px;
         }
+
+
     }
 
     @media only screen and (min-width: 850px) and (max-width: 879px) {
         .homestylists-button {
-            margin-top: -8%;
+            margin-top: -10%;
         }
     }
 
@@ -488,7 +490,7 @@
         }
 
         .homestylists-subtext {
-            font-size: 17px;
+            font-size: 11.5px;
             line-height: 42px;
         }
 
@@ -497,14 +499,11 @@
             height: 240px;
         }
 
-        .homestylists-button span {
-            font-size: 14.5px;
-        }
     }
 
     @media only screen and (min-width: 950px) {
         .homestylists-subtext {
-            font-size: 17.5px;
+            font-size: 12px;
             margin-top: 6.5%;
         }
 
@@ -512,9 +511,118 @@
             width: 280px;
             height: 260px;
         }
+
+        .homestylists-button {
+            margin-top: -13.5%;
+        }
     }
 
     /* Home Stylists finish*/
+
+    /* HomeContact */
+    .homecontact-page-wrap {
+        animation: fade-in-left 2s ease;
+        margin: 0% 4%;
+        border-top: 1px solid whitesmoke;
+        border-bottom: 1px solid whitesmoke;
+        font-family: 'italiana', serif;
+    }
+
+    @keyframes fade-in-left {
+        0% {
+            opacity: 0;
+            transform: translateX(-20px);
+        }
+
+        100% {
+            opacity: 1;
+            transform: translateX(0);
+        }
+    }
+
+    .homecontact-banner {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .homecontact-address {
+        margin-top: -3.8%;
+    }
+
+
+    .homecontact-address-h4 {
+        color: white;
+        font-size: 17px;
+        text-align: center;
+        margin-bottom: 4%;
+    }
+
+    .homecontact-address-table {
+        list-style: none;
+        color: rgb(157, 127, 127);
+        line-height: 23px;
+        text-align: center;
+        font-size: 11px;
+    }
+
+    .homecontact-openingtimes {
+        margin-right: 1.8%;
+    }
+
+
+    .homecontact-openingtimes-h4 {
+        color: white;
+        font-size: 15px;
+        text-align: center;
+        margin-bottom: 4%;
+    }
+
+    .homecontact-weekdays {
+        line-height: 13px;
+        font-size: 10px;
+        color: rgb(157, 127, 127);
+        text-align: center;
+    }
+
+    .homecontact-book {
+        margin-top: 4.8%
+    }
+
+    .homecontact-book-h4 {
+        color: white;
+        font-size: 17px;
+        text-align: center;
+        margin-bottom: 4%;
+    }
+
+    .homecontact-book a {
+        display: flex;
+        padding-top: 24%;
+        text-decoration: none;
+        font-size: 9px;
+        line-height: 11px;
+        color: rgb(157, 127, 127);
+    }
+
+    .homecontact-book a:hover {
+        color: white;
+        cursor: pointer;
+    }
+
+    /* HOMECONTACT QUERIES */
+
+    @media only screen and (min-width: px) {}
+
+    /* HomeContact Finish */
+
+    /* Testimonials */
+
+
+    /* TESTIMONIALS QUERIES */
+
+    /* Testimonials Finish */
+
 
 
     /* TEAM PAGE */
@@ -551,20 +659,20 @@
 
     .team-buttons {
         display: flex;
-        margin-left: 2.2%;
+        margin-left: 1%;
     }
 
 
     .team-book-now-button {
-        width: 110px;
-        height: 38px;
+        width: 80px;
+        height: 30px;
         display: inline-flex;
         border-radius: 50px;
-        font-size: 10px;
+        font-size: 7.5px;
         color: whitesmoke;
         border: 1px solid rgb(135, 110, 110);
         background-color: #d1cac7;
-        padding: 1% 2%;
+        padding: 0.7% 2%;
         position: relative;
         transition: 0.3s ease-in-out;
         box-shadow: inset 0 0 0 0 #D3C4BE;
@@ -587,8 +695,8 @@
     }
 
     .team-social-button a {
-        width: 38px;
-        height: 38px;
+        width: 30px;
+        height: 30px;
         background: transparent;
         border: 1px solid rgb(135, 110, 110);
         background-color: #d1cac7;
@@ -603,8 +711,8 @@
 
     .team-social-button a::before {
         content: "";
-        width: 38px;
-        height: 38px;
+        width: 30px;
+        height: 30px;
         position: absolute;
         background-color: #cec4c1;
         border: 2px solid white;
@@ -640,11 +748,11 @@
     }
 
     .treatment-type {
-        width: 75px;
+        width: 70px;
         height: 35px;
         margin-left: 6%;
         display: inline-flex;
-        font-size: 15px;
+        font-size: 14px;
         color: rgb(135, 110, 110);
         border: 1px solid rgb(134, 110, 110);
         border: 1px solid whitesmoke;
@@ -652,13 +760,13 @@
 
     .treatment-type span {
         margin: 0 auto;
-        padding-top: 15.5%;
+        padding-top: 16%;
     }
 
     .treatment-type-erin {
-        width: 100px;
-        height: 40px;
-        font-size: 9.5px;
+        width: 85px;
+        height: 38px;
+        font-size: 8.5px;
         display: inline-flex;
         color: rgb(135, 110, 110);
         border: 1px solid whitesmoke;
@@ -667,21 +775,21 @@
 
     .treatment-type-erin span {
         margin: 0 auto;
-        padding-top: 13%;
+        padding-top: 14%;
         text-align: center;
     }
 
     /* Team profiles */
     .team-h2 {
         color: white;
-        font-size: 26px;
+        font-size: 25px;
         margin: 3.4% 0% 0% 3%;
         /* font-family: "playfair display"; */
     }
 
     .team-pics img {
-        height: 210px;
-        width: 210px;
+        height: 200px;
+        width: 200px;
         display: flex;
         padding-bottom: 3.5%;
         margin-left: 6%
@@ -689,21 +797,20 @@
 
     .team-about {
         color: rgb(135, 110, 110);
-        font-size: 13px;
+        font-size: 11px;
         line-height: 2.1;
-        margin: -2% 2.5%;
+        margin: -2% 1%;
         padding-bottom: 5%;
         margin-right: 8%;
         font-family: "playfair display";
     }
 
     /*TEAM MEDIA QUERIES*/
-    @media only screen and (min-width: 830px) {
+    @media only screen and (min-width: 898px) {
         .team-book-now-button {
-            padding: 1% 1%;
-            width: 100px;
-            height: 38px;
-            font-size: 10px;
+            width: 84px;
+            padding: 0.6% 1%;
+            font-size: 8px;
         }
     }
 

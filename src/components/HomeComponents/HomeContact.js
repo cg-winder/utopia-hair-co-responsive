@@ -15,48 +15,48 @@ const HomeContact = () => {
   return (
     <div className="homecontact-page-wrap">
       <div className="homecontact-banner">
-        <div className="homecontact-address">
-          <div className="homecontact-address-h4">ADDRESS</div>
-          <table className="homecontact-address-table">
-            <li>Big Shippon,</li>
-            <li>Clifton Fields,</li>
-            <li>Preston,</li>
-            <li>PR4 0XG</li>
-          </table>
-        </div>
-        <div className="homecontact-openingtimes">
-          <div className="homecontact-openingtimes-h4">OPENING TIMES</div>
-          <table className="homecontact-weekdays">
-            <tr id="week-day-1">
-              <th>Monday</th>
-              <td>Closed</td>
-            </tr>
-            <tr id="week-day-2">
-              <th>Tuesday</th>
-              <td>Closed</td>
-            </tr>
-            <tr id="week-day-3">
-              <th>Wednesday</th>
-              <td> 10am - 7pm</td>
-            </tr>
-            <tr id="week-day-4">
-              <th>Thursday</th>
-              <td>10am - 7pm</td>
-            </tr>
-            <tr id="week-day-5">
-              <th>Friday</th>
-              <td>10am - 7pm</td>
-            </tr>
-            <tr id="week-day-6">
-              <th>Saturday</th>
-              <td>9am - 5pm</td>
-            </tr>
-            <tr id="week-day-0">
-              <th>Sunday</th>
-              <td>Closed</td>
-            </tr>
-          </table>
-        </div>
+          <div className="homecontact-address">
+            <div className="homecontact-address-h4">ADDRESS</div>
+            <table className="homecontact-address-table">
+              <li>Big Shippon,</li>
+              <li>Clifton Fields,</li>
+              <li>Preston,</li>
+              <li>PR4 0XG</li>
+            </table>
+          </div>
+          <div className="homecontact-openingtimes">
+            <div className="homecontact-openingtimes-h4">OPENING TIMES</div>
+            <table className="homecontact-weekdays">
+              <tr id="week-day-1">
+                <th>Monday</th>
+                <td>Closed</td>
+              </tr>
+              <tr id="week-day-2">
+                <th>Tuesday</th>
+                <td>Closed</td>
+              </tr>
+              <tr id="week-day-3">
+                <th>Wednesday</th>
+                <td> 10am - 7pm</td>
+              </tr>
+              <tr id="week-day-4">
+                <th>Thursday</th>
+                <td>10am - 7pm</td>
+              </tr>
+              <tr id="week-day-5">
+                <th>Friday</th>
+                <td>10am - 7pm</td>
+              </tr>
+              <tr id="week-day-6">
+                <th>Saturday</th>
+                <td>9am - 5pm</td>
+              </tr>
+              <tr id="week-day-0">
+                <th>Sunday</th>
+                <td>Closed</td>
+              </tr>
+            </table>
+          </div>
         <div className="homecontact-book">
           <div className="homecontact-book-h4">BOOK</div>
           <a
