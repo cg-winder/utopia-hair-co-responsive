@@ -294,7 +294,7 @@
 
     .homedetail-subtext {
         line-height: 36px;
-        font-family: "italiana", serif;
+        font-family: "lato";
         font-size: 16px;
         text-align: center;
         color: white;
@@ -359,7 +359,7 @@
     .homestylists-header {
         margin: 0% 2%;
         line-height: 36px;
-        color: white;
+        color: whitesmoke;
         font-size: 37px;
         text-align: center;
         font-family: "italiana";
@@ -497,7 +497,7 @@
     }
 
     .homecontact-address {
-        margin-top: -4%;
+        margin-top: -7%;
     }
 
 
@@ -536,7 +536,8 @@
     }
 
     .homecontact-book {
-        margin-top: 5%
+        margin-top: 2%;
+        padding-bottom: 14%;
     }
 
     .homecontact-book-h4 {
@@ -561,8 +562,46 @@
     }
 
     /* HOMECONTACT QUERIES */
+    @media only screen and (min-width: 1300px) {
+        .homecontact-address-h4 {
+            font-size: 20.5px;
+        }
+
+        .homecontact-address-table {
+            line-height: 26px;
+            font-size: 14.5px;
+        }
+
+        .homecontact-openingtimes-h4 {
+            font-size: 18.5px;
+        }
+
+        .homecontact-weekdays {
+            line-height: 17px;
+            font-size: 13.5px;
+        }
+
+        .homecontact-book-h4 {
+            font-size: 20.5px;
+        }
+
+        .homecontact-book a {
+            font-size: 12.5px;
+            line-height: 11px;
+        }
+    }
 
     /* HomeContact Finish */
+
+    /* Testimonials */
+    .testimonials-page-wrap {
+        background-color: rgb(210, 193, 174);
+    }
+
+
+    /* TESTIMONIALS QUERIES */
+
+    /* Testimonials Finish */
 
 
 

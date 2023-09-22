@@ -278,7 +278,7 @@
 
     .homedetail-subtext {
         line-height: 22px;
-        font-family: "italiana", serif;
+        font-family: "lato";
         font-size: 15.5px;
         text-align: center;
         color: white;
@@ -365,7 +365,7 @@
     .homestylists-header {
         margin: 0% 2%;
         line-height: 28px;
-        color: white;
+        color: whitesmoke;
         font-size: 23px;
         text-align: center;
         font-family: "italiana";
@@ -620,6 +620,9 @@
 
 
     /* Testimonials */
+    .testimonials-page-wrap {
+        background-color: rgb(210, 193, 174);
+    }
 
 
     /* TESTIMONIALS QUERIES */

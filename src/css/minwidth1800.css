@@ -272,7 +272,7 @@
 
     .homedetail-subtext {
         line-height: 42px;
-        font-family: "italiana", serif;
+        font-family: "lato";
         font-size: 22px;
         text-align: center;
         color: white;
@@ -340,7 +340,7 @@
     .homestylists-header {
         margin: 0% 2%;
         line-height: 36px;
-        color: white;
+        color: whitesmoke;
         font-size: 40px;
         text-align: center;
         font-family: "italiana";
@@ -434,13 +434,13 @@
     }
 
     .homecontact-address {
-        margin-top: -4%;
+        margin-top: -6.8%;
     }
 
 
     .homecontact-address-h4 {
         color: white;
-        font-size: 25.5px;
+        font-size: 26.5px;
         text-align: center;
         margin-bottom: 4%;
     }
@@ -448,9 +448,9 @@
     .homecontact-address-table {
         list-style: none;
         color: rgb(157, 127, 127);
-        line-height: 35px;
+        line-height: 37px;
         text-align: center;
-        font-size: 17.5px;
+        font-size: 18.5px;
     }
 
     .homecontact-openingtimes {
@@ -460,25 +460,25 @@
 
     .homecontact-openingtimes-h4 {
         color: white;
-        font-size: 23.5px;
+        font-size: 24.5px;
         text-align: center;
         margin-bottom: 4%;
     }
 
     .homecontact-weekdays {
-        line-height: 23px;
-        font-size: 17px;
+        line-height: 26px;
+        font-size: 18px;
         color: rgb(157, 127, 127);
         text-align: center;
     }
 
     .homecontact-book {
-        margin-top: 5%
+        margin-top: 2.2%
     }
 
     .homecontact-book-h4 {
         color: white;
-        font-size: 25.5px;
+        font-size: 26.5px;
         text-align: center;
         margin-bottom: 4%;
     }
@@ -487,8 +487,8 @@
         display: flex;
         padding-top: 24%;
         text-decoration: none;
-        font-size: 16.5px;
-        line-height: 12px;
+        font-size: 17.5px;
+        line-height: 17px;
         color: rgb(157, 127, 127);
     }
 
@@ -500,6 +500,16 @@
     /* HOMECONTACT QUERIES */
 
     /* HomeContact Finish */
+
+    /* Testimonials */
+    .testimonials-page-wrap {
+        background-color: rgb(210, 193, 174);
+    }
+
+
+    /* TESTIMONIALS QUERIES */
+
+    /* Testimonials Finish */
 
 
 
