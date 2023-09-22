@@ -37,14 +37,14 @@
     .navbar-links {
         z-index: 99;
         position: relative;
-        margin: 5.8% 4% -2.4% 4%;
+        margin: 5.8% 4% -3.2% 4%;
         justify-content: space-between;
         display: flex;
         flex: 1;
     }
 
     .navbar-links a {
-        font-size: 88%;
+        font-size: 90%;
         text-decoration: none;
         color: white;
         display: flex;
@@ -69,7 +69,6 @@
     }
 
 
-
     .book-now-button span:hover {
         color: rgb(234, 194, 201);
         cursor: pointer;
@@ -80,20 +79,7 @@
         margin: 0 auto;
         z-index: 1;
         background-color: transparent;
-    }
-
-    @media only screen and (min-width:315px) {
-        .book-now-button span {
-            font-size: 14px;
-        }
-
-        .navbar-links {
-            margin-bottom: -3.2%;
-        }
-
-        .navbar-links a {
-            font-size: 84%;
-        }
+        font-size: 14px;
     }
 
     @media only screen and (min-width:360px) {
@@ -106,7 +92,7 @@
         }
 
         .navbar-links a {
-            font-size: 85%;
+            font-size: 99%;
         }
     }
 
@@ -120,7 +106,7 @@
         }
 
         .navbar-links a {
-            font-size: 98%;
+            font-size: 108%;
         }
     }
 
@@ -134,9 +120,6 @@
             margin-bottom: -2%;
         }
 
-        .navbar-links a {
-            font-size: 97%;
-        }
     }
 
     @media only screen and (min-width:450px) {
@@ -149,7 +132,7 @@
         }
 
         .navbar-links a {
-            font-size: 98%;
+            font-size: 108%;
         }
     }
 
@@ -157,7 +140,7 @@
 
     @media only screen and (min-width:480px) {
         .navbar-links a {
-            font-size: 99%;
+            font-size: 109%;
         }
 
         .navbar-links {
@@ -171,7 +154,7 @@
 
     @media only screen and (min-width:520px) {
         .navbar-links a {
-            font-size: 107%;
+            font-size: 117%;
         }
 
         .navbar-links {
@@ -185,7 +168,7 @@
 
     @media only screen and (min-width:550px) {
         .navbar-links a {
-            font-size: 108%;
+            font-size: 118%;
         }
 
         .navbar-links {
@@ -199,7 +182,7 @@
 
     @media only screen and (min-width:570px) {
         .navbar-links a {
-            font-size: 110%;
+            font-size: 120%;
         }
 
         .navbar-links {
@@ -290,13 +273,13 @@
         color: white;
         font-style: italic;
         font-family: "italiana";
-        font-size: 13px;
+        font-size: 14px;
     }
 
     .homedetail-subtext {
         line-height: 22px;
         font-family: "italiana", serif;
-        font-size: 12.5px;
+        font-size: 15.5px;
         text-align: center;
         color: white;
         margin: 2% 10%;
@@ -306,7 +289,7 @@
         display: flex;
         margin: 0 auto;
         width: 24%;
-        margin-bottom: 2%;
+        margin-bottom: 4%;
         background-color: #bcb2af;
         border: 1px solid whitesmoke;
         padding: 2% 2%;
@@ -344,14 +327,14 @@
         }
 
         .homedetail-subtext {
-            font-size: 14px;
+            font-size: 16px;
             margin: 2% 5%;
         }
     }
 
     @media only screen and (min-width: 410px) {
         .homedetail-subtext {
-            font-size: 14.5px
+            font-size: 16.5px
         }
     }
 
@@ -366,7 +349,7 @@
         }
 
         .homedetail-subtext {
-            font-size: 15px;
+            font-size: 17px;
         }
     }
 
@@ -374,7 +357,9 @@
 
     /* Home Stylists */
     .homestylists-wrap {
-        margin-top: 10%;
+        margin-top: 7%;
+        padding: 5% 0% 4% 0%;
+        background-color: rgb(211, 198, 183);
     }
 
     .homestylists-header {
@@ -390,7 +375,7 @@
         margin: 1% 3% 0% 3%;
         color: rgb(135, 110, 110);
         font-family: "lato";
-        font-size: 13px;
+        font-size: 16px;
         line-height: 26px;
         text-align: center;
     }
@@ -398,7 +383,8 @@
     .homestylists-button {
         display: flex;
         text-decoration: none;
-        margin: 2% auto;
+        margin: 1% auto;
+        margin-top: 3%;
         width: 32%;
         height: 3%;
         background-color: #bcb2af;
@@ -473,7 +459,7 @@
 
     @media only screen and (min-width: 500px) {
         .homestylists-subtext {
-            font-size: 15px;
+            font-size: 15.5px;
         }
 
         .homestylists-header {
@@ -486,9 +472,9 @@
     /* Home Contact */
     .homecontact-page-wrap {
         font-family: "italiana", serif;
-        border-top: 1px solid whitesmoke;
-        border-bottom: 1px solid whitesmoke;
-        margin: 10% 4%;
+        background-color: rgb(222, 209, 195);
+        border-top: 0px solid white;
+        border-bottom: 0px solid white;
     }
 
     .homecontact-banner {
@@ -509,7 +495,7 @@
 
     .homecontact-address-table {
         padding-top: 3%;
-        font-size: 13.5px;
+        font-size: 14.5px;
         margin: 0 auto;
         line-height: 20px;
         color: rgb(157, 127, 127);
@@ -575,7 +561,7 @@
         }
 
         .homecontact-address-table {
-            font-size: 14.5px;
+            font-size: 15.5px;
             line-height: 22px;
         }
 
@@ -605,7 +591,7 @@
         }
 
         .homecontact-address-table {
-            font-size: 15px;
+            font-size: 16px;
             line-height: 22.5px;
         }
 
