@@ -6,6 +6,7 @@
 
     body {
         background-color: rgb(214, 204, 190);
+        background-color: whitesmoke;
         width: 100%;
 
     }
@@ -103,10 +104,10 @@
         font-family: 'Italiana', serif;
         width: 120px;
         height: 35px;
-        border-radius: 2px;
+        /* border-radius: 2px; */
         color: white;
-        border: 1px solid white;
-        background-color: rgb(190, 181, 169);
+        border: 2px solid white;
+        background-color: rgb(202, 192, 180);
         /* background-color: transparent; */
         padding: 3.8% 1%;
         margin-right: 4%;
@@ -313,26 +314,53 @@
 
     /* HOME PAGE */
 
+    .homedetail-background-wrap {}
+
+    .homedetail-background {
+        z-index: -10;
+        height: 400px;
+        margin: 24% 40% 4% 0%;
+        width: 230px;
+        /* background-color: rgb(205, 199, 186); */
+        background-color: rgb(219, 210, 201);
+        position: absolute;
+    }
+
+    .homedetail-background-img {
+        height: 340px;
+        width: 280px;
+        display: flex;
+        margin: 36% 0% 0% 65%;
+        border-radius: 3px;
+        position: absolute;
+    }
+
+
     /* Home Detail */
 
     .homedetail-wrap {
-        background-color: rgb(205, 199, 186);
-        border: 1px solid white;
-        margin: 27% 5% 6% 5%;
+        z-index: 99;
+        border: 1px solid transparent;
+        /* background-color: rgb(205, 199, 186); */
+        /* background-color: whitesmoke; */
+        background-color: transparent;
+        margin: 28% 36% 6% 15%;
     }
 
     .homedetail-text {
         margin-top: 3%;
-        text-align: center;
-        font-size: 32px;
-        color: whitesmoke;
+        text-align: left;
+        font-size: 48px;
+        line-height: 31px;
+        text-transform: uppercase;
+        color: rgb(157, 127, 127);
         font-family: "italiana";
     }
 
     .homedetail-welcome {
-        text-align: center;
-        margin-top: 2%;
-        color: white;
+        text-align: left;
+        margin-top: 6%;
+        color: rgb(175, 154, 154);
         font-style: italic;
         font-family: "italiana";
         font-size: 18px;
@@ -341,19 +369,21 @@
     .homedetail-subtext {
         line-height: 25px;
         font-family: "lato";
-        font-size: 12px;
-        text-align: center;
-        color: white;
-        margin: 2% 5%;
+        font-size: 13px;
+        text-align: left;
+        color: rgb(157, 127, 127);
+        margin: 2% 0%;
     }
+
+
 
     .homedetail-book-button {
         display: flex;
-        margin: 0 auto;
-        margin-bottom: 2%;
+        margin-left: 0%;
+        margin-bottom: 3%;
         background-color: #bcb2af;
         border: 1px solid whitesmoke;
-        padding: 1% 1%;
+        padding: 2.5% 4%;
         color: white;
         font-family: "italiana", serif;
         font-size: 13px;
@@ -400,17 +430,19 @@
 
     /* Home Stylists */
     .homestylists-wrap {
-        margin-top: 7%;
-        padding: 7% 0% 9% 0%;
+        margin: 8% 3% 0% 3%;
+        padding: 4% 0% 5% 0%;
         background-color: rgb(211, 198, 183);
+        background-color: whitesmoke;
     }
 
     .homestylists-header {
-        margin: 0% 2%;
-        line-height: 36px;
-        color: whitesmoke;
-        font-size: 31px;
-        text-align: center;
+        margin: 0% 70% 0% 0%;
+        line-height: 28px;
+        color: rgb(197, 181, 172);
+        font-size: 47px;
+        text-align: left;
+        text-transform: uppercase;
         font-family: "italiana";
     }
 
@@ -422,10 +454,10 @@
 
 
     .homestylists-subtext {
-        margin: 8% 4% 0% 2%;
+        margin: 7% 4% 0% 2%;
         color: rgb(135, 110, 110);
         font-family: "lato";
-        font-size: 10.5px;
+        font-size: 12px;
         line-height: 38px;
         text-align: left;
     }
@@ -435,12 +467,12 @@
         text-decoration: none;
         margin-left: 4.5%;
         margin-top: -11%;
-        width: 13%;
+        width: 18%;
         height: 3%;
         background-color: #bcb2af;
         border: 1px solid whitesmoke;
-        padding: 1% 1%;
-        border-radius: 50px;
+        padding: 1.3% 1%;
+        border-radius: 1px;
         font-family: "italiana", serif;
         transition: 0.3s ease-in-out;
         box-shadow: inset 0 0 0 0 rgb(221, 211, 211);
@@ -448,7 +480,7 @@
 
     .homestylists-button span {
         color: white;
-        font-size: 10px;
+        font-size: 11px;
         padding-top: 0.5%;
         display: flex;
         margin: 0 auto;
@@ -463,10 +495,11 @@
 
 
     .homestylists-img {
-        width: 240px;
-        height: 220px;
+        width: 280px;
+        height: 280px;
         display: flex;
-        margin: 3% auto;
+        margin: 0% auto;
+
     }
 
     /* HOME STYLIST QUERIES*/
@@ -524,10 +557,10 @@
     /* HomeContact */
     .homecontact-page-wrap {
         animation: fade-in-left 2s ease;
-        margin: -2% 0% -4% 0%;
-        background-color: rgb(222, 209, 195);
-        border-top: 0px solid white;
-        border-bottom: 0px solid white;
+        /* background-color: rgb(222, 209, 195); */
+        background-color: whitesmoke;
+        border: 2.5px solid rgb(222, 209, 195);
+        margin: 3% 2%;
         font-family: 'italiana', serif;
     }
 
@@ -555,8 +588,9 @@
 
 
     .homecontact-address-h4 {
-        color: white;
-        font-size: 17px;
+        letter-spacing: 0.2em;
+        color: #b39991;
+        font-size: 20px;
         text-align: center;
         margin-bottom: 4%;
     }
@@ -566,7 +600,7 @@
         color: rgb(157, 127, 127);
         line-height: 23px;
         text-align: center;
-        font-size: 11px;
+        font-size: 13px;
     }
 
     .homecontact-openingtimes {
@@ -575,17 +609,22 @@
 
 
     .homecontact-openingtimes-h4 {
-        color: white;
-        font-size: 15px;
+        letter-spacing: 0.2em;
+        color: #b39991;
+        font-size: 18px;
         text-align: center;
         margin-bottom: 4%;
     }
 
     .homecontact-weekdays {
-        line-height: 13px;
-        font-size: 10px;
+        line-height: 15px;
+        font-size: 12px;
         color: rgb(157, 127, 127);
         text-align: center;
+    }
+
+    .opening-current-day {
+        color: rgb(210, 184, 189);
     }
 
     .homecontact-book {
@@ -593,23 +632,25 @@
     }
 
     .homecontact-book-h4 {
-        color: white;
-        font-size: 17px;
+        letter-spacing: 0.2em;
+        color: #b39991;
+        font-size: 20px;
         text-align: center;
         margin-bottom: 4%;
     }
 
     .homecontact-book a {
         display: flex;
-        padding-top: 24%;
+        padding-top: 21%;
         text-decoration: none;
-        font-size: 9px;
-        line-height: 11px;
+        font-size: 11px;
+        line-height: 13px;
         color: rgb(157, 127, 127);
+        margin-bottom: -9%
     }
 
     .homecontact-book a:hover {
-        color: white;
+        color: rgb(210, 184, 189);
         cursor: pointer;
     }
 
@@ -675,13 +716,343 @@
 
     /* HomeContact Finish */
 
+    /* HomeInstagram */
+
+    .homeinstagram {
+        margin-top: 4%;
+        background-color: rgb(219, 210, 201);
+    }
+
+    .homeinstagram-header {
+        text-align: center;
+        color: white;
+        letter-spacing: -.03em;
+        text-transform: uppercase;
+        font-family: "italiana", serif;
+        font-size: 45px;
+        margin: 0 auto;
+        padding-top: 6%;
+        margin-bottom: 6%;
+    }
+
+    .homeinstagram-widget {
+        margin: 0 auto;
+    }
+
+    /* Hair Carousel */
+
+
+    .hair-carousel-wrap {
+        margin: 0% 5%;
+    }
+
+    .carousel-container {
+        background-color: white;
+    }
+
+    .hair-carousel-img img {
+        /* display: flex;
+        margin: 0 auto; */
+        height: 60%;
+        width: 60%;
+        z-index: 99;
+    }
+
+    /* Hair Carousel Finish */
+
     /* Testimonials */
     .testimonials-page-wrap {
         background-color: rgb(210, 193, 174);
     }
 
+    .testimonials-header {
+        padding-top: 5%;
+        text-align: left;
+        text-transform: uppercase;
+        color: rgb(197, 181, 172);
+        margin: 0% 60% -13% 4%;
+        font-size: 43px;
+        line-height: 26px;
+    }
+
+    .testimonial-link {
+        font-family: "lato";
+        font-size: 14px;
+        padding: 3% 0% 4% 0%;
+        color: #bcb2af;
+        text-align: center;
+    }
+
+
+    *,
+    *:before,
+    *:after {
+        box-sizing: border-box;
+    }
+
+    html,
+    body {
+        height: 100%;
+    }
+
+    body {
+        color: white;
+        font-family: 'lato', serif;
+        line-height: 1.5;
+    }
+
+    .slider {
+        /* height: 100%; */
+        height: 28vh;
+        position: relative;
+        overflow: hidden;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-flex-flow: row nowrap;
+        -ms-flex-flow: row nowrap;
+        flex-flow: row nowrap;
+        -webkit-box-align: end;
+        -webkit-align-items: flex-end;
+        -ms-flex-align: end;
+        align-items: flex-end;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+
+    .slider-nav {
+        width: 8px;
+        height: 8px;
+        margin: 0% 2%;
+        z-index: 10;
+        outline: 6px solid pink;
+        outline-offset: -6px;
+        cursor: pointer;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+    }
+
+    .slider-nav:checked {
+        -webkit-animation: check 0.4s linear forwards;
+        animation: check 0.4s linear forwards;
+    }
+
+    .slider-nav:checked:nth-of-type(1)~.slider-inner {
+        left: 0%;
+    }
+
+    .slider-nav:checked:nth-of-type(2)~.slider-inner {
+        left: -100%;
+    }
+
+    .slider-nav:checked:nth-of-type(3)~.slider-inner {
+        left: -200%;
+    }
+
+    .slider-nav:checked:nth-of-type(4)~.slider-inner {
+        left: -300%;
+    }
+
+    .slider-nav:checked:nth-of-type(5)~.slider-inner {
+        left: -400%;
+    }
+
+    .slider-nav:checked:nth-of-type(6)~.slider-inner {
+        left: -500%;
+    }
+
+    .slider-inner {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 400%;
+        height: 100%;
+        -webkit-transition: left 0.4s;
+        transition: left 0.4s;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-flex-flow: row nowrap;
+        -ms-flex-flow: row nowrap;
+        flex-flow: row nowrap;
+    }
+
+    .slider-contents {
+        height: 100%;
+        padding: 4%;
+        text-align: center;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-flex: 1;
+        -webkit-flex: 1;
+        -ms-flex: 1;
+        flex: 1;
+        -webkit-flex-flow: column nowrap;
+        -ms-flex-flow: column nowrap;
+        flex-flow: column nowrap;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+
+
+    .slider-caption {
+        margin-top: 10%;
+        text-transform: uppercase;
+        font-size: 12px;
+        min-width: 325px;
+        color: #bcb2af;
+    }
+
+    .slider-text {
+        color: rgb(134, 110, 110);
+        font-size: 13.5px;
+        margin-bottom: 5.5%;
+        max-width: 300px;
+    }
+
+    #slide4,
+    #slide5,
+    #slide6 {
+        visibility: hidden;
+    }
+
+    #slide1 {
+        margin-left: 17%;
+    }
+
+    @-webkit-keyframes check {
+        50% {
+            outline-color: white;
+            box-shadow: 0 0 0 12px whitesmoke, 0 0 0 3px whitesmoke;
+
+        }
+
+        100% {
+            outline-color: white;
+            box-shadow: 0 0 0 12px whitesmoke, 0 0 0 3px whitesmoke;
+        }
+    }
+
+    @keyframes check {
+        50% {
+            outline-color: white;
+            box-shadow: 0 0 0 12px whitesmoke, 0 0 0 3px whitesmoke;
+        }
+
+        100% {
+            outline-color: white;
+            box-shadow: 0 0 0 0 whitesmoke, 0 0 0 0 whitesmoke;
+        }
+    }
 
     /* TESTIMONIALS QUERIES */
+    @media only screen and (min-width: 800px) {
+        .testimonials-header {
+            font-size: 39px;
+        }
+
+        .slider-caption {
+            margin-top: 10%;
+            text-transform: uppercase;
+            font-size: 11px;
+            min-width: 335px;
+        }
+
+        .slider-text {
+            font-size: 12.5px;
+        }
+
+    }
+
+    @media only screen and (min-width: 780px) {
+        .slider-contents {
+            padding: 4%;
+        }
+    }
+
+    @media only screen and (min-width: 810px) {
+        .slider-contents {
+            padding: 4.5%;
+        }
+
+
+    }
+
+    @media only screen and (min-width: 830px) {
+        .testimonials-header {
+            font-size: 36px;
+        }
+
+        .slider-contents {
+            padding: 5%;
+        }
+
+        .slider-text {
+            font-size: 12.5px;
+        }
+
+    }
+
+    @media only screen and (min-width: 850px) {
+        .slider-contents {
+            padding: 5.4%;
+        }
+    }
+
+    @media only screen and (min-width: 880px) {
+        .slider-contents {
+            padding: 6%;
+        }
+    }
+
+    @media only screen and (min-width: 900px) {
+        .slider-contents {
+            padding: 6.5%;
+        }
+    }
+
+    @media only screen and (min-width: 920px) {
+        .slider-contents {
+            padding: 6.8%;
+        }
+    }
+
+    @media only screen and (min-width: 940px) {
+        .slider-contents {
+            padding: 7.4%;
+        }
+    }
+
+    @media only screen and (min-width: 960px) {
+        .slider-contents {
+            padding: 7.8%;
+        }
+    }
+
+    @media only screen and (min-width: 980px) {
+        .slider-contents {
+            padding: 8.2%;
+        }
+
+        .testimonials-header {
+            margin-bottom: -15%;
+        }
+    }
 
     /* Testimonials Finish */
 
@@ -726,21 +1097,21 @@
 
 
     .team-book-now-button {
-        width: 80px;
-        height: 30px;
+        width: 100px;
+        height: 50px;
         display: inline-flex;
         border-radius: 50px;
-        font-size: 7.5px;
+        font-size: 9.5px;
         color: whitesmoke;
-        border: 1px solid rgb(135, 110, 110);
+        border: 1px solid white;
         background-color: #d1cac7;
-        padding: 0.7% 2%;
+        padding: 1.7% 2%;
         position: relative;
         transition: 0.3s ease-in-out;
         box-shadow: inset 0 0 0 0 #D3C4BE;
         cursor: pointer;
         font-family: "lato";
-        margin-left: 2%;
+        margin-left: 5%;
     }
 
     .team-book-now-button span {
@@ -752,15 +1123,15 @@
 
     .team-book-now-button:hover {
         color: rgb(135, 110, 110);
-        border: 1px solid rgb(135, 110, 110);
+        border: 2px solid white;
         box-shadow: inset 140px 0 0 0 #D3C4BE;
     }
 
     .team-social-button a {
-        width: 30px;
-        height: 30px;
+        width: 50px;
+        height: 50px;
         background: transparent;
-        border: 1px solid rgb(135, 110, 110);
+        border: 1px solid white;
         background-color: #d1cac7;
         display: inline-flex;
         border-radius: 50%;
@@ -768,13 +1139,12 @@
         align-items: center;
         justify-content: center;
         line-height: 1;
-        border: 1px solid rgb(135, 110, 110);
     }
 
     .team-social-button a::before {
         content: "";
-        width: 30px;
-        height: 30px;
+        width: 50px;
+        height: 50px;
         position: absolute;
         background-color: #cec4c1;
         border: 2px solid white;
@@ -785,7 +1155,7 @@
 
     .team-social-button a:hover::before {
         transform: scale(1);
-        border: 2px solid rgb(135, 110, 110);
+        border: 2px solid white;
         box-shadow: inset 140px 0 0 0 #D3C4BE;
     }
 
@@ -817,12 +1187,11 @@
         font-size: 14px;
         color: rgb(135, 110, 110);
         border: 1px solid rgb(134, 110, 110);
-        border: 1px solid whitesmoke;
     }
 
     .treatment-type span {
         margin: 0 auto;
-        padding-top: 16%;
+        padding-top: 13%;
     }
 
     .treatment-type-erin {
@@ -831,27 +1200,28 @@
         font-size: 8.5px;
         display: inline-flex;
         color: rgb(135, 110, 110);
-        border: 1px solid whitesmoke;
+        border: 1px solid rgb(134, 110, 110);
         margin-left: 7%;
     }
 
     .treatment-type-erin span {
         margin: 0 auto;
-        padding-top: 14%;
+        padding-top: 11%;
         text-align: center;
     }
 
     /* Team profiles */
     .team-h2 {
-        color: white;
-        font-size: 25px;
-        margin: 3.4% 0% 0% 3%;
+        color: rgb(210, 184, 189);
+        font-size: 29px;
+        letter-spacing: 0.10em;
+        margin: -1% 0% 0% 3%;
         /* font-family: "playfair display"; */
     }
 
     .team-pics img {
-        height: 200px;
-        width: 200px;
+        height: 260px;
+        width: 260px;
         display: flex;
         padding-bottom: 3.5%;
         margin-left: 6%
@@ -865,6 +1235,7 @@
         padding-bottom: 5%;
         margin-right: 8%;
         font-family: "playfair display";
+        letter-spacing: 0.05em;
     }
 
     /*TEAM MEDIA QUERIES*/
@@ -887,7 +1258,7 @@
         width: 100%;
         font-family: "lato";
         color: rgb(134, 112, 112);
-        background-color: rgb(218, 208, 196);
+        background-color: rgb(224, 220, 211);
         animation: fade-in-left 2s ease;
     }
 
@@ -967,16 +1338,17 @@
 
 
     .footer-socials img {
-        height: 31px;
-        width: 31px;
+        height: 41px;
+        width: 41px;
         padding: 0px 9px;
         margin-right: 15px;
         max-width: 100%;
     }
 
     .tiktok-footer img {
-        max-width: 100%;
-        /* display: block; */
+        width: 45px;
+        height: 30px;
+        margin-bottom: 5px;
     }
 
     .sitemap {
@@ -1055,7 +1427,7 @@
 
     .footer-disclaimer {
         color: rgb(105, 88, 88);
-        background-color: rgb(214, 204, 190);
+        background-color: rgb(224, 220, 211);
         text-align: center;
         font-size: 6px;
         padding-bottom: 0.2%;

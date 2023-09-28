@@ -6,6 +6,7 @@
 
     body {
         background-color: rgb(214, 204, 190);
+        background-color: whitesmoke;
         width: 100%;
     }
 
@@ -535,6 +536,10 @@
         text-align: center;
     }
 
+    .opening-current-day {
+        color: whitesmoke;
+    }
+
     .homecontact-book {
         margin-top: 2%;
         padding-bottom: 14%;
@@ -593,13 +598,234 @@
 
     /* HomeContact Finish */
 
+ 
     /* Testimonials */
     .testimonials-page-wrap {
         background-color: rgb(210, 193, 174);
     }
 
+    .testimonials-header {
+        padding-top: 13%;
+        margin-bottom: -12%;
+        font-size: 40px;
+    }
+
+    .testimonial-link {
+        font-family: "lato";
+        font-size: 14px;
+        padding: 3% 0% 4% 0%;
+        color: rgb(253, 253, 253);
+        text-align: center;
+    }
+
+
+    *,
+    *:before,
+    *:after {
+        box-sizing: border-box;
+    }
+
+    html,
+    body {
+        height: 100%;
+    }
+
+    body {
+        color: white;
+        font-family: 'lato', serif;
+        line-height: 1.5;
+    }
+
+    .slider {
+        /* height: 100%; */
+        height: 28vh;
+        position: relative;
+        overflow: hidden;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-flex-flow: row nowrap;
+        -ms-flex-flow: row nowrap;
+        flex-flow: row nowrap;
+        -webkit-box-align: end;
+        -webkit-align-items: flex-end;
+        -ms-flex-align: end;
+        align-items: flex-end;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+
+    .slider-nav {
+        width: 10px;
+        height: 10px;
+        margin: 0% 2%;
+        z-index: 10;
+        outline: 6px solid pink;
+        outline-offset: -6px;
+        cursor: pointer;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+    }
+
+    .slider-nav:checked {
+        -webkit-animation: check 0.4s linear forwards;
+        animation: check 0.4s linear forwards;
+    }
+
+    .slider-nav:checked:nth-of-type(1)~.slider-inner {
+        left: 0%;
+    }
+
+    .slider-nav:checked:nth-of-type(2)~.slider-inner {
+        left: -100%;
+    }
+
+    .slider-nav:checked:nth-of-type(3)~.slider-inner {
+        left: -200%;
+    }
+
+    .slider-nav:checked:nth-of-type(4)~.slider-inner {
+        left: -300%;
+    }
+
+    .slider-nav:checked:nth-of-type(5)~.slider-inner {
+        left: -400%;
+    }
+
+    .slider-nav:checked:nth-of-type(6)~.slider-inner {
+        left: -500%;
+    }
+
+    .slider-inner {
+        position: absolute;
+        top: 0;
+        left: 10;
+        width: 400%;
+        height: 100%;
+        -webkit-transition: left 0.4s;
+        transition: left 0.4s;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-flex-flow: row nowrap;
+        -ms-flex-flow: row nowrap;
+        flex-flow: row nowrap;
+    }
+
+    .slider-contents {
+        height: 100%;
+        padding: 6.3%;
+        text-align: center;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-flex: 1;
+        -webkit-flex: 1;
+        -ms-flex: 1;
+        flex: 1;
+        -webkit-flex-flow: column nowrap;
+        -ms-flex-flow: column nowrap;
+        flex-flow: column nowrap;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+
+
+    .slider-caption {
+        margin-top: 10%;
+        text-transform: uppercase;
+        font-size: 12px;
+        min-width: 250px;
+    }
+
+    .slider-text {
+        color: rgb(134, 110, 110);
+        font-size: 13.5px;
+        margin-bottom: 5.5%;
+        max-width: 210px;
+    }
+
+    #slide3,
+    #slide4,
+    #slide5,
+    #slide6 {
+        visibility: hidden;
+    }
+
+    #slide1 {
+        margin-left: 21.5%;
+    }
+
+    @-webkit-keyframes check {
+        50% {
+            outline-color: white;
+            box-shadow: 0 0 0 12px whitesmoke, 0 0 0 3px whitesmoke;
+
+        }
+
+        100% {
+            outline-color: white;
+            box-shadow: 0 0 0 12px whitesmoke, 0 0 0 3px whitesmoke;
+        }
+    }
+
+    @keyframes check {
+        50% {
+            outline-color: white;
+            box-shadow: 0 0 0 12px whitesmoke, 0 0 0 3px whitesmoke;
+        }
+
+        100% {
+            outline-color: white;
+            box-shadow: 0 0 0 0 whitesmoke, 0 0 0 0 whitesmoke;
+        }
+    }
+
 
     /* TESTIMONIALS QUERIES */
+    @media only screen and (min-width: 1220px) {
+        .slider-contents {
+            padding: 6.6%;
+        }
+    }
+
+    @media only screen and (min-width: 1260px) {
+        .slider-contents {
+            padding: 6.8%;
+        }
+    }
+
+    @media only screen and (min-width: 1280px) {
+        .slider-contents {
+            padding: 7.1%;
+        }
+    }
+
+    @media only screen and (min-width: 1300px) {
+        .slider-contents {
+            padding: 7.2%;
+        }
+    }
+
+    @media only screen and (min-width: 1340px) {
+        .slider-contents {
+            padding: 7.5%;
+        }
+    }
 
     /* Testimonials Finish */
 
@@ -868,16 +1094,17 @@
     }
 
     .footer-socials img {
-        height: 35px;
-        width: 35px;
+        height: 50px;
+        width: 50px;
         padding: 0px 11px;
         margin-right: 17px;
         max-width: 100%;
     }
 
     .tiktok-footer img {
-        max-width: 100%;
-        /* display: block; */
+        width: 48px;
+        height: 35px;
+        margin-bottom: 7px;
     }
 
     .sitemap {
