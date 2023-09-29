@@ -11,7 +11,7 @@ const Testimonials = () => {
   <input type="radio" name="slider" id="slide3" className="slider-nav"/>
   <input type="radio" name="slider" id="slide4" className="slider-nav"/>
   <input type="radio" name="slider" id="slide5" className="slider-nav"/>
-  <input type="radio" name="slider" id="slide5" className="slider-nav"/>
+  <input type="radio" name="slider" id="slide6" className="slider-nav"/>
   <div className="slider-inner">
     <div className="slider-contents"><i className="slider_image fa-regular fa-heart fa-beat-fade"></i>
       <h2 className="slider-caption">Sophie E.</h2>
