@@ -322,8 +322,6 @@
 
     /* HOME PAGE */
 
-    .homedetail-background-wrap {}
-
     .homedetail-background {
         z-index: -10;
         height: 400px;
@@ -852,6 +850,7 @@
 
     .testimonial-link:hover {
         cursor: pointer;
+        color: rgb(221, 191, 196);
     }
 
 
@@ -1159,11 +1158,13 @@
     }
 
 
+
+
     /* Team buttons */
 
     .team-buttons {
         display: flex;
-        margin-left: 1%;
+        margin-left: 8%;
     }
 
 
@@ -1171,18 +1172,19 @@
         width: 100px;
         height: 50px;
         display: inline-flex;
-        border-radius: 50px;
-        font-size: 9.5px;
-        color: whitesmoke;
-        border: 1px solid white;
-        background-color: #d1cac7;
+        font-size: 10px;
+        font-weight: 300;
+        color: #b0a9a6;
+        border: 2px solid #d1cac7;
+        background-color: #ecebeb;
         padding: 1.7% 2%;
         position: relative;
         transition: 0.3s ease-in-out;
         box-shadow: inset 0 0 0 0 #D3C4BE;
         cursor: pointer;
-        font-family: "lato";
-        margin-left: 5%;
+        font-family: "playfair display";
+        margin-left: 3%;
+        border-radius: 0px;
     }
 
     .team-book-now-button span {
@@ -1193,20 +1195,20 @@
     }
 
     .team-book-now-button:hover {
-        color: rgb(135, 110, 110);
+        color: white;
         border: 2px solid white;
-        box-shadow: inset 140px 0 0 0 #D3C4BE;
+        box-shadow: inset 140px 0 0 0 #eae6e4;
     }
 
     .team-social-button a {
         width: 50px;
         height: 50px;
-        background: transparent;
-        border: 1px solid white;
-        background-color: #d1cac7;
+        border: 2px solid #d1cac7;
+        background-color: #ecebeb;
         display: inline-flex;
         border-radius: 50%;
-        margin-left: 3%;
+        border-radius: 0%;
+        margin-left: 0%;
         align-items: center;
         justify-content: center;
         line-height: 1;
@@ -1217,9 +1219,9 @@
         width: 50px;
         height: 50px;
         position: absolute;
-        background-color: #cec4c1;
+        background-color: #dcd3d1;
         border: 2px solid white;
-        border-radius: 50%;
+        border-radius: 0%;
         transform: scale(0);
         transition: 0.3s ease-in-out;
     }
@@ -1227,37 +1229,38 @@
     .team-social-button a:hover::before {
         transform: scale(1);
         border: 2px solid white;
-        box-shadow: inset 140px 0 0 0 #D3C4BE;
+        box-shadow: inset 140px 0 0 0 #eae6e4;
     }
 
     .team-social-button a img {
         width: 45%;
         z-index: 1;
         transition: 0.3s ease-in-out;
-        background-color: transparent;
+        background-color: #eae6e4;
     }
 
     .team-social-button a:hover img {
         outline: none;
-        background-color: #cec4c1;
+        background-color: #eae6e4;
     }
 
 
     /* Team treatment type */
 
-    .flex-name-treatment {
-        margin: 24% 0% 0% 10%;
-        display: flex;
-    }
+
 
     .treatment-type {
-        width: 70px;
-        height: 35px;
-        margin-left: 6%;
+        font-family: "playfair display";
+        width: 100px;
+        height: 50px;
+        font-size: 20px;
+        font-weight: 300;
+        color: #b0a9a6;
+        border: 2px solid #d1cac7;
+        background-color: #ecebeb;
+        padding: 0% 2%;
+        margin-left: 3%;
         display: inline-flex;
-        font-size: 14px;
-        color: rgb(135, 110, 110);
-        border: 1px solid rgb(134, 110, 110);
     }
 
     .treatment-type span {
@@ -1266,13 +1269,17 @@
     }
 
     .treatment-type-erin {
-        width: 85px;
-        height: 38px;
-        font-size: 8.5px;
+        font-family: "playfair display";
+        width: 100px;
+        height: 50px;
+        font-size: 9px;
+        font-weight: 300;
+        color: #b0a9a6;
+        border: 2px solid #d1cac7;
+        background-color: #ecebeb;
+        padding: 0% 2%;
+        margin-left: 3%;
         display: inline-flex;
-        color: rgb(135, 110, 110);
-        border: 1px solid rgb(134, 110, 110);
-        margin-left: 7%;
     }
 
     .treatment-type-erin span {
@@ -1283,30 +1290,33 @@
 
     /* Team profiles */
     .team-h2 {
-        color: rgb(210, 184, 189);
-        font-size: 29px;
+        font-family: "playfair display";
+        font-weight: 100;
+        color: rgb(167, 146, 150);
+        font-size: 39px;
         letter-spacing: 0.10em;
-        margin: -1% 0% 0% 3%;
+        margin: 27% 0% 0% 10%;
         /* font-family: "playfair display"; */
     }
 
     .team-pics img {
-        height: 260px;
-        width: 260px;
+        height: 370px;
+        width: 370px;
         display: flex;
         padding-bottom: 3.5%;
+        margin-top: 3%;
         margin-left: 6%
     }
 
     .team-about {
         color: rgb(135, 110, 110);
-        font-size: 11px;
-        line-height: 2.1;
-        margin: -2% 1%;
-        padding-bottom: 5%;
-        margin-right: 8%;
+        font-size: 15px;
+        line-height: 2.5;
+        margin: -2% 3%;
+        padding-bottom: 13%;
+        margin-right: 10%;
         font-family: "playfair display";
-        letter-spacing: 0.05em;
+        letter-spacing: -0.03em;
     }
 
     /*TEAM MEDIA QUERIES*/

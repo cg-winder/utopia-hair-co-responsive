@@ -1,10 +1,8 @@
 import profileplaceholder from "../imgs/profile-placeholder.jpeg";
 import instagramlogo from "/Users/chloewinder/Desktop/ /Code/Projects/utopia-hair-co-responsive/src/components/imgs/nav-icon3-instagram.svg"
 import React from "react";
-import nicola from "../imgs/nicola.jpeg";
-import ellie from "../imgs/ellie.jpeg";
-import erin from "../imgs/erin.jpeg";
-import millie from "../imgs/millie.jpeg";
+
+
 
 const TeamGirls = () => {
   return (
@@ -12,14 +10,9 @@ const TeamGirls = () => {
       <div className="team-girls">
         <div className="team-pic-name-flex">
                   <div className="team-pics">
-                    <img src={nicola} />
+                    <img src={profileplaceholder} />
                   </div>
-                    <div className="flex-name-treatment">
                       <h2 className="team-h2">NICOLA</h2>
-                      <div className="treatment-type">
-                        <span>HAIR</span>
-                      </div>
-                    </div>
                   </div>
                   <div className="team-buttons">
                     <div className="team-social-button">
@@ -37,6 +30,9 @@ const TeamGirls = () => {
                     >
                       BOOK WITH NICOLA
                     </button>
+                    <div className="treatment-type">
+                        <span>HAIR</span>
+                      </div>
                   </div>
            
           <div className="team-about">
@@ -55,12 +51,7 @@ const TeamGirls = () => {
               <div className="team-pics">
                   <img src={profileplaceholder} />
                 </div>
-              <div className="flex-name-treatment">
                 <h2 className="team-h2">ALANNAH</h2>
-                <div className="treatment-type">
-                  <span>HAIR</span>
-                </div>
-              </div>
             </div>
             <div className="team-buttons">
               <div className="team-social-button">
@@ -78,6 +69,9 @@ const TeamGirls = () => {
               >
                 BOOK WITH ALANNAH
               </button>
+              <div className="treatment-type">
+                  <span>HAIR</span>
+                </div>
             </div>
       
           <div className="team-about">
@@ -89,14 +83,9 @@ const TeamGirls = () => {
       <div className="team-girls">
       <div className="team-pic-name-flex">
               <div className="team-pics">
-                  <img src={ellie} />
+                  <img src={profileplaceholder} />
                 </div>
-              <div className="flex-name-treatment">
                 <h2 className="team-h2">ELLIE</h2>
-                <div className="treatment-type">
-                  <span>HAIR</span>
-                </div>
-              </div>
             </div>
             <div className="team-buttons">
               <div className="team-social-button">
@@ -114,6 +103,9 @@ const TeamGirls = () => {
               >
                 BOOK WITH ELLIE
               </button>
+              <div className="treatment-type">
+                  <span>HAIR</span>
+                </div>
             </div>
         
           <div className="team-about">
@@ -126,15 +118,10 @@ const TeamGirls = () => {
       <div className="team-girls">
       <div className="team-pic-name-flex">
             <div className="team-pics">
-                  <img src={erin} />
+                  <img src={profileplaceholder} />
                 </div>
-              <div className="flex-name-treatment">
                 <h2 className="team-h2">ERIN</h2>
-                <div className="treatment-type-erin">
-                  <span>NAILS, LASHES & BROWS</span>
-                </div>
-              </div>
-            </div>
+             </div>
             <div className="team-buttons">
               <div className="team-social-button">
                 <a href="https://www.instagram.com/beautybyerinobrien/">
@@ -151,6 +138,9 @@ const TeamGirls = () => {
               >
                 BOOK WITH ERIN
               </button>
+              <div className="treatment-type-erin">
+                  <span>NAILS, LASHES & BROWS</span>
+                </div>
             </div>
         
           <div className="team-about">
@@ -165,14 +155,9 @@ const TeamGirls = () => {
         <div className="team-girls">
       <div className="team-pic-name-flex">
             <div className="team-pics">
-                  <img src={millie} />
+                  <img src={profileplaceholder} />
                 </div>
-              <div className="flex-name-treatment">
                 <h2 className="team-h2">MILLIE</h2>
-                <div className="treatment-type">
-                  <span>BROWS</span>
-                </div>
-              </div>
             </div>
             <div className="team-buttons">
               <div className="team-social-button">
@@ -190,8 +175,10 @@ const TeamGirls = () => {
               >
                 BOOK WITH MILLIE
               </button>
+              <div className="treatment-type">
+                  <span>BROWS</span>
+                </div>
             </div>
-       
           <div className="team-about">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
               iaculis vel magna a consequat. Cras at neque a lacus egestas
