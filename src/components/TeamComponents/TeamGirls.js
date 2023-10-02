@@ -12,7 +12,10 @@ const TeamGirls = () => {
                   <div className="team-pics">
                     <img src={profileplaceholder} />
                   </div>
-                      <h2 className="team-h2">NICOLA</h2>
+                  <div className="team-name-title">
+                        <h2 className="team-h2">NICOLA</h2>
+                        <div className="team-title">Owner & Senior Stylist</div>
+                  </div>
                   </div>
                   <div className="team-buttons">
                     <div className="team-social-button">
@@ -41,8 +44,9 @@ const TeamGirls = () => {
             Fast forward 10 years, I can’t believe I have opened the salon of my
             dreams in the most beautiful space. I’m so grateful to have built up
             such a lovely, loyal clientele that have turned into friends over
-            the years. I specialise in free hand balayage, blondes and vivid
-            hair colours but love all aspects of hair!
+            the years.
+            <p className="team-specialise">Specialises in: free hand balayage, blondes and vivid
+            hair colours but I love all aspects of hair! </p>
           </div>
       </div>
 
@@ -51,7 +55,10 @@ const TeamGirls = () => {
               <div className="team-pics">
                   <img src={profileplaceholder} />
                 </div>
-                <h2 className="team-h2">ALANNAH</h2>
+                <div className="team-name-title">
+                        <h2 className="team-h2">ALANNAH</h2>
+                        <div className="team-title">Junior Stylist</div>
+                  </div>
             </div>
             <div className="team-buttons">
               <div className="team-social-button">
@@ -75,8 +82,8 @@ const TeamGirls = () => {
             </div>
       
           <div className="team-about">
-            I'm Alannah, a self employed hair stylist based at Utopia Hair Co. I
-            specialise in blondes and balayage.
+            I'm Alannah, a self employed hair stylist based at Utopia Hair Co. 
+            <p className="team-specialise">Specialises in: blondes and balayage. </p>
           </div>
       </div>
 
@@ -85,7 +92,10 @@ const TeamGirls = () => {
               <div className="team-pics">
                   <img src={profileplaceholder} />
                 </div>
-                <h2 className="team-h2">ELLIE</h2>
+                <div className="team-name-title">
+                        <h2 className="team-h2">ELLIE</h2>
+                        <div className="team-title">Junior Stylist</div>
+                  </div>
             </div>
             <div className="team-buttons">
               <div className="team-social-button">
@@ -112,6 +122,7 @@ const TeamGirls = () => {
             I'm a self employed hair stylist, waiting to start you on your new
             hair journey. Passionate about all things colour, cutting and hair
             design, I rent a chair on a Friday 10-7 at Utopia Hair Co.
+            <p className="team-specialise">Specialises in: </p>
           </div>
       </div>
 
@@ -120,7 +131,10 @@ const TeamGirls = () => {
             <div className="team-pics">
                   <img src={profileplaceholder} />
                 </div>
-                <h2 className="team-h2">ERIN</h2>
+                <div className="team-name-title">
+                        <h2 className="team-h2">ERIN</h2>
+                        <div className="team-title">Nail Technician</div>
+                  </div>
              </div>
             <div className="team-buttons">
               <div className="team-social-button">
@@ -145,10 +159,11 @@ const TeamGirls = () => {
         
           <div className="team-about">
             I am a qualified beautician passionate about selfcare and all things
-            beauty. I specialise in a variety of nail treatments such as Bulider
-            gel, gel polish and gel toes. I am based at Utopia Hair Co. on
+            beauty. I am based at Utopia Hair Co. on
             Wednesdays, Thursdays and Fridays. All you have to do is sit back
             and relax!
+            <p className="team-specialise">Specialises in: bulider
+            gel, gel polish and gel toes. </p>
           </div>
         </div>
 
@@ -157,7 +172,10 @@ const TeamGirls = () => {
             <div className="team-pics">
                   <img src={profileplaceholder} />
                 </div>
-                <h2 className="team-h2">MILLIE</h2>
+                <div className="team-name-title">
+                        <h2 className="team-h2">MILLIE</h2>
+                        <div className="team-title">Brow Technician</div>
+                  </div>
             </div>
             <div className="team-buttons">
               <div className="team-social-button">
@@ -184,6 +202,7 @@ const TeamGirls = () => {
               iaculis vel magna a consequat. Cras at neque a lacus egestas
               porttitor. Integer sed lacus scelerisque, pretium tellus vitae,
               venenatis sem. Sed pretium est enim, et feugiat felis ultrices ut.
+              <p className="team-specialise">Specialises in:  </p>
           </div>
         </div>
     </div>
