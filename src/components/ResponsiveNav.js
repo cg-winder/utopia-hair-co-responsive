@@ -1,52 +1,36 @@
 import React, { useState } from 'react';
 import { Button } from './NavComponents/Button';
 import { Link } from 'react-router-dom';
-import '../css/Navbar.css';
+import '../css/Navbar.css'
 import lightsign from "./imgs/utopialight.png";
 import salon from "./imgs/salonpic3.jpeg";
 import salonstretch from "./imgs/salonstretch.jpeg"
 
-
 function Navbar() {
   const [click, setClick] = useState(false);
-  const [dropdown, setDropdown] = useState(false);
+
 
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
 
-  const onMouseEnter = () => {
-    if (window.innerWidth < 1280) {
-      setDropdown(false);
-    } else {
-      setDropdown(true);
-    }
-  };
-
-  const onMouseLeave = () => {
-    if (window.innerWidth < 1280) {
-      setDropdown(false);
-    } else {
-      setDropdown(false);
-    }
-  };
 
   return (
     <>
       <nav className='navbar'>
-      <a href="/home">
-        <img className="navbar-logo" src={lightsign} />
-      </a>
+        <a href="/home" className='logo'>
+            <img src={lightsign}  />
+        </a>
       <picture className="nav-img">
           <source media="(min-width:1348px)" srcSet={salonstretch}/>
           <img src={salon}/>
         </picture>
-        <div className='menu-icon' onClick={handleClick}>
+        <div className='nav-menu-icon' onClick={handleClick}>
           <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
         </div>
         <ul className={click ? 'nav-menu active' : 'nav-menu'}>
-          <li className='nav-item'>
+          <li className='nav-item' id="nav-item-1">
             <Link to='/home' className='nav-links' onClick={closeMobileMenu}>
-              Home
+                <span>Home</span>
             </Link>
           </li>
           <li
@@ -57,7 +41,7 @@ function Navbar() {
               className='nav-links'
               onClick={closeMobileMenu}
             >
-              The Salon 
+               <span>The Salon</span>
             </Link>
           </li>
           <li className='nav-item'>
@@ -66,7 +50,7 @@ function Navbar() {
               className='nav-links'
               onClick={closeMobileMenu}
             >
-              Services
+               <span>Services</span>
             </Link>
           </li>
           <li className='nav-item'>
@@ -75,16 +59,16 @@ function Navbar() {
               className='nav-links'
               onClick={closeMobileMenu}
             >
-              Meet The Team
+             <span>Meet The Team</span>
             </Link>
           </li>
           <li>
             <Link
               to='https://linktr.ee/utopiahairco'
-              className='nav-links-mobile'
+              className='nav-booking-mobile'
               onClick={closeMobileMenu}
             >
-              Book Now
+             Book Now
             </Link>
           </li>
         </ul>

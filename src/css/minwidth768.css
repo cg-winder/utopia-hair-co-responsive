@@ -630,7 +630,7 @@
         background-color: rgb(239, 238, 237);
         border: 2.5px solid rgb(222, 209, 195);
         margin: 4% 2%;
-        border-radius: 2px;
+        border-radius: 8px;
         font-family: 'playfair display', serif;
     }
 
@@ -1341,6 +1341,8 @@
         margin-top: 3%;
         margin-left: 6%
     }
+
+
 
     .team-about {
         color: rgb(167, 146, 150);

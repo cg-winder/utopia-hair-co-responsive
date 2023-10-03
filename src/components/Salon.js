@@ -1,5 +1,4 @@
 import React from "react";
-import SalonCarousel from "./SalonComponents/SalonCarousel";
 import SalonTreatments from "./SalonComponents/SalonTreatments";
 import SalonContent from "./SalonComponents/SalonContent";
 import InstagramEmbed from "./InstagramEmbeds/UtopiaInstagramEmbed";
@@ -15,7 +14,6 @@ const Salon = () => {
       <SalonContent />
       <SalonTreatments />
       <SalonInfo />
-      <SalonCarousel />
       <SalonContact />
       <InstagramEmbed />
     </div>

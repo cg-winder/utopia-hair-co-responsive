@@ -1,6 +1,11 @@
 import profileplaceholder from "../imgs/profile-placeholder.jpeg";
 import instagramlogo from "/Users/chloewinder/Desktop/ /Code/Projects/utopia-hair-co-responsive/src/components/imgs/nav-icon3-instagram.svg"
 import React from "react";
+import alannah from "../imgs/final-alannah.png"
+import erin from "../imgs/final-erin.png"
+import ellie from "../imgs/final-ellie.png"
+
+
 
 
 
@@ -10,7 +15,7 @@ const TeamGirls = () => {
       <div className="team-girls">
         <div className="team-pic-name-flex">
                   <div className="team-pics">
-                    <img src={profileplaceholder} />
+                    <img src={profileplaceholder} id="nicola"/>
                   </div>
                   <div className="team-name-title">
                         <h2 className="team-h2">NICOLA</h2>
@@ -53,7 +58,7 @@ const TeamGirls = () => {
       <div className="team-girls">
       <div className="team-pic-name-flex">
               <div className="team-pics">
-                  <img src={profileplaceholder} />
+                  <img src={alannah} id="alannah"/>
                 </div>
                 <div className="team-name-title">
                         <h2 className="team-h2">ALANNAH</h2>
@@ -90,7 +95,7 @@ const TeamGirls = () => {
       <div className="team-girls">
       <div className="team-pic-name-flex">
               <div className="team-pics">
-                  <img src={profileplaceholder} />
+                  <img src={ellie} id="ellie"/>
                 </div>
                 <div className="team-name-title">
                         <h2 className="team-h2">ELLIE</h2>
@@ -129,7 +134,7 @@ const TeamGirls = () => {
       <div className="team-girls">
       <div className="team-pic-name-flex">
             <div className="team-pics">
-                  <img src={profileplaceholder} />
+                  <img src={erin} id="erin"/>
                 </div>
                 <div className="team-name-title">
                         <h2 className="team-h2">ERIN</h2>
@@ -170,7 +175,7 @@ const TeamGirls = () => {
         <div className="team-girls">
       <div className="team-pic-name-flex">
             <div className="team-pics">
-                  <img src={profileplaceholder} />
+                  <img src={profileplaceholder} id="millie"/>
                 </div>
                 <div className="team-name-title">
                         <h2 className="team-h2">MILLIE</h2>

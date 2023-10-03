@@ -4,6 +4,7 @@ import NavSocialBooking from "./NavComponents/NavSocialBooking";
 import lightsign from "./imgs/utopialight.png";
 import salon from "./imgs/salonpic3.jpeg";
 import salonstretch from "./imgs/salonstretch.jpeg"
+import ResponsiveNav from "./ResponsiveNav";
 
 const Nav = () => {
   return (
@@ -11,8 +12,6 @@ const Nav = () => {
       <a href="/home">
         <img className="navbar-logo" src={lightsign} />
       </a>
-      <NavLinks />
-      <NavSocialBooking />
         <picture className="nav-img">
           <source media="(min-width:1348px)" srcSet={salonstretch}/>
           <img src={salon}/>
