@@ -628,6 +628,7 @@
     .homecontact-page-wrap {
         animation: fade-in-left 2s ease;
         background-color: rgb(239, 238, 237);
+        opacity: 0.8;
         border: 2.5px solid rgb(222, 209, 195);
         margin: 4% 2%;
         border-radius: 8px;

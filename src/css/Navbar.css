@@ -1,4 +1,5 @@
 /* DESKTOP NAVBAR*/
+
 .nav-img img {
     opacity: 0.8;
 }
@@ -87,7 +88,6 @@
 
 /* TABLET NAVBAR */
 
-
 @media screen and (max-width: 1279px) {
 
     .logo {
@@ -103,7 +103,7 @@
         display: flex;
         flex-direction: column;
         width: 100%;
-        height: 55vh;
+        height: 60vh;
         position: absolute;
         top: 80px;
         left: -100%;
@@ -172,11 +172,6 @@
     button {
         display: none;
     }
-
-    @media only screen and (min-width: 767px) {}
-
-
-
 
 
     /* MOBILE NAVBAR */
@@ -402,4 +397,109 @@
             font-size: 2.7rem;
         }
     }
+
+    /* TABLET NAVBAR */
+    @media only screen and (min-width: 767px) {
+        .logo {
+            z-index: 99;
+            margin-top: 2%;
+            margin-left: 2%;
+        }
+
+        .logo img {
+            height: 80px;
+            width: 90px;
+            opacity: 100;
+        }
+
+        .nav-menu {
+            height: 58vh;
+            top: 280px;
+        }
+
+        .nav-links {
+            font-size: 25px;
+        }
+
+        .nav-booking-mobile {
+            font-size: 27px;
+        }
+
+        .nav-menu-icon {
+            font-size: 2.9rem;
+        }
+
+        .nav-menu.active {
+            border: 6px solid rgb(179, 146, 146);
+        }
+    }
+
+    @media only screen and (min-width: 810px) {
+        .logo {
+            z-index: 99;
+            margin-top: 1%;
+            margin-left: 2%;
+        }
+
+        .logo img {
+            height: 85px;
+            width: 95px;
+            opacity: 1;
+        }
+
+        .nav-menu {
+            height: 57vh;
+            top: 290px;
+        }
+
+        .nav-links {
+            font-size: 26px;
+        }
+
+        .nav-booking-mobile {
+            font-size: 28px;
+        }
+
+        .nav-menu-icon {
+            font-size: 3rem;
+        }
+    }
+
+    @media only screen and (min-width: 819px) {
+        .nav-menu {
+            height: 52vh;
+        }
+    }
+
+    @media only screen and (min-width: 1024px) {
+        .logo {
+            z-index: 99;
+            margin-top: 3%;
+            margin-left: 2%;
+        }
+
+        .logo img {
+            height: 100px;
+            width: 110px;
+            opacity: 1;
+        }
+
+        .nav-menu {
+            height: 49vh;
+            top: 360px;
+        }
+
+        .nav-links {
+            font-size: 30px;
+        }
+
+        .nav-booking-mobile {
+            font-size: 32px;
+        }
+
+        .nav-menu-icon {
+            font-size: 3rem;
+        }
+    }
+
 }

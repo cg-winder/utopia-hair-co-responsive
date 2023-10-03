@@ -13,7 +13,7 @@ const Testimonials = () => {
   <input type="radio" name="slider" id="slide5" className="slider-nav"/>
   <input type="radio" name="slider" id="slide6" className="slider-nav"/>
   <div className="slider-inner">
-    <div className="slider-contents"><i className="slider_image fa-regular fa-heart fa-beat-fade"></i>
+    <div className="slider-contents">
       <h2 className="slider-caption">Sophie E.</h2>
       <p className="slider-text">Nicola is knowledgeable, professional and super friendly. My hair
               is stunning thank you.
