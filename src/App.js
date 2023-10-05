@@ -1,4 +1,5 @@
 import "./css/App.css";
+import "./css/PopUp.css"
 import "./css/Navbar.css";
 import "./css/normalize.css";
 import "./css/maxwidth575.css";

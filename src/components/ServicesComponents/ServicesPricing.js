@@ -6,14 +6,15 @@ import Ellie2 from "../imgs/ElliePricing2.png"
 import Alannah from "../imgs/AlannahPricing.png";
 import Erin from "../imgs/ErinPricing.png"
 import Millie from "../imgs/MilliePricing.png"
+import ServicesPopUp from './ServicesPopUp';
+
 
 const ServicesPricing = () => {
   return (
     <div className="services-pricing">
       <div className="pricing-header">Nicola's Price List</div>
         <div className="pricing-menus">
-            <img src={Nicola1}/>
-            <img src={Nicola2}/>
+          <ServicesPopUp />
         </div>
         <div className="pricing-header">Alannah's Price List</div>
         <div className="pricing-menus">
