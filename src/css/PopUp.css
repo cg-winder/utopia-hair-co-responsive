@@ -10,17 +10,19 @@ body {
 }
 
 .button {
-    background-color: #bcb2af;
-    border: 1px solid whitesmoke;
-    padding: 4.5% 7%;
+    display: flex;
+    justify-content: space-around;
+    padding: 10% 0%;
     color: #bcb2af;
     font-family: "playfair display", serif;
-    font-size: 16px;
-    font-weight: 400;
+    font-size: 18px;
+    font-weight: 500;
     text-decoration: none;
     text-transform: uppercase;
     background-color: #EFEEED;
     border: 1.5px solid #bcb2af;
+    border-radius: 5px;
+    width: 120px;
 }
 
 
@@ -39,6 +41,7 @@ body {
     transition: opacity 500ms;
     visibility: hidden;
     opacity: 0;
+    z-index: 99;
 }
 
 .overlay:target {
@@ -65,7 +68,7 @@ body {
     background: whitesmoke;
     border-radius: 5px;
     width: 100%;
-    height: 66%;
+    height: 75%;
     position: relative;
     transition: all 5s ease-in-out;
 }
@@ -98,20 +101,30 @@ body {
 .popup5 .content {
     max-height: 100%;
     overflow: auto;
+
+}
+
+.popup .content img,
+.popup2 .content img,
+.popup4 .content img,
+.popup5 .content img {
+    margin: 0% 1%;
+    height: 730px;
+    width: 460px;
 }
 
 @media screen and (max-width: 1920px) {
     .box {
-        width: 53%;
+        width: 63%;
     }
 
     .popup {
-        width: 53%;
+        width: 63%;
     }
 
     .popup2,
     .popup4,
     .popup5 {
-        width: 53%;
+        width: 63%;
     }
 }

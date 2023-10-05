@@ -7,7 +7,7 @@ const popUpEllie = () => {
   return (
 <>
       <div className="box">
-            <a className="button" href="#popup3">Ellie's Pricing</a>
+            <a className="button" href="#popup3">Ellie</a>
         </div>
         <div id="popup3" className="overlay">
             <div className="popup">

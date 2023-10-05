@@ -1150,24 +1150,20 @@
     .pricing-header {
         margin: 8% 2% 1% 0%;
         text-align: center;
-        font-size: 40px;
+        font-size: 43px;
         color: rgb(212, 174, 174);
         font-family: "playfair display";
         text-transform: uppercase;
     }
 
+
+
     .pricing-menus {
-        margin: 2% 1%;
-        display: flex;
+        margin-top: 8%;
+        display: inline-flex;
+        padding: 2% 1.5%;
         justify-content: center;
     }
-
-    .pricing-menus img {
-        margin: 0% 1%;
-        height: 630px;
-        width: 360px;
-    }
-
 
     .services-recommendation-wrap {
         background-color: rgb(239, 238, 237);
