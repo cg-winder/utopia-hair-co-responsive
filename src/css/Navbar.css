@@ -88,7 +88,7 @@
 
 /* TABLET NAVBAR */
 
-@media screen and (max-width: 1279px) {
+@media screen and (max-width: 1440px) {
 
     .logo {
         z-index: 99;
@@ -501,5 +501,9 @@
             font-size: 3rem;
         }
     }
+
+    /* ^ Finish all in betweens ie 1024-1280px, and ones 819-1024*/
+
+    /* LAPTOP NAVBAR */
 
 }

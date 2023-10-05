@@ -33,15 +33,15 @@ const HomeContact = () => {
               </tr>
               <tr id="week-day-2">
                 <th>Tuesday</th>
-                <td>Closed</td>
+                <td>9am - 7pm</td>
               </tr>
               <tr id="week-day-3">
                 <th>Wednesday</th>
-                <td> 10am - 7pm</td>
+                <td>9am - 7pm</td>
               </tr>
               <tr id="week-day-4">
                 <th>Thursday</th>
-                <td>10am - 7pm</td>
+                <td>9am - 7pm</td>
               </tr>
               <tr id="week-day-5">
                 <th>Friday</th>
@@ -49,7 +49,7 @@ const HomeContact = () => {
               </tr>
               <tr id="week-day-6">
                 <th>Saturday</th>
-                <td>9am - 5pm</td>
+                <td>Closed</td>
               </tr>
               <tr id="week-day-0">
                 <th>Sunday</th>
@@ -104,10 +104,20 @@ const HomeContact = () => {
             onClick={(e) => {
               e.preventDefault();
               window.location.href =
-                "https://www.fresha.com/a/beauty-by-erin-obrien-clifton-uk-sqfh9xvb?pId=833656";
+                "https://www.instagram.com/browsbymillierasdale/";
             }}
           >
             MILLIE
+          </a>
+          <a
+            className="homecontact-book-with"
+            onClick={(e) => {
+              e.preventDefault();
+              window.location.href =
+                "https://www.fresha.com/a/beauty-by-erin-obrien-clifton-uk-sqfh9xvb?pId=833656";
+            }}
+          >
+            MADDIE
           </a>
         </div>
       </div>

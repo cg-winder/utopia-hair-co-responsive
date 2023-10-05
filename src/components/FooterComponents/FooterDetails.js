@@ -28,15 +28,15 @@ const FooterDetails = () => {
           </tr>
           <tr id="day-2">
             <th>Tuesday</th>
-            <td>Closed</td>
+            <td>9am - 7pm</td>
           </tr>
           <tr id="day-3">
             <th>Wednesday</th>
-            <td> 10am - 7pm</td>
+            <td>9am - 7pm</td>
           </tr>
           <tr id="day-4">
             <th>Thursday</th>
-            <td>10am - 7pm</td>
+            <td>9am - 7pm</td>
           </tr>
           <tr id="day-5">
             <th>Friday</th>
@@ -44,7 +44,7 @@ const FooterDetails = () => {
           </tr>
           <tr id="day-6">
             <th>Saturday</th>
-            <td>9am - 5pm</td>
+            <td>Closed</td>
           </tr>
           <tr id="day-0">
             <th>Sunday</th>

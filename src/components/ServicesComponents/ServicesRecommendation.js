@@ -13,8 +13,8 @@ const ServicesRecommedation = () => {
         Whether it be hair, nails, brows or lashes, your artist can offer
         guidance on the best style for you, based on your preferences and taste.
       </div>
-      <div className="services-inspiration-header">
-        Need further inspiration? Check out our Instagram...
+      <div className="services-inspiration">
+        Need further inspiration? Check out our <a href="https://www.instagram.com/utopiahairco_/">Instagram...</a>
       </div>
     </div>
   );
