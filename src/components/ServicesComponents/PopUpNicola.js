@@ -3,7 +3,7 @@ import Nicola1 from "../imgs/NicolaPricing1.png";
 import Nicola2 from "../imgs/NicolaPricing2.png"
 
 
-const ServicesPopUp = () => {
+const popUpNicola = () => {
   return (
 <>
       <div className="box">
@@ -23,4 +23,4 @@ const ServicesPopUp = () => {
   )
 }
 
-export default ServicesPopUp
+export default popUpNicola;

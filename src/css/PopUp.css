@@ -57,8 +57,23 @@ body {
     transition: all 5s ease-in-out;
 }
 
+.popup2,
+.popup4,
+.popup5 {
+    margin: 70px auto;
+    padding: 20px;
+    background: whitesmoke;
+    border-radius: 5px;
+    width: 100%;
+    height: 66%;
+    position: relative;
+    transition: all 5s ease-in-out;
+}
 
-.popup .close {
+.popup .close,
+.popup2 .close,
+.popup4 .close,
+.popup5 .close {
     position: absolute;
     top: 20px;
     right: 30px;
@@ -69,11 +84,18 @@ body {
     color: whitesmoke;
 }
 
-.popup .close:hover {
+
+.popup .close:hover,
+.popup2 .close:hover,
+.popup4 .close:hover,
+.popup5 .close:hover {
     color: rgb(219, 163, 173);
 }
 
-.popup .content {
+.popup .content,
+.popup2 .content,
+.popup4 .content,
+.popup5 .content {
     max-height: 100%;
     overflow: auto;
 }
@@ -84,6 +106,12 @@ body {
     }
 
     .popup {
+        width: 53%;
+    }
+
+    .popup2,
+    .popup4,
+    .popup5 {
         width: 53%;
     }
 }
