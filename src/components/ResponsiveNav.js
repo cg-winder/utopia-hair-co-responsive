@@ -5,7 +5,7 @@ import '../css/Navbar.css'
 import lightsign from "./imgs/utopialight.png";
 import salon from "./imgs/salonpic3.jpeg";
 import salonstretch from "./imgs/salonstretch.jpeg"
-import Background from "./TeamComponents/background"
+import Background from "./NavComponents/background"
 
 function Navbar() {
   const [click, setClick] = useState(false);

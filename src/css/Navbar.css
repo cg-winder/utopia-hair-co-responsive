@@ -1,13 +1,10 @@
 /* GENERAL NAVBAR*/
 
-.nav-img img {
-    opacity: 0.8;
-}
-
 .video {
     position: absolute;
     top: 0;
     right: 0;
+    z-index: -1;
 }
 
 .nav-book-button {
@@ -36,7 +33,7 @@
 .navbar {
     top: 0;
     width: 100%;
-    font-family: 'Playfair Display', serif;
+    font-family: "noto serif display", serif;
     height: 110px;
     color: rgb(105, 88, 88);
     display: flex;
@@ -78,7 +75,7 @@
 }
 
 .fa-bars {
-    color: rgb(212, 174, 174);
+    color: white;
 }
 
 
@@ -127,6 +124,8 @@
 
     .nav-links {
         text-align: center;
+        font-family: "noto serif display", serif;
+        font-weight: bolder;
         padding: 2rem;
         width: 100%;
         display: table;
@@ -151,8 +150,7 @@
     }
 
     .fa-times {
-        color: rgb(227, 187, 193);
-        color: rgb(218, 196, 196);
+        color: white;
         font-size: 3rem;
     }
 
@@ -166,6 +164,7 @@
         color: rgb(227, 187, 193);
         font-size: 1.5rem;
         text-transform: uppercase;
+        font-family: "noto serif display", serif;
     }
 
     .nav-booking-mobile:hover {
@@ -452,7 +451,6 @@
         }
 
         .fa-bars {
-            color: rgb(212, 174, 174);
             font-size: 2.3rem;
         }
     }
@@ -464,7 +462,6 @@
 
         .fa-bars {
             font-size: 2.3rem;
-            color: rgb(212, 174, 174);
         }
     }
 
@@ -608,11 +605,6 @@
 
         .nav-menu-icon {
             font-size: 3rem;
-        }
-
-        .fa-bars,
-        .fa-times {
-            color: rgb(212, 174, 174);
         }
     }
 
@@ -760,7 +752,6 @@
 
         .fa-bars,
         .fa-times {
-            color: rgb(212, 174, 174);
             font-size: 2.9rem;
         }
     }
@@ -799,7 +790,6 @@
 
         .fa-bars,
         .fa-times {
-            color: rgb(212, 174, 174);
             font-size: 2.8rem;
         }
     }
@@ -855,7 +845,6 @@
 
         .fa-bars,
         .fa-times {
-            color: white;
             font-size: 2.2rem;
         }
     }
@@ -893,7 +882,6 @@
         .fa-bars,
         .fa-times {
             font-size: 2.8rem;
-            color: white;
         }
     }
 
