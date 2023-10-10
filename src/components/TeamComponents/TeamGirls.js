@@ -87,7 +87,7 @@ Iâ€™m so blessed to be in a job I absolutely love, where I can bring my clientsâ
             </div>
           <div className="team-about">
           My name is Alannah, and I'm a hair stylist who found her true passion in the world of hair. I began my journey at Utopia Hair Co in April 2023, and it's been amazing! 
- What really sets me apart is my genuine love for what I do. I believe that hair isn't just about aesthetics it's about helping people feel confident and happy with themselves. I'm not just here to style hair,  I'm here to build connections, understand your vision, and bring it to life. I'm always striving to improve and stay on top of industry trends. So, if you're looking for a skilled stylist with a passion for hair, I'm here to help you achieve your hair goals.
+ What really sets me apart is my genuine love for what I do. I believe that hair isn't just about aesthetics, it's about helping people feel confident and happy with themselves. I'm not just here to style hair,  I'm here to build connections, understand your vision and bring it to life. I'm always striving to improve and stay on top of industry trends. So if you're looking for a skilled stylist with a passion for hair, I'm here to help you achieve your hair goals.
             <p className="team-specialise">Specialises in: blondes! I've always been fascinated by the beauty of blonde hair, and I've invested time in learning the latest techniques to ensure I can create the most stunning blonde looks. </p>
             <p className="team-hours">Find me in the salon: Tuesday & Thursday 9am-7pm</p>
           </div>
@@ -125,7 +125,7 @@ Iâ€™m so blessed to be in a job I absolutely love, where I can bring my clientsâ
                 </div>
             </div>
           <div className="team-about">
-          Hi, I'm Ellie! Hairdressing became a passion of mine 7 years ago, starting from the very bottom as an apprentice and worked my way through the ranks. After learning all the skills and science behind everything hair I am now self employed working in a gorgeous relaxing salon alongside likeminded and passionate freelance artists. 
+          Hi, I'm Ellie! Hairdressing became a passion of mine 7 years ago. I started from the very bottom as an apprentice and have worked my way through the ranks. After learning all the skills and science behind everything hair, I am now self employed working in a gorgeous relaxing salon alongside likeminded and passionate freelance artists. 
             <p className="team-specialise">Specialises in: anything CREATIVE! This can be vibrant colours, unique hair styles and also wedding and occasion hair.</p>
             <p className="team-hours">Find me in the salon: Thursday & Friday 10am-7pm</p>
           </div>
@@ -205,7 +205,7 @@ Iâ€™m so blessed to be in a job I absolutely love, where I can bring my clientsâ
           <div className="team-about">
           Hi I'm Erin. I have always been interested in the beauty world from a young age. This lead me to decide to train as a beauty therapist straight from school, and a few years down the line I made the jump to being self employed in the most amazing salon. 
 I offer a wide range of treatments across nails, lashes and brows!
-            <p className="team-specialise">Specialises in: biab (builder in a bottle) nails. Helping my clients grow their natural nails and see their journey is very rewarding and satisfying.</p>
+            <p className="team-specialise">Specialises in: biab (builder in a bottle) nails. Helping my clients grow their natural nails and seeing their journey is very rewarding and satisfying.</p>
             <p className="team-hours">Find me in the salon: Tuesday 12pm-7pm, Wednesday & Thursday 9am-7pm, Friday 10am-6pm</p>
           </div>
         </div>
