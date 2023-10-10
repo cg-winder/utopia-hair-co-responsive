@@ -119,7 +119,7 @@
         left: 0;
         opacity: 1;
         transition: all 0.5s ease;
-        z-index: 1;
+        z-index: 99;
     }
 
     .nav-links {
@@ -437,17 +437,43 @@
         }
     }
 
+    @media only screen and (min-width:567px) and (min-height: 319px) {
+        .nav-menu {
+            top: 80px;
+            height: 75vh;
+        }
+
+        .nav-links {
+            font-size: 15px;
+            padding: 0.5%;
+        }
+
+        .nav-booking-mobile {
+            margin-bottom: 1%;
+            margin-top: -2%;
+            font-size: 17px;
+        }
+
+        .nav-menu-icon {
+            font-size: 2rem;
+        }
+    }
+
+
     @media only screen and (min-width: 599px) and (min-height: 1023px) {
         .nav-menu {
-            height: 54vh;
+            height: 50vh;
         }
 
         .nav-links {
             font-size: 22px;
+            padding: 4%;
         }
 
         .nav-booking-mobile {
             font-size: 24px;
+            padding: 3%;
+            margin-bottom: 4%;
         }
 
         .fa-bars {
@@ -457,7 +483,18 @@
 
     @media only screen and (min-width: 600px) and (min-height: 961px) {
         .nav-menu {
-            height: 57vh;
+            height: 36vh;
+            top: 250px;
+        }
+
+        .nav-links {
+            padding: 2%;
+            font-size: 18px;
+        }
+
+        .nav-booking-mobile {
+            font-size: 20px;
+            margin-bottom: 2%;
         }
 
         .fa-bars {
@@ -483,6 +520,27 @@
 
         .nav-booking-mobile {
             font-size: 24px;
+        }
+    }
+
+    @media only screen and (min-width: 639px) and (min-height: 359px) {
+        .nav-menu {
+            top: 80px;
+            height: 76vh;
+        }
+
+        .nav-links {
+            font-size: 18px;
+        }
+
+        .nav-booking-mobile {
+            font-size: 20px;
+        }
+    }
+
+    @media only screen and (min-width: 666px) and (min-height: 374px) {
+        .nav-menu {
+            height: 73vh;
         }
     }
 
@@ -514,6 +572,40 @@
         }
     }
 
+    @media only screen and (min-width: 735px) and (min-height: 413px) {
+        .nav-menu {
+            top: 80px;
+            height: 64vh;
+        }
+
+        .nav-menu-icon {
+            font-size: 2rem;
+        }
+
+        .nav-links {
+            font-size: 16px;
+        }
+
+        .nav-booking-mobile {
+            font-size: 17px;
+        }
+    }
+
+    @media only screen and (min-width: 739px) and (min-height: 411px) {
+        .nav-menu {
+            top: 80px;
+            height: 69vh
+        }
+
+        .nav-links {
+            font-size: 18px;
+        }
+
+        .nav-booking-mobile {
+            font-size: 19px;
+        }
+    }
+
     /* TABLET NAVBAR */
     @media only screen and (min-width: 767px) and (min-height: 1023px) {
         .logo {
@@ -529,16 +621,19 @@
         }
 
         .nav-menu {
-            height: 59vh;
+            height: 49vh;
             top: 280px;
         }
 
         .nav-links {
             font-size: 25px;
+            padding: 3%;
         }
 
         .nav-booking-mobile {
             font-size: 27px;
+            padding: 2%;
+            margin-bottom: 2%;
         }
 
         .nav-menu-icon {
@@ -555,17 +650,45 @@
         }
     }
 
+    @media only screen and (min-width: 779px) and (min-height: 359px) {
+        .logo {
+            margin-left: 2%;
+            margin-top: 1.5%;
+        }
+
+        .logo img {
+            height: 70px;
+            width: 90px;
+        }
+
+        .nav-menu {
+            top: 80px;
+            height: 80vh;
+        }
+
+        .nav-links {
+            font-size: 19px;
+        }
+
+        .nav-booking-mobile {
+            font-size: 21px;
+        }
+    }
+
     @media only screen and (min-width:799px) and (min-height: 1279px) {
         .nav-menu {
-            height: 48vh;
+            height: 46vh;
+            top: 320px;
         }
 
         .nav-links {
             font-size: 26px;
+            padding: 4%;
         }
 
         .nav-booking-mobile {
             font-size: 29px;
+            padding: 5%
         }
 
         .nav-menu-icon {
@@ -591,16 +714,18 @@
         }
 
         .nav-menu {
-            height: 57vh;
-            top: 290px;
+            height: 53vh;
+            top: 310px;
         }
 
         .nav-links {
             font-size: 26px;
+            padding: 4%;
         }
 
         .nav-booking-mobile {
             font-size: 28px;
+            padding: 4%;
         }
 
         .nav-menu-icon {
@@ -617,11 +742,9 @@
         .nav-menu-icon {
             font-size: 3.2rem;
         }
-    }
 
-    @media only screen and (min-width: 819px) {
         .nav-menu {
-            height: 52vh;
+            height: 48vh
         }
     }
 
@@ -663,7 +786,7 @@
 
     @media only screen and (min-width: 833px) and (min-height:1111px) {
         .nav-menu {
-            height: 48vh;
+            height: 50vh;
             top: 300px;
         }
 
@@ -674,8 +797,8 @@
 
         .nav-booking-mobile {
             font-size: 27px;
-            margin-top: 2%;
-            margin-bottom: 4%;
+            margin-top: -2%;
+            margin-bottom: 2%;
         }
 
         .nav-menu-icon {
@@ -693,6 +816,12 @@
         }
     }
 
+    @media only screen and (min-width: 843px) and (min-height: 389px) {
+        .nav-menu {
+            height: 73vh;
+        }
+    }
+
     @media only screen and (min-width: 883px) and (min-height:1103px) {
         .nav-menu {
             height: 48vh;
@@ -704,9 +833,9 @@
         }
 
         .nav-booking-mobile {
-            margin-top: 2%;
+            margin-top: -1%;
             font-size: 29px;
-            margin-bottom: 6%;
+            margin-bottom: 2%;
         }
 
         .nav-menu-icon {
@@ -719,6 +848,29 @@
     }
 
 
+    @media only screen and (min-width: 1023px) and (min-height: 599px) {
+        .nav-links {
+            font-size: 22px;
+        }
+
+        .nav-booking-mobile {
+            font-size: 24px;
+            margin-bottom: 3%;
+        }
+
+        .nav-menu {
+            height: 74vh;
+            top: 130px;
+        }
+    }
+
+
+    @media only screen and (min-width: 1023px) and (min-height: 767px) {
+        .nav-menu {
+            height: 59vh;
+            top: 150px;
+        }
+    }
 
     @media only screen and (min-width: 1023px) and (min-height: 1365px) {
         .logo {
@@ -753,6 +905,25 @@
         .fa-bars,
         .fa-times {
             font-size: 2.9rem;
+        }
+    }
+
+    @media only screen and (min-width: 1079px) and (min-height:809px) {
+        .nav-booking-mobile {
+            margin-top: 0.1%;
+        }
+    }
+
+    @media only screen and (min-width: 1103px) and (min-height: 883px) {
+        .nav-menu {
+            height: 56vh;
+            top: 200px;
+        }
+    }
+
+    @media only screen and (min-width: 1179px) and (min-height: 819px) {
+        .nav-menu {
+            height: 61vh;
         }
     }
 
@@ -808,7 +979,7 @@
 
     @media only screen and (min-width: 1279px) and (min-height: 1023px) {
         .nav-menu {
-            height: 55vh;
+            height: 57vh;
         }
     }
 
@@ -849,6 +1020,13 @@
         }
     }
 
+    @media only screen and (min-width: 1365px) and (min-height: 1023px) {
+        .nav-menu {
+            height: 58vh;
+            top: 230px;
+        }
+    }
+
     @media only screen and (min-width: 1439px) and (min-height: 899px) {
         .logo {
             margin-top: 2%;
@@ -862,7 +1040,7 @@
         }
 
         .nav-menu {
-            height: 60vh;
+            height: 62vh;
             top: 160px;
         }
 
