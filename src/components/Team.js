@@ -1,5 +1,7 @@
 import React from "react";
 import TeamGirls from "./TeamComponents/TeamGirls";
+import Background from "./TeamComponents/background";
+
 
 const Team = () => {
   return (
@@ -9,6 +11,7 @@ const Team = () => {
         </div>
         <div className="page-intro" id="team-intro">MEET OUR TEAM</div>
       <TeamGirls />
+      <Background />
     </div>
   );
 };

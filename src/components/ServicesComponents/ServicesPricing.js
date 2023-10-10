@@ -8,8 +8,10 @@ import PopUpMillie from "./PopUpMillie"
 const ServicesPricing = () => {
   return (
     <div className="services-pricing">
-      <div className="pricing-header">Price Lists</div>
+      <div className="pricing-header">Treatments & Pricing</div>
       <div className="pricing-menu-wrap">
+        <p>All prices are subject to change</p>
+        <div className="services-artists">Click on an artist below to see their treatment and price list</div>
           <div className="pricing-menus">
             <PopUpNicola />
           </div>

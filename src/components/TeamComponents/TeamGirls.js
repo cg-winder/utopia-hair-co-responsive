@@ -15,7 +15,7 @@ const TeamGirls = () => {
       <div className="team-girls">
         <div className="team-pic-name-flex">
                   <div className="team-pics">
-                    <img src={alannah} id="nicola"/>
+                    <img src={profileplaceholder} id="nicola"/>
                   </div>
                   <div className="team-name-title">
                         <h2 className="team-h2">NICOLA</h2>
@@ -134,6 +134,46 @@ Iâ€™m so blessed to be in a job I absolutely love, where I can bring my clientsâ
       <div className="team-girls">
       <div className="team-pic-name-flex">
             <div className="team-pics">
+                  <img src={profileplaceholder} id="maddie"/>
+                </div>
+                <div className="team-name-title">
+                        <h2 className="team-h2">MADDIE</h2>
+                        <div className="team-title">Level 2 Hair Apprentice</div>
+                  </div>
+            </div>
+            <div className="team-buttons">
+            <button
+                className="team-book-now-button"
+                onClick={(e) => {
+                  e.preventDefault();
+                  window.location.href =
+                    "https://www.fresha.com/a/beauty-by-erin-obrien-clifton-uk-sqfh9xvb?pId=833656";
+                }}
+              >
+                BOOK WITH MADDIE
+              </button>
+              <div className="team-social-button">
+                <a href="https://www.instagram.com/browsbymillierasdale/">
+                  <img src={instagramlogo} alt="instagram-icon" />
+                </a>
+              </div>
+              <div className="treatment-type">
+                  <span>HAIR</span>
+                </div>
+            </div>
+          <div className="team-about">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
+              iaculis vel magna a consequat. Cras at neque a lacus egestas
+              porttitor. Integer sed lacus scelerisque, pretium tellus vitae,
+              venenatis sem. Sed pretium est enim, et feugiat felis ultrices ut.
+              <p className="team-specialise">Specialises in:  </p>
+              <p className="team-hours">Find me in the salon: </p>
+          </div>
+        </div>
+
+      <div className="team-girls">
+      <div className="team-pic-name-flex">
+            <div className="team-pics">
                   <img src={erin} id="erin"/>
                 </div>
                 <div className="team-name-title">
@@ -198,46 +238,6 @@ I offer a wide range of treatments across nails, lashes and brows!
               </div>
               <div className="treatment-type">
                   <span>BROWS</span>
-                </div>
-            </div>
-          <div className="team-about">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
-              iaculis vel magna a consequat. Cras at neque a lacus egestas
-              porttitor. Integer sed lacus scelerisque, pretium tellus vitae,
-              venenatis sem. Sed pretium est enim, et feugiat felis ultrices ut.
-              <p className="team-specialise">Specialises in:  </p>
-              <p className="team-hours">Find me in the salon: </p>
-          </div>
-        </div>
-
-        <div className="team-girls">
-      <div className="team-pic-name-flex">
-            <div className="team-pics">
-                  <img src={profileplaceholder} id="maddie"/>
-                </div>
-                <div className="team-name-title">
-                        <h2 className="team-h2">MADDIE</h2>
-                        <div className="team-title">Level 2 Hair Apprentice</div>
-                  </div>
-            </div>
-            <div className="team-buttons">
-            <button
-                className="team-book-now-button"
-                onClick={(e) => {
-                  e.preventDefault();
-                  window.location.href =
-                    "https://www.fresha.com/a/beauty-by-erin-obrien-clifton-uk-sqfh9xvb?pId=833656";
-                }}
-              >
-                BOOK WITH MADDIE
-              </button>
-              <div className="team-social-button">
-                <a href="https://www.instagram.com/browsbymillierasdale/">
-                  <img src={instagramlogo} alt="instagram-icon" />
-                </a>
-              </div>
-              <div className="treatment-type">
-                  <span>HAIR</span>
                 </div>
             </div>
           <div className="team-about">

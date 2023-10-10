@@ -97,6 +97,16 @@ const HomeContact = () => {
                 "https://www.fresha.com/a/beauty-by-erin-obrien-clifton-uk-sqfh9xvb?pId=833656";
             }}
           >
+            MADDIE
+          </a>
+          <a
+            className="homecontact-book-with"
+            onClick={(e) => {
+              e.preventDefault();
+              window.location.href =
+                "https://www.fresha.com/a/beauty-by-erin-obrien-clifton-uk-sqfh9xvb?pId=833656";
+            }}
+          >
             ERIN
           </a>
           <a
@@ -108,16 +118,6 @@ const HomeContact = () => {
             }}
           >
             MILLIE
-          </a>
-          <a
-            className="homecontact-book-with"
-            onClick={(e) => {
-              e.preventDefault();
-              window.location.href =
-                "https://www.fresha.com/a/beauty-by-erin-obrien-clifton-uk-sqfh9xvb?pId=833656";
-            }}
-          >
-            MADDIE
           </a>
         </div>
       </div>
