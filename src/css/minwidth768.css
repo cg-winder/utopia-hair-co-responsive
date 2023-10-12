@@ -141,6 +141,52 @@
         border-top: 2px solid rgb(177, 160, 150);
     }
 
+    /* HOME WELCOME */
+
+    .homewelcome-wrap {
+        padding-bottom: 8%;
+        margin: 8% 0% 0% 2%;
+        font-family: "italiana";
+        text-transform: uppercase;
+    }
+
+    .homewelcome-header-img {
+        display: flex;
+    }
+
+    .homewelcome-header-img img {
+        height: 50vh;
+        width: auto;
+        margin-top: 17%;
+        position: absolute;
+        margin-left: 32%;
+        z-index: -1;
+    }
+
+    .homewelcome-header {
+        z-index: 99;
+        font-size: 120px;
+        margin: 48% 0% -6% -2%;
+        color: rgb(209, 192, 182);
+    }
+
+    .homewelcome-header p {
+        margin-left: 5%;
+        line-height: 3%;
+        margin-top: -16%;
+    }
+
+    #homewelcome-left {
+        padding-left: 4%
+    }
+
+    .homewelcome-p {
+        font-size: 30px;
+        color: rgb(197, 181, 172);
+        margin-bottom: -11%;
+        margin-left: 1%;
+    }
+
 
     /* Home Detail */
 
@@ -174,11 +220,11 @@
     }
 
     .homedetail-subtext {
-        line-height: 25px;
-        font-family: "lato";
+        line-height: 30px;
         font-family: 'noto serif display', serif;
-        font-size: 14.4px;
+        font-size: 18px;
         text-align: center;
+        padding: 4% 0% 4% 7%;
         line-height: 27.5px;
         color: rgb(95, 64, 64);
         margin: 2% 8% 0% 0%;

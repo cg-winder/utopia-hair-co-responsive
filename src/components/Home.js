@@ -1,5 +1,6 @@
 import React from "react";
 import HomePage from "./HomeComponents/HomePage";
+import HomeWelcome from "./HomeComponents/HomeWelcome"
 import HomeDetail from "./HomeComponents/HomeDetail";
 import HomeStylists from "./HomeComponents/HomeStylists";
 import HomeContact from "./HomeComponents/HomeContact";
@@ -14,6 +15,7 @@ const Home = () => {
   return (
     <div className="page-wrap">
       <HomePage />
+      <HomeWelcome />
       <HomedetailBackground />
       <HomeDetail />
       <HomeServices />
