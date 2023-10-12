@@ -6,7 +6,7 @@ const Testimonials = () => {
     <div className="testimonial-wrap">
         <div className="testimonials-header">Share about your hair</div>
 <div className="slider">
-  <input type="radio" name="slider" id="slide1" className="slider-nav"  />
+  <input type="radio" name="slider" id="slide1" className="slider-nav"/>
   <input type="radio" name="slider" id="slide2" className="slider-nav"/>
   <input type="radio" name="slider" id="slide3" className="slider-nav"/>
   <input type="radio" name="slider" id="slide4" className="slider-nav"/>

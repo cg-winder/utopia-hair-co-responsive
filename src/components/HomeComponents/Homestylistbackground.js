@@ -1,5 +1,5 @@
 import React from 'react'
-import brush from "../imgs/salonbrush.png";
+import brush from "../imgs/salonbrush2.png";
 
 const HomestylistBackground = () => {
   return (
