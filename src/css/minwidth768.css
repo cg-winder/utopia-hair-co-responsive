@@ -10,7 +10,7 @@
 
     body {
         -ms-overflow-style: none;
-        background-image: url("../components/imgs/marblebg.png");
+        background-image: url("../components/imgs/marble3bg.png");
         width: 100%;
     }
 
@@ -167,6 +167,7 @@
         font-size: 120px;
         margin: 48% 0% -5% -2%;
         color: rgb(202, 190, 183);
+        color: whitesmoke;
     }
 
     .homewelcome-header p {
@@ -182,6 +183,7 @@
     .homewelcome-p {
         font-size: 28px;
         color: rgb(197, 181, 172);
+        color: white;
         margin-bottom: -11%;
         margin-left: 1%;
     }
@@ -196,25 +198,6 @@
         margin-top: 18%;
     }
 
-    .homedetail-text {
-        margin-top: 5%;
-        text-align: center;
-        font-size: 48px;
-        line-height: 31px;
-        text-transform: uppercase;
-        color: rgb(170, 133, 133);
-        font-family: "italiana";
-    }
-
-    .homedetail-welcome {
-        text-align: center;
-        margin-top: 6%;
-        color: rgba(122, 88, 88, 0.807);
-        font-style: italic;
-        font-family: "italiana";
-        font-family: "noto serif display", serif;
-        font-size: 19px;
-    }
 
     .homedetail-subtext {
         line-height: 32px;
@@ -224,17 +207,15 @@
         padding: 8% 0% 4% 7%;
         line-height: 27.5px;
         color: rgb(95, 64, 64);
+        color: white;
         margin: 2% 8% 0% 0%;
     }
-
-
 
     .homedetail-book-button {
         display: flex;
         margin: 0 auto;
         background-color: transparent;
-        border: 1px solid rgb(95, 64, 64);
-        ;
+        border: 1px solid white;
         padding: 2.5% 5%;
         color: #bcb2af;
         font-family: "noto serif display", serif;
@@ -246,7 +227,7 @@
 
     .homedetail-book-button span {
         padding-top: 2%;
-        color: rgb(95, 64, 64);
+        color: white;
         display: flex;
         margin: 0 auto;
         font-size: 20px;
@@ -297,6 +278,7 @@
         margin: 6% 70% 6% 3%;
         line-height: 28px;
         color: rgb(197, 181, 172);
+        color: whitesmoke;
         font-size: 47px;
         text-align: left;
         text-transform: uppercase;
@@ -316,6 +298,7 @@
     .homeservices-info p {
         margin-right: 10%;
         color: rgb(171, 138, 138);
+        color: white;
         text-align: center;
         line-height: 24px;
         font-size: 13.5px;
@@ -337,7 +320,7 @@
     }
 
     .homeservices-link a:hover {
-        color: rgb(221, 191, 196);
+        color: white;
     }
 
 
@@ -515,6 +498,7 @@
     .homecontact-address-h4 {
         letter-spacing: 0.2em;
         color: #b39991;
+        color: white;
         font-size: 21px;
         text-align: center;
         margin-bottom: 4%;
@@ -522,7 +506,7 @@
 
     .homecontact-address-table {
         list-style: none;
-        color: rgb(157, 127, 127);
+        color: rgb(176, 147, 147);
         line-height: 35px;
         text-align: center;
         font-size: 13px;
@@ -536,6 +520,7 @@
     .homecontact-openingtimes-h4 {
         letter-spacing: 0.2em;
         color: #b39991;
+        color: white;
         font-size: 19.5px;
         text-align: center;
         margin-bottom: 4%;
@@ -544,7 +529,7 @@
     .homecontact-weekdays {
         line-height: 22px;
         font-size: 12px;
-        color: rgb(157, 127, 127);
+        color: rgb(176, 147, 147);
         text-align: center;
     }
 
@@ -553,7 +538,7 @@
     }
 
     .opening-current-day {
-        color: rgb(210, 184, 189);
+        color: white;
     }
 
     .homecontact-book {
@@ -563,6 +548,7 @@
     .homecontact-book-h4 {
         letter-spacing: 0.2em;
         color: #b39991;
+        color: white;
         font-size: 21px;
         text-align: center;
         margin-bottom: -2%;
@@ -574,12 +560,12 @@
         text-decoration: none;
         font-size: 11px;
         line-height: 20px;
-        color: rgb(157, 127, 127);
+        color: rgb(176, 147, 147);
         margin-bottom: -9%
     }
 
     .homecontact-book a:hover {
-        color: rgb(210, 184, 189);
+        color: white;
         cursor: pointer;
     }
 
@@ -649,7 +635,7 @@
 
     .homeinstagram {
         margin-top: 0%;
-        background-image: url('../components/imgs/texturebg.png');
+        background-image: url('../components/imgs/texture2bg.png');
         padding-bottom: 2%;
     }
 
@@ -698,6 +684,7 @@
         text-align: left;
         text-transform: uppercase;
         color: rgba(170, 153, 143, 0.666);
+        color: whitesmoke;
         margin: 0% 55% -13% 4%;
         font-size: 45px;
         line-height: 26px;
@@ -714,6 +701,7 @@
     .testimonial-link:hover {
         cursor: pointer;
         color: rgb(221, 191, 196);
+        color: white;
     }
 
 
@@ -849,11 +837,12 @@
         text-transform: uppercase;
         font-size: 12px;
         min-width: 325px;
-        color: #cdb2a9;
+        color: rgb(177, 160, 150);
     }
 
     .slider-text {
         color: rgb(182, 168, 168);
+        color: whitesmoke;
         font-size: 13.5px;
         line-height: 24px;
         margin-bottom: 5.5%;
@@ -1003,6 +992,7 @@
     .services-info p {
         margin: 25% 5% -5% 5%;
         color: rgb(200, 180, 180);
+        color: white;
         font-size: 30px;
         text-align: center;
         line-height: 47px;
@@ -1020,12 +1010,14 @@
         font-size: 50px;
         line-height: 38px;
         color: rgb(212, 174, 174);
+        color: whitesmoke;
         font-family: "italiana", serif;
         text-transform: uppercase;
     }
 
     .pricing-menu-wrap p {
         color: rgb(188, 164, 164);
+        color: whitesmoke;
         text-transform: uppercase;
         text-align: center;
         margin-top: 2%;
@@ -1038,6 +1030,7 @@
         font-size: 20px;
         text-transform: uppercase;
         color: rgb(188, 164, 164);
+        color: whitesmoke;
     }
 
     .pricing-menus {
@@ -1060,7 +1053,7 @@
         text-transform: uppercase;
         font-weight: 100;
         font-size: 30px;
-        color: rgb(212, 174, 174);
+        color: rgb(186, 142, 150);
         text-align: center;
     }
 
@@ -1098,6 +1091,7 @@
         font-size: 50px;
         text-transform: uppercase;
         color: rgb(212, 174, 174);
+        color: whitesmoke;
     }
 
     .policy-header {
@@ -1106,6 +1100,7 @@
         font-family: "italiana", serif;
         text-align: center;
         color: rgb(187, 152, 158);
+        color: whitesmoke;
         font-size: 20px;
     }
 
@@ -1113,6 +1108,7 @@
         text-align: center;
         font-size: 13px;
         color: rgb(200, 180, 180);
+        color: white;
         line-height: 25px;
         margin: 0% 7% 2.5% 3%;
     }
@@ -1365,13 +1361,10 @@
     /*FOOTER*/
 
     .main-footer {
-        border-top: 0.5px solid white;
         bottom: 0;
         width: 100%;
         text-transform: uppercase;
         font-family: "noto serif display", serif;
-        color: rgb(134, 112, 112);
-        background-color: rgb(223, 219, 215);
         background-color: rgba(179, 161, 140, 0.335);
         animation: fade-in-left 2s ease;
     }

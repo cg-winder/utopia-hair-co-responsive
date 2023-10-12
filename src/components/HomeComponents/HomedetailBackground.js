@@ -1,6 +1,6 @@
 import React from 'react'
 import hair1 from "../imgs/hair6.jpeg";
-import salon from "../imgs/salonstretchopacity.png"
+import salon from "../imgs/salonbrown.png"
 
 const HomedetailBackground = () => {
   return (
