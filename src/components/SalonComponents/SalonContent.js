@@ -1,5 +1,5 @@
 import React from "react";
-import salonmug from "../imgs/salonmug.jpeg";
+import salonmug from "../imgs/salonmug2.jpeg";
 import salonwash from "../imgs/utopiawash.jpeg";
 
 const SalonContent = () => {
@@ -9,7 +9,7 @@ const SalonContent = () => {
         <div className="salon-about-info-1">
           <p>
             Welcome to Utopia Hair Co... A spa-like salon that is home to
-            freelance artists Nicola, Alannah, Ellie, Erin and Millie.
+            freelance artists Nicola, Alannah, Ellie, Maddie, Erin and Millie.
           </p>
           <p>
             Our salon is in a beautiful barn conversion on Clifton Fields, just
@@ -39,7 +39,7 @@ const SalonContent = () => {
           </p>
           <p>
             No matter the treatment you choose, you can be confident that Utopia
-            Hair Co will provide you with the best result and the ultimate
+            Hair Co will provide you with the best results and the ultimate
             luxury experience.
           </p>
         </div>

@@ -15,7 +15,7 @@ const Salon = () => {
       <SalonTreatments />
       <SalonInfo />
       <SalonContact />
-      <InstagramEmbed />
+      {/* <InstagramEmbed /> */}
     </div>
   );
 };

@@ -7,6 +7,7 @@ import Testimonials from "./HomeComponents/Testimonials";
 import HomedetailBackground from "./HomeComponents/HomedetailBackground";
 import HomeInstagram from "./HomeComponents/HomeInstagram";
 import HomeServices from "./HomeComponents/HomeServices";
+import HomestylistBackground from "./HomeComponents/Homestylistbackground";
 
 
 const Home = () => {
@@ -16,6 +17,7 @@ const Home = () => {
       <HomedetailBackground />
       <HomeDetail />
       <HomeServices />
+      <HomestylistBackground />
       <HomeStylists/>
       <HomeContact />
       <HomeInstagram />

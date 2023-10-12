@@ -128,25 +128,26 @@
 
     /* Home Stylists */
     .homestylists-wrap {
-        margin-top: 7%;
-        padding: 5% 0% 4% 0%;
-        background-color: rgb(211, 198, 183);
+        border-top: 1px solid #b09797c9;
+        margin: 7% 3% 0% 3%;
+        padding: 5% 3% 4% 3%;
     }
 
     .homestylists-header {
         margin: 0% 2%;
         line-height: 28px;
-        color: whitesmoke;
+        color: #b09797c9;
         font-size: 23px;
         text-align: center;
-        font-family: "italiana";
+        font-family: 'Bodoni Moda', serif;
+        text-transform: uppercase;
     }
 
     .homestylists-subtext {
         margin: 1% 3% 0% 3%;
         color: rgb(135, 110, 110);
-        font-family: "lato";
-        font-size: 16px;
+        font-family: "noto serif display", serif;
+        font-size: 14px;
         line-height: 26px;
         text-align: center;
     }
@@ -156,19 +157,17 @@
         text-decoration: none;
         margin: 1% auto;
         margin-top: 3%;
-        width: 34%;
+        width: 38%;
         height: 3%;
-        background-color: #bcb2af;
-        border: 1px solid whitesmoke;
+        border: 1px solid#b09797c9;
         padding: 2% 1%;
-        border-radius: 50px;
         font-family: "italiana", serif;
         transition: 0.3s ease-in-out;
         box-shadow: inset 0 0 0 0 rgb(221, 211, 211);
     }
 
     .homestylists-button span {
-        color: white;
+        color: #b09797c9;
         font-size: 11px;
         padding-top: 1%;
         display: flex;
@@ -177,8 +176,7 @@
 
 
     .homestylists-button:hover {
-        border: 2px solid white;
-        box-shadow: inset 400px 0 0 0 rgb(190, 181, 169);
+        border: 1.5px solid #b09797c9;
     }
 
 
@@ -242,10 +240,11 @@
 
     /* Home Contact */
     .homecontact-page-wrap {
-        font-family: "italiana", serif;
-        background-color: rgb(222, 209, 195);
-        border-top: 0px solid white;
-        border-bottom: 0px solid white;
+        font-family: 'noto serif display', serif;
+        border-top: 1px solid #b09797c9;
+        border-bottom: 1px solid #b09797c9;
+        margin: 0% 3%;
+        color: #b09797c9;
     }
 
     .homecontact-banner {
@@ -259,7 +258,6 @@
 
 
     .homecontact-address-h4 {
-        color: white;
         font-size: 17.5px;
         text-align: center;
     }
@@ -269,7 +267,6 @@
         font-size: 14.5px;
         margin: 0 auto;
         line-height: 20px;
-        color: rgb(157, 127, 127);
         text-align: center;
     }
 
@@ -282,7 +279,7 @@
     }
 
     .opening-current-day {
-        color: whitesmoke;
+        color: rgb(157, 127, 127);
     }
 
     .homecontact-book {
@@ -290,7 +287,6 @@
     }
 
     .homecontact-openingtimes-h4 {
-        color: white;
         font-size: 17.5px;
         text-align: center;
     }
@@ -299,13 +295,11 @@
         font-size: 12.5px;
         padding-top: 3%;
         margin: 0 auto;
-        color: rgb(157, 127, 127);
         text-align: center;
     }
 
 
     .homecontact-book-h4 {
-        color: white;
         font-size: 17.5px;
         text-align: center;
         padding-bottom: 2%;
@@ -325,8 +319,8 @@
     }
 
     .homecontact-book a:hover {
-        color: white;
         cursor: pointer;
+        color: rgb(157, 127, 127);
     }
 
     /* HOME CONTACT QUERIES */
@@ -402,7 +396,7 @@
 
     .testimonials-header {
         text-align: center;
-        color: whitesmoke;
+        color: #BAA894;
         font-family: "italiana", serif;
         padding: 1% 0% 10% 0%;
         margin-bottom: -20%;
@@ -413,7 +407,7 @@
         font-family: "lato";
         font-size: 12px;
         padding: 3% 0% 4% 0%;
-        color: rgb(253, 253, 253);
+        color: rgb(161, 141, 141);
         text-align: center;
     }
 
@@ -546,6 +540,7 @@
 
     .slider-caption {
         margin-top: 10%;
+        color: rgb(161, 141, 141);
         text-transform: uppercase;
         font-size: 11px;
         min-width: 800px;
