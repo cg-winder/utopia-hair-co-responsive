@@ -12,9 +12,9 @@ const Salon = () => {
           <div>The Salon</div>
       </div>
       <SalonContent />
-      <SalonTreatments />
+      {/* <SalonTreatments /> */}
       <SalonInfo />
-      <SalonContact />
+      {/* <SalonContact /> */}
       {/* <InstagramEmbed /> */}
     </div>
   );

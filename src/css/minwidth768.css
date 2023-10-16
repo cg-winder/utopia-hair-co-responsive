@@ -215,14 +215,21 @@
         display: flex;
         margin: 0 auto;
         background-color: transparent;
-        border: 1px solid white;
         padding: 2.5% 5%;
-        color: #bcb2af;
         font-family: "noto serif display", serif;
         font-size: 14px;
         font-weight: 400;
         transition: 0.3s ease-in-out;
-        box-shadow: inset 0 0 0 0 rgb(221, 211, 211);
+        color: whitesmoke;
+        border: 2px solid white;
+        box-shadow: inset 600px 0 0 0 #e0d9d997;
+    }
+
+
+    .homedetail-book-button:hover {
+        color: whitesmoke;
+        box-shadow: inset 600px 0 0 0 #e0d9d997;
+        border: 2px solid transparent;
     }
 
     .homedetail-book-button span {
@@ -231,12 +238,6 @@
         display: flex;
         margin: 0 auto;
         font-size: 20px;
-    }
-
-    .homedetail-book-button:hover {
-        color: whitesmoke;
-        border: 2px solid white;
-        box-shadow: inset 600px 0 0 0 #e0d9d997;
     }
 
     .homedetail-book-button span:hover {
@@ -275,7 +276,7 @@
     }
 
     .homeservices-header {
-        margin: 6% 70% 6% 3%;
+        margin: 6% 66% 6% 6%;
         line-height: 28px;
         color: rgb(197, 181, 172);
         color: whitesmoke;
@@ -398,8 +399,11 @@
 
     .homestylists-button:hover {
         border: 2px solid white;
-        color: rgb(135, 110, 110);
         box-shadow: inset 400px 0 0 0 #EFEEED;
+    }
+
+    .homestylists-button span:hover {
+        color: rgb(176, 147, 147);
     }
 
 
@@ -466,7 +470,8 @@
     /* HomeContact */
     .homecontact-page-wrap {
         animation: fade-in-left 2s ease;
-        margin-top: 1%;
+        margin-top: 1.5%;
+        border: 1.2px solid white;
         background-color: transparent;
         font-family: "noto serif display", serif;
 
@@ -635,13 +640,13 @@
 
     .homeinstagram {
         margin-top: 0%;
-        background-image: url('../components/imgs/texture2bg.png');
+        background-image: url('../components/imgs/igbg.png');
         padding-bottom: 2%;
     }
 
     .homeinstagram-header {
         text-align: center;
-        color: rgb(197, 181, 172);
+        color: whitesmoke;
         letter-spacing: -.03em;
         text-transform: uppercase;
         font-family: "italiana", serif;
@@ -678,14 +683,18 @@
 
     /* Testimonials */
 
+    .testimonial-wrap {
+        border-top: 1.5px solid white;
+    }
+
     .testimonials-header {
         padding-top: 6%;
-        padding-left: 5%;
+        padding-left: 2%;
         text-align: left;
         text-transform: uppercase;
         color: rgba(170, 153, 143, 0.666);
         color: whitesmoke;
-        margin: 0% 55% -13% 4%;
+        margin: 0% 52% -13% 6%;
         font-size: 45px;
         line-height: 26px;
     }
@@ -694,7 +703,7 @@
         font-family: "italiana";
         font-size: 14px;
         padding: 3% 0% 4% 0%;
-        color: rgb(177, 160, 150);
+        color: rgb(152, 128, 128);
         text-align: center;
     }
 
@@ -837,11 +846,10 @@
         text-transform: uppercase;
         font-size: 12px;
         min-width: 325px;
-        color: rgb(177, 160, 150);
+        color: rgb(152, 128, 128);
     }
 
     .slider-text {
-        color: rgb(182, 168, 168);
         color: whitesmoke;
         font-size: 13.5px;
         line-height: 24px;
@@ -982,6 +990,144 @@
     /* Testimonials Finish */
 
 
+    /* SALON PAGE */
+
+    /* Salon Content */
+
+    .saloncontent-wrap {
+        font-family: "noto serif display", serif;
+    }
+
+    .salon-subtext {
+        color: rgb(176, 147, 147);
+        text-align: center;
+        font-size: 30px;
+        margin: 27% 10% 12% 10%;
+        line-height: 50px;
+        font-style: italic;
+    }
+
+
+    .salon-pic-1 {
+        display: flex;
+        height: 25vh;
+        width: 25vw;
+        margin-left: 47%;
+        margin-top: 5%;
+    }
+
+    .salon-about-info-1 {
+        position: absolute;
+        font-size: 16px;
+        text-align: left;
+        color: whitesmoke;
+        display: flex;
+        line-height: 37px;
+        flex-direction: column;
+        text-align: left;
+        margin-left: 3%;
+        margin-right: 54%;
+        margin: -3% 55% 0% 3%;
+    }
+
+    .salon-about-info-1 p {
+        margin-top: -10px;
+    }
+
+    .salon-pic-2 {
+        display: flex;
+        height: 25vh;
+        width: 25vw;
+        margin-left: 3%;
+        margin-top: 13%;
+    }
+
+    .salon-about-info-2 {
+        position: absolute;
+        font-size: 16px;
+        text-align: left;
+        color: whitesmoke;
+        display: flex;
+        line-height: 32px;
+        flex-direction: column;
+        text-align: left;
+        margin: -4% 3% 0% 55%;
+    }
+
+    .salon-about-info-2 p {
+        margin-top: -12px;
+        margin-left: 1.5%;
+    }
+
+    /* Salon Info */
+
+    .salon-info {
+        font-family: "noto serif display", serif;
+        display: flex;
+        justify-content: space-between;
+        margin: 12% 3% 10% 3%;
+    }
+
+    .salon-address-opening {
+        border: 1px solid white;
+        box-shadow: inset 600px 0 0 0 #e0d9d997;
+        color: rgb(176, 147, 147);
+        display: flex;
+        flex-direction: row;
+        padding: 0% 8% 3% 8%;
+        height: 272px;
+    }
+
+    .salon-address-div {
+        padding-right: 15%;
+    }
+
+
+    .salon-address-h2 {
+        margin-top: 24%;
+        color: white;
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .salon-address-li {
+        padding-left: 0;
+        list-style: none;
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .salon-address-li li {
+        margin-bottom: 10%;
+    }
+
+
+    .salon-opening-times-h2 {
+        margin-top: 14%;
+        color: white;
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .salon-opening-times-li {
+        list-style: none;
+        text-decoration: none;
+        padding-left: 0;
+        font-size: 13px;
+        text-align: center;
+    }
+
+    td {
+        padding-left: 2%;
+    }
+
+    .opening-current-day {
+        color: white;
+    }
+
+    .salon-map-widget {
+        display: flex;
+    }
 
     /* SERVICES PAGE */
 
@@ -1060,7 +1206,7 @@
     .services-recommendation-info {
         font-size: 13px;
         color: rgb(134, 110, 110);
-        line-height: 25px;
+        line-height: 29px;
         margin: 0% 1%;
         text-align: center;
     }
@@ -1070,7 +1216,7 @@
         font-size: 15px;
         margin-top: 2%;
         color: rgb(178, 138, 138);
-        line-height: 22px;
+        line-height: 32px;
         margin-bottom: 3%;
     }
 
@@ -1176,7 +1322,7 @@
         font-size: 10px;
         font-weight: 300;
         color: #b0a9a6;
-        border: 2px solid #d1cac7;
+        border: 2px solid white;
         background-color: #ecebeb;
         padding: 1.9% 2%;
         position: relative;
@@ -1198,7 +1344,7 @@
 
     .team-book-now-button:hover {
         color: #b0a9a6;
-        border: 2px solid white;
+        border: 2.5px solid white;
         box-shadow: inset 140px 0 0 0 #eae6e4;
     }
 
@@ -1206,7 +1352,7 @@
     .team-social-button a {
         width: 50px;
         height: 50px;
-        border: 2px solid #d1cac7;
+        border: 2px solid white;
         background-color: #ecebeb;
         display: inline-flex;
         border-radius: 50%;
@@ -1231,7 +1377,7 @@
 
     .team-social-button a:hover::before {
         transform: scale(1);
-        border: 2px solid white;
+        border: 2.5px solid white;
         box-shadow: inset 140px 0 0 0 #eae6e4;
     }
 
@@ -1257,7 +1403,7 @@
         font-size: 20px;
         font-weight: 300;
         color: #b0a9a6;
-        border: 2px solid #d1cac7;
+        border: 2px solid white;
         background-color: #ecebeb;
         padding: 0% 2%;
         margin-left: 3%;
@@ -1293,7 +1439,7 @@
     .team-h2 {
         font-family: "playfair display";
         font-weight: 100;
-        color: rgb(198, 159, 159);
+        color: rgb(167, 132, 138);
         font-size: 39px;
         letter-spacing: 0.10em;
         margin: 27% 0% 0% 10%;
@@ -1309,7 +1455,7 @@
         margin: 3.5% 0% 0% 10%;
         font-size: 11px;
         text-transform: uppercase;
-        color: rgb(188, 165, 169);
+        color: whitesmoke;
     }
 
     .team-pics img {
@@ -1324,7 +1470,7 @@
 
 
     .team-about {
-        color: rgb(167, 146, 150);
+        color: white;
         font-size: 15px;
         line-height: 2.5;
         margin: -2% 3%;
@@ -1335,7 +1481,7 @@
 
     .team-specialise {
         margin-top: 2%;
-        color: rgb(187, 152, 158);
+        color: rgb(167, 132, 138);
         font-size: 16px;
     }
 

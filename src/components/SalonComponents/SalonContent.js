@@ -1,16 +1,18 @@
 import React from "react";
-import salonmug from "../imgs/salonmug2.jpeg";
+import salon from "../imgs/salon5.jpeg";
 import salonwash from "../imgs/utopiawash.jpeg";
 
 const SalonContent = () => {
   return (
     <div className="saloncontent-wrap">
       <div className-="salon-info-pics">
-        <div className="salon-about-info-1">
-          <p>
-            Welcome to Utopia Hair Co... A spa-like salon that is home to
-            freelance artists Nicola, Alannah, Ellie, Maddie, Erin and Millie.
-          </p>
+        <div className="salon-subtext">
+            <p>
+            A spa-like salon that is home to
+              freelance artists Nicola, Alannah, Ellie, Maddie, Erin and Millie.
+            </p>
+           </div>
+          <div className="salon-about-info-1">
           <p>
             Our salon is in a beautiful barn conversion on Clifton Fields, just
             outside of Freckleton, where we create a friendly and relaxed
@@ -21,7 +23,7 @@ const SalonContent = () => {
             service guaranteed to satisfy everything their client wants from
             their treatment.
           </p>
-        </div>
+          </div>
         <div className="salon-pic-1">
           <img src={salonwash} />
         </div>
@@ -44,7 +46,7 @@ const SalonContent = () => {
           </p>
         </div>
         <div className="salon-pic-2">
-          <img src={salonmug} />
+          <img src={salon} />
         </div>
       </div>
     </div>

@@ -4,6 +4,7 @@ import React from "react";
 import alannah from "../imgs/final-alannah.png"
 import erin from "../imgs/final-erin.png"
 import ellie from "../imgs/final-ellie.png"
+import maddie from "../imgs/maddie.jpeg"
 
 
 
@@ -134,7 +135,7 @@ Iâ€™m so blessed to be in a job I absolutely love, where I can bring my clientsâ
       <div className="team-girls">
       <div className="team-pic-name-flex">
             <div className="team-pics">
-                  <img src={profileplaceholder} id="maddie"/>
+                  <img src={maddie} id="maddie"/>
                 </div>
                 <div className="team-name-title">
                         <h2 className="team-h2">MADDIE</h2>
