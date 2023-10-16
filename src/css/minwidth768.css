@@ -1048,10 +1048,10 @@
         text-align: left;
         color: whitesmoke;
         display: flex;
-        line-height: 32px;
+        line-height: 40px;
         flex-direction: column;
         text-align: left;
-        margin: -4% 3% 0% 55%;
+        margin: 0% 3% 0% 55%;
     }
 
     .salon-about-info-2 p {
@@ -1065,7 +1065,7 @@
         font-family: "noto serif display", serif;
         display: flex;
         justify-content: space-between;
-        margin: 12% 3% 10% 3%;
+        margin: 18% 3% 10% 3%;
     }
 
     .salon-address-opening {
@@ -1084,7 +1084,7 @@
 
 
     .salon-address-h2 {
-        margin-top: 24%;
+        padding-top: 18%;
         color: white;
         font-size: 18px;
         text-align: center;
@@ -1103,7 +1103,7 @@
 
 
     .salon-opening-times-h2 {
-        margin-top: 14%;
+        padding-top: 10%;
         color: white;
         font-size: 18px;
         text-align: center;
@@ -1562,6 +1562,7 @@
 
     .footer-opening-times {
         align-items: center;
+        text-align: center;
         margin: 12px 0%;
         display: flex;
         flex-direction: column;
@@ -1577,6 +1578,10 @@
     .footer-weekdays th {
         padding-right: 5px;
         font-weight: 500;
+    }
+
+    .footer-weekdays td {
+        text-align: center;
     }
 
     .footer-current-day {

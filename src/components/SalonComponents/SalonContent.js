@@ -34,11 +34,11 @@ const SalonContent = () => {
             What started as solely a hairdressing salon soon evolved to include
             nail, lash and brow treatments.
           </p>
-          <p>
+          {/* <p>
             Straight forward cut and blow, or a full head highlights? Lash tint
             and lift or full Russian lash extensions? Short gel nails or long
             French manicure?
-          </p>
+          </p> */}
           <p>
             No matter the treatment you choose, you can be confident that Utopia
             Hair Co will provide you with the best results and the ultimate

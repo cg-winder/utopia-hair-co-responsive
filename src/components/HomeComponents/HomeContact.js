@@ -33,19 +33,19 @@ const HomeContact = () => {
               </tr>
               <tr id="week-day-2">
                 <th>Tuesday</th>
-                <td>9am - 7pm</td>
+                <td>9 - 7</td>
               </tr>
               <tr id="week-day-3">
                 <th>Wednesday</th>
-                <td>9am - 7pm</td>
+                <td>9 - 7</td>
               </tr>
               <tr id="week-day-4">
                 <th>Thursday</th>
-                <td>9am - 7pm</td>
+                <td>9 - 7</td>
               </tr>
               <tr id="week-day-5">
                 <th>Friday</th>
-                <td>10am - 7pm</td>
+                <td>10 - 7</td>
               </tr>
               <tr id="week-day-6">
                 <th>Saturday</th>

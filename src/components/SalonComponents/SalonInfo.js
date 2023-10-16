@@ -34,19 +34,19 @@ const SalonInfo = () => {
             </tr>
             <tr id="day-no-2">
               <th>Tuesday</th>
-              <td>9am - 7pm</td>
+              <td>9 - 7</td>
             </tr>
             <tr id="day-no-3">
               <th>Wednesday</th>
-              <td>9am - 7pm</td>
+              <td>9 - 7</td>
             </tr>
             <tr id="day-no-4">
               <th>Thursday</th>
-              <td>9am - 7pm</td>
+              <td>9 - 7</td>
             </tr>
             <tr id="day-no-5">
               <th>Friday</th>
-              <td>10am - 7pm</td>
+              <td>10 - 7</td>
             </tr>
             <tr id="day-no-6">
               <th>Saturday</th>
