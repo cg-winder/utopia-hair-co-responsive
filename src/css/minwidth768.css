@@ -995,24 +995,15 @@
     /* Salon Content */
 
     .saloncontent-wrap {
+        margin-top: 25%;
         font-family: "noto serif display", serif;
     }
-
-    .salon-subtext {
-        color: rgb(176, 147, 147);
-        text-align: center;
-        font-size: 30px;
-        margin: 27% 10% 12% 10%;
-        line-height: 50px;
-        font-style: italic;
-    }
-
 
     .salon-pic-1 {
         display: flex;
         height: 25vh;
         width: 25vw;
-        margin-left: 47%;
+        margin-left: 64%;
         margin-top: 5%;
     }
 
@@ -1025,9 +1016,7 @@
         line-height: 37px;
         flex-direction: column;
         text-align: left;
-        margin-left: 3%;
-        margin-right: 54%;
-        margin: -3% 55% 0% 3%;
+        margin: 4% 38% 0% 3%;
     }
 
     .salon-about-info-1 p {
@@ -1039,7 +1028,7 @@
         height: 25vh;
         width: 25vw;
         margin-left: 3%;
-        margin-top: 13%;
+        margin-top: 7%;
     }
 
     .salon-about-info-2 {
@@ -1055,9 +1044,123 @@
     }
 
     .salon-about-info-2 p {
-        margin-top: -12px;
+        margin-top: -4.5%;
         margin-left: 1.5%;
     }
+
+    .salon-about-info-3 {
+        position: absolute;
+        font-size: 16px;
+        text-align: left;
+        color: whitesmoke;
+        display: flex;
+        line-height: 37px;
+        flex-direction: column;
+        text-align: left;
+        margin: 8% 55% 0% 3%;
+    }
+
+    .salon-pic-3 {
+        display: flex;
+        height: 25vh;
+        width: 25vw;
+        margin-left: 47%;
+        margin-top: 7%;
+    }
+
+    .salon-about-info-3 p {
+        margin-top: -2.5%;
+
+    }
+
+    .utopia-exterior {
+        width: 100%;
+        margin-top: -15.3%;
+        height: auto;
+        position: absolute;
+        z-index: -1;
+        opacity: 0.9;
+    }
+
+    .salon-subtext {
+        color: white;
+        text-align: center;
+        font-size: 30px;
+        margin: 27% 10% 12% 10%;
+        line-height: 60px;
+        font-style: italic;
+    }
+
+    /* Salon Treatments */
+
+    /* .salon-treatments {
+        margin: 26% 0% -13% 4%;
+    }
+
+    
+    .salon-treatments h1 {
+        text-align: center;
+        font-size: 60px;
+        color: whitesmoke;
+        font-family: 'Playfair Display', serif;
+        font-weight: 100;
+        margin: 0% 5% 5% 0%;
+    }
+
+    .salon-treatment-content {
+        border: 1.5px solid white;
+        background-color: rgb(225, 217, 205);
+        padding-top: 5%;
+        margin: 0% 10% 0% 5%;
+    }
+
+    .salon-treatments h2 {
+        font-style: italic;
+        font-size: 44px;
+        font-weight: 100;
+        margin: 0% 0% 1% 7%;
+        color: whitesmoke;
+        font-family: 'Playfair Display', serif;
+    }
+
+    .salon-treatments p {
+        font-size: 15px;
+        margin: 4% 4% 2% 0%;
+    }
+
+
+    .salon-hair .salon-content,
+    .salon-nails .salon-content {
+        display: flex;
+        margin: 0% 10% 2% 7%;
+    }
+
+    .salon-lashes,
+    .salon-brows {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .salon-lashes h2,
+    .salon-brows h2 {
+        margin: 0% 7% 0% 0%;
+    }
+
+    .salon-lashes .salon-content,
+    .salon-brows .salon-content {
+        display: flex;
+        margin: 10% 7% 2% 10%;
+
+    }
+
+    .salon-content img {
+        height: 20%;
+        width: 20%;
+    }
+
+    .salon-disclaimer {
+        text-align: center;
+    } */
 
     /* Salon Info */
 
@@ -1065,7 +1168,7 @@
         font-family: "noto serif display", serif;
         display: flex;
         justify-content: space-between;
-        margin: 18% 3% 10% 3%;
+        margin: 25% 3% 10% 3%;
     }
 
     .salon-address-opening {
@@ -1164,6 +1267,7 @@
     .pricing-menu-wrap p {
         color: rgb(188, 164, 164);
         color: whitesmoke;
+        color: rgb(186, 142, 150);
         text-transform: uppercase;
         text-align: center;
         margin-top: 2%;
@@ -1236,8 +1340,7 @@
         text-align: center;
         font-size: 50px;
         text-transform: uppercase;
-        color: rgb(212, 174, 174);
-        color: whitesmoke;
+        color: rgb(186, 142, 150);
     }
 
     .policy-header {
@@ -1245,15 +1348,13 @@
         margin: 0% 0% 1% 3%;
         font-family: "italiana", serif;
         text-align: center;
-        color: rgb(187, 152, 158);
-        color: whitesmoke;
         font-size: 20px;
+        color: rgb(186, 142, 150);
     }
 
     .policy-p {
         text-align: center;
         font-size: 13px;
-        color: rgb(200, 180, 180);
         color: white;
         line-height: 25px;
         margin: 0% 7% 2.5% 3%;
