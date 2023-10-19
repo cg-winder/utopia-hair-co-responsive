@@ -1,17 +1,15 @@
 body {
-
     height: 100vh;
 }
 
 
 .box {
-    margin: 0 auto;
-    text-align: center;
+    margin-right: 37%;
 }
 
 .button {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     padding: 10% 0%;
     color: #ffffff;
     font-family: "playfair display";
@@ -22,7 +20,7 @@ body {
     background-color: rgb(218, 206, 206);
     border: 1.5px solid #ffffff;
     border-radius: 5px;
-    width: 120px;
+    width: 100px;
 }
 
 

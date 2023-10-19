@@ -14,7 +14,7 @@ const ServicesRecommedation = () => {
         guidance on the best style for you, based on your preferences and taste.
       </div>
       <div className="services-inspiration">
-        Need further inspiration? Check out our <a href="https://www.instagram.com/utopiahairco_/">Instagram...</a>
+        Need further inspiration? Check out some styles below...
       </div>
     </div>
   );

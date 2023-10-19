@@ -17,7 +17,7 @@ const ServicesPolicies = () => {
             <p className="policy-p">For all new hair clients, a consultation and skin test is required before any appointment. All extension services require a complimentary consultation with Nicola prior to booking of appointment. For brows and lashes, a skin test is required 48 hours before appointments.</p>
         </div>
       <div className="gift-card">
-        <div className="policy-header">Do you do gift cards?</div>
+        <div className="policy-header">Do you offer gift cards?</div>
         <p className="policy-p">Want to treat someone? Gift cards of various values can be purchased from your stylist through their individual Fresha webpage found <a href="https://linktr.ee/utopiahairco">here.</a></p>
       </div>
     </div>

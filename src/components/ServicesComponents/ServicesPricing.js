@@ -4,6 +4,7 @@ import PopUpEllie from "./PopUpEllie";
 import PopUpAlannah from "./PopUpAlannah"
 import PopUpErin from "./PopUpErin"
 import PopUpMillie from "./PopUpMillie"
+import PopUpMaddie from './PopUpMaddie';
 
 const ServicesPricing = () => {
   return (
@@ -11,7 +12,7 @@ const ServicesPricing = () => {
       <div className="pricing-header">Treatments & Pricing</div>
       <div className="pricing-menu-wrap">
         <p>All prices are subject to change</p>
-        <div className="services-artists">Click on an artist below to see their treatment and price list</div>
+        <div className="services-artists">Click on an artist below to see their treatments & prices list</div>
           <div className="pricing-menus">
             <PopUpNicola />
           </div>
@@ -22,6 +23,10 @@ const ServicesPricing = () => {
         
           <div className="pricing-menus">
             <PopUpEllie />
+          </div>
+
+          <div className="pricing-menus">
+            <PopUpMaddie />
           </div>
         
           <div className="pricing-menus">
