@@ -1,78 +1,24 @@
 import React from "react";
 import { useEffect } from "react";
+import salon from "../imgs/exteriorUtopia.jpeg"
 
 const SalonInfo = () => {
-  const currentWeekday = () => {
-    let today = new Date().getDay();
-    document
-      .getElementById("day-no-" + today)
-      .classList.add("opening-current-day");
-  };
 
-  useEffect(() => {
-    currentWeekday();
-  }, []);
 
   return (
     <div className="salon-info">
-      <div className="salon-address-opening">
+      <div className="salon-address-context">
         <div className="salon-address-div">
-          <h2 className="salon-address-h2">ADDRESS</h2>
-          <ul className="salon-address-li">
-            <li>Big Shippon,</li>
-            <li>Clifton Fields,</li>
-            <li>Preston,</li>
-            <li>PR4 0XG</li>
-          </ul>
+          <h2>salon accessibility</h2>
         </div>
-        <div className="salon-opening-times-div">
-          <h2 className="salon-opening-times-h2">OPENING TIMES</h2>
-          <table className="salon-opening-times-li">
-            <tr id="day-no-1">
-              <th>Monday</th>
-              <td>Closed</td>
-            </tr>
-            <tr id="day-no-2">
-              <th>Tuesday</th>
-              <td>9 - 7</td>
-            </tr>
-            <tr id="day-no-3">
-              <th>Wednesday</th>
-              <td>9 - 7</td>
-            </tr>
-            <tr id="day-no-4">
-              <th>Thursday</th>
-              <td>9 - 7</td>
-            </tr>
-            <tr id="day-no-5">
-              <th>Friday</th>
-              <td>10 - 7</td>
-            </tr>
-            <tr id="day-no-6">
-              <th>Saturday</th>
-              <td>Closed</td>
-            </tr>
-            <tr id="day-no-0">
-              <th>Sunday</th>
-              <td>Closed</td>
-            </tr>
-          </table>
+        <div className="salon-context">
+          <p>Utopia Hair Co is  conveniently located in between Freckleton and Preston, and is fully accessible with no stairs required.</p>
+            <p>Free car parking is available on site and is no more than a minute's walk away on those rainy days.</p>
+            <p><a href="https://www.google.com/maps/place/Utopia+Hair+Co/@53.7562682,-2.8150462,15z/data=!4m2!3m1!1s0x0:0xc91f429bb4fd04bf?sa=X&ved=2ahUKEwjzrIjxvYKCAxULX0EAHfVbDWIQ_BJ6BAhIEAA&ved=2ahUKEwjzrIjxvYKCAxULX0EAHfVbDWIQ_BJ6BAhQEAg">Find Us</a></p>
         </div>
       </div>
-      <div className="salon-map-widget">
-        <iframe
-          width="272"
-          height="272"
-          frameborder="0"
-          scrolling="no"
-          marginheight="0"
-          marginwidth="0"
-          src="https://maps.google.com/maps?width=200&amp;height=200&amp;hl=en&amp;q=Clifton%20Fields,%20Preston,%20PR4%200XG+(Utopia%20Hair%20Co)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
-        >
-          <a href="https://www.maps.ie/distance-area-calculator.html">
-            area maps
-          </a>
-        </iframe>
+      <div className="salon-info-img">
+        <img src={salon}/>
       </div>
     </div>
   );

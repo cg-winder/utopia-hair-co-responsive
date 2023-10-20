@@ -13,7 +13,7 @@ const HomeDetail = () => {
           matters... You.
         </p>
         <p className="homedetail-subtext-2">
-          We are a hardworking passion driven salon who take pride in our work.
+          We are a hardworking, passion-driven salon who take pride in our work.
           We strive to create a warm and welcoming environment that you will be
           proud to call your hair home.
         </p>

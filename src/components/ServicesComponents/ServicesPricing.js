@@ -12,7 +12,7 @@ const ServicesPricing = () => {
       <div className="pricing-header">Treatments & Pricing</div>
       <div className="pricing-menu-wrap">
         <p>All prices are subject to change</p>
-        <div className="services-artists">Click on an artist below to see their treatments & prices list</div>
+        <div className="services-artists">Click on an artist to see their treatments & prices list</div>
           <div className="pricing-menus">
             <PopUpNicola />
           </div>
