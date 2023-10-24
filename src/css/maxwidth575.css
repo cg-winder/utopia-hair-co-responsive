@@ -664,28 +664,22 @@
     }
 
     #team-intro {
-        /* margin: 25% 15% 0% 15%;
-        line-height: 19.5px;
-        color: rgb(197, 181, 172);
-        color: white;
-        font-size: 35px;
-        text-align: center;
-        text-transform: uppercase;
-        font-family: "italiana"; */
         color: transparent;
         font-size: 1px;
 
     }
 
+    .team-girls {
+        padding-top: 10%;
+    }
+
 
     .teamgirls-wrap {
         font-family: "playfair display";
-        margin-top: 10%;
+        margin-top: 15%;
     }
 
-    .team-girls {
-        padding-top: 12%;
-    }
+
 
 
     .team-pic-name-flex {
@@ -987,6 +981,21 @@
             width: 210px;
         }
     }
+
+    @media only screen and (min-width:548px) {
+        .teamgirls-wrap {
+            margin-top: 20%;
+        }
+
+        .team-book-now-button {
+            padding: 1.2% 2%;
+        }
+
+        .team-about {
+            margin-right: 5%;
+        }
+    }
+
 
 
 

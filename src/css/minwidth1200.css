@@ -4,12 +4,19 @@
         max-width: 100vw;
     }
 
+    html {
+        scrollbar-width: none;
+    }
+
     body {
-        background-color: rgb(214, 204, 190);
-        background-color: whitesmoke;
+        -ms-overflow-style: none;
+        background-image: url("../components/imgs/marble3bg.png");
         width: 100%;
     }
 
+    *::-webkit-scrollbar {
+        display: none;
+    }
 
     /*HOMEPAGE TITLES*/
 
@@ -666,10 +673,14 @@
         }
     }
 
+    .team-girls {
+        margin-top: -5%;
+    }
+
 
     .teamgirls-wrap {
         font-family: "playfair display";
-        margin-top: 10%;
+        margin-top: 18%;
         padding: 4% 0%;
     }
 
@@ -718,6 +729,8 @@
         color: #b0a9a6;
         border: 2.5px solid white;
         box-shadow: inset 140px 0 0 0 #eae6e4;
+        font-size: 9px;
+        padding: 1% 2%;
     }
 
 
@@ -859,6 +872,24 @@
         margin-top: -0.5%;
         color: rgb(141, 113, 118);
         font-size: 18.5px;
+    }
+
+    /* Team Media Queries */
+    @media only screen and (min-width: 1279px) {
+        .team-book-now-button {
+            font-size: 11px;
+            padding: 0.9% 1%;
+        }
+
+        .team-book-now-button:hover {
+            font-size: 11px;
+            padding: 0.9% 1%;
+        }
+
+        .treatment-type-erin {
+            padding: 0% 1%;
+            font-size: 10px;
+        }
     }
 
 

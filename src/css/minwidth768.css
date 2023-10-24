@@ -1289,10 +1289,14 @@
         }
     }
 
+    .team-girls {
+        margin-top: -5%;
+    }
+
 
     .teamgirls-wrap {
         font-family: "playfair display";
-        margin-top: 10%;
+        margin-top: 18%;
         padding: 4% 0%;
     }
 
@@ -1337,6 +1341,7 @@
     }
 
     .team-book-now-button:hover {
+        padding: 1.5% 1%;
         color: #b0a9a6;
         border: 2.5px solid white;
         box-shadow: inset 140px 0 0 0 #eae6e4;
@@ -1484,6 +1489,12 @@
     }
 
     /*TEAM MEDIA QUERIES*/
+    @media only screen and (min-width: 799px) {
+        .team-book-now-button {
+            padding: 1.4% 2%;
+        }
+    }
+
     @media only screen and (min-width: 819px) {
         .team-h2 {
             font-size: 45px;
@@ -1512,6 +1523,14 @@
         #team-head {
             margin-top: 1%;
         }
+
+        .team-book-now-button {
+            padding: 1.6% 1%;
+        }
+
+        .team-book-now-button:hover {
+            padding: 1.6% 1%;
+        }
     }
 
     @media only screen and (min-width: 883px) {
@@ -1528,8 +1547,48 @@
         .team-hours {
             font-size: 18.5px;
         }
+
+        .treatment-type-erin {
+            padding: 0% 1%;
+        }
     }
 
+    @media only screen and (min-width: 895px) {
+        .treatment-type-erin {
+            padding: 0% 1%;
+        }
+    }
+
+    @media only screen and (min-width: 899px) {
+        .team-book-now-button {
+            padding: 1.3% 1%;
+        }
+
+        .team-book-now-button:hover {
+            padding: 1.3% 1%;
+        }
+
+        .treatment-type-erin {
+            padding: 0% 1%;
+        }
+    }
+
+    @media only screen and (min-width: 914px) {
+        .team-book-now-button {
+            padding: 1.3% 1%;
+        }
+
+        .team-book-now-button:hover {
+            padding: 1.3% 1%;
+            font-size: 11px;
+        }
+    }
+
+    @media only screen and (min-width: 961px) {
+        .treatment-type-erin {
+            padding: 0% 1%;
+        }
+    }
 
 
 

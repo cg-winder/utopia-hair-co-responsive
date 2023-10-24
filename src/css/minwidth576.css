@@ -636,17 +636,16 @@
     #team-intro {
         color: transparent;
         font-size: 1px;
-
     }
 
 
     .teamgirls-wrap {
         font-family: "playfair display";
-        margin-top: 20%;
+        margin-top: 25%;
     }
 
     .team-girls {
-        padding-top: 12%;
+        padding-top: 10%;
     }
 
 
@@ -832,6 +831,41 @@
         margin-top: -0.5%;
         color: rgb(141, 113, 118);
         font-size: 16.5px;
+    }
+
+    /* Team Media Queries */
+
+    @media only screen and (min-width: 639px) {
+        .team-book-now-button {
+            padding: 1.1% 2%;
+        }
+    }
+
+    @media only screen and (min-width: 666px) {
+        .treatment-type-erin {
+            padding: 0% 1%;
+        }
+    }
+
+    @media only screen and (min-width: 719px) {
+        .teamgirls-wrap {
+            margin-top: 25%;
+        }
+
+        .team-book-now-button {
+            padding: 1% 1%;
+        }
+    }
+
+    @media only screen and (min-width: 735px) {
+        .team-book-now-button {
+            padding: 1% 1%;
+        }
+
+        .team-book-now-button:hover {
+            padding: 1% 1%;
+            font-size: 12px;
+        }
     }
 
 
