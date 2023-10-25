@@ -1,9 +1,10 @@
 import React from "react";
+import ServicesBook from "./ServicesComponents/ServicesBook";
 import ServicesRecommendation from "./ServicesComponents/ServicesRecommendation";
 import ServicesPolicies from "./ServicesComponents/ServicesPolicies";
 import ServicesImgs from "./ServicesComponents/ServicesImgs";
 import ServicesPricing from "./ServicesComponents/ServicesPricing";
-import ServicesInfo from "./ServicesComponents/ServicesInfo";
+import ServicesBackground from "./ServicesComponents/ServicesBackground";
 
 const Services = () => {
   return (
@@ -11,7 +12,8 @@ const Services = () => {
       <div className="homepage-head" id="services-head">
           <div>Services</div>
       </div>
-      {/* <ServicesInfo /> */}
+      <ServicesBook />
+      <ServicesBackground />
       <ServicesPricing />
       <ServicesRecommendation />
       <ServicesImgs />

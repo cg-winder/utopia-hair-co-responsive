@@ -17,15 +17,17 @@ body {
     font-weight: 500;
     text-decoration: none;
     text-transform: uppercase;
-    background-color: rgb(218, 206, 206);
-    border: 1.5px solid #ffffff;
+    background-color: rgba(218, 206, 206, 0.41);
+    border: 1px solid #ffffff;
     border-radius: 5px;
     width: 100px;
 }
 
 
 .button:hover {
-    color: rgb(197, 161, 167);
+    color: whitesmoke;
+    border: 1.5px solid #ffffff;
+    background-color: rgba(218, 206, 206, 0.186);
     cursor: pointer;
 }
 
