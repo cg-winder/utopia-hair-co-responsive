@@ -11,7 +11,7 @@ const ServicesBook = () => {
         </picture>
         <div className="services-book-text">
             <p className="services-book-1">Book appointment</p>
-            <p className="services-book-2">Make a reservation for <div className="services-book-3">head turning hair</div></p>
+            <p className="services-book-2">Make a reservation for <div className="services-book-3">the ultimate pampering</div></p>
             <button
         className="services-book-button"
         onClick={(e) => {

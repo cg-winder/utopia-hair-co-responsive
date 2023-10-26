@@ -6,7 +6,7 @@ const ServicesPolicies = () => {
         <div className="services-policies-header">Policies & FAQ's</div>
         <div className="cancellation-policy">
             <div className='policy-header'>Cancellation Policy</div>
-            <p className="policy-p">We kindly ask that all cancellations are made at least 48 hours prior to appointment time. If you cancel or modify your appointment within 48 hours of your scheduled appointment time, it is classed as a late cancellation and there is a non-refundable 30% fee. There is also a non-refundable 50% fee for no shows. To cancel, you can choose to message your artist on their Instagram or cancel directly on their Fresha webpage. Appointments are held for up to 15 minutes. Please let us know if you are running late and we will try accommodate you as best we can.</p>
+            <p className="policy-p">We kindly ask that all cancellations are made at least 48 hours prior to appointment time. If you cancel or modify your appointment within 48 hours of your scheduled appointment time, it is classed as a late cancellation and there is a non-refundable 30% fee. There is also a non-refundable 50% fee for no shows. To cancel, you can choose to message your artist on their Instagram or cancel directly on their<a href="https://linktr.ee/utopiahairco"> booking system.</a>. Appointments are held for up to 15 minutes. Please let us know if you are running late and we will try accommodate you as best we can.</p>
         </div>
         <div className="confirmation-policy">
             <div className="policy-header">Do I need to confirm my booking?</div>
@@ -18,7 +18,7 @@ const ServicesPolicies = () => {
         </div>
       <div className="gift-card">
         <div className="policy-header">Do you offer gift cards?</div>
-        <p className="policy-p">Want to treat someone? Gift cards of various values can be purchased from your stylist through their individual Fresha webpage found <a href="https://linktr.ee/utopiahairco">here.</a></p>
+        <p className="policy-p">Want to treat someone? Gift cards of various values can be purchased from your stylist through their individual booking system found <a href="https://linktr.ee/utopiahairco">here.</a></p>
       </div>
     </div>
   )
