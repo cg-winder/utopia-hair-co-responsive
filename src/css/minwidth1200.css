@@ -652,6 +652,31 @@
     /* Testimonials Finish */
 
 
+
+    /* SERVICES PAGE */
+    /* Services Media Queries */
+    @media only screen and (min-width: 1279px) and (min-height: 799px) {
+        .services-pricing-img img {
+            height: 54vh;
+            width: 100vw;
+        }
+
+        .services-recommendation-wrap {
+            margin: 9% 2% 0% 2%
+        }
+    }
+
+    @media only screen and (min-width: 1366px) and (min-height: 1024px) {
+        .services-book-wrap {
+            margin: 21% 0% 0% 0%;
+        }
+
+        .services-pricing-img img {
+            height: 44vh;
+            width: 100vw;
+        }
+    }
+
     /* TEAM PAGE */
 
     .team-page-wrap {

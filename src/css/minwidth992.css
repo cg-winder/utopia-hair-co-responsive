@@ -695,6 +695,121 @@
     /* Testimonials Finish */
 
 
+
+    /* SERVICES PAGE */
+    /* Services Media Queries */
+    @media only screen and (min-width: 1023px) {
+        .services-book-wrap {
+            margin: 20.5% 0% 0% 0%;
+        }
+
+        .services-book-text {
+            font-size: 27px;
+        }
+
+        .services-book-1 {
+            margin-top: -21%;
+        }
+
+        .services-book-2 {
+            padding: 4% 0%;
+        }
+
+        .services-book-button {
+            display: flex;
+            margin: 0 auto;
+            background-color: transparent;
+            padding: 2.5% 5%;
+            font-weight: 400;
+            transition: 0.3s ease-in-out;
+            color: whitesmoke;
+            border: 2px solid white;
+            box-shadow: inset 600px 0 0 0 #09000057;
+        }
+
+        .services-pricing {
+            margin-top: 5%;
+        }
+
+        .services-recommendation-wrap {
+            margin: 15% 2% 0% 2%
+        }
+    }
+
+    @media only screen and (min-width: 1023px) and (min-height: 599px) {
+        .services-book-1 {
+            margin-top: -21%;
+        }
+
+        .services-pricing-img img {
+            height: 72vh;
+            width: 100vw;
+        }
+
+        .services-recommendation-wrap {
+            margin: 12% 2% 0% 2%
+        }
+    }
+
+    @media only screen and (min-width: 1023px) and (min-height: 767px) {
+        .services-pricing-img img {
+            height: 50vh;
+            width: 100vw;
+        }
+
+        .pricing-header {
+            padding-top: 6%;
+        }
+
+        .services-recommendation-wrap {
+            margin: 11% 2% 0% 2%
+        }
+    }
+
+    @media only screen and (width: 1080px) and (height: 810px) {
+        .services-book-wrap {
+            margin: 19% 0% 0% 0%;
+        }
+    }
+
+    @media only screen and (width: 1104px) and (height: 884px) {
+        .services-book-wrap {
+            margin: 20% 0% 0% 0%;
+        }
+
+        .services-recommendation-wrap {
+            margin: 9.5% 2% 0% 2%
+        }
+
+        .services-pricing-img img {
+            height: 45vh;
+            width: 100vw;
+        }
+    }
+
+    @media only screen and (width: 1112px) and (min-height: 834px) {
+        .services-book-wrap {
+            margin: 20% 0% 0% 0%;
+        }
+    }
+
+    @media only screen and (width: 1124px) and (min-height: 1366px) {
+        .services-pricing-img img {
+            height: 30vh;
+            width: 100vw;
+        }
+    }
+
+    @media only screen and (width: 1180px) and (height: 820px) {
+        .services-recommendation-wrap {
+            margin: 9% 2% 0% 2%
+        }
+    }
+
+
+
+
+
     /* TEAM PAGE */
 
     .team-page-wrap {
