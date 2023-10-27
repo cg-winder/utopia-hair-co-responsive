@@ -11,10 +11,6 @@ import smallbrush from "../imgs/salonbrushsmall2.png"
 const ServicesPricing = () => {
   return (
     <div className="services-pricing">
-       <picture className="services-pricing-img">
-          <source media="(min-width:768px)" srcSet={brush}/>
-          <img src={smallbrush}/>
-        </picture>
         <div className="services-text">
           <div className="pricing-header">Our Services</div>
           <div className="pricing-menu-wrap">

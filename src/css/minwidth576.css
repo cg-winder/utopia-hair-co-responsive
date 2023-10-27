@@ -838,6 +838,13 @@
         }
     }
 
+    @media only screen and (min-width: 720px) and (min-height: 1280px) {
+        .services-pricing-img img {
+            height: 27vh;
+            width: 100vw;
+        }
+    }
+
     @media only screen and (min-width: 735px) and (min-height: 411px) {
         .services-book-text {
             padding-top: 26%;

@@ -1,4 +1,5 @@
 import React from "react";
+import ServicesBookBackground from "./ServicesComponents/ServicesBookBackground";
 import ServicesBook from "./ServicesComponents/ServicesBook";
 import ServicesRecommendation from "./ServicesComponents/ServicesRecommendation";
 import ServicesPolicies from "./ServicesComponents/ServicesPolicies";
@@ -12,8 +13,9 @@ const Services = () => {
       <div className="homepage-head" id="services-head">
           <div>Services</div>
       </div>
+      <ServicesBookBackground />
       <ServicesBook />
-      {/* <ServicesBackground /> */}
+      <ServicesBackground />
       <ServicesPricing />
       <ServicesRecommendation />
       <ServicesImgs />

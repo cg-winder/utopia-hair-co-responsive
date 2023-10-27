@@ -126,12 +126,6 @@
 
 
     .homedetail-background-img {
-        /* height: 350px;
-        width: 290px;
-        display: flex;
-        margin: 43% 0% 0% 62.3%;
-        border-radius: 2px;
-        position: absolute; */
         width: 100%;
         margin-top: 18.3%;
         height: auto;
@@ -272,7 +266,6 @@
     .homeservices-wrap {
         margin: -3% 0% 0% 0%;
         padding-top: 2%;
-        /* background-image: url("../components/imgs/servicewave.png"); */
     }
 
     .homeservices-header {
@@ -323,8 +316,6 @@
     .homeservices-link a:hover {
         color: white;
     }
-
-
 
     /* Home Services finish*/
 
@@ -1124,24 +1115,34 @@
         font-family: "noto serif display", serif;
     }
 
-    .services-book-wrap {
-        margin: 16.4% 0% 0% 0%;
+    .services-book-background-img {
+        width: 100%;
+        margin-top: 16%;
+        margin-bottom: 30%;
+        height: auto;
+        position: absolute;
+        z-index: -1;
     }
 
-    .services-book-img {
-        position: absolute;
-        z-index: -99;
+    .services-book-background-img img {
+        width: 100%;
+        height: 70vh;
+    }
+
+    .services-book-wrap {
+        margin-top: 8%;
+        position: relative;
     }
 
     .services-book-text {
-        font-family: "noto serif display", serif;
         text-align: center;
         text-transform: uppercase;
         font-size: 27px;
+        margin-top: -8%;
     }
 
     .services-book-1 {
-        margin-top: -15%;
+        margin-top: 0%;
     }
 
     .services-book-2 {
@@ -1166,6 +1167,7 @@
         color: whitesmoke;
         border: 2px solid white;
         box-shadow: inset 600px 0 0 0 #09000057;
+        margin-bottom: 8%;
     }
 
     .services-book-button:hover {
@@ -1183,18 +1185,22 @@
     }
 
 
-    .services-pricing {
-        margin-top: 12%;
-    }
-
-    .services-pricing-img {
+    .services-background-img {
+        width: 100%;
+        margin-top: 0%;
+        height: auto;
         position: absolute;
-        z-index: -99;
+        z-index: -1;
     }
 
-    .services-pricing-img img {
-        height: 40vh;
-        width: 100vw;
+    .services-background-img img {
+        width: 100%;
+        height: 37vh;
+    }
+
+    .services-pricing {
+        position: static;
+        margin-top: 10%;
     }
 
     .services-text {
@@ -1203,7 +1209,6 @@
 
     .pricing-header {
         margin: 0% 60% 1% 3.5%;
-        padding-top: 10%;
         font-size: 55px;
         line-height: 32px;
         color: rgb(172, 140, 140);
@@ -1219,7 +1224,7 @@
     }
 
     .services-artists {
-        margin: 6% 0% 0% 4%;
+        margin: 6% 0% 0% 3%;
         font-size: 20px;
         text-transform: uppercase;
         color: rgb(188, 164, 164);
@@ -1234,7 +1239,7 @@
     }
 
     .services-recommendation-wrap {
-        margin: 15% 2% 0% 2%
+      
     }
 
     .recommendation-header {
@@ -1261,7 +1266,6 @@
         margin-top: 2%;
         color: rgb(178, 138, 138);
         line-height: 32px;
-
     }
 
     .services-inspiration a {
@@ -1279,7 +1283,7 @@
 
     .services-policies {
         border: 1px solid white;
-        box-shadow: inset 1000px 0 0 0 #e0d9d97e;
+        box-shadow: inset 1930px 0 0 0 #e0d9d97e;
     }
 
     .services-policies-header {
@@ -1319,92 +1323,6 @@
 
     /* Services Media Queries */
 
-
-    @media only screen and (min-width: 779px) and (min-height: 359px) {
-        .services-pricing-img img {
-            height: 110vh;
-            width: 100vw;
-        }
-
-        .services-recommendation-wrap {
-            margin: 13% 2% 0% 2%
-        }
-    }
-
-    @media only screen and (width: 800px) and (height: 1280px) {
-        .services-pricing-img img {
-            height: 32vh;
-            width: 100vw;
-        }
-    }
-
-    @media only screen and (width: 810px) and (height: 1080px) {
-        .services-pricing-img img {
-            height: 38vh;
-            width: 100vw;
-        }
-    }
-
-    @media only screen and (width: 820px) and (height: 1180px) {
-        .services-pricing-img img {
-            height: 35vh;
-            width: 100vw;
-        }
-    }
-
-    @media only screen and (width: 834px) and (height: 548px) {
-        .services-pricing-img img {
-            height: 76vh;
-            width: 100vw;
-        }
-    }
-
-
-    @media only screen and (width: 834px) and (height: 1112px) {
-        .services-pricing-img img {
-            height: 37vh;
-            width: 100vw;
-        }
-    }
-
-    @media only screen and (width: 834px) and (height: 1194px) {
-        .services-pricing-img img {
-            height: 35vh;
-            width: 100vw;
-        }
-    }
-
-    @media only screen and (width: 869px) and (height: 412px) {
-        .services-book-1 {
-            margin-top: -10%;
-        }
-
-        .services-recommendation-wrap {
-            margin: 16% 2% 0% 2%
-        }
-    }
-
-    @media only screen and (width: 884px) and (height: 1104px) {
-        .services-pricing-img img {
-            height: 38vh;
-            width: 100vw;
-        }
-    }
-
-    @media only screen and (width: 962px) and (height: 601px) {
-        .services-pricing-img img {
-            height: 68vh;
-            width: 100vw;
-        }
-
-        .pricing-header {
-            padding-top: 6%;
-        }
-
-        .services-recommendation-wrap {
-            margin: 11% 2% 0% 2%
-        }
-    }
 
 
 

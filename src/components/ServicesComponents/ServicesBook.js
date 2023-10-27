@@ -1,14 +1,9 @@
 import React from 'react'
-import salon from "../imgs/salonblackedout2.png";
-import salonstretch from "../imgs/blackoutsalonstretch.png"
+
 
 const ServicesBook = () => {
   return (
     <div className="services-book-wrap">
-        <picture className="services-book-img">
-          <source media="(min-width:1023px)" srcSet={salonstretch}/>
-          <img src={salon}/>
-        </picture>
         <div className="services-book-text">
             <p className="services-book-1">Book appointment</p>
             <p className="services-book-2">Make a reservation for <div className="services-book-3">the ultimate pampering</div></p>

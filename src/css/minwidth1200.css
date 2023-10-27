@@ -666,6 +666,17 @@
         }
     }
 
+    @media only screen and (min-width: 1279px) and (min-height: 899px) {
+        .services-pricing-img img {
+            height: 50vh;
+            width: 100vw;
+        }
+
+        .services-recommendation-wrap {
+            margin: 9% 2% 0% 2%
+        }
+    }
+
     @media only screen and (min-width: 1366px) and (min-height: 1024px) {
         .services-book-wrap {
             margin: 21% 0% 0% 0%;

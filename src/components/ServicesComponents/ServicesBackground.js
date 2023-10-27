@@ -2,6 +2,7 @@ import React from 'react'
 import brush from "../imgs/salonbrush3.png"
 import smallbrush from "../imgs/salonbrushsmall2.png"
 
+
 const ServicesBackground = () => {
   return (
     <div className="services-background">

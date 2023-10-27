@@ -766,13 +766,43 @@
         }
     }
 
-    @media only screen and (width: 1080px) and (height: 810px) {
+    @media only screen and (min-width: 1023px) and (min-height: 1365px) {
+        .services-pricing-img img {
+            height: 28vh;
+            width: 100vw;
+        }
+
+        .pricing-header {
+            padding-top: 6%;
+        }
+
+        .services-recommendation-wrap {
+            margin: 11% 2% 0% 2%
+        }
+    }
+
+    @media only screen and (min-width: 1080px) and (min-height: 810px) {
         .services-book-wrap {
             margin: 19% 0% 0% 0%;
         }
     }
 
-    @media only screen and (width: 1104px) and (height: 884px) {
+    @media only screen and (min-width: 1080px) and (min-height:1920px) {
+        .services-book-wrap {
+            margin: 19% 0% 0% 0%;
+        }
+
+        .services-pricing-img img {
+            height: 20vh;
+            width: 100vw;
+        }
+
+        .services-recommendation-wrap {
+            margin: 8.5% 2% 0% 2%
+        }
+    }
+
+    @media only screen and (min-width: 1104px) and (min-height: 884px) {
         .services-book-wrap {
             margin: 20% 0% 0% 0%;
         }
@@ -787,20 +817,20 @@
         }
     }
 
-    @media only screen and (width: 1112px) and (min-height: 834px) {
+    @media only screen and (min-width: 1112px) and (min-height: 834px) {
         .services-book-wrap {
             margin: 20% 0% 0% 0%;
         }
     }
 
-    @media only screen and (width: 1124px) and (min-height: 1366px) {
+    @media only screen and (min-width: 1124px) and (min-height: 1366px) {
         .services-pricing-img img {
             height: 30vh;
             width: 100vw;
         }
     }
 
-    @media only screen and (width: 1180px) and (height: 820px) {
+    @media only screen and (min-width: 1180px) and (min-height: 820px) {
         .services-recommendation-wrap {
             margin: 9% 2% 0% 2%
         }

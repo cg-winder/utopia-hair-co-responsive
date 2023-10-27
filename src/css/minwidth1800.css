@@ -553,7 +553,22 @@
 
     /* Testimonials Finish */
 
+    /* Services Page*/
+    /* Services Media Queries */
+    @media only screen and (min-width: 1919px) and (min-height: 1079px) {
+        .services-book-1 {
+            margin-top: -17%;
+        }
 
+        .services-pricing-img img {
+            height: 47vh;
+            width: 100vw;
+        }
+
+        .services-recommendation-wrap {
+            margin: 9% 2% 0% 2%
+        }
+    }
 
 
 
