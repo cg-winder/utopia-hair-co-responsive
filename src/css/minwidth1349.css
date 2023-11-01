@@ -791,57 +791,55 @@
     /* Testimonials Finish */
 
     /* Services Media Queries */
-
-    @media only screen and (min-width: 1366px) and (min-height: 768px) {
-        .services-pricing-img img {
-            height: 60vh;
-            width: 100vw;
-        }
-
-        .services-recommendation-wrap {
-            margin: 8% 2% 0% 2%
-        }
-    }
-
-    @media only screen and (min-width: 1366px) and (min-height: 1024px) {
-        .services-pricing-img img {
-            height: 44vh;
-            width: 100vw;
-        }
-
-        .services-recommendation-wrap {
-            margin: 8% 2% 0% 2%
-        }
-    }
-
-    @media only screen and (min-width: 1439px) and (min-height: 899px) {
-        .services-pricing-img img {
-            height: 52vh;
-            width: 100vw;
-        }
-    }
-
-    @media only screen and (min-width: 1536px) and (min-height: 864px) {
-        .services-pricing-img img {
-            height: 56vh;
-            width: 100vw;
-        }
-    }
-
-    @media only screen and (min-width: 1680px) and (min-height: 875px) {
-        .services-pricing-img img {
-            height: 52vh;
-            width: 100vw;
-        }
-
+    @media only screen and (min-width: 1366px) {
         .services-artists {
-            margin: 3% 0% 0% 3%;
+            margin-left: 3%;
         }
 
         .pricing-menus {
-            margin: 2% 0% -6% 0%;
+            margin-top: 2%;
+        }
+
+        .pricing-header {
+            margin: 0% 60% 1% 2.5%;
+        }
+
+        .pricing-menu-wrap p {
+            color: rgb(172, 140, 140);
+            text-transform: uppercase;
+            margin: 2% 0% 0% 3%;
         }
     }
+
+    @media only screen and (min-width: 1536px) and (min-width: 959px) {
+        .services-background-img img {
+            width: 100%;
+            height: 43vh;
+        }
+    }
+
+    @media only screen and (min-width: 1536px) and (min-width: 863px) {
+        .services-background-img img {
+            width: 100%;
+            height: 50vh;
+        }
+
+        .services-artists {
+            margin-top: 4%;
+        }
+
+        .pricing-menus {
+            margin-top: 1%;
+        }
+    }
+
+    @media only screen and (min-width: 1680px) and (min-width:874px) {
+        .services-background-img img {
+            width: 100%;
+            height: 51vh;
+        }
+    }
+
 
 
     /* TEAM PAGE */

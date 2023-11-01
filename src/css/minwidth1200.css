@@ -655,38 +655,79 @@
 
     /* SERVICES PAGE */
     /* Services Media Queries */
-    @media only screen and (min-width: 1279px) and (min-height: 799px) {
-        .services-pricing-img img {
-            height: 54vh;
-            width: 100vw;
+
+    @media only screen and (min-width: 1280px) {
+        .services-book-background-img {
+            width: 100%;
+            margin-top: 20%;
         }
 
-        .services-recommendation-wrap {
-            margin: 9% 2% 0% 2%
-        }
-    }
-
-    @media only screen and (min-width: 1279px) and (min-height: 899px) {
-        .services-pricing-img img {
-            height: 50vh;
-            width: 100vw;
+        .services-book-background-img img {
+            width: 100%;
+            height: auto;
         }
 
-        .services-recommendation-wrap {
-            margin: 9% 2% 0% 2%
-        }
-    }
-
-    @media only screen and (min-width: 1366px) and (min-height: 1024px) {
         .services-book-wrap {
-            margin: 21% 0% 0% 0%;
+            margin-top: 24%;
+            position: relative;
         }
 
-        .services-pricing-img img {
-            height: 44vh;
-            width: 100vw;
+        .services-background-img {
+            width: 100%;
+            margin-top: -1%;
+            height: auto;
+            position: absolute;
+            z-index: -1;
+        }
+
+        .services-background-img img {
+            width: 100%;
+            height: 60vh;
+        }
+
+        .services-pricing {
+            position: static;
+            margin-top: -5%;
+        }
+
+        .recommendation-header {
+            margin-top: -4%;
         }
     }
+
+    @media only screen and (min-width: 1280px) and (min-height:755px) {
+        .recommendation-header {
+            margin-top: -3%;
+        }
+
+        .services-background-img img {
+            width: 100%;
+            height: 55vh;
+        }
+    }
+
+    @media only screen and (min-width: 1280px) and (min-height:860px) {
+        .recommendation-header {
+            margin-top: -4%;
+        }
+
+        .services-background-img img {
+            width: 100%;
+            height: 50vh;
+        }
+    }
+
+    @media only screen and (min-width: 1280px) and (min-height:1024px) {
+
+        .services-background-img img {
+            width: 100%;
+            height: 43vh;
+        }
+    }
+
+
+
+
 
     /* TEAM PAGE */
 

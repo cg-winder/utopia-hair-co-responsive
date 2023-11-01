@@ -3,6 +3,7 @@ import React from "react";
 const ServicesRecommedation = () => {
   return (
     <div className="services-recommendation-wrap">
+       <div className="services-recommendation-text">
       <h2 className="recommendation-header">
         Stuck on your style?
       </h2>
@@ -15,6 +16,7 @@ const ServicesRecommedation = () => {
       </div>
       <div className="services-inspiration">
         Need some inspiration? Check out some styles below...
+      </div>
       </div>
     </div>
   );
