@@ -1195,7 +1195,7 @@
 
     .services-background-img img {
         width: 100%;
-        height: 37vh;
+        height: 75vh;
     }
 
     .services-pricing {
@@ -1227,7 +1227,6 @@
         margin: 6% 0% 0% 4%;
         font-size: 20px;
         text-transform: uppercase;
-        color: rgb(188, 164, 164);
         color: whitesmoke;
     }
 
@@ -1250,7 +1249,7 @@
         text-transform: uppercase;
         font-weight: 100;
         font-size: 32px;
-        color: rgb(186, 142, 150);
+        color: whitesmoke;
         text-align: center;
     }
 
@@ -1267,7 +1266,7 @@
         text-align: center;
         font-size: 15px;
         margin-top: 2%;
-        color: rgb(178, 138, 138);
+        color: whitesmoke;
         line-height: 32px;
     }
 
@@ -1325,7 +1324,7 @@
     }
 
 
-    @media only screen and (min-width: 767px) {
+    /* @media only screen and (min-width: 767px) {
         .recommendation-header {
             margin-top: -3%;
         }
@@ -1433,7 +1432,109 @@
             width: 100%;
             height: 66vh;
         }
+    } */
+
+    @media only screen and (min-width: 767px) {
+        .recommendation-header {
+            margin-top: -3%;
+        }
     }
+
+    @media only screen and (min-width: 780px) and (min-height: 360px) {
+        .services-book-background-img img {
+            width: 100%;
+            height: 153vh;
+        }
+
+        .services-background-img img {
+            width: 100%;
+            height: 200vh;
+        }
+    }
+
+    @media only screen and (min-width: 800px) and (min-height: 1079px) {
+        .services-background-img img {
+            width: 100%;
+            height: 60vh;
+        }
+    }
+
+    @media only screen and (min-width: 800px) and (min-height: 1280px) {
+        .services-book-background-img img {
+            width: 100%;
+            height: 46vh;
+        }
+    }
+
+    @media only screen and (min-width: 810px) and (min-height: 1080px) {
+        .services-book-background-img img {
+            width: 100%;
+            height: 52vh;
+        }
+    }
+
+    @media only screen and (width: 820px) and (height: 1180px) {
+        .recommendation-header {
+            margin-top: 2%;
+        }
+    }
+
+    @media only screen and (min-width: 833px) {
+        .recommendation-header {
+            margin-top: -1%;
+        }
+
+        .services-background-img img {
+            width: 100%;
+            height: 65vh;
+        }
+    }
+
+    @media only screen and (width: 834px) and (height: 548px) {
+
+        .services-book-background-img img {
+            width: 100%;
+            height: 103vh;
+        }
+    }
+
+    @media only screen and (width: 834px) and (height: 1194px) {
+        .recommendation-header {
+            margin-top: 4%;
+        }
+    }
+
+    @media only screen and (min-width: 877px) {
+        .services-pricing {
+            margin-top: -4%;
+            position: static;
+        }
+    }
+
+    @media only screen and (width: 896px) and (height: 414px) {
+        .services-background-img img {
+            width: 100%;
+            height: 90vh;
+        }
+    }
+
+    @media only screen and (width: 915px) and (height: 412px) {
+        .recommendation-header {
+            margin-top: 4%;
+        }
+
+        .services-artists {
+            margin: 8% 0% 0% 4%;
+        }
+    }
+
+    @media only screen and (width: 926px) and (height: 428px) {
+        .services-background-img img {
+            width: 100%;
+            height: 90vh;
+        }
+    }
+
 
 
 

@@ -688,7 +688,21 @@
 
     .services-background-img img {
         width: 100%;
-        height: 39vh;
+        height: 200vh;
+    }
+
+    @media only screen and (width: 600px) and (height: 1024px) {
+        .services-background-img img {
+            width: 100%;
+            height: 80vh;
+        }
+    }
+
+    @media only screen and (width: 601px) and (height: 962px) {
+        .services-background-img img {
+            width: 100%;
+            height: 80vh;
+        }
     }
 
     .services-text {
@@ -743,7 +757,7 @@
         text-transform: uppercase;
         font-weight: 100;
         font-size: 23px;
-        color: rgb(186, 142, 150);
+        color: whitesmoke;
         text-align: center;
         margin-bottom: 3%;
     }
@@ -761,7 +775,7 @@
         text-align: center;
         font-size: 12px;
         margin: 2% 1% 4% 1%;
-        color: rgb(178, 138, 138);
+        color: whitesmoke;
         line-height: 32px;
 
     }
@@ -809,12 +823,13 @@
 
     /* Services Media Queries */
 
-    @media only screen and (min-width: 640px) and (min-height: 360px) {
+
+    /* @media only screen and (min-width: 640px) and (min-height: 360px) {
         .services-background-img img {
             height: 115vh;
             width: 100vw;
         }
-    }
+    } */
 
 
 

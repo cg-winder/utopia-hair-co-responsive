@@ -698,7 +698,7 @@
 
     /* SERVICES PAGE */
     /* Services Media Queries */
-
+    /* 
     @media only screen and (min-width: 1024px) and (min-height:600px) {
         .services-background-img img {
             width: 100%;
@@ -736,6 +736,62 @@
         .services-background-img img {
             width: 100%;
             height: 32vh;
+        }
+    } */
+    @media only screen and (min-width: 1024px) {
+        .services-imgs {
+            margin-left: 0.3%;
+        }
+    }
+
+
+
+    @media only screen and (min-width: 1024px) and (min-height:768px) {
+        .services-book-background-img img {
+            width: 100%;
+            height: 85vh;
+        }
+
+        .services-background-img img {
+            width: 100%;
+            height: 90vh;
+        }
+    }
+
+    @media only screen and (min-width: 1079px) and (min-height:1919px) {
+        .services-book-background-img img {
+            width: 100%;
+            height: 40vh;
+        }
+
+        .services-background-img img {
+            width: 100%;
+            height: 40vh;
+        }
+    }
+
+    @media only screen and (min-width: 1112px) and (min-height:768px) {
+
+
+        .services-background-img img {
+            width: 100%;
+            height: 95vh;
+        }
+    }
+
+    @media only screen and (min-width: 1024px) and (height: 1366px) {
+        .services-pricing {
+            position: static;
+            margin-top: 8%;
+        }
+
+        .recommendation-header {
+            margin-top: 1%;
+        }
+
+        .services-book-background-img img {
+            width: 100%;
+            height: 46vh;
         }
     }
 

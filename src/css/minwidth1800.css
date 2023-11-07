@@ -554,8 +554,33 @@
     /* Testimonials Finish */
 
     /* Services Page*/
+    .services-background-img img {
+        width: 100%;
+        height: 100vh;
+    }
+
+    .pricing-header {
+        margin: 0% 60% 1% 2.3%;
+    }
+
+    .pricing-menu-wrap p {
+        margin: 1.7% 0% 0% 2.5%;
+    }
+
+    .services-artists {
+        margin: 2% 0% 0% 2.5%;
+    }
+
+    .pricing-menus {
+        margin: 1% 0% -10% 0%;
+    }
+
+    .services-imgs {
+        margin: 0 auto;
+    }
+
     /* Services Media Queries */
-    @media only screen and (min-width: 1919px) and (min-height: 1079px) {
+    /* @media only screen and (min-width: 1919px) and (min-height: 1079px) {
         .services-book-background-img {
             width: 100%;
             margin-top: 20%;
@@ -582,6 +607,39 @@
         .services-background-img img {
             width: 100%;
             height: 45vh;
+        }
+
+        .services-pricing {
+            position: static;
+            margin-top: -5%;
+        }
+
+        .recommendation-header {
+            margin-top: -4%;
+        }
+    } */
+    @media only screen and (min-width: 1919px) and (min-height: 1079px) {
+        .services-book-background-img {
+            width: 100%;
+            margin-top: 20%;
+        }
+
+        .services-book-background-img img {
+            width: 100%;
+            height: auto;
+        }
+
+        .services-book-wrap {
+            margin-top: 24%;
+            position: relative;
+        }
+
+        .services-background-img {
+            width: 100%;
+            margin-top: -1%;
+            height: auto;
+            position: absolute;
+            z-index: -1;
         }
 
         .services-pricing {

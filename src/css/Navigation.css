@@ -1,0 +1,111 @@
+/* general */
+.flex {
+    display: flex;
+    gap: var(--gap, 1rem);
+}
+
+/*Primary header*/
+.logo {
+    position: absolute;
+    top: 1;
+    left: 4;
+}
+
+.logo img {
+    height: 45%;
+    width: 30%;
+}
+
+.primary-navigation {
+    z-index: 99;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background: hsl(0 0% 100% / 0.1);
+    backdrop-filter: blur(0.3rem);
+    /* transform: translateX(100%); */
+}
+
+.primary-navigation a {
+
+    text-decoration: none;
+    color: white;
+    font-family: "noto serif display", serif;
+}
+
+.primary-navigation a:hover {
+    color: rgb(197, 159, 166);
+}
+
+
+@media (min-width: 320px) {
+    .primary-navigation {
+        font-size: 19px;
+        --gap: 2.5em;
+        position: fixed;
+        inset: 0 0 0 35%;
+        flex-direction: column;
+        padding: min(20vh, 10%) 2%;
+    }
+}
+
+@media (min-width: 320px) and (orientation: landscape) {
+    .primary-navigation {
+        font-size: 19px;
+        --gap: 1.5em;
+        position: fixed;
+        inset: 0 0 0 35%;
+        flex-direction: column;
+        padding: min(20vh, 10%) 2%;
+    }
+}
+
+@media (min-width: 500px) {
+    .primary-navigation {
+        font-size: 18px;
+        inset: 0 0 0 45%;
+    }
+}
+
+@media (min-width: 700px) {
+    .primary-navigation {
+        inset: 0 0 0 75%;
+    }
+}
+
+@media (min-width: 700px) and (orientation: landscape) {
+    .primary-navigation {
+        --gap: 2.5em;
+        position: fixed;
+        inset: 0 0 0 80%;
+        flex-direction: column;
+        padding: min(20vh, 10%) 2%;
+    }
+}
+
+
+@media (min-width: 1200px) {
+    .primary-navigation {
+        inset: 0 0 0 80%;
+    }
+}
+
+
+@media (min-width: 1600px) {
+    .primary-navigation {
+        inset: 0 0 0 83%;
+        font-size: 19px;
+    }
+}
+
+.nav-toggle {
+    position: absolute;
+    z-index: 9999;
+    background: url("../components/imgs/hamburger.jpeg");
+    background-repeat: no-repeat;
+    width: 2rem;
+    border: 0;
+    aspect-ratio: 1;
+    top: 2rem;
+    right: 1rem;
+}

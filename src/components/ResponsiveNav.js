@@ -3,14 +3,10 @@ import { Button } from './NavComponents/Button';
 import { Link } from 'react-router-dom';
 import '../css/Navbar.css'
 import lightsign from "./imgs/utopialight.png";
-import salon from "./imgs/salonpic3.jpeg";
-import salonstretch from "./imgs/salonstretch.jpeg"
 import Background from "./NavComponents/background"
 
 function Navbar() {
   const [click, setClick] = useState(false);
-
-
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
 
@@ -21,10 +17,6 @@ function Navbar() {
         <a href="/home" className='logo'>
             <img src={lightsign}  />
         </a>
-      {/* <picture className="nav-img">
-          <source media="(min-width:1348px)" srcSet={salonstretch}/>
-          <img src={salon}/>
-        </picture> */}
       <Background />
             <div className='nav-menu-icon' onClick={handleClick}>
               <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
@@ -64,17 +56,17 @@ function Navbar() {
               <span>Meet The Team</span>
               </Link>
             </li>
-            <li>
+            <li className="nav-item">
               <Link
                 to='https://linktr.ee/utopiahairco'
-                className='nav-booking-mobile'
+                className='nav-links'
                 onClick={closeMobileMenu}
               >
               Book Now
               </Link>
             </li>
           </ul>
-          <Button />
+          {/* <Button /> */}
       </nav>
     </>
   );

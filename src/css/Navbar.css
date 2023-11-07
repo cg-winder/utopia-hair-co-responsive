@@ -67,7 +67,6 @@
 .nav-links {
     color: white;
     text-decoration: none;
-    padding: 0.5rem 1rem;
 }
 
 .nav-links span:hover {
@@ -78,10 +77,6 @@
     color: white;
 }
 
-
-.nav-booking-mobile {
-    display: none;
-}
 
 .nav-menu-icon {
     display: none;
@@ -125,7 +120,7 @@
     .nav-links {
         text-align: center;
         font-family: "noto serif display", serif;
-        padding: 2rem;
+        padding: 1rem;
         width: 100%;
         display: table;
         color: rgb(179, 146, 146);
@@ -153,7 +148,7 @@
         font-size: 3rem;
     }
 
-    .nav-booking-mobile {
+    /* #nav-book {
         display: block;
         text-align: center;
         padding: 1% 1%;
@@ -166,10 +161,10 @@
         font-family: "noto serif display", serif;
     }
 
-    .nav-booking-mobile:hover {
+    #nav-book:hover {
         color: rgb(179, 146, 146);
         transition: 250ms;
-    }
+    } */
 
     button {
         display: none;
@@ -177,8 +172,57 @@
 
 
     /* MOBILE NAVBAR */
-
     @media only screen and (max-width: 766px) {
+        .nav-menu {
+            top: 15vh;
+            width: 100vw;
+            height: 83vh;
+        }
+
+        .nav-links {
+            font-size: 15px;
+            padding: 3%;
+        }
+
+        .logo {
+            display: flex;
+            margin: 0 auto;
+            margin-top: 11%;
+        }
+
+        .logo img {
+            height: 20vh;
+            width: 35vw;
+        }
+
+    }
+
+    @media only screen and (min-width: 568px) and (orientation: landscape) {
+        .logo {
+            display: flex;
+            margin: 0 auto;
+            margin-top: 15%;
+        }
+
+        .logo img {
+            height: 45vh;
+            width: 35vw;
+        }
+
+        .nav-menu {
+            top: 20vh;
+            width: 100vw;
+            height: 74vh;
+        }
+
+        .nav-links {
+            font-size: 14px;
+            padding: 1%;
+        }
+
+    }
+
+    /* @media only screen and (max-width: 766px) {
         .nav-menu-icon {
             display: block;
             position: absolute;
@@ -611,10 +655,34 @@
         .nav-booking-mobile {
             font-size: 19px;
         }
-    }
+    } */
 
     /* TABLET NAVBAR */
     @media only screen and (min-width: 767px) {
+        .nav-menu {
+            top: 9vh;
+            width: 100vw;
+            height: 89.5vh;
+        }
+
+        .nav-links {
+            font-size: 25px;
+        }
+
+        .logo {
+            z-index: 99;
+            margin-top: 2%;
+            margin-left: 2%;
+        }
+
+        .logo img {
+            height: 80px;
+            width: 90px;
+            opacity: 100;
+        }
+    }
+
+    /* @media only screen and (min-width: 767px) {
         .logo {
             z-index: 99;
             margin-top: 2%;
@@ -785,7 +853,6 @@
 
     @media only screen and (min-width: 819px) and (min-height: 1179px) {
         .fa-bars {
-            /* color: rgb(212, 174, 174); */
             font-size: 2.9rem;
         }
 
@@ -975,12 +1042,25 @@
         .nav-menu {
             height: 61vh;
         }
-    }
+    } */
 
 
 
     /* LAPTOP NAVBAR */
     @media only screen and (min-width: 1279px) and (min-height: 719px) {
+        .nav-menu {
+            top: 13vh;
+            width: 100vw;
+            height: 85.5vh;
+        }
+
+        .nav-links {
+            font-size: 30px;
+        }
+
+    }
+
+    /* @media only screen and (min-width: 1279px) and (min-height: 719px) {
         .logo {
             margin-top: 3%;
         }
@@ -1031,10 +1111,24 @@
         .nav-menu {
             height: 57vh;
         }
-    }
+    } */
+
 
     /* DESKTOP NAVBARS */
     @media only screen and (min-width: 1365px) and (min-height: 767px) {
+
+        .nav-menu {
+            top: 25vh;
+            width: 100vw;
+            height: 73.5vh;
+        }
+
+        .nav-links {
+            font-size: 35px;
+        }
+    }
+
+    /* @media only screen and (min-width: 1365px) and (min-height: 767px) {
         .logo {
             margin-top: 2%;
             margin-left: 2.5%;
@@ -1209,6 +1303,7 @@
     }
 
     @media only screen and (min-width: 1919px) and (min-height: 1079px) {
+
         .logo {
             margin-top: 1.6%;
             margin-left: 2.7%;
@@ -1245,5 +1340,6 @@
             height: 42vh;
             top: 182px;
         }
-    }
+
+    } */
 }
