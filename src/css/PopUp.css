@@ -99,7 +99,7 @@ body {
 .popup2 .content,
 .popup4 .content,
 .popup5 .content {
-    max-height: 100%;
+    max-height: 90%;
     max-width: 100%;
     overflow: auto;
 
