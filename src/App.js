@@ -1,6 +1,5 @@
 import "./css/App.css";
 import "./css/PopUp.css"
-// import "./css/Navbar.css";
 import "./css/Navigation.css"
 import "./css/normalize.css";
 import "./css/maxwidth575.css";
@@ -16,14 +15,12 @@ import Salon from "./components/Salon";
 import Services from "./components/Services";
 import Team from "./components/Team";
 import Footer from "./components/Footer";
-// import ResponsiveNav from "./components/ResponsiveNav";
 import Navigation from "./components/Navigation"
 
 function App() {
   return (
     <div className="app-container">
       <div className="content-wrap">
-        {/* <ResponsiveNav /> */}
         <Navigation/>
         <div id="page-components-wrap">
           <Routes>

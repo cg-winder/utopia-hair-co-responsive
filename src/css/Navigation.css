@@ -5,15 +5,36 @@
 }
 
 /*Primary header*/
-.logo {
-    position: absolute;
-    top: 1;
-    left: 4;
+@media only screen and (max-width: 766px) {
+    .logo {
+        position: absolute;
+        margin-left: 30%;
+        margin-top: 14%;
+        z-index: 99;
+    }
+
+    .logo img {
+        height: 80%;
+        width: 65%;
+    }
+
+    .background {
+        margin-bottom: -22%;
+    }
 }
 
-.logo img {
-    height: 45%;
-    width: 30%;
+@media only screen and (min-width: 767px) {
+    .logo {
+        position: absolute;
+        left: 3%;
+        top: 4%;
+        z-index: 99;
+    }
+
+    .logo img {
+        height: 65%;
+        width: 30%;
+    }
 }
 
 .primary-navigation {
@@ -31,6 +52,7 @@
     color: white;
     font-family: "noto serif display", serif;
 }
+
 
 .primary-navigation a:hover {
     color: rgb(197, 159, 166);
@@ -73,15 +95,15 @@
 
 @media (min-width: 700px) {
     .primary-navigation {
-        inset: 0 0 0 75%;
+        inset: 0 0 0 70%;
     }
 }
 
 @media (min-width: 700px) and (orientation: landscape) {
     .primary-navigation {
-        --gap: 2.5em;
+        --gap: 2.3em;
         position: fixed;
-        inset: 0 0 0 80%;
+        inset: 0 0 0 73%;
         flex-direction: column;
         padding: min(20vh, 10%) 2%;
     }
@@ -116,4 +138,22 @@
 .nav-toggle i {
     color: white;
     font-size: 1.8rem;
+}
+
+@media only screen and (max-width: 602px) {
+    .nav-toggle {
+        top: 1rem;
+        right: 0.8rem;
+    }
+}
+
+@media only screen and (min-width: 1400px) and (orientation: landscape) {
+    .nav-toggle i {
+        font-size: 2.8rem;
+    }
+
+    .nav-toggle {
+        top: 3rem;
+        right: 2rem;
+    }
 }

@@ -1,13 +1,12 @@
 import React from 'react'
-import video from "../imgs/pampasExtended.mp4"
-import video1 from "../imgs/waveHD.mp4"
-import video2 from "../imgs/pampas.mp4"
+import video from "../imgs/pampas.mp4"
+
 
 const Background = () => {
   return (
-    <div>
+    <div className="background">
       <video autoPlay muted loop playsInline className="video">
-        <source src={video2} type="video/mp4" />
+        <source src={video} type="video/mp4" />
       </video>
     </div>
   )

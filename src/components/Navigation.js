@@ -1,5 +1,6 @@
 import React, {useState} from 'react'
 import "../css/Navigation.css"
+import Background from "./NavComponents/background"
 import lightsign from "./imgs/utopialight.png";
 
 const Navigation = () => {
@@ -8,10 +9,11 @@ const Navigation = () => {
     const closeMenu = () => setClick(false);
   return (
     <>
-      <a href="/home" className='logo'>
+    <a href="/home" className='logo'>
             <img src={lightsign}  />
-        </a>
+    </a>
     <button onClick={handleClick} className="nav-toggle" aria-controls="primary-navigation" aria-expanded="false"><i className={click ? 'fas fa-times' : 'fas fa-bars'} /></button>
+    <Background />
     <nav>
       <ul className="primary-navigation flex" data-visible="false" id={click ? 'primary-navigation' : 'primary-navigation-inactive'}>
         <li className="active" onClick={closeMenu}>

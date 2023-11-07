@@ -691,14 +691,7 @@
         height: 200vh;
     }
 
-    @media only screen and (width: 600px) and (height: 1024px) {
-        .services-background-img img {
-            width: 100%;
-            height: 80vh;
-        }
-    }
-
-    @media only screen and (width: 601px) and (height: 962px) {
+    @media only screen and (min-width: 600px) and (orientation: portrait) {
         .services-background-img img {
             width: 100%;
             height: 80vh;
@@ -824,12 +817,11 @@
     /* Services Media Queries */
 
 
-    /* @media only screen and (min-width: 640px) and (min-height: 360px) {
-        .services-background-img img {
-            height: 115vh;
-            width: 100vw;
+    @media only screen and (min-width: 590px) and (orientation: portrait) {
+        .services-book-text {
+            padding-top: 0%;
         }
-    } */
+    }
 
 
 
@@ -839,7 +831,7 @@
         font-family: "italiana";
         animation: fade-in-left 3s ease;
         margin-bottom: 0%;
-        margin-top: 10%;
+        margin-top: 0%;
     }
 
     @keyframes fade-in-left {
