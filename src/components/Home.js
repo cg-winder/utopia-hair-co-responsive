@@ -15,11 +15,11 @@ const Home = () => {
   return (
     <div className="page-wrap">
       <HomePage />
-      <HomeWelcome />
-      <HomedetailBackground />
+      {/* <HomeWelcome /> */}
+      {/* <HomedetailBackground /> */}
       <HomeDetail />
       <HomeServices />
-      <HomestylistBackground />
+      {/* <HomestylistBackground /> */}
       <HomeStylists/>
       <HomeContact />
       <HomeInstagram />

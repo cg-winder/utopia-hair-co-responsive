@@ -193,6 +193,7 @@
     /* Home Detail */
 
     .homedetail-wrap {
+        background-image: url("../components/imgs/salonblack.png");
         z-index: 99;
         border: 1px solid transparent;
         background-color: transparent;
@@ -215,8 +216,9 @@
     .homedetail-book-button {
         display: flex;
         margin: 0 auto;
+        margin-bottom: 5%;
         background-color: transparent;
-        padding: 2.5% 5%;
+        padding: 2% 5%;
         font-family: "noto serif display", serif;
         font-size: 14px;
         font-weight: 400;
@@ -247,17 +249,10 @@
 
     /* HOME DETAIL QUERIES */
     @media only screen and (min-width: 900px) {
-        .homedetail-text {
-            font-size: 34px;
-        }
-
-        .homedetail-welcome {
-            font-size: 20px;
-        }
 
         .homedetail-subtext {
             line-height: 30px;
-            font-size: 13px;
+            font-size: 17px;
         }
 
         .homedetail-book-button {
@@ -270,15 +265,11 @@
 
     /* Home Services */
 
-    .homeservices-wrap {
-        margin: -3% 0% 0% 0%;
-        padding-top: 2%;
-    }
+    .homeservices-wrap {}
 
     .homeservices-header {
-        margin: 6% 66% 6% 6%;
+        margin: 9% 66% 6% 4%;
         line-height: 28px;
-        color: rgb(197, 181, 172);
         color: whitesmoke;
         font-size: 47px;
         text-align: left;
@@ -287,8 +278,10 @@
     }
 
     .homeservices-info {
+        position: relative;
         display: inline-flex;
         margin-left: 1%;
+        margin-top: 0%;
     }
 
     .homeservices-info img {
@@ -336,6 +329,7 @@
     }
 
     .homestylists-wrap {
+        background-image: url("../components/imgs/salonbrush2.png");
         background-color: transparent;
         margin-top: -0.1%;
     }
@@ -658,26 +652,6 @@
         margin: 0 auto;
     }
 
-    /* Hair Carousel */
-
-
-    .hair-carousel-wrap {
-        margin: 0% 5%;
-    }
-
-    .carousel-container {
-        background-color: white;
-    }
-
-    .hair-carousel-img img {
-        /* display: flex;
-        margin: 0 auto; */
-        height: 60%;
-        width: 60%;
-        z-index: 99;
-    }
-
-    /* Hair Carousel Finish */
 
     /* Testimonials */
 

@@ -32,120 +32,119 @@
     /* HOME PAGE */
 
     /* Home Detail */
-
     .homedetail-wrap {
-        background-color: rgb(205, 199, 186);
-        border: 1px solid white;
-        margin: 3% 4% 6% 4%;
-    }
-
-    .homedetail-text {
-        margin-top: 3%;
-        text-align: center;
-        font-size: 25px;
-        color: whitesmoke;
-        font-family: "italiana";
-    }
-
-    .homedetail-welcome {
-        text-align: center;
-        margin-top: 3%;
-        color: white;
-        font-style: italic;
-        font-family: "italiana";
-        font-size: 14px;
+        background-image: url("../components/imgs/salonblack.png");
+        z-index: 99;
+        border: 1px solid transparent;
+        background-color: transparent;
+        margin-top: 11vh;
     }
 
     .homedetail-subtext {
-        line-height: 22px;
-        font-family: "lato";
-        font-size: 15.5px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        font-family: 'noto serif display', serif;
+        font-size: 10px;
         text-align: center;
+        padding: 0% 1% 0% 1%;
+        line-height: 20px;
+        color: rgb(95, 64, 64);
         color: white;
-        margin: 2% 10%;
+        margin: 10% 8% 3% 8%;
     }
 
     .homedetail-book-button {
         display: flex;
         margin: 0 auto;
-        width: 24%;
-        margin-bottom: 4%;
-        background-color: #bcb2af;
-        border: 1px solid whitesmoke;
-        padding: 2% 2%;
-        color: white;
-        font-family: "italiana", serif;
-        font-size: 11px;
+        margin-bottom: 5%;
+        background-color: transparent;
+        padding: 2% 3%;
+        font-family: "noto serif display", serif;
+        font-weight: 400;
         transition: 0.3s ease-in-out;
-        box-shadow: inset 0 0 0 0 rgb(221, 211, 211);
-    }
-
-    .homedetail-book-button span {
-        padding-top: 3%;
-        display: flex;
-        margin: 0 auto;
+        color: whitesmoke;
+        border: 2px solid white;
+        box-shadow: inset 600px 0 0 0 #e0d9d997;
     }
 
     .homedetail-book-button:hover {
-        border: 2px solid white;
-        box-shadow: inset 140px 0 0 0 rgb(190, 181, 169);
+        color: whitesmoke;
+        box-shadow: inset 600px 0 0 0 #e0d9d997;
+        border: 2px solid transparent;
+    }
+
+    .homedetail-book-button span {
+        padding-top: 2%;
+        color: white;
+        display: flex;
+        margin: 0 auto;
+        font-size: 9px;
     }
 
     .homedetail-book-button span:hover {
-        color: whitesmoke;
+        color: rgb(168, 145, 149);
     }
+
 
     /* HOME DETAIL QUERIES*/
-    @media only screen and (min-width: 375px) {
 
-        .homedetail-text {
-            font-size: 29px;
-        }
-
-        .homedetail-welcome {
-            font-size: 15px;
-        }
-
-        .homedetail-subtext {
-            font-size: 16px;
-            margin: 2% 5%;
-        }
-    }
-
-    @media only screen and (min-width: 410px) {
-        .homedetail-subtext {
-            font-size: 16.5px
-        }
-    }
-
-    @media only screen and (min-width: 540px) {
-
-        .homedetail-text {
-            font-size: 30px;
-        }
-
-        .homedetail-welcome {
-            font-size: 16px;
-        }
-
-        .homedetail-subtext {
-            font-size: 17px;
-        }
-    }
 
     /* Home Detail finish */
 
     /* Home Services */
+    .homeservices-wrap {
+        margin-top: 6vh;
+    }
+
+    .homeservices-header {
+        color: whitesmoke;
+        font-size: 38px;
+        text-align: left;
+        margin-right: 50%;
+        line-height: 19px;
+        text-transform: uppercase;
+        font-family: "italiana";
+    }
+
+    .homeservices-info-wrap {}
+
     .homeservices-info {
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
         gap: 1em;
+        margin-top: 6vh;
+    }
+
+    .homeservices-info img {}
+
+    .homeservices-info p {
+        font-size: 13px;
+        padding: 1% 2%;
+        line-height: 24px;
+        text-align: center;
+    }
+
+    .homeservices-link {
+        text-align: center;
+        padding-bottom: 4%;
+    }
+
+    .homeservices-link span {
+        color: rgb(174, 136, 142);
+        font-size: 11px;
+        text-decoration: none;
+    }
+
+    .homeservices-link a {
+        text-decoration: none;
+        text-transform: uppercase;
     }
 
     /* Home Stylists */
     .homestylists-wrap {
-        border-top: 1px solid #b09797c9;
-        margin: 7% 3% 0% 3%;
+        background-image: url("../components/imgs/salonbrush2.png");
+        margin: 1% 0% 0% 0%;
         padding: 5% 3% 4% 3%;
     }
 
@@ -257,8 +256,6 @@
     /* Home Contact */
     .homecontact-page-wrap {
         font-family: 'noto serif display', serif;
-        border-top: 1px solid #b09797c9;
-        border-bottom: 1px solid #b09797c9;
         margin: 0% 3%;
         color: #b09797c9;
     }
@@ -340,68 +337,34 @@
     }
 
     /* HOME CONTACT QUERIES */
-    @media only screen and (min-width: 400px) {
-        .homecontact-address-h4 {
-            font-size: 19px;
-        }
-
-        .homecontact-address-table {
-            font-size: 15.5px;
-            line-height: 22px;
-        }
-
-        .homecontact-openingtimes-h4 {
-            font-size: 19px;
-        }
-
-        .homecontact-weekdays {
-            font-size: 13px;
-            padding-top: 3%;
-        }
-
-
-        .homecontact-book-h4 {
-            font-size: 19px;
-        }
-
-        .homecontact-book a {
-            padding-top: 3.5%;
-            font-size: 14px;
-        }
-    }
-
-    @media only screen and (min-width: 500px) {
-        .homecontact-address-h4 {
-            font-size: 19.5px;
-        }
-
-        .homecontact-address-table {
-            font-size: 16px;
-            line-height: 22.5px;
-        }
-
-        .homecontact-openingtimes-h4 {
-            font-size: 19.5px;
-        }
-
-        .homecontact-weekdays {
-            font-size: 14px;
-            padding-top: 3.5%;
-        }
-
-
-        .homecontact-book-h4 {
-            font-size: 19.5px;
-        }
-
-        .homecontact-book a {
-            padding-top: 3.5%;
-            font-size: 14.5px;
-        }
-    }
 
 
     /* Home Contact Finish */
+
+    /* Home Instagram */
+    .homeinstagram {
+        margin-top: 0%;
+        background-image: url('../components/imgs/igbg.png');
+        padding-bottom: 2%;
+        border-bottom: 0.5px solid white;
+        border-top: 0.5px solid white;
+    }
+
+    .homeinstagram-header {
+        text-align: center;
+        color: whitesmoke;
+        letter-spacing: -.03em;
+        text-transform: uppercase;
+        font-family: "italiana", serif;
+        font-size: 20px;
+        margin: 0 auto;
+        padding-top: 3%;
+        margin-bottom: 3%;
+    }
+
+    .homeinstagram-widget {
+        margin: 0 auto;
+    }
 
 
 
@@ -412,7 +375,7 @@
 
     .testimonials-header {
         text-align: center;
-        color: #BAA894;
+        color: whitesmoke;
         font-family: "italiana", serif;
         padding: 1% 0% 10% 0%;
         margin-bottom: -20%;

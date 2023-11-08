@@ -111,85 +111,21 @@
     /* HOME PAGE */
 
     /* Home Detail */
-
-    .homedetail-wrap {
-        background-color: rgb(205, 199, 186);
-        border: 1px solid white;
-        margin: 27% 5% 6% 5%;
-    }
-
-    .homedetail-text {
-        margin-top: 3%;
-        text-align: center;
-        font-size: 35px;
-        color: whitesmoke;
-        font-family: "italiana";
-    }
-
-    .homedetail-welcome {
-        text-align: center;
-        margin-top: 2%;
-        color: white;
-        font-style: italic;
-        font-family: "italiana";
-        font-size: 21px;
-    }
-
     .homedetail-subtext {
-        line-height: 32px;
-        font-family: "lato";
-        font-size: 14px;
-        text-align: center;
-        color: white;
-        margin: 2% 6%;
+        font-size: 18px;
+        line-height: 40px;
     }
 
-    .homedetail-book-button {
-        display: flex;
-        margin: 0 auto;
-        margin-bottom: 2%;
-        background-color: #bcb2af;
-        border: 1px solid whitesmoke;
-        padding: 1% 1%;
-        color: white;
-        font-family: "italiana", serif;
-        font-size: 15px;
-        transition: 0.3s ease-in-out;
-        box-shadow: inset 0 0 0 0 rgb(221, 211, 211);
-    }
-
-    .homedetail-book-button span {
-        padding-top: 2%;
-        display: flex;
-        margin: 0 auto;
-    }
-
-    .homedetail-book-button:hover {
-        border: 2px solid white;
-        box-shadow: inset 600px 0 0 0 rgb(190, 181, 169);
-    }
-
-    .homedetail-book-button span:hover {
-        color: whitesmoke;
-    }
 
     /* HOME DETAIL QUERIES */
     @media only screen and (min-width: 1150px) {
-        .homedetail-text {
-            font-size: 37px;
-        }
-
-        .homedetail-welcome {
-            font-size: 23px;
-        }
-
         .homedetail-subtext {
-            font-size: 14.5px;
-            line-height: 33px;
+            font-size: 20px;
+            line-height: 45px;
         }
 
         .homedetail-book-button {
-            font-size: 15.5px;
+            font-size: 16px;
         }
     }
 

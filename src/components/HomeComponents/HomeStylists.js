@@ -1,6 +1,7 @@
 import React from 'react'
 import mug from "../imgs/salonmug.jpeg"
 
+
 const HomeStylists = () => {
   return (
     <div className="homestylists-wrap">

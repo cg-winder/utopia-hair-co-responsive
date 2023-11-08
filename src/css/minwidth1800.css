@@ -68,86 +68,27 @@
     /* HOME PAGE */
 
     /* Home Detail */
+    @media only screen and (min-width: 1700px) {
+        .homedetail-subtext {
+            font-size: 27.5px;
+            line-height: 78px;
+        }
 
-    .homedetail-wrap {
-        background-color: rgb(205, 199, 186);
-        border: 1px solid white;
-        margin: 27% 5% 6% 5%;
-    }
-
-    .homedetail-text {
-        margin-top: 3%;
-        text-align: center;
-        font-size: 45px;
-        color: whitesmoke;
-        font-family: "italiana";
-    }
-
-    .homedetail-welcome {
-        text-align: center;
-        margin-top: 2%;
-        color: white;
-        font-style: italic;
-        font-family: "italiana";
-        font-size: 30px;
-    }
-
-    .homedetail-subtext {
-        line-height: 42px;
-        font-family: "lato";
-        font-size: 22px;
-        text-align: center;
-        color: white;
-        margin: 2% 8%;
-    }
-
-    .homedetail-book-button {
-        display: flex;
-        margin: 0 auto;
-        margin-bottom: 2%;
-        width: 10%;
-        background-color: #bcb2af;
-        border: 1px solid whitesmoke;
-        padding: 1% 1%;
-        color: white;
-        font-family: "italiana", serif;
-        font-size: 22.5px;
-        transition: 0.3s ease-in-out;
-        box-shadow: inset 0 0 0 0 rgb(221, 211, 211);
-    }
-
-    .homedetail-book-button span {
-        padding-top: 2%;
-        display: flex;
-        margin: 0 auto;
-    }
-
-
-    .homedetail-book-button:hover {
-        border: 2px solid white;
-        box-shadow: inset 140px 0 0 0 rgb(190, 181, 169);
-    }
-
-    .homedetail-book-button span:hover {
-        color: whitesmoke;
+        .homedetail-book-button span {
+            font-size: 23px;
+        }
     }
 
     /* HOME DETAIL QUERIES */
     @media only screen and (min-width: 1900px) {
-        .homedetail-text {
-            font-size: 47px;
-        }
-
-        .homedetail-welcome {
-            font-size: 32px;
-        }
-
         .homedetail-subtext {
-            font-size: 22.5px;
-            line-height: 44px;
+            font-size: 29px;
+            line-height: 90px;
         }
 
-
+        .homedetail-book-button span {
+            font-size: 25px;
+        }
     }
 
     /* Home Detail finish */

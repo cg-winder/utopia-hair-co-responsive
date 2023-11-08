@@ -28,113 +28,150 @@
     /* HOME PAGE */
 
     /* Home Detail */
-
     .homedetail-wrap {
-        background-color: rgb(205, 199, 186);
-        border: 1px solid white;
-        margin: 4% 5% 6% 5%;
+        background-image: url("../components/imgs/salonblack.png");
+        z-index: 99;
+        border: 1px solid transparent;
+        background-color: transparent;
+        margin-top: 11vh;
     }
 
-    .homedetail-text {
-        margin-top: 3%;
-        text-align: center;
-        font-size: 30px;
-        color: whitesmoke;
-        font-family: "italiana";
-    }
-
-    .homedetail-welcome {
-        text-align: center;
-        margin-top: 2%;
-        color: white;
-        font-style: italic;
-        font-family: "italiana";
-        font-size: 16px;
+    .homedetail-small-img {
+        width: 100%;
+        margin-top: 11vh;
+        height: auto;
+        position: absolute;
+        z-index: -1;
+        opacity: 0.9;
     }
 
     .homedetail-subtext {
-        line-height: 25px;
-        font-family: "lato";
-        font-size: 17px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        font-family: 'noto serif display', serif;
+        font-size: 12px;
         text-align: center;
+        padding: 0% 1% 0% 1%;
+        line-height: 20px;
+        color: rgb(95, 64, 64);
         color: white;
-        margin: 2% 5%;
+        margin: 10% 8% 3% 8%;
     }
 
     .homedetail-book-button {
         display: flex;
         margin: 0 auto;
-        margin-bottom: 4%;
-        background-color: #bcb2af;
-        border: 1px solid whitesmoke;
-        padding: 1% 2%;
-        color: white;
-        font-family: "italiana", serif;
-        font-size: 12px;
+        margin-bottom: 5%;
+        background-color: transparent;
+        padding: 2% 3%;
+        font-family: "noto serif display", serif;
+        font-weight: 400;
         transition: 0.3s ease-in-out;
-        box-shadow: inset 0 0 0 0 rgb(221, 211, 211);
+        color: whitesmoke;
+        border: 2px solid white;
+        box-shadow: inset 600px 0 0 0 #e0d9d997;
+    }
+
+    .homedetail-book-button:hover {
+        color: whitesmoke;
+        box-shadow: inset 600px 0 0 0 #e0d9d997;
+        border: 2px solid transparent;
     }
 
     .homedetail-book-button span {
         padding-top: 2%;
+        color: white;
         display: flex;
         margin: 0 auto;
-    }
-
-    .homedetail-book-button:hover {
-        border: 2px solid white;
-        box-shadow: inset 140px 0 0 0 rgb(190, 181, 169);
+        font-size: 11px;
     }
 
     .homedetail-book-button span:hover {
-        color: whitesmoke;
+        color: rgb(168, 145, 149);
     }
+
+
+
+
 
     /* HOME DETAIL QUERIES */
-    @media only screen and (min-width: 620px) {
-        .homedetail-text {
-            font-size: 32px;
-        }
 
-        .homedetail-welcome {
-            font-size: 18px;
-            margin-top: 2%;
-        }
-
-        .homedetail-subtext {
-            font-size: 17.5px;
-            margin: 2% 5%;
-        }
-
-        .homedetail-book-button {
-            font-size: 13px;
-        }
-    }
 
     /* Home Detail finish */
 
+    /* Home Services */
+    .homeservices-wrap {
+        margin-top: 6vh;
+    }
+
+    .homeservices-header {
+        color: whitesmoke;
+        font-size: 38px;
+        text-align: left;
+        margin-right: 50%;
+        line-height: 19px;
+        text-transform: uppercase;
+        font-family: "italiana";
+    }
+
+    .homeservices-info-wrap {}
+
+    .homeservices-info {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1em;
+        margin-top: 6vh;
+    }
+
+    .homeservices-info img {}
+
+    .homeservices-info p {
+        font-size: 15px;
+        padding: 1% 5%;
+        line-height: 24px;
+        text-align: center;
+    }
+
+    .homeservices-link {
+        text-align: center;
+        padding-bottom: 4%;
+    }
+
+    .homeservices-link span {
+        color: rgb(174, 136, 142);
+        font-size: 11px;
+        text-decoration: none;
+    }
+
+    .homeservices-link a {
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+
     /* Home Stylists */
     .homestylists-wrap {
-        margin-top: 10%;
-        padding: 4% 0% 3% 0%;
-        background-color: rgb(211, 198, 183);
+        background-image: url("../components/imgs/salonbrush2.png");
+        margin: 1% 0% 0% 0%;
+        padding: 5% 3% 4% 3%;
     }
 
     .homestylists-header {
         margin: 0% 2%;
-        line-height: 34px;
-        color: whitesmoke;
-        font-size: 33px;
+        line-height: 28px;
+        color: #b09797c9;
+        font-size: 23px;
         text-align: center;
-        font-family: "italiana";
+        font-family: 'Bodoni Moda', serif;
+        text-transform: uppercase;
     }
 
     .homestylists-subtext {
-        margin: 1% 4% 0% 4%;
+        margin: 1% 3% 0% 3%;
         color: rgb(135, 110, 110);
-        font-family: "lato";
-        font-size: 18px;
-        line-height: 28px;
+        font-family: "noto serif display", serif;
+        font-size: 14px;
+        line-height: 26px;
         text-align: center;
     }
 
@@ -143,69 +180,44 @@
         text-decoration: none;
         margin: 1% auto;
         margin-top: 3%;
-        width: 22%;
+        width: 38%;
         height: 3%;
-        background-color: #bcb2af;
-        border: 1px solid whitesmoke;
-        padding: 1% 1%;
-        border-radius: 50px;
+        border: 1px solid#b09797c9;
+        padding: 2% 1%;
         font-family: "italiana", serif;
         transition: 0.3s ease-in-out;
         box-shadow: inset 0 0 0 0 rgb(221, 211, 211);
     }
 
     .homestylists-button span {
-        color: white;
-        font-size: 12px;
-        padding-top: 0.5%;
+        color: #b09797c9;
+        font-size: 11px;
+        padding-top: 1%;
         display: flex;
         margin: 0 auto;
     }
 
 
     .homestylists-button:hover {
-        border: 2px solid white;
-        color: rgb(135, 110, 110);
-        box-shadow: inset 400px 0 0 0 rgb(190, 181, 169);
+        border: 1.5px solid #b09797c9;
     }
 
 
     .homestylists-img {
-        width: 270px;
-        height: 250px;
+        width: 220px;
+        height: 200px;
         display: flex;
         margin: 4% auto;
-    }
-
-    /* HOME STYLIST QUERIES*/
-    @media only screen and (min-width: 700px) {
-        .homestylists-header {
-            font-size: 33px;
-        }
-
-        .homestylists-img {
-            width: 320px;
-            height: 300px;
-        }
-
-        .homestylists-subtext {
-            font-size: 21px;
-            line-height: 30px;
-        }
-
-        .homestylists-button span {
-            font-size: 13px;
-        }
+        border-radius: 2px;
     }
 
     /* Home Stylists finish*/
 
     /* Home Contact */
     .homecontact-page-wrap {
-        font-family: "italiana", serif;
-        background-color: rgb(222, 209, 195);
-        border-top: 0px solid white;
-        border-bottom: 0px solid white;
+        font-family: 'noto serif display', serif;
+        margin: 0% 3%;
+        color: #b09797c9;
     }
 
     .homecontact-banner {
@@ -214,69 +226,65 @@
     }
 
     .homecontact-address {
-        padding-top: 10%;
+        padding-top: 12%;
     }
 
 
     .homecontact-address-h4 {
-        color: white;
-        font-size: 22px;
+        font-size: 17.5px;
         text-align: center;
-        margin-bottom: 1.5%;
     }
 
     .homecontact-address-table {
-        list-style: none;
+        padding-top: 3%;
+        font-size: 14.5px;
         margin: 0 auto;
-        color: rgb(157, 127, 127);
-        line-height: 24px;
+        line-height: 20px;
         text-align: center;
-        font-size: 16px;
+    }
+
+    .homecontact-address li {
+        list-style: none;
     }
 
     .homecontact-openingtimes {
         padding: 6% 0%;
     }
 
+    .opening-current-day {
+        color: rgb(157, 127, 127);
+    }
+
     .homecontact-book {
-        padding: 1% 0%;
+        padding: 2% 0%;
     }
 
     .homecontact-openingtimes-h4 {
-        color: white;
-        font-size: 22px;
+        font-size: 17.5px;
         text-align: center;
     }
 
     .homecontact-weekdays {
-        line-height: 20px;
-        font-size: 14px;
-        padding-top: 2%;
+        font-size: 12.5px;
+        padding-top: 3%;
         margin: 0 auto;
-        color: rgb(157, 127, 127);
         text-align: center;
     }
 
 
     .homecontact-book-h4 {
-        color: white;
-        font-size: 22px;
+        font-size: 17.5px;
         text-align: center;
         padding-bottom: 2%;
     }
 
     .homecontact-book a {
         display: flex;
-        padding-top: 3.5%;
+        padding-top: 4%;
         justify-content: center;
         text-decoration: none;
-        font-size: 15px;
-        line-height: 18px;
+        font-size: 13px;
         color: rgb(157, 127, 127);
-    }
-
-    .opening-current-day {
-        color: whitesmoke;
     }
 
     .homecontact-book {
@@ -284,70 +292,13 @@
     }
 
     .homecontact-book a:hover {
-        color: white;
         cursor: pointer;
+        color: rgb(157, 127, 127);
     }
+
 
     /* HOME CONTACT QUERIES */
-    @media only screen and (min-width: 600px) {
-        .homecontact-address-h4 {
-            font-size: 23px;
-        }
 
-        .homecontact-address-table {
-            font-size: 18px;
-            line-height: 24px;
-        }
-
-        .homecontact-openingtimes-h4 {
-            font-size: 23px;
-        }
-
-        .homecontact-weekdays {
-            font-size: 18px;
-            padding-top: 3.5%;
-        }
-
-
-        .homecontact-book-h4 {
-            font-size: 23px;
-        }
-
-        .homecontact-book a {
-            padding-top: 3.5%;
-            font-size: 18px;
-        }
-    }
-
-    @media only screen and (min-width: 730px) {
-        .homecontact-address-h4 {
-            font-size: 25px;
-        }
-
-        .homecontact-address-table {
-            font-size: 20px;
-            line-height: 28px;
-        }
-
-        .homecontact-openingtimes-h4 {
-            font-size: 25px;
-        }
-
-        .homecontact-weekdays {
-            font-size: 20px;
-            line-height: 26px;
-            padding-top: 3.5%;
-        }
-
-        .homecontact-book-h4 {
-            font-size: 25px;
-        }
-
-        .homecontact-book a {
-            padding-top: 3.5%;
-            font-size: 20px;
-        }
-    }
 
     /* Home Contact Finish */
 
