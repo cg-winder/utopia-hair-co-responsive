@@ -13,9 +13,9 @@ const Services = () => {
       <div className="homepage-head" id="services-head">
           <div>Services</div>
       </div>
-      <ServicesBookBackground />
+      {/* <ServicesBookBackground /> */}
       <ServicesBook />
-      <ServicesBackground />
+      {/* <ServicesBackground /> */}
       <ServicesPricing />
       <ServicesRecommendation />
       <ServicesImgs />

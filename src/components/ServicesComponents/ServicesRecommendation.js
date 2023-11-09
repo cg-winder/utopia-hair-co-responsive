@@ -1,5 +1,6 @@
 import React from "react";
 
+
 const ServicesRecommedation = () => {
   return (
     <div className="services-recommendation-wrap">
@@ -18,6 +19,7 @@ const ServicesRecommedation = () => {
         Need some inspiration? Check out some styles below...
       </div>
       </div>
+
     </div>
   );
 };

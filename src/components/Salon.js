@@ -12,10 +12,7 @@ const Salon = () => {
           <div>The Salon</div>
       </div>
       <SalonContent />
-      {/* <SalonTreatments /> */}
       <SalonInfo />
-      {/* <SalonContact /> */}
-      {/* <InstagramEmbed /> */}
     </div>
   );
 };

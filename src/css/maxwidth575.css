@@ -257,7 +257,7 @@
     .homecontact-page-wrap {
         font-family: 'noto serif display', serif;
         margin: 0% 3%;
-        color: #b09797c9;
+        color: white;
     }
 
     .homecontact-banner {
@@ -273,6 +273,7 @@
     .homecontact-address-h4 {
         font-size: 17.5px;
         text-align: center;
+        color: rgb(164, 119, 127);
     }
 
     .homecontact-address-table {
@@ -302,6 +303,7 @@
     .homecontact-openingtimes-h4 {
         font-size: 17.5px;
         text-align: center;
+        color: rgb(164, 119, 127);
     }
 
     .homecontact-weekdays {
@@ -316,6 +318,7 @@
         font-size: 17.5px;
         text-align: center;
         padding-bottom: 2%;
+        color: rgb(164, 119, 127);
     }
 
     .homecontact-book a {
@@ -335,8 +338,6 @@
         cursor: pointer;
         color: rgb(157, 127, 127);
     }
-
-    /* HOME CONTACT QUERIES */
 
 
     /* Home Contact Finish */

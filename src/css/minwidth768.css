@@ -20,7 +20,7 @@
 
     #page-components-wrap {
         animation: fade-in-left 3s ease;
-        padding-top: 8%;
+        padding-top: 14%;
     }
 
     @keyframes fade-in-left {
@@ -75,7 +75,7 @@
         width: 100%;
         font-size: 100px;
         text-align: center;
-        margin-top: 10%;
+        margin-top: 4.5%;
     }
 
     #team-head {
@@ -91,14 +91,15 @@
 
 
     @media only screen and (min-width:850px) {
-        .homepage-head {
+        #home-head {
             width: 100%;
             text-align: center;
-            margin-top: 7%;
+            margin-top: 5%;
         }
 
         #team-head {
             font-size: 95px;
+            margin-top: 0%;
         }
 
         #salon-head,
@@ -110,7 +111,7 @@
     }
 
     @media only screen and (min-width:910px) {
-        .homepage-head {
+        #home-head {
             width: 100%;
             text-align: center;
             margin-top: 8%;
@@ -130,8 +131,6 @@
     }
 
     /* HOME PAGE */
-
-
     .homedetail-background-img {
         width: 100%;
         margin-top: 18.3%;
@@ -463,10 +462,8 @@
     .homecontact-page-wrap {
         animation: fade-in-left 2s ease;
         margin-top: 1.5%;
-        border: 1.2px solid white;
         background-color: transparent;
         font-family: "noto serif display", serif;
-
     }
 
     @keyframes fade-in-left {
@@ -488,7 +485,7 @@
     }
 
     .homecontact-address {
-        margin-top: -4%;
+        margin-top: -6%;
     }
 
 
@@ -539,7 +536,7 @@
     }
 
     .homecontact-book {
-        margin-top: 5%;
+        margin-top: 3.9%;
     }
 
     .homecontact-book-h4 {
@@ -1096,6 +1093,7 @@
         font-family: "noto serif display", serif;
     }
 
+    /* 
     .services-book-background-img {
         width: 100%;
         margin-top: 16%;
@@ -1103,27 +1101,31 @@
         height: auto;
         position: absolute;
         z-index: -1;
-    }
+    } */
 
-    .services-book-background-img img {
+    /* .services-book-background-img img {
         width: 100%;
         height: 70vh;
-    }
+    } */
 
     .services-book-wrap {
-        margin-top: 22%;
+        background-image: url("../components/imgs/blackoutsalonstretch.png");
+        background-repeat: no-repeat;
+        margin-top: 16.5%;
+        margin-bottom: -7%;
         position: relative;
     }
 
     .services-book-text {
+        padding-top: 8%;
         text-align: center;
         text-transform: uppercase;
         font-size: 27px;
-        margin-top: -8%;
+        padding-bottom: 5%;
     }
 
     .services-book-1 {
-        margin-top: 0%;
+        margin-top: 10%;
     }
 
     .services-book-2 {
@@ -1166,22 +1168,22 @@
     }
 
 
-    .services-background-img {
+    /* .services-background-img {
         width: 100%;
         margin-top: 0%;
         height: auto;
         position: absolute;
         z-index: -1;
-    }
+    } */
 
-    .services-background-img img {
+    /* .services-background-img img {
         width: 100%;
         height: 75vh;
-    }
+    } */
 
     .services-pricing {
-        position: static;
-        margin-top: 6%;
+        background-image: url("../components/imgs/marble2bg.png");
+        padding-bottom: 7%;
     }
 
     .services-text {
@@ -1208,11 +1210,11 @@
         margin: 6% 0% 0% 4%;
         font-size: 20px;
         text-transform: uppercase;
-        color: whitesmoke;
+        color: rgb(150, 115, 121);
     }
 
     .pricing-menus {
-        margin: 4% 0% -6% 0%;
+        margin: 4% 0% 0% 0%;
         display: inline-flex;
         padding: 2% 1.5%;
         justify-content: center;
@@ -1226,6 +1228,7 @@
 
 
     .recommendation-header {
+        margin-top: -8%;
         font-family: "italiana";
         text-transform: uppercase;
         font-weight: 100;
@@ -1304,7 +1307,7 @@
         color: rgb(212, 197, 200);
     }
 
-
+    /* 
     @media only screen and (min-width: 767px) {
         .recommendation-header {
             margin-top: -3%;
@@ -1416,7 +1419,7 @@
             width: 100%;
             height: 115vh;
         }
-    }
+    } */
 
 
 

@@ -5,8 +5,8 @@ import PopUpAlannah from "./PopUpAlannah"
 import PopUpErin from "./PopUpErin"
 import PopUpMillie from "./PopUpMillie"
 import PopUpMaddie from './PopUpMaddie';
-import brush from "../imgs/salonbrush3.png"
-import smallbrush from "../imgs/salonbrushsmall2.png"
+import ServicesRecommend from "./ServicesRecommendation"
+
 
 const ServicesPricing = () => {
   return (

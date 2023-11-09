@@ -1,6 +1,5 @@
 import React from "react";
 import HomePage from "./HomeComponents/HomePage";
-import HomeWelcome from "./HomeComponents/HomeWelcome"
 import HomeDetail from "./HomeComponents/HomeDetail";
 import HomeStylists from "./HomeComponents/HomeStylists";
 import HomeContact from "./HomeComponents/HomeContact";
@@ -13,13 +12,13 @@ import HomestylistBackground from "./HomeComponents/Homestylistbackground";
 
 const Home = () => {
   return (
-    <div className="page-wrap">
-      <HomePage />
-      {/* <HomeWelcome /> */}
-      {/* <HomedetailBackground /> */}
+    <div className="home-page-wrap">
+       <div className="homepage-head" id="home-head">
+          <div>Utopia Hair Co.</div>
+      </div>
+      {/* <HomePage /> */}
       <HomeDetail />
       <HomeServices />
-      {/* <HomestylistBackground /> */}
       <HomeStylists/>
       <HomeContact />
       <HomeInstagram />
