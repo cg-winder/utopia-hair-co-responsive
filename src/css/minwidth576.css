@@ -321,6 +321,14 @@
         color: rgb(164, 119, 127);
     }
 
+    .homecontact-book a {
+        color: white;
+    }
+
+    .homecontact-book a:hover {
+        cursor: pointer;
+        color: rgb(157, 127, 127);
+    }
 
     /* Home Contact Finish */
 
