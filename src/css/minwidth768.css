@@ -267,8 +267,8 @@
     .homeservices-wrap {}
 
     .homeservices-header {
-        margin: 9% 66% 6% 4%;
-        line-height: 28px;
+        margin: 0% 0% 5% 3%;
+        letter-spacing: -.28rem;
         color: whitesmoke;
         font-size: 47px;
         text-align: left;
@@ -334,10 +334,8 @@
     }
 
     .homestylists-header {
-        margin: 0% 70% 0% 7%;
-        line-height: 28px;
-        color: rgb(197, 181, 172);
-        color: rgb(208, 198, 187);
+        margin-left: 4%;
+        letter-spacing: -.25rem;
         color: white;
         font-size: 47px;
         text-align: left;
@@ -657,14 +655,20 @@
     }
 
     .testimonials-header {
-        padding-top: 6%;
-        padding-left: 2%;
         text-align: left;
+        padding: 6% 0% 0% 3%;
+        letter-spacing: -0.25rem;
         text-transform: uppercase;
         color: whitesmoke;
-        margin: 0% 52% -13% 6%;
         font-size: 45px;
         line-height: 26px;
+        margin-bottom: 1%
+    }
+
+    @media only screen and (min-width: 980px) {
+        .testimonials-header {
+            padding-bottom: 12%
+        }
     }
 
     .testimonial-link {
@@ -1751,30 +1755,7 @@
 
     /*FOOTER*/
 
-    .main-footer {
-        bottom: 0;
-        width: 100%;
-        text-transform: uppercase;
-        font-family: "noto serif display", serif;
-        background-color: rgba(179, 161, 140, 0.335);
-        animation: fade-in-left 2s ease;
-    }
-
-    @keyframes fade-in-left {
-        0% {
-            opacity: 0;
-            transform: translateX(-20px);
-        }
-
-        100% {
-            opacity: 1;
-            transform: translateX(0);
-        }
-    }
-
     .footer-address {
-        display: flex;
-        flex-direction: column;
         margin-top: 2.5%;
         padding-right: 8.6%;
         font-size: 16px;
@@ -1792,18 +1773,7 @@
         }
     }
 
-    .footer-address-list {
-        list-style: none;
-        display: flex;
-        margin: 0 auto;
-        color: white;
-    }
 
-    .footer-address-list li {
-        margin-left: 4px;
-        display: flex;
-        flex-direction: column;
-    }
 
     .footer-opening-times {
         align-items: center;
@@ -1887,47 +1857,13 @@
         color: rgb(134, 112, 112);
     }
 
-    .sitemap-list a:hover {
-        color: white;
-    }
+
 
     .footer-logo img {
         max-width: 155px;
         max-height: 155px;
-        border-radius: 50%;
-        display: flex;
-        margin: 0 auto;
-        margin-bottom: 17px;
-        animation: gelatine 8.5s infinite;
     }
 
-    @keyframes gelatine {
-
-        from,
-        to {
-            transform: scale(1, 1);
-        }
-
-        25% {
-            transform: scale(0.9, 1.1);
-        }
-
-        50% {
-            transform: scale(1.1, 0.9);
-        }
-
-        75% {
-            transform: scale(0.95, 1.05);
-        }
-    }
-
-    .footer-logo img:hover {
-        cursor: pointer;
-    }
-
-    .footer-hr {
-        margin: 0;
-    }
 
     .footer-disclaimer {
         color: rgb(105, 88, 88);

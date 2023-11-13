@@ -100,9 +100,8 @@
     .homeservices-header {
         color: whitesmoke;
         font-size: 38px;
-        text-align: left;
-        margin-right: 50%;
-        line-height: 19px;
+        text-align: center;
+        letter-spacing: -.25rem;
         text-transform: uppercase;
         font-family: "italiana";
     }
@@ -113,7 +112,7 @@
         display: grid;
         grid-template-columns: 1fr;
         gap: 1em;
-        margin-top: 6vh;
+        margin-top: 4vh;
     }
 
     .homeservices-info img {}
@@ -151,10 +150,10 @@
     .homestylists-header {
         margin: 0% 2%;
         line-height: 28px;
-        color: #b09797c9;
-        font-size: 23px;
+        color: whitesmoke;
+        font-size: 27px;
         text-align: center;
-        font-family: 'Bodoni Moda', serif;
+        font-family: 'Italiana', serif;
         text-transform: uppercase;
     }
 
@@ -174,7 +173,7 @@
         margin-top: 3%;
         width: 38%;
         height: 3%;
-        border: 1px solid#b09797c9;
+        border: 1px solid whitesmoke;
         padding: 2% 1%;
         font-family: "italiana", serif;
         transition: 0.3s ease-in-out;
@@ -182,7 +181,7 @@
     }
 
     .homestylists-button span {
-        color: #b09797c9;
+        color: whitesmoke;
         font-size: 11px;
         padding-top: 1%;
         display: flex;
@@ -1333,8 +1332,8 @@
         text-transform: uppercase;
         font-family: "noto serif display", serif;
         color: rgb(134, 112, 112);
-        background-color: rgb(218, 208, 196);
         animation: fade-in-left 2s ease;
+        background-color: rgba(179, 161, 140, 0.335);
     }
 
     @keyframes fade-in-left {

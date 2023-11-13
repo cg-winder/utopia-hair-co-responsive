@@ -14,7 +14,7 @@ const ServicesPolicies = () => {
         </div>
         <div className="patchtest-policy">
             <div className="policy-header">Do I need a patch test or consultation?</div>
-            <p className="policy-p">For all new hair clients, a consultation and skin test is required before any appointment. All extension services require a complimentary consultation with Nicola prior to booking of appointment. For brows and lashes, a skin test is required 48 hours before appointments.</p>
+            <p className="policy-p">For all new hair clients a consultation and skin test is required before any appointment. All extension services require a complimentary consultation with Nicola prior to booking of appointment. For brows and lashes, a skin test is required 48 hours before appointments.</p>
         </div>
       <div className="gift-card">
         <div className="policy-header">Do you offer gift cards?</div>

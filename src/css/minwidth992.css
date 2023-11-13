@@ -140,12 +140,9 @@
     }
 
     .homestylists-header {
-        margin: 0% 2%;
-        line-height: 36px;
-        color: whitesmoke;
-        font-size: 34px;
-        text-align: center;
-        font-family: "italiana";
+        margin-left: 5%;
+        letter-spacing: -.25rem;
+        font-size: 50px;
     }
 
     .homestylists-text-img {
@@ -163,38 +160,6 @@
         line-height: 43px;
         text-align: left;
     }
-
-    .homestylists-button {
-        display: flex;
-        text-decoration: none;
-        margin-left: 4.5%;
-        margin-top: -13%;
-        width: 12%;
-        height: 3%;
-        background-color: #bcb2af;
-        border: 1px solid whitesmoke;
-        padding: 1% 1%;
-        border-radius: 50px;
-        font-family: "italiana", serif;
-        transition: 0.3s ease-in-out;
-        box-shadow: inset 0 0 0 0 rgb(221, 211, 211);
-    }
-
-    .homestylists-button span {
-        color: white;
-        font-size: 11px;
-        padding-top: 0.5%;
-        display: flex;
-        margin: 0 auto;
-    }
-
-
-    .homestylists-button:hover {
-        border: 2px solid white;
-        color: rgb(135, 110, 110);
-        box-shadow: inset 400px 0 0 0 rgb(190, 181, 169);
-    }
-
 
     .homestylists-img {
         width: 290px;
@@ -276,10 +241,9 @@
     }
 
     .testimonials-header {
-        padding-top: 13%;
-        margin-bottom: -12%;
-        font-size: 40px;
+        padding-bottom: 18%;
     }
+
 
     .testimonial-link {
         font-family: "lato";
@@ -287,6 +251,7 @@
         padding: 3% 0% 4% 0%;
         color: rgb(253, 253, 253);
         text-align: center;
+
     }
 
 
@@ -424,7 +389,7 @@
     }
 
     .slider-text {
-        color: rgb(134, 110, 110);
+        color: white;
         font-size: 13.5px;
         margin-bottom: 8.5%;
         max-width: 210px;
@@ -871,29 +836,6 @@
 
     /*FOOTER*/
 
-    .main-footer {
-        border-top: 0.5px solid white;
-        bottom: 0;
-        width: 100%;
-        text-transform: uppercase;
-        font-family: "noto serif display", serif;
-        color: rgb(134, 112, 112);
-        background-color: rgb(218, 208, 196);
-        animation: fade-in-left 2s ease;
-    }
-
-    @keyframes fade-in-left {
-        0% {
-            opacity: 0;
-            transform: translateX(-20px);
-        }
-
-        100% {
-            opacity: 1;
-            transform: translateX(0);
-        }
-    }
-
     .footer-address {
         display: flex;
         flex-direction: column;
@@ -996,52 +938,17 @@
         }
     }
 
-    .sitemap-list a:hover {
-        color: white;
-    }
+   
 
     .footer-logo img {
         max-width: 157px;
         max-height: 157px;
-        border-radius: 50%;
-        display: flex;
-        margin: 0 auto;
         margin-bottom: 17px;
-        animation: gelatine 8.5s infinite;
     }
 
-    @keyframes gelatine {
 
-        from,
-        to {
-            transform: scale(1, 1);
-        }
-
-        25% {
-            transform: scale(0.9, 1.1);
-        }
-
-        50% {
-            transform: scale(1.1, 0.9);
-        }
-
-        75% {
-            transform: scale(0.95, 1.05);
-        }
-    }
-
-    .footer-logo img:hover {
-        cursor: pointer;
-    }
-
-    .footer-hr {
-        margin: 0;
-    }
 
     .footer-disclaimer {
-        color: rgb(105, 88, 88);
-        background-color: rgb(214, 204, 190);
-        text-align: center;
         font-size: 7px;
         padding-bottom: 0.1%;
     }

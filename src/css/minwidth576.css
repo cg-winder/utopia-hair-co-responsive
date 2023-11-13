@@ -107,10 +107,9 @@
 
     .homeservices-header {
         color: whitesmoke;
-        font-size: 38px;
-        text-align: left;
-        margin-right: 50%;
-        line-height: 19px;
+        font-size: 40px;
+        text-align: center;
+        letter-spacing: -.25rem;
         text-transform: uppercase;
         font-family: "italiana";
     }
@@ -121,7 +120,7 @@
         display: grid;
         grid-template-columns: 1fr;
         gap: 1em;
-        margin-top: 6vh;
+        margin-top: 3vh;
     }
 
     .homeservices-info img {}
@@ -159,10 +158,10 @@
     .homestylists-header {
         margin: 0% 2%;
         line-height: 28px;
-        color: #b09797c9;
-        font-size: 23px;
+        color: whitesmoke;
+        font-size: 35px;
         text-align: center;
-        font-family: 'Bodoni Moda', serif;
+        font-family: 'Italiana', serif;
         text-transform: uppercase;
     }
 
@@ -182,7 +181,7 @@
         margin-top: 3%;
         width: 38%;
         height: 3%;
-        border: 1px solid#b09797c9;
+        border: 1px solid whitesmoke;
         padding: 2% 1%;
         font-family: "italiana", serif;
         transition: 0.3s ease-in-out;
@@ -190,7 +189,7 @@
     }
 
     .homestylists-button span {
-        color: #b09797c9;
+        color: whitesmoke;
         font-size: 11px;
         padding-top: 1%;
         display: flex;
@@ -204,8 +203,8 @@
 
 
     .homestylists-img {
-        width: 220px;
-        height: 200px;
+        width: 250px;
+        height: 220px;
         display: flex;
         margin: 4% auto;
         border-radius: 2px;
@@ -331,6 +330,31 @@
     }
 
     /* Home Contact Finish */
+
+    /* Home instagram */
+    .homeinstagram {
+        margin-top: 0%;
+        background-image: url('../components/imgs/igbg.png');
+        padding-bottom: 2%;
+        border-bottom: 0.5px solid white;
+        border-top: 0.5px solid white;
+    }
+
+    .homeinstagram-header {
+        text-align: center;
+        color: whitesmoke;
+        letter-spacing: -.03em;
+        text-transform: uppercase;
+        font-family: "italiana", serif;
+        font-size: 30px;
+        margin: 0 auto;
+        padding-top: 3%;
+        margin-bottom: 3%;
+    }
+
+    .homeinstagram-widget {
+        margin: 0 auto;
+    }
 
 
     /* Testimonials */
@@ -1064,7 +1088,6 @@
 
 
     /*FOOTER*/
-
     .main-footer {
         border-top: 0.5px solid white;
         bottom: 0;
@@ -1072,8 +1095,8 @@
         text-transform: uppercase;
         font-family: "noto serif display", serif;
         color: rgb(134, 112, 112);
-        background-color: rgb(218, 208, 196);
         animation: fade-in-left 2s ease;
+        background-color: rgba(179, 161, 140, 0.335);
     }
 
     @keyframes fade-in-left {
