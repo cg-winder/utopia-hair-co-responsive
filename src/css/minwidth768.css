@@ -279,13 +279,14 @@
     .homeservices-info {
         position: relative;
         display: inline-flex;
-        margin-left: 1%;
-        margin-top: 0%;
+        margin-top: -1%;
     }
 
     .homeservices-info img {
-        height: 55%;
-        width: 97%;
+        height: 50%;
+        display: inline-flex;
+        justify-content: space-evenly;
+        width: 100%;
     }
 
     .homeservices-info p {
@@ -307,7 +308,7 @@
 
     .homeservices-link {
         margin-top: 1%;
-        padding-bottom: 4%;
+        padding-bottom: 2%;
         text-align: center;
         font-size: 12px;
     }

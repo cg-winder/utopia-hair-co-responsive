@@ -98,6 +98,15 @@
 
     /* Home Detail finish */
 
+    /* Home Services */
+    .homeservices-link {
+        margin-top: -6%;
+        margin-bottom: -2%;
+
+    }
+
+    /* Home Services Finish */
+
     /* Home Stylists */
     .homestylists-wrap {
         margin-top: 3%;

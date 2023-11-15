@@ -99,6 +99,36 @@
 
     /* Home Detail finish */
 
+    /* Home Services */
+    .homeservices-info {
+        display: inline-flex;
+        flex-wrap: nowrap;
+    }
+
+    .homeservices-info img {
+        height: 60%;
+        display: inline-flex;
+        justify-content: space-evenly;
+        width: 100%;
+    }
+
+    .homeservices-info p {
+        margin: 1% 8%;
+        text-align: center;
+        line-height: 28px;
+        font-size: 14.5px;
+
+    }
+
+    .homeservices-link {
+        margin-top: -2%;
+        margin-bottom: -4%;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    /* Home Services Finish */
+
     /* Home Stylists */
     .homestylists-wrap {
         margin-top: 3%;
@@ -767,7 +797,7 @@
         color: rgb(134, 112, 112);
     }
 
-  
+
 
 
 

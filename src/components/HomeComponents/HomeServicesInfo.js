@@ -1,7 +1,7 @@
 import React from 'react'
 import hair from "../imgs/hairbalayage.jpeg"
 import nails from "../imgs/nails2.jpeg"
-import brows from "../imgs/lashes1.jpeg"
+import brows from "../imgs/brows1.jpeg"
 import lashes from "../imgs/lashes2.jpeg";
 
 const HomeServicesInfo = () => {
