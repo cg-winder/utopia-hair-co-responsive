@@ -315,6 +315,7 @@
 
     .homeservices-link a:hover {
         color: white;
+        cursor: pointer;
     }
 
     /* Home Services finish*/

@@ -157,6 +157,19 @@
 
     /* Home Detail finish */
 
+    /* Home Services */
+    .homeservices-link {
+        margin-top: -4%;
+        margin-bottom: -4%;
+    }
+    .homeservices-link a:hover {
+        color: white;
+        cursor: pointer;
+    }
+
+    /* Home Services Finish */
+
+
     /* Home Stylists */
     .homestylists-wrap {
         margin-top: 6%;
@@ -980,7 +993,7 @@
         color: rgb(134, 112, 112);
     }
 
-   
+
 
 
 
