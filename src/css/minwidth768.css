@@ -281,7 +281,7 @@
     }
 
     .homeservices-info img {
-        height: 50%;
+        height: 60%;
         display: inline-flex;
         justify-content: space-evenly;
         width: 100%;
@@ -296,7 +296,7 @@
     }
 
     .homeservices-link {
-        margin-top: -8%;
+        margin-top: -2%;
         padding-bottom: 2%;
         text-align: center;
         font-size: 12px;
@@ -311,20 +311,20 @@
         text-align: center;
         font-size: 22px;
         color: rgb(176, 147, 147);
-        text-transform: uppercase;
+        text-transform: lowercase;
         font-family: "noto serif display", serif;
     }
 
     .rotate-word {
-        display: table;
-        margin: 0 auto;
         font-size: 26px;
         color: white;
         text-transform: uppercase;
         font-family: "noto serif display", serif;
+        display: table;
+        margin: 0 auto;
         padding: 0% 2%;
-
     }
+
 
     /* Home Services finish*/
 

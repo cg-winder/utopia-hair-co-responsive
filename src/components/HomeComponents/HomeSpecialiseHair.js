@@ -37,7 +37,7 @@ const HomeSpecialiseHair = () => {
     } else if (isDeleting && updatedText === "") {
       setIsDeleting(false);
       setLoopNumber(loopNumber + 1);
-      setDelta(550);
+      setDelta(-1);
     }
   };
   return (

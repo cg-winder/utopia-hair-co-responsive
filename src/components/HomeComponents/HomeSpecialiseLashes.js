@@ -35,13 +35,13 @@ const HomeSpecialiseLashes = () => {
     } else if (isDeleting && updatedText === "") {
       setIsDeleting(false);
       setLoopNumber(loopNumber + 1);
-      setDelta(550);
+      setDelta(-1);
     }
   };
   return (
     <div className="homespecialise-page-wrap">
       <div className="specialise-header">Lashes</div>
-      <span className="rotate-word">{text}</span>
+      <span className="rotate-word" id="lash-rotate">{text}</span>
     </div>
   );
 };
