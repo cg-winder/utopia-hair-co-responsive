@@ -100,35 +100,26 @@
     /* Home Detail finish */
 
     /* Home Services */
-    .homeservices-info {
-        display: inline-flex;
-        flex-wrap: nowrap;
+
+    .homeservices-header {
+        margin: 1% 0% 6% 3%;
+        letter-spacing: -.35rem;
+        font-size: 50px;
     }
 
-    .homeservices-info img {
-        height: 60%;
-        display: inline-flex;
-        justify-content: space-evenly;
-        width: 100%;
+    .specialise-header {
+        font-size: 26px;
     }
 
-    .homeservices-info p {
-        margin: 1% 8%;
-        text-align: center;
-        line-height: 28px;
-        font-size: 14.5px;
-
+    .rotate-word {
+        font-size: 36px;
     }
 
-    .homeservices-link {
-        margin-top: -2%;
-        margin-bottom: -4%;
-        text-align: center;
-        font-size: 12px;
-    }
-    .homeservices-link span:hover {
-        color: white;
-        cursor: pointer;
+
+    .homeservices-link span {
+        margin-bottom: -3%;
+        margin-top: 0%;
+        font-size: 14px;
     }
 
     /* Home Services Finish */

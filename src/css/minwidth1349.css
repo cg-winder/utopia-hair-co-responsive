@@ -158,13 +158,25 @@
     /* Home Detail finish */
 
     /* Home Services */
-    .homeservices-link {
-        margin-top: -4%;
-        margin-bottom: -4%;
+
+    .homeservices-header {
+        margin: 3% 0% 4% 3%;
+        letter-spacing: -.35rem;
+        font-size: 53px;
     }
-    .homeservices-link span:hover {
-        color: white;
-        cursor: pointer;
+
+    .specialise-header {
+        font-size: 28px;
+    }
+
+    .rotate-word {
+        font-size: 38px;
+    }
+
+    .homeservices-link span {
+        margin-bottom: -6%;
+        margin-top: 0%;
+        font-size: 14px;
     }
 
     /* Home Services Finish */
