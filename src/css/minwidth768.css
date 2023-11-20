@@ -264,8 +264,6 @@
 
     /* Home Services */
 
-    .homeservices-wrap {}
-
     .homeservices-header {
         margin: 0% 0% 5% 3%;
         letter-spacing: -.28rem;
@@ -287,16 +285,7 @@
         display: inline-flex;
         justify-content: space-evenly;
         width: 100%;
-    }
 
-    .homeservices-info p {
-        margin-right: 10%;
-        color: rgb(171, 138, 138);
-        color: white;
-        text-align: center;
-        line-height: 24px;
-        font-size: 13.5px;
-        font-family: "noto serif display", serif;
     }
 
     .homeservices-link a {
@@ -307,15 +296,32 @@
     }
 
     .homeservices-link {
-        margin-top: 1%;
+        margin-top: -5%;
         padding-bottom: 2%;
         text-align: center;
         font-size: 12px;
     }
 
-    .homeservices-link a:hover {
+    .homeservices-link span:hover {
         color: white;
         cursor: pointer;
+    }
+
+    .specialise-header {
+        text-align: center;
+        font-size: 22px;
+        color: whitesmoke;
+        text-transform: uppercase;
+        font-family: "noto serif display", serif;
+    }
+
+    .rotate-word {
+        font-size: 26px;
+        color: white;
+        text-transform: uppercase;
+        font-family: "noto serif display", serif;
+        padding: 0% 2%;
+
     }
 
     /* Home Services finish*/

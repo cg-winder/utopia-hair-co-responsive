@@ -1,6 +1,6 @@
 import { React, useState, useEffect } from "react";
 
-const HomeSpecialise = () => {
+const HomeSpecialiseHair = () => {
   const bannerRotate = [
     "BLONDES        ",
     "BALAYAGE        ",
@@ -42,10 +42,10 @@ const HomeSpecialise = () => {
   };
   return (
     <div className="homespecialise-page-wrap">
-      <div className="homespecialise-header">We Specialise In...</div>
+      <div className="specialise-header">Hair</div>
       <span className="rotate-word">{text}</span>
     </div>
   );
 };
 
-export default HomeSpecialise;
+export default HomeSpecialiseHair;
