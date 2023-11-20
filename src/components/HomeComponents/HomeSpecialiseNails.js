@@ -2,9 +2,9 @@ import { React, useState, useEffect } from "react";
 
 const HomeSpecialiseNails = () => {
   const bannerRotate = [
-    "BIAB        ",
-    "GEL        ",
-    "NAIL ART      ",
+    "BIAB              ",
+    "GEL NAILS         ",
+    "NAIL ART          ",
     "MANICURE          ",
   ];
   const [isDeleting, setIsDeleting] = useState(false);

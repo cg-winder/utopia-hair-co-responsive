@@ -2,8 +2,8 @@ import { React, useState, useEffect } from "react";
 
 const HomeSpecialiseLashes = () => {
   const bannerRotate = [
-    "LIFTING        ",
-    "TINTING        ",
+    "LIFTING           ",
+    "TINTING           ",
   ];
   const [isDeleting, setIsDeleting] = useState(false);
   const [loopNumber, setLoopNumber] = useState(0);

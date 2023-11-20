@@ -296,7 +296,7 @@
     }
 
     .homeservices-link {
-        margin-top: -5%;
+        margin-top: -8%;
         padding-bottom: 2%;
         text-align: center;
         font-size: 12px;
@@ -310,12 +310,14 @@
     .specialise-header {
         text-align: center;
         font-size: 22px;
-        color: whitesmoke;
+        color: rgb(176, 147, 147);
         text-transform: uppercase;
         font-family: "noto serif display", serif;
     }
 
     .rotate-word {
+        display: table;
+        margin: 0 auto;
         font-size: 26px;
         color: white;
         text-transform: uppercase;

@@ -2,9 +2,9 @@ import { React, useState, useEffect } from "react";
 
 const HomeSpecialiseBrows = () => {
   const bannerRotate = [
-    "TINTING       ",
-    "WAXING        ",
-    "SHAPE      ",
+    "TINTING           ",
+    "WAXING            ",
+    "SHAPING           ",
   ];
   const [isDeleting, setIsDeleting] = useState(false);
   const [loopNumber, setLoopNumber] = useState(0);

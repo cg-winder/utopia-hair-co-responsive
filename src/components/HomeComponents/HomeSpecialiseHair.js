@@ -2,10 +2,10 @@ import { React, useState, useEffect } from "react";
 
 const HomeSpecialiseHair = () => {
   const bannerRotate = [
-    "BLONDES        ",
-    "BALAYAGE        ",
-    "VIVID COLOURS      ",
-    "EXTENSIONS          ",
+    "BLONDES           ",
+    "BALAYAGE          ",
+    "VIVIDS            ",
+    "EXTENSIONS        ",
   ];
   const [isDeleting, setIsDeleting] = useState(false);
   const [loopNumber, setLoopNumber] = useState(0);
