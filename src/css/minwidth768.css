@@ -193,6 +193,7 @@
 
     .homedetail-wrap {
         background-image: url("../components/imgs/salonblack.png");
+        background-size: cover;
         z-index: 99;
         border: 1px solid transparent;
         background-color: transparent;
@@ -339,6 +340,7 @@
 
     .homestylists-wrap {
         background-image: url("../components/imgs/salonbrush2.png");
+        background-size: cover;
         background-color: transparent;
         margin-top: -0.1%;
     }
@@ -1125,6 +1127,7 @@
     .services-book-wrap {
         background-image: url("../components/imgs/blackoutsalonstretch.png");
         background-repeat: no-repeat;
+        background-size: cover;
         margin-top: 16.5%;
         margin-bottom: -7%;
         position: relative;
@@ -1207,7 +1210,7 @@
     .pricing-header {
         margin: 0% 60% 1% 3.5%;
         font-size: 55px;
-        line-height: 32px;
+        letter-spacing: -0.3rem;
         color: rgb(172, 140, 140);
         font-family: "italiana", serif;
         text-transform: uppercase;

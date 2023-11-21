@@ -35,9 +35,10 @@
     .homedetail-wrap {
         background-image: url("../components/imgs/salonblack.png");
         z-index: 99;
+        background-size: cover;
         border: 1px solid transparent;
         background-color: transparent;
-        margin-top: 11vh;
+        margin-top: 6vh;
     }
 
     .homedetail-subtext {
@@ -45,9 +46,9 @@
         display: flex;
         flex-direction: column;
         font-family: 'noto serif display', serif;
-        font-size: 10px;
+        font-size: 12px;
         text-align: center;
-        padding: 0% 1% 0% 1%;
+        padding: 9% 1% 0% 1%;
         line-height: 20px;
         color: rgb(95, 64, 64);
         color: white;
@@ -79,7 +80,7 @@
         color: white;
         display: flex;
         margin: 0 auto;
-        font-size: 9px;
+        font-size: 10px;
     }
 
     .homedetail-book-button span:hover {
@@ -89,12 +90,12 @@
 
     /* HOME DETAIL QUERIES*/
 
-
     /* Home Detail finish */
 
     /* Home Services */
+
     .homeservices-wrap {
-        margin-top: 6vh;
+        margin-top: 5vh;
     }
 
     .homeservices-header {
@@ -106,52 +107,72 @@
         font-family: "italiana";
     }
 
-    .homeservices-info-wrap {}
-
     .homeservices-info {
-        display: grid;
-        grid-template-columns: 1fr;
+        display: flex;
+        flex-wrap: wrap;
         gap: 1em;
         margin-top: 4vh;
     }
 
-    .homeservices-info img {}
 
-    .homeservices-info p {
-        font-size: 13px;
-        padding: 1% 2%;
-        line-height: 24px;
+    .homeservices-info img {
+        width: 50%;
+        height: auto;
+        border-radius: 1%;
+        margin-left: 25%;
+    }
+
+    .specialise-header {
         text-align: center;
+        font-size: 16px;
+        color: rgb(176, 147, 147);
+        text-transform: uppercase;
+        padding: 4% 0% 1% 0%;
+        font-family: "noto serif display", serif;
+    }
+
+    .rotate-word {
+        font-size: 28px;
+        color: white;
+        text-transform: uppercase;
+        font-family: "noto serif display", serif;
+        display: table;
+        margin: 0 auto;
+        padding: 0% 2%;
     }
 
     .homeservices-link {
-        text-align: center;
-        padding-bottom: 4%;
+        text-decoration: none;
     }
 
     .homeservices-link span {
-        color: rgb(174, 136, 142);
-        font-size: 11px;
-        text-decoration: none;
+        display: table;
+        margin: 0 auto;
+        padding: 8% 0% 2% 0%;
+        font-family: "noto serif display", serif;
+        text-transform: uppercase;
+        color: rgb(176, 147, 147);
+        font-size: 12px;
     }
 
-    .homeservices-link a {
-        text-decoration: none;
-        text-transform: uppercase;
+    .homeservices-link span:hover {
+        color: white;
+        cursor: pointer;
     }
 
     /* Home Stylists */
     .homestylists-wrap {
         background-image: url("../components/imgs/salonbrush2.png");
+        background-size: cover;
         margin: 1% 0% 0% 0%;
         padding: 5% 3% 4% 3%;
     }
 
     .homestylists-header {
-        margin: 0% 2%;
+        margin: 5% 2%;
         line-height: 28px;
         color: whitesmoke;
-        font-size: 27px;
+        font-size: 30px;
         text-align: center;
         font-family: 'Italiana', serif;
         text-transform: uppercase;
@@ -160,6 +181,7 @@
     .homestylists-subtext {
         margin: 1% 3% 0% 3%;
         color: rgb(135, 110, 110);
+        color: white;
         font-family: "noto serif display", serif;
         font-size: 14px;
         line-height: 26px;
@@ -171,10 +193,10 @@
         text-decoration: none;
         margin: 1% auto;
         margin-top: 3%;
-        width: 38%;
+        width: 40%;
         height: 3%;
         border: 1px solid whitesmoke;
-        padding: 2% 1%;
+        padding: 2% 3%;
         font-family: "italiana", serif;
         transition: 0.3s ease-in-out;
         box-shadow: inset 0 0 0 0 rgb(221, 211, 211);
@@ -209,7 +231,7 @@
         }
 
         .homestylists-button {
-            width: 30%;
+            width: 40%;
             height: 3%;
             padding: 2% 2%;
         }
@@ -356,7 +378,7 @@
         letter-spacing: -.03em;
         text-transform: uppercase;
         font-family: "italiana", serif;
-        font-size: 20px;
+        font-size: 29px;
         margin: 0 auto;
         padding-top: 3%;
         margin-bottom: 3%;
@@ -373,13 +395,22 @@
         background-color: rgb(210, 193, 174);
     }
 
+
     .testimonials-header {
         text-align: center;
         color: whitesmoke;
+        text-transform: uppercase;
         font-family: "italiana", serif;
-        padding: 1% 0% 10% 0%;
-        margin-bottom: -20%;
-        font-size: 27px;
+        padding: 1% 0% 0% 0%;
+        margin-top: 5%;
+        font-size: 28px;
+        letter-spacing: -0.18rem;
+    }
+
+    @media only screen and (min-width: 380px) {
+        .testimonials-header {
+            padding: 1% 0% 15% 0%;
+        }
     }
 
     .testimonial-link {
@@ -435,8 +466,8 @@
         height: 5px;
         margin: 3% 3%;
         z-index: 10;
-        outline: 6px solid pink;
-        outline-offset: -6px;
+        outline: 6px solid rgb(179, 155, 155);
+        outline-offset: -1px;
         cursor: pointer;
         -webkit-appearance: none;
         -moz-appearance: none;
@@ -518,16 +549,17 @@
 
 
     .slider-caption {
-        margin-top: 10%;
+        margin-top: 0%;
         color: rgb(161, 141, 141);
         text-transform: uppercase;
         font-size: 11px;
+        color: white;
         min-width: 800px;
     }
 
     .slider-text {
         color: rgb(134, 110, 110);
-        font-size: 12.5px;
+        font-size: 13px;
         margin-bottom: 5.5%;
 
     }
@@ -614,17 +646,15 @@
     /* Testimonials Finish */
 
     /* SERVICES PAGE */
-    .services-book-wrap {
-        margin-top: 20%;
-        position: relative;
-    }
 
-    .services-book-background-img {
-        width: 100%;
+    .services-book-wrap {
+        background-image: url("../components/imgs/blackoutsalonstretch.png");
+        background-repeat: no-repeat;
+        background-size: cover;
         margin-top: 20%;
-        height: auto;
-        position: absolute;
-        z-index: -99;
+        padding-bottom: 0.5%;
+        margin-bottom: 0%;
+        position: relative;
     }
 
     .services-book-text {
@@ -634,6 +664,8 @@
         text-transform: uppercase;
         font-size: 13px;
     }
+
+
 
     .services-book-2 {
         text-transform: lowercase;
@@ -675,9 +707,11 @@
     }
 
     .services-pricing {
-        margin-top: 6.5%;
+        background-image: url("../components/imgs/marble2bg.png");
+        padding-bottom: 7%;
     }
 
+    /* 
     .services-background-img {
         position: absolute;
         z-index: -99;
@@ -688,14 +722,14 @@
         z-index: -99;
         height: 120vh;
         width: auto;
-    }
+    } */
 
     .services-text {
         text-align: center;
     }
 
     .pricing-header {
-        padding-top: 10%;
+        padding-top: 7%;
         font-size: 35px;
         line-height: 32px;
         color: rgb(165, 144, 144);
@@ -727,7 +761,7 @@
     }
 
     .services-recommendation-wrap {
-        margin: 12% 2% 0% 2%;
+        margin: 8% 2% 0% 2%;
         font-family: "noto serif display", serif;
     }
 
@@ -735,10 +769,16 @@
         font-family: "italiana";
         text-transform: uppercase;
         font-weight: 100;
-        font-size: 23px;
+        font-size: 25px;
         color: whitesmoke;
         text-align: center;
         margin-bottom: 3%;
+    }
+
+    @media only screen and (min-width: 360px) {
+        .recommendation-header {
+            margin-top: -13%;
+        }
     }
 
     .services-recommendation-info {

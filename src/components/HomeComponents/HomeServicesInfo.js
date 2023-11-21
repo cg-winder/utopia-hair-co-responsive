@@ -12,16 +12,16 @@ const HomeServicesInfo = () => {
   return (
     <div className="homeservices-info-wrap">
       <div className="homeservices-info">
-          <div className="homeservices-hair">
+          <div className="homeservices-hair" id="homeservices-service">
             <img src={hair}/><div><HomeSpecialiseHair /></div>
           </div>
-          <div className="homeservices-nails">
+          <div className="homeservices-nails"  id="homeservices-service">
             <img src={nails}/><div><HomeSpecialiseNails /></div>
           </div>
-          <div className="homeservices-brows">
+          <div className="homeservices-brows" id="homeservices-service">
             <img src={brows}/><div><HomeSpecialiseBrows /></div>
           </div>
-          <div className="homeservices-lashes">
+          <div className="homeservices-lashes" id="homeservices-service">
             <img src={lashes}/><div><HomeSpecialiseLashes /></div>
           </div>
         </div>
