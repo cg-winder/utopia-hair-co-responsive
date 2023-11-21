@@ -278,15 +278,23 @@
     .homeservices-info {
         position: relative;
         display: inline-flex;
+        flex-wrap: nowrap;
         margin-top: -1%;
     }
 
     .homeservices-info img {
-        height: 60%;
+        /* height: auto;
         border-radius: 1%;
         display: inline-flex;
         justify-content: space-evenly;
         width: 100%;
+        margin-left: 0%; */
+        height: 70%;
+        border-radius: 1%;
+        display: inline-flex;
+        justify-content: space-evenly;
+        width: 100%;
+        margin-left: 0%;
     }
 
     .specialise-header {
