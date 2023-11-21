@@ -320,10 +320,10 @@
     .slider-nav {
         width: 8px;
         height: 8px;
-        margin: 0% 2%;
+        margin: 1% 2% 2% 2%;
         z-index: 10;
-        outline: 6px solid pink;
-        outline-offset: -6px;
+        outline: 6px solid rgb(172, 161, 161);
+        outline-offset: -1px;
         cursor: pointer;
         -webkit-appearance: none;
         -moz-appearance: none;
