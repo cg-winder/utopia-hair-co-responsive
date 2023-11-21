@@ -400,9 +400,14 @@
         text-transform: uppercase;
         font-family: "italiana", serif;
         padding: 1% 0% 2% 0%;
-        margin-top: 5%;
         font-size: 36px;
         letter-spacing: -0.18rem;
+    }
+
+    @media only screen and (max-width: 766px) {
+        .testimonials-header {
+            margin-top: 5%;
+        }
     }
 
     .testimonial-link {
