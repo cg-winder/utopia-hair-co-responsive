@@ -202,7 +202,7 @@
 
     .slider {
         /* height: 100%; */
-        height: 24vh;
+        height: 30vh;
         position: relative;
         overflow: hidden;
         display: -webkit-box;
@@ -223,8 +223,8 @@
     }
 
     .slider-nav {
-        width: 11px;
-        height: 11px;
+        width: 16px;
+        height: 16px;
         margin: 0% 1%;
         z-index: 10;
         outline: 6px solid rgb(172, 161, 161);
@@ -312,13 +312,13 @@
     .slider-caption {
         margin-top: 0%;
         text-transform: uppercase;
-        font-size: 12px;
+        font-size: 16px;
         min-width: 250px;
     }
 
     .slider-text {
         color: white;
-        font-size: 13.5px;
+        font-size: 18.5px;
         margin-bottom: 40%;
         max-width: 210px;
     }
