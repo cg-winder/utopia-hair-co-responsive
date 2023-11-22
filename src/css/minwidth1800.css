@@ -135,25 +135,30 @@
 
     .homestylists-text-img {
         display: inline-flex;
-        margin: 1% 3%;
+        margin: 2% 3%;
         flex-direction: row-reverse;
     }
 
 
     .homestylists-subtext {
-        margin: 11% 5% 0% 2%;
-        color: rgb(135, 110, 110);
-        font-family: "lato";
-        font-size: 21px;
-        line-height: 57px;
-        text-align: left;
+        margin: 2% 5% 0% 2%;
+        font-size: 28px;
+        line-height: 5rem;
     }
 
     .homestylists-img {
-        width: 440px;
-        height: 420px;
+        width: 35%;
+        height: 35%;
         display: flex;
         margin: 3% auto;
+    }
+
+    .homestylists-button {
+        margin-top: -15%;
+    }
+
+    .homestylists-button span {
+        font-size: 27px;
     }
 
     /* HOME STYLIST QUERIES*/
@@ -388,111 +393,64 @@
     /* Testimonials Finish */
 
     /* Services Page*/
-
-
-    /* .services-background-img img {
-        width: 100%;
-        height: 100vh;
+    .services-book-wrap {
+        background-image: url("../components/imgs/blackoutsalonstretch.png");
+        background-repeat: no-repeat;
+        margin-top: 16.5%;
+        position: relative;
     }
 
+    .services-book-text {
+        margin-top: -10%;
+        text-align: center;
+        text-transform: uppercase;
+        padding-bottom: 0%;
+    }
+
+    .services-book-1 {
+        margin-top: 20%;
+        font-size: 50px;
+    }
+
+    .services-book-2 {
+        font-size: 70px;
+    }
+
+
+    .services-book-button span {
+        padding-top: 1.1%;
+        color: white;
+        display: flex;
+        margin: 0 auto;
+        font-size: 45px;
+    }
+
+    .services-pricing {
+        background-image: url("../components/imgs/marble2bg.png");
+        padding-bottom: 2%;
+        margin-bottom: 0%;
+    }
+
+
     .pricing-header {
-        margin: 0% 60% 1% 2.3%;
+        margin: -3% 60% 1% 3.5%;
+        font-size: 75px;
+        letter-spacing: -0.35rem;
     }
 
     .pricing-menu-wrap p {
-        margin: 1.7% 0% 0% 2.5%;
+        margin: 2% 0% 0% 4%;
+        font-size: 12px;
     }
 
     .services-artists {
-        margin: 2% 0% 0% 2.5%;
+        margin: 3% 0% 0% 4%;
+        font-size: 27px;
     }
 
     .pricing-menus {
-        margin: 1% 0% -10% 0%;
+        margin: 2% 0% 0% 1.5%;
     }
-
-    .services-imgs {
-        margin: 0 auto;
-    }
-
-    .services-background {
-        margin-top: -1%;
-        position: relative;
-    } */
-
-    /* Services Media Queries */
-    /* @media only screen and (min-width: 1919px) and (min-height: 1079px) {
-        .services-book-background-img {
-            width: 100%;
-            margin-top: 20%;
-        }
-
-        .services-book-background-img img {
-            width: 100%;
-            height: auto;
-        }
-
-        .services-book-wrap {
-            margin-top: 24%;
-            position: relative;
-        }
-
-        .services-background-img {
-            width: 100%;
-            margin-top: -1%;
-            height: auto;
-            position: absolute;
-            z-index: -1;
-        }
-
-        .services-background-img img {
-            width: 100%;
-            height: 45vh;
-        }
-
-        .services-pricing {
-            position: static;
-            margin-top: -5%;
-        }
-
-        .recommendation-header {
-            margin-top: -4%;
-        }
-    } */
-    @media only screen and (min-width: 1919px) and (min-height: 1079px) {
-        .services-book-background-img {
-            width: 100%;
-            margin-top: 20%;
-        }
-
-        .services-book-background-img img {
-            width: 100%;
-            height: auto;
-        }
-
-        .services-book-wrap {
-            margin-top: 24%;
-            position: relative;
-        }
-
-        .services-background-img {
-            width: 100%;
-            margin-top: -1%;
-            height: auto;
-            position: absolute;
-            z-index: -1;
-        }
-
-        .services-pricing {
-            position: static;
-            margin-top: -5%;
-        }
-
-        .recommendation-header {
-            margin-top: -4%;
-        }
-    }
-
 
 
 

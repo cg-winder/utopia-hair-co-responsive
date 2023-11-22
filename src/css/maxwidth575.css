@@ -172,7 +172,7 @@
         margin: 5% 2%;
         line-height: 28px;
         color: whitesmoke;
-        font-size: 30px;
+        font-size: 37px;
         text-align: center;
         font-family: 'Italiana', serif;
         text-transform: uppercase;
@@ -203,7 +203,7 @@
     }
 
     .homestylists-button span {
-        color: whitesmoke;
+        color: white;
         font-size: 11px;
         padding-top: 1%;
         display: flex;
@@ -217,15 +217,15 @@
 
 
     .homestylists-img {
-        width: 220px;
-        height: 200px;
+        width: 60%;
+        height: 60%;
         display: flex;
         margin: 4% auto;
         border-radius: 2px;
     }
 
     /* HOME STYLIST QUERIES*/
-    @media only screen and (min-width: 360px) {
+    /* @media only screen and (min-width: 360px) {
         .homestylists-button span {
             font-size: 11px
         }
@@ -270,7 +270,7 @@
         .homestylists-header {
             font-size: 28px
         }
-    }
+    } */
 
     /* Home Stylists finish*/
 
