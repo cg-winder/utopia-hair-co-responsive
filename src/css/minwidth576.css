@@ -34,7 +34,6 @@
         z-index: 99;
         border: 1px solid transparent;
         background-color: transparent;
-        margin-top: 11vh;
     }
 
     .homedetail-small-img {
@@ -659,7 +658,6 @@
         background-image: url("../components/imgs/blackoutsalonstretch.png");
         background-repeat: no-repeat;
         background-size: cover;
-        margin-top: 20%;
         padding: 8% 0%;
         position: relative;
     }
@@ -881,7 +879,7 @@
 
     .teamgirls-wrap {
         font-family: "playfair display";
-        margin-top: 25%;
+        margin-top: -3%;
     }
 
     .team-girls {

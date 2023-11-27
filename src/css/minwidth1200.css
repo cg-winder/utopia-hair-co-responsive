@@ -18,14 +18,14 @@
         display: none;
     }
 
-    #page-components-wrap {
+    /* #page-components-wrap {
         animation: fade-in-left 3s ease;
         padding-top: 7%;
-    }
+    } */
 
     /*HOMEPAGE TITLES*/
 
-    .homepage-head,
+    /* .homepage-head,
     #team-head,
     #salon-head,
     #services-head {
@@ -48,7 +48,7 @@
     .page-intro {
         font-size: 0px;
         color: transparent;
-    }
+    } */
 
     /* .homepage-head {
         position: relative;
@@ -58,7 +58,7 @@
         text-align: center;
         margin-top: 11%;
     } */
-
+    /* 
     #team-head {
         font-size: 120px;
     }
@@ -67,7 +67,7 @@
     #services-head {
         font-size: 130px;
         margin-top: 8%;
-    }
+    } */
 
 
     /* HOME PAGE */
@@ -79,7 +79,7 @@
     }
 
     .homedetail-wrap {
-        margin-top: 25%;
+        /* margin-top: 25%; */
     }
 
 
@@ -451,9 +451,7 @@
 
 
     /* SERVICES PAGE */
-    .services-book-wrap {
-        margin-top: 22.5%;
-    }
+    .services-book-wrap {}
 
 
 
@@ -463,7 +461,6 @@
         font-family: "italiana";
         animation: fade-in-left 3s ease;
         margin-bottom: 0%;
-        margin-top: 10%;
     }
 
     @keyframes fade-in-left {

@@ -1,0 +1,138 @@
+.background {
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    height: 100vh;
+    width: 100vw;
+}
+
+#home-head,
+#salon-head,
+#services-head,
+#team-head {
+    position: absolute;
+    color: white;
+    width: 100%;
+    text-align: center;
+    top: 14vh;
+    animation: fade-in-down 4s ease;
+    font-family: "noto serif display", serif;
+}
+
+@keyframes fade-in-down {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@media only screen and (min-width: 767px) and (max-width: 900px) {
+
+    #home-head,
+    #salon-head,
+    #services-head,
+    #team-head {
+        top: 15vh;
+        font-size: 95px
+    }
+}
+
+@media only screen and (min-width: 901px) and (max-width: 990px) {
+
+    #home-head,
+    #salon-head,
+    #services-head,
+    #team-head {
+        top: 18vh;
+        font-size: 95px
+    }
+}
+
+@media only screen and (min-width: 991px) and (max-width: 1199px) {
+
+    #home-head,
+    #salon-head,
+    #services-head,
+    #team-head {
+        top: 19vh;
+        font-size: 120px
+    }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1348px) {
+
+    #home-head,
+    #salon-head,
+    #services-head,
+    #team-head {
+        top: 24vh;
+        font-size: 130px
+    }
+}
+
+@media only screen and (min-width: 1349px) and (max-width: 1399px) {
+
+    #home-head,
+    #salon-head,
+    #services-head,
+    #team-head {
+        top: 27vh;
+        font-size: 140px
+    }
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1599px) {
+
+    #home-head,
+    #salon-head,
+    #services-head,
+    #team-head {
+        top: 28vh;
+        font-size: 150px
+    }
+}
+
+@media only screen and (min-width: 1600px) and (max-width: 1799px) {
+
+    #home-head,
+    #salon-head,
+    #services-head,
+    #team-head {
+        top: 32vh;
+        font-size: 155px
+    }
+}
+
+@media only screen and (min-width: 1800px) and (max-width: 1930px) {
+
+    #home-head,
+    #salon-head,
+    #services-head,
+    #team-head {
+        top: 37vh;
+        font-size: 160px
+    }
+}
+
+
+#page-components-wrap {
+    animation: fade-in-left 3s ease;
+    padding-top: 56.3%;
+}
+
+@keyframes fade-in-left {
+    0% {
+        opacity: 0;
+        transform: translateX(-20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}

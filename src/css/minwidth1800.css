@@ -18,14 +18,15 @@
         display: none;
     }
 
+    /* 
     #page-components-wrap {
         animation: fade-in-left 3s ease;
         padding-top: 3.5%;
-    }
+    } */
 
 
     /*HOMEPAGE TITLES*/
-
+    /* 
     .homepage-head,
     #team-head,
     #salon-head,
@@ -66,7 +67,7 @@
     #team-head {
         font-size: 160px;
         margin-top: 16%;
-    }
+    } */
 
 
 
@@ -396,7 +397,6 @@
     .services-book-wrap {
         background-image: url("../components/imgs/blackoutsalonstretch.png");
         background-repeat: no-repeat;
-        margin-top: 16.5%;
         position: relative;
     }
 
@@ -460,7 +460,6 @@
         font-family: "italiana";
         animation: fade-in-left 3s ease;
         margin-bottom: 0%;
-        margin-top: 10%;
     }
 
     @keyframes fade-in-left {
@@ -483,7 +482,6 @@
     .teamgirls-wrap {
         font-family: "playfair display";
         animation: fade-in-left 3s ease;
-        margin-top: 18%;
         padding: 4% 0%;
     }
 

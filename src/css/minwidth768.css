@@ -18,9 +18,9 @@
         display: none;
     }
 
-    #page-components-wrap {
+    /* #page-components-wrap {
         animation: fade-in-left 3s ease;
-        padding-top: 14%;
+        padding-top: 55%;
     }
 
     @keyframes fade-in-left {
@@ -33,12 +33,12 @@
             opacity: 1;
             transform: translateX(0);
         }
-    }
+    } */
 
 
     /*HOMEPAGE TITLES*/
 
-    .homepage-head,
+    /* .homepage-head,
     #team-head,
     #salon-head,
     #services-head {
@@ -61,7 +61,7 @@
     .page-intro {
         font-size: 0px;
         color: transparent;
-    }
+    } */
 
     .background {
         position: absolute;
@@ -69,6 +69,7 @@
         z-index: -1;
     }
 
+    /* 
     .homepage-head {
         position: relative;
         color: white;
@@ -76,9 +77,9 @@
         font-size: 100px;
         text-align: center;
         margin-top: 4.5%;
-    }
+    } */
 
-    #team-head {
+    /* #team-head {
         font-size: 95px;
         margin-top: -4%;
     }
@@ -87,6 +88,7 @@
     #services-head {
         font-size: 110px;
         margin-top: 4%;
+        margin-bottom: 17%;
     }
 
 
@@ -128,66 +130,7 @@
             margin-top: 6%;
         }
 
-    }
-
-    /* HOME PAGE */
-    .homedetail-background-img {
-        width: 100%;
-        margin-top: 18.3%;
-        height: auto;
-        position: absolute;
-        z-index: -1;
-        opacity: 0.9;
-    }
-
-    /* HOME WELCOME */
-
-    .homewelcome-wrap {
-        padding-bottom: 8%;
-        margin: 8% 0% 0% 2%;
-        font-family: "italiana";
-        text-transform: uppercase;
-    }
-
-    .homewelcome-header-img {
-        display: flex;
-    }
-
-    .homewelcome-header-img img {
-        height: 50vh;
-        width: auto;
-        margin-top: 17%;
-        position: absolute;
-        margin-left: 29%;
-        z-index: -1;
-    }
-
-    .homewelcome-header {
-        z-index: 90;
-        font-size: 120px;
-        margin: 48% 0% -5% -2%;
-        color: rgb(202, 190, 183);
-        color: whitesmoke;
-    }
-
-    .homewelcome-header p {
-        margin-left: 5%;
-        line-height: 3%;
-        margin-top: -16%;
-    }
-
-    #homewelcome-left {
-        padding-left: 4%
-    }
-
-    .homewelcome-p {
-        font-size: 28px;
-        color: rgb(197, 181, 172);
-        color: white;
-        margin-bottom: -11%;
-        margin-left: 1%;
-    }
-
+    } */
 
     /* Home Detail */
 
@@ -197,7 +140,6 @@
         z-index: 99;
         border: 1px solid transparent;
         background-color: transparent;
-        margin-top: 18%;
     }
 
 
@@ -1004,7 +946,6 @@
 
     .saloncontent-wrap {
         /* margin-top: 16.7%; */
-        top: 0;
         font-family: "noto serif display", serif;
         box-shadow: inset 2000px 0 0 0 #c8bfbf97;
         border: 1px solid white;
@@ -1126,7 +1067,6 @@
         background-image: url("../components/imgs/blackoutsalonstretch.png");
         background-repeat: no-repeat;
         background-size: cover;
-        margin-top: 16.5%;
         position: relative;
     }
 
@@ -1445,7 +1385,6 @@
         font-family: "italiana";
         animation: fade-in-left 3s ease;
         margin-bottom: 0%;
-        margin-top: 10%;
     }
 
     @keyframes fade-in-left {
@@ -1461,14 +1400,13 @@
     }
 
     .team-girls {
-        margin-top: -5%;
+        margin-top: -10%;
     }
-
 
     .teamgirls-wrap {
         font-family: "playfair display";
-        margin-top: 18%;
         padding: 4% 0%;
+        margin-top: 4%;
     }
 
 
