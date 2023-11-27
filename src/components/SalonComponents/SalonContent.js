@@ -16,9 +16,6 @@ const SalonContent = () => {
             environment whilst giving you your dream hair.
           </p>
           </div>
-        <div className="salon-pic-1">
-          <img src={salon2} />
-      </div>
           <div className="salon-about-info-2">
             <p>
               What started as solely a hairdressing salon soon evolved to include
@@ -29,11 +26,6 @@ const SalonContent = () => {
               Hair Co will provide you with the best results and the ultimate
               luxury experience.
             </p>
-          </div>
-          <div className="salon-pics">
-            <img src={salonsolo} />
-            <img src={mug} />
-            <img src={salon3}/>
           </div>
           <div className="salon-about-info-3">
             <p>

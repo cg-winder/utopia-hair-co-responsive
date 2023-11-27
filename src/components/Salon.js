@@ -1,9 +1,8 @@
 import React from "react";
-import SalonTreatments from "./SalonComponents/SalonTreatments";
 import SalonContent from "./SalonComponents/SalonContent";
-import InstagramEmbed from "./InstagramEmbeds/UtopiaInstagramEmbed";
 import SalonInfo from "./SalonComponents/SalonInfo";
-import SalonContact from "./SalonComponents/SalonContact";
+import SalonGallery from "./SalonComponents/SalonGallery";
+
 
 const Salon = () => {
   return (
@@ -12,6 +11,7 @@ const Salon = () => {
           <div>The Salon</div>
       </div>
       <SalonContent />
+      <SalonGallery />
       <SalonInfo />
     </div>
   );

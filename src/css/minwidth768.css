@@ -1003,50 +1003,29 @@
     /* Salon Content */
 
     .saloncontent-wrap {
-        margin-top: 16.5%;
+        margin-top: 22.7%;
         font-family: "noto serif display", serif;
-    }
-
-
-    .salon-pic-1 {
-        display: flex;
-        margin-left: 40%;
-    }
-
-    .salon-pic-1 img {
-        height: auto;
-        width: 60vw;
-    }
-
-    .salon-about-info-1 {
-        box-shadow: inset 600px 0 0 0 #c8bfbf97;
-        color: rgb(158, 128, 128);
-        position: absolute;
-        font-size: 14px;
-        text-align: center;
-        line-height: 37px;
-        margin: 0% 60% 0% 0%;
-        height: 308px;
+        box-shadow: inset 2000px 0 0 0 #c8bfbf97;
         border: 1px solid white;
-        border-right: 0px solid transparent;
-        padding: 0% 2%;
     }
 
     .salon-about-info-1 h2 {
-        margin-bottom: -1%;
+        margin-bottom: 5%;
         color: white;
-        font-size: 22px;
+        font-size: 50px;
         text-transform: uppercase;
     }
 
+
+
+    .salon-about-info-1,
     .salon-about-info-2,
     .salon-about-info-3 {
         font-size: 17.5px;
         text-align: center;
         color: rgb(158, 128, 128);
-        color: white;
         line-height: 32px;
-        margin: 9% 3% 0% 3%;
+        margin: 5% 3% 0% 3%;
     }
 
     .salon-about-info-2 p,
@@ -1055,35 +1034,31 @@
         margin-left: 1.5%;
     }
 
-    .salon-pics {
-        display: inline-flex;
-        justify-content: space-between;
-        margin: 9% 0% 0% 0%;
-        width: auto;
+    /* Salon Gallery */
+    .salon-gallery img {
+        height: 50vh;
+        width: 30vw;
     }
 
-    .salon-pics img {
-        height: 24.2vh;
-        margin-right: 1%;
+    .gallery-1,
+    .gallery-2,
+    .gallery-3 {
+        display: flex;
+        padding-top: 3%;
+        justify-content: space-between;
     }
 
     /* Salon Info */
 
     .salon-info {
         font-family: "noto serif display", serif;
-        display: flex;
-        flex-direction: row-reverse;
-        justify-content: space-between;
-        margin: 9% 0% -1% 0%;
+        margin: 3% 0% 0% 0%;
+        border: 1px solid white;
+        box-shadow: inset 2000px 0 0 0 #c8bfbf97;
     }
 
     .salon-address-context {
-        border: 1px solid white;
-        border-left: 0px solid transparent;
-        box-shadow: inset 600px 0 0 0 #c8bfbf97;
         color: rgb(158, 128, 128);
-        flex-direction: row;
-        height: 360px;
     }
 
     .salon-address-div {
@@ -1095,25 +1070,26 @@
 
     .salon-address-div h2 {
         color: white;
-        font-size: 22px;
-        margin-bottom: -1%;
-    }
-
-    .salon-address-div p {
-        color: rgb(158, 128, 128);
-        margin-bottom: -2%;
+        font-size: 50px;
+        margin-bottom: 3%;
     }
 
     .salon-context {
+        font-size: 17.5px;
         text-align: center;
-        line-height: 30px;
-        margin: 2% 3% 0% 3%;
+        color: rgb(158, 128, 128);
+        line-height: 32px;
+        margin: 2% 10% 0% 10%;
+    }
+
+    .salon-context-p2 {
+        margin-bottom: 3%;
     }
 
     .salon-context a {
         text-transform: uppercase;
         border: 1px solid white;
-        padding: 2% 3.5%;
+        padding: 1% 2%;
         background-color: #b0a9a6;
         color: white;
         text-decoration: none;
@@ -1123,10 +1099,6 @@
         background-color: #cbbcb7;
     }
 
-    .salon-info-img img {
-        height: 35vh;
-        width: 60vw;
-    }
 
 
     /* SERVICES PAGE */
