@@ -651,7 +651,7 @@
     }
 
     .testimonial-link {
-        font-family: "italiana";
+        font-family: 'noto serif display', serif;
         font-size: 14px;
         padding: 3% 0% 4% 0%;
         color: rgb(172, 140, 140);
@@ -977,14 +977,14 @@
     /* Salon Gallery */
     .salon-gallery img {
         height: 25vh;
-        width: 30vw;
+        width: 32vw;
     }
 
     .gallery-1,
     .gallery-2,
     .gallery-3 {
         display: flex;
-        padding-top: 4%;
+        padding-top: 2%;
         justify-content: space-between;
     }
 
@@ -992,7 +992,7 @@
 
     .salon-info {
         font-family: "noto serif display", serif;
-        margin: 4% 0% 0% 0%;
+        margin: 2% 0% 0% 0%;
         border: 1px solid white;
         box-shadow: inset 2000px 0 0 0 #c8bfbf97;
     }

@@ -181,7 +181,7 @@
     }
 
     .testimonial-link {
-        font-family: "lato";
+        font-family: 'noto serif display', serif;
         font-size: 14px;
         padding: 5% 0% 2% 0%;
         color: rgb(253, 253, 253);
@@ -202,7 +202,7 @@
 
     body {
         color: white;
-        font-family: 'lato', serif;
+        font-family: 'noto serif display', serif;
         line-height: 1.5;
     }
 

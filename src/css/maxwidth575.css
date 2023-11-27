@@ -47,11 +47,11 @@
         font-family: 'noto serif display', serif;
         font-size: 12px;
         text-align: center;
-        padding: 9% 1% 0% 1%;
+        padding: 2% 1% 0% 1%;
         line-height: 20px;
         color: rgb(95, 64, 64);
         color: white;
-        margin: 10% 8% 3% 8%;
+        margin: 8% 8% 3% 8%;
     }
 
     .homedetail-book-button {
@@ -413,7 +413,7 @@
     }
 
     .testimonial-link {
-        font-family: "lato";
+        font-family: 'noto serif display', serif;
         font-size: 12px;
         padding: 3% 0% 4% 0%;
         color: rgb(161, 141, 141);
@@ -434,7 +434,7 @@
 
     body {
         color: white;
-        font-family: 'lato', serif;
+        font-family: 'noto serif display', serif;
         line-height: 1.5;
     }
 
@@ -1675,7 +1675,6 @@
 
     .footer-disclaimer {
         color: rgb(105, 88, 88);
-        background-color: rgb(214, 204, 190);
         text-align: center;
         font-size: 5px;
         padding-bottom: 0.3%;

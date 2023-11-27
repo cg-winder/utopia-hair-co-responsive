@@ -409,7 +409,7 @@
     }
 
     .testimonial-link {
-        font-family: "lato";
+        font-family: 'noto serif display', serif;
         font-size: 13px;
         padding: 3% 0% 4% 0%;
         color: rgb(253, 253, 253);
@@ -430,7 +430,7 @@
 
     body {
         color: white;
-        font-family: 'lato', serif;
+        font-family: 'noto serif display', serif;
         line-height: 1.5;
     }
 
@@ -650,6 +650,105 @@
     }
 
     /* Testimonials Finish */
+
+
+    /* SALON PAGE */
+    /* Salon Content */
+    .saloncontent-wrap {
+        font-family: "noto serif display", serif;
+        box-shadow: inset 2000px 0 0 0 #c8bfbf97;
+        border: 1px solid white;
+    }
+
+    .salon-about-info-1 h2 {
+        margin-bottom: 5%;
+        color: white;
+        font-size: 40px;
+        text-transform: uppercase;
+    }
+
+
+    .salon-about-info-1 p {
+        line-height: 25px;
+    }
+
+    .salon-about-info-1,
+    .salon-about-info-2,
+    .salon-about-info-3 {
+        font-size: 15px;
+        text-align: center;
+        color: rgb(158, 128, 128);
+        line-height: 25px;
+        margin: 4% 3% 0% 3%;
+    }
+
+    /* Salon Gallery */
+    .salon-gallery img {
+        height: 20vh;
+        width: 32vw;
+    }
+
+    .gallery-1,
+    .gallery-2,
+    .gallery-3 {
+        display: flex;
+        padding-top: 2%;
+        justify-content: space-between;
+    }
+
+    /* Salon Info */
+
+    .salon-info {
+        font-family: "noto serif display", serif;
+        margin: 2% 0% 0% 0%;
+        border: 1px solid white;
+        box-shadow: inset 2000px 0 0 0 #c8bfbf97;
+    }
+
+    .salon-address-context {
+        color: rgb(158, 128, 128);
+        margin-bottom: 3%;
+    }
+
+    .salon-address-div {
+        text-transform: uppercase;
+        padding-top: -2%;
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .salon-address-div h2 {
+        color: white;
+        font-size: 40px;
+        margin-bottom: 3%;
+    }
+
+    .salon-context {
+        font-size: 15px;
+        text-align: center;
+        color: rgb(158, 128, 128);
+        line-height: 22px;
+        margin: 2% 10% 0% 10%;
+    }
+
+    .salon-context-p2 {
+        margin-bottom: 6%;
+    }
+
+    .salon-context a {
+        text-transform: uppercase;
+        border: 1px solid white;
+        padding: 2% 4%;
+        background-color: #b0a9a6;
+        color: white;
+        text-decoration: none;
+    }
+
+    .salon-context a:hover {
+        background-color: #cbbcb7;
+    }
+
+
 
 
     /* Services Page */
