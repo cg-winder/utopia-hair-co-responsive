@@ -11,7 +11,7 @@ const FooterSocials = () => {
         </a>
         <a
           className="tiktok-footer"
-          href="https://www.tiktok.com/@utopiahairco?lang=en"
+          href="https://www.tiktok.com/@nicola_utopiahairco"
         >
           <img src={tiktoklogo} alt="tiktok-icon" />
         </a>
