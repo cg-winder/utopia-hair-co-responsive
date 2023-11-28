@@ -658,6 +658,8 @@
         font-family: "noto serif display", serif;
         box-shadow: inset 2000px 0 0 0 #c8bfbf97;
         border: 1px solid white;
+        border-left: 0px;
+        border-right: 0px;
     }
 
     .salon-about-info-1 h2 {
@@ -702,6 +704,8 @@
         font-family: "noto serif display", serif;
         margin: 2% 0% 0% 0%;
         border: 1px solid white;
+        border-left: 0px;
+        border-right: 0px;
         box-shadow: inset 2000px 0 0 0 #c8bfbf97;
     }
 

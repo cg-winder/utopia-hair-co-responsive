@@ -393,6 +393,37 @@
 
     /* Testimonials Finish */
 
+    /* SALON PAGE */
+    .salon-gallery img {
+        height: 54vh;
+        width: 32vw;
+    }
+
+    @media only screen and (min-width: 1900px) {
+        .salon-gallery img {
+            height: 58vh;
+            width: 32vw;
+        }
+    }
+
+    .salon-about-info-1 p {
+        line-height: 50px;
+    }
+
+    .salon-about-info-1,
+    .salon-about-info-2,
+    .salon-about-info-3 {
+        font-size: 24.5px;
+    }
+
+    .salon-context-p2 {
+        margin-bottom: 5%;
+    }
+
+    .salon-context {
+        font-size: 24.5px;
+    }
+
     /* Services Page*/
     .services-book-wrap {
         background-image: url("../components/imgs/blackoutsalonstretch.png");

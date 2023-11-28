@@ -448,6 +448,18 @@
 
     /* Testimonials Finish */
 
+    /* SALON PAGE */
+    .salon-gallery img {
+        height: 36vh;
+        width: 32vw;
+    }
+
+    @media only screen and (min-width: 1300px) {
+        .salon-gallery img {
+            height: 38vh;
+            width: 32vw;
+        }
+    }
 
 
     /* SERVICES PAGE */

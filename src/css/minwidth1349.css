@@ -599,6 +599,64 @@
 
     /* Testimonials Finish */
 
+    /* SALON PAGE */
+    .salon-gallery img {
+        height: 42vh;
+        width: 32vw;
+    }
+
+    @media only screen and (min-width: 1500px) {
+        .salon-gallery img {
+            height: 44vh;
+            width: 32vw;
+        }
+    }
+
+    @media only screen and (min-width: 1600px) {
+        .salon-gallery img {
+            height: 47vh;
+            width: 32vw;
+        }
+    }
+
+    @media only screen and (min-width: 1700px) {
+        .salon-gallery img {
+            height: 50vh;
+            width: 32vw;
+        }
+    }
+
+
+    .salon-about-info-1 h2 {
+        margin-bottom: 5%;
+        color: white;
+        font-size: 60px;
+    }
+
+    .salon-about-info-1 p {
+        line-height: 50px;
+    }
+
+    .salon-about-info-1,
+    .salon-about-info-2,
+    .salon-about-info-3 {
+        font-size: 18.5px;
+    }
+
+    .salon-address-div h2 {
+        color: white;
+        font-size: 60px;
+    }
+
+    .salon-context-p2 {
+        margin-bottom: 5%;
+    }
+
+    .salon-context {
+        font-size: 18.5px;
+    }
+
+
     /* Services Media Queries */
     @media only screen and (min-width: 1366px) {
         .services-artists {

@@ -1,6 +1,7 @@
 import profileplaceholder from "../imgs/profile-placeholder.jpeg";
 import instagramlogo from "/Users/chloewinder/Desktop/ /Code/Projects/utopia-hair-co-responsive/src/components/imgs/nav-icon3-instagram.svg"
 import React from "react";
+import nicola from "../imgs/nicolaprofile.jpeg"
 import alannah from "../imgs/final-alannah.png"
 import erin from "../imgs/final-erin.png"
 import ellie from "../imgs/final-ellie.png"
@@ -16,7 +17,7 @@ const TeamGirls = () => {
       <div className="team-girls">
         <div className="team-pic-name-flex">
                   <div className="team-pics">
-                    <img src={profileplaceholder} id="nicola"/>
+                    <img src={nicola} id="nicola"/>
                   </div>
                   <div className="team-name-title">
                         <h2 className="team-h2">NICOLA</h2>

@@ -500,6 +500,12 @@
 
     /* Testimonials Finish */
 
+    /* SALON PAGE */
+    .salon-gallery img {
+        height: 35vh;
+        width: 32vw;
+    }
+
 
 
     /* SERVICES PAGE */
