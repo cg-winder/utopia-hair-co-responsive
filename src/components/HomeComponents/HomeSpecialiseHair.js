@@ -9,8 +9,8 @@ const HomeSpecialiseHair = () => {
   ];
   const [isDeleting, setIsDeleting] = useState(false);
   const [loopNumber, setLoopNumber] = useState(0);
-  const [text, setText] = useState(""); //rotate words state
-  const [delta, setDelta] = useState(300 - Math.random() * 100); // time it takes for new word to fill after previous word all deleted.
+  const [text, setText] = useState(""); //rotate words state.
+  const [delta, setDelta] = useState(300 - Math.random() * 100); // Time it for word to refill after being deleted.
   const period = 260; //Time it takes for each letter to delete.
 
   useEffect(() => {
