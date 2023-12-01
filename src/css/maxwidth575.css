@@ -744,6 +744,15 @@
         background-color: #cbbcb7;
     }
 
+    .salon-access-gallery img {
+        height: 0vh;
+        width: 0vw;
+    }
+
+    .salon-access-gallery {
+        padding-bottom: 0%;
+        display: flex;
+    }
 
 
     /* SERVICES PAGE */
@@ -1681,7 +1690,7 @@
         color: rgb(105, 88, 88);
         text-align: center;
         font-size: 5px;
-        padding-bottom: 0.3%;
+        padding-bottom: 1.5%;
     }
 
 

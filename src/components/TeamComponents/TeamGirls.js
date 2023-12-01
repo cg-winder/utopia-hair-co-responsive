@@ -1,14 +1,12 @@
-import profileplaceholder from "../imgs/profile-placeholder.jpeg";
+
 import instagramlogo from "/Users/chloewinder/Desktop/ /Code/Projects/utopia-hair-co-responsive/src/components/imgs/nav-icon3-instagram.svg"
 import React from "react";
-import nicola from "../imgs/nicolaprofile.jpeg"
+import nicola from "../imgs/nicolabw.png"
 import alannah from "../imgs/final-alannah.png"
 import erin from "../imgs/final-erin.png"
 import ellie from "../imgs/final-ellie.png"
 import maddie from "../imgs/maddie.jpeg"
-
-
-
+import millie from "../imgs/milliebw.png"
 
 
 const TeamGirls = () => {
@@ -215,7 +213,7 @@ I offer a wide range of treatments across nails, lashes and brows!
         <div className="team-girls">
       <div className="team-pic-name-flex">
             <div className="team-pics">
-                  <img src={profileplaceholder} id="millie"/>
+                  <img src={millie} id="millie"/>
                 </div>
                 <div className="team-name-title">
                         <h2 className="team-h2">MILLIE</h2>
@@ -243,10 +241,7 @@ I offer a wide range of treatments across nails, lashes and brows!
                 </div>
             </div>
           <div className="team-about">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
-              iaculis vel magna a consequat. Cras at neque a lacus egestas
-              porttitor. Integer sed lacus scelerisque, pretium tellus vitae,
-              venenatis sem. Sed pretium est enim, et feugiat felis ultrices ut.
+ Hi I'm Millie! I am a newly qualified brow specialist. I decided to take my love for brows and make it my dream job. I can't wait to meet my clients and start your brow journey together.
               <p className="team-specialise">Specialises in:  </p>
               <p className="team-hours">Find me in the salon: </p>
           </div>

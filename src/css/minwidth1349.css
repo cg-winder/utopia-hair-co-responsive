@@ -656,6 +656,12 @@
         font-size: 18.5px;
     }
 
+    .salon-access-gallery img {
+        height: 25vh;
+        width: 28vw;
+        padding-left: 1%;
+    }
+
 
     /* Services Media Queries */
     @media only screen and (min-width: 1366px) {
@@ -1079,10 +1085,5 @@
         text-decoration: none;
         color: rgb(134, 112, 112);
     }
-
-
-
-
-
 
 }

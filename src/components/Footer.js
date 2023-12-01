@@ -19,8 +19,7 @@ const Footer = () => {
       </div>
       <hr className="footer-hr" />
       <p className="footer-disclaimer">
-        &copy;{new Date().getFullYear()} Utopia Hair Co | All rights reserved |
-        Website developed by Chloe Winder
+        &copy;{new Date().getFullYear()} Utopia Hair Co | All rights reserved
       </p>
     </div>
   );

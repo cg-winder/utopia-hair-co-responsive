@@ -424,6 +424,12 @@
         font-size: 24.5px;
     }
 
+    .salon-access-gallery img {
+        height: 33vh;
+        width: 35vw;
+        padding-left: 1%;
+    }
+
     /* Services Page*/
     .services-book-wrap {
         background-image: url("../components/imgs/blackoutsalonstretch.png");

@@ -1055,6 +1055,18 @@
         background-color: #cbbcb7;
     }
 
+    .salon-access-gallery img {
+        height: 18vh;
+        width: 23vw;
+        padding-left: 1%;
+    }
+
+    .salon-access-gallery {
+        justify-content: center;
+        padding-bottom: 2%;
+        display: flex;
+    }
+
 
 
     /* SERVICES PAGE */
