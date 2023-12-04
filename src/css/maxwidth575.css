@@ -162,6 +162,7 @@
     /* Home Stylists */
     .homestylists-wrap {
         background-image: url("../components/imgs/salonbrush2.png");
+        background-image: url("../components/imgs/marble2bg.png");
         background-size: cover;
         margin: 1% 0% 0% 0%;
         padding: 5% 3% 4% 3%;
@@ -170,7 +171,7 @@
     .homestylists-header {
         margin: 5% 2%;
         line-height: 28px;
-        color: whitesmoke;
+        color: rgb(172, 140, 140);
         font-size: 37px;
         text-align: center;
         font-family: 'Italiana', serif;
@@ -179,8 +180,7 @@
 
     .homestylists-subtext {
         margin: 1% 3% 0% 3%;
-        color: rgb(135, 110, 110);
-        color: white;
+        color: rgb(150, 115, 121);
         font-family: "noto serif display", serif;
         font-size: 14px;
         line-height: 26px;
@@ -202,7 +202,7 @@
     }
 
     .homestylists-button span {
-        color: white;
+        color: rgb(172, 140, 140);
         font-size: 11px;
         padding-top: 1%;
         display: flex;

@@ -142,9 +142,9 @@
 
 
     .homestylists-subtext {
-        margin: 2% 5% 0% 2%;
+        margin: -2% 5% 0% 2%;
         font-size: 28px;
-        line-height: 5rem;
+        line-height: 6rem;
     }
 
     .homestylists-img {
@@ -155,7 +155,7 @@
     }
 
     .homestylists-button {
-        margin-top: -15%;
+        margin-top: -10%;
     }
 
     .homestylists-button span {

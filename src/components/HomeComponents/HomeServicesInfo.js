@@ -1,5 +1,5 @@
 import React from 'react'
-import hair from "../imgs/hairbalayage.jpeg"
+import hair from "../imgs/blondec.png"
 import nails from "../imgs/nails2.jpeg"
 import brows from "../imgs/brows3.jpeg"
 import lashes from "../imgs/lashes2.jpeg";

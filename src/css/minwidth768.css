@@ -191,7 +191,6 @@
 
     /* HOME DETAIL QUERIES */
     @media only screen and (min-width: 900px) {
-
         .homedetail-subtext {
             line-height: 30px;
             font-size: 17px;
@@ -292,6 +291,7 @@
 
     .homestylists-wrap {
         background-image: url("../components/imgs/salonbrush2.png");
+        background-image: url("../components/imgs/marble2bg.png");
         background-size: cover;
         background-color: transparent;
         margin-top: -0.1%;
@@ -301,6 +301,7 @@
         margin-left: 4%;
         letter-spacing: -.25rem;
         color: white;
+        color: rgb(172, 140, 140);
         font-size: 47px;
         text-align: left;
         text-transform: uppercase;
@@ -320,7 +321,7 @@
         flex-wrap: wrap;
         margin: 0% 4% 3% 2%;
         color: rgb(197, 166, 166);
-        color: white;
+        color: rgb(150, 115, 121);
         font-family: "noto serif display", serif;
         font-size: 13px;
         line-height: 43px;
@@ -358,6 +359,7 @@
 
     .homestylists-button span {
         color: white;
+        color: rgb(172, 140, 140);
         font-size: 13px;
         padding-top: 0.5%;
         display: flex;

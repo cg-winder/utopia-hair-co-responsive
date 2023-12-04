@@ -663,7 +663,13 @@
     }
 
 
-    /* Services Media Queries */
+    /* Services Page*/
+    .homestylists-subtext {
+        display: flex;
+        flex-wrap: wrap;
+        margin: -3% 4% 3% 2%;
+    }
+
     @media only screen and (min-width: 1366px) {
         .services-artists {
             margin-left: 3%;
