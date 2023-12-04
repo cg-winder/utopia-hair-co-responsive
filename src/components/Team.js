@@ -9,7 +9,7 @@ const Team = () => {
         <div className="homepage-head" id="team-head">
           <div>Meet The Team</div>
         </div>
-        <div className="page-intro" id="team-intro">MEET OUR TEAM</div>
+    <div className="page-intro" id="team-intro">MEET OUR TEAM</div>
       <TeamGirls />
     </div>
   );

@@ -1,5 +1,5 @@
 import React from "react";
-import salon from "../imgs/salonpic3.jpeg";
+
 
 const HomePage = () => {
   return (

@@ -18,6 +18,8 @@
         display: none;
     }
 
+
+
     /* #page-components-wrap {
         animation: fade-in-left 3s ease;
         padding-top: 55%;
@@ -37,6 +39,7 @@
 
 
     /*HOMEPAGE TITLES*/
+
 
     /* .homepage-head,
     #team-head,
@@ -68,6 +71,8 @@
         top: 0;
         z-index: -1;
     }
+
+
 
     /* 
     .homepage-head {
@@ -1411,21 +1416,9 @@
 
     .team-page-wrap {
         font-family: "italiana";
-        animation: fade-in-left 3s ease;
         margin-bottom: 0%;
     }
 
-    @keyframes fade-in-left {
-        0% {
-            opacity: 0;
-            transform: translateX(-20px);
-        }
-
-        100% {
-            opacity: 1;
-            transform: translateX(0);
-        }
-    }
 
     .team-girls {
         margin-top: -10%;

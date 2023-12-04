@@ -1,5 +1,5 @@
 import React from 'react'
-import video from "../imgs/pampas.mp4"
+import video from "../imgs/pampascompressed.mp4"
 
 
 const Background = () => {

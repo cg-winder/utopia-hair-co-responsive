@@ -476,20 +476,7 @@
 
     .team-page-wrap {
         font-family: "italiana";
-        animation: fade-in-left 3s ease;
         margin-bottom: 0%;
-    }
-
-    @keyframes fade-in-left {
-        0% {
-            opacity: 0;
-            transform: translateX(-20px);
-        }
-
-        100% {
-            opacity: 1;
-            transform: translateX(0);
-        }
     }
 
     .team-girls {
