@@ -558,20 +558,20 @@
     @-webkit-keyframes check {
         50% {
             outline-color: white;
-            box-shadow: 0 0 0 12px whitesmoke, 0 0 0 15px whitesmoke;
+            box-shadow: 0 0 0 2px whitesmoke, 0 0 0 2px whitesmoke;
 
         }
 
         100% {
             outline-color: white;
-            box-shadow: 0 0 0 12px whitesmoke, 0 0 0 15px whitesmoke;
+            box-shadow: 0 0 0 2px whitesmoke, 0 0 0 2px whitesmoke;
         }
     }
 
     @keyframes check {
         50% {
             outline-color: white;
-            box-shadow: 0 0 0 12px whitesmoke, 0 0 0 15px whitesmoke;
+            box-shadow: 0 0 0 2px whitesmoke, 0 0 0 2px whitesmoke;
         }
 
         100% {
