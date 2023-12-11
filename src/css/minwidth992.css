@@ -621,12 +621,13 @@
         width: 60%;
         z-index: 1;
         transition: 0.3s ease-in-out;
-        background-color: #eae6e4;
+        background-color: transparent;
     }
 
     .team-social-button a:hover img {
         outline: none;
         background-color: #eae6e4;
+        background-color: transparent;
     }
 
 

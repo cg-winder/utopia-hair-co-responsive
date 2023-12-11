@@ -1439,7 +1439,7 @@
 
     .team-buttons {
         display: flex;
-        margin-left: 8%;
+        margin-left: 7%;
     }
 
 
@@ -1514,7 +1514,6 @@
         width: 60%;
         z-index: 1;
         transition: 0.3s ease-in-out;
-
         background-color: transparent;
     }
 
