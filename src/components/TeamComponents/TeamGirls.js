@@ -153,7 +153,7 @@ Iâ€™m so blessed to be in a job I absolutely love, where I can bring my clientsâ
                 BOOK WITH MADDIE
               </button>
               <div className="team-social-button">
-                <a href="https://www.instagram.com/browsbymillierasdale/">
+                <a href="https://www.instagram.com/maddie_utopiahairco/?img_index=1">
                   <img src={instagramlogo} alt="instagram-icon" />
                 </a>
               </div>
@@ -162,11 +162,8 @@ Iâ€™m so blessed to be in a job I absolutely love, where I can bring my clientsâ
                 </div>
             </div>
           <div className="team-about">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
-              iaculis vel magna a consequat. Cras at neque a lacus egestas
-              porttitor. Integer sed lacus scelerisque, pretium tellus vitae,
-              venenatis sem. Sed pretium est enim, et feugiat felis ultrices ut.
-              <p className="team-specialise">Specialises in:  </p>
+          Hi! My name is Maddie. I have recently started my hairdressing apprenticeship at college, and I'm currently a level 2 apprentice. I have always dreamed of being a hairdresser and now my dream is becoming a reality at Utopia Hair Co.
+              <p className="team-specialise">Specialises in: a curly blowdry!</p>
               <p className="team-hours">Find me in the salon: </p>
           </div>
         </div>
