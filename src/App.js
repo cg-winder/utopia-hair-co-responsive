@@ -1,5 +1,4 @@
 import "./css/App.css";
-// import "./css/AppTablet.css"
 import "./css/PopUp.css"
 import "./css/Navigation.css"
 import "./css/normalize.css";

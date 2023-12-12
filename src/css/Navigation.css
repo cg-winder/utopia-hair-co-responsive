@@ -101,7 +101,8 @@
 
 @media (min-width: 700px) and (orientation: landscape) {
     .primary-navigation {
-        --gap: 1.9em;
+        --gap: 1.3em;
+        font-size: 22px;
         position: fixed;
         inset: 0 0 0 73%;
         flex-direction: column;

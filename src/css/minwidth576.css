@@ -980,7 +980,7 @@
 
     .teamgirls-wrap {
         font-family: "playfair display";
-        margin-top: -3%;
+        margin-top: 10%;
     }
 
     .team-girls {
@@ -1190,7 +1190,7 @@
 
     @media only screen and (min-width: 719px) {
         .teamgirls-wrap {
-            margin-top: 25%;
+            margin-top: 0%;
         }
 
         .team-book-now-button {
