@@ -7,8 +7,6 @@
 }
 
 
-/* do horizontal for mobile and tablet */
-
 #home-head,
 #salon-head,
 #services-head,
@@ -36,7 +34,7 @@
 
 /* MOBILE WITH HEIGHT > 767 AT LANDSCAPE */
 
-@media only screen and (min-width: 300px) and (max-height: 1024px) and (orientation: portrait) {
+@media only screen and (min-width: 300px) and (max-width: 766px) and (max-height: 1024px) and (orientation: portrait) {
 
     #home-head,
     #salon-head,
@@ -81,7 +79,7 @@
     #salon-head,
     #services-head,
     #team-head {
-        top: 33.5vh;
+        top: 35.5vh;
         font-size: 85px
     }
 }
@@ -93,7 +91,7 @@
     #salon-head,
     #services-head,
     #team-head {
-        top: 34vh;
+        top: 35vh;
         font-size: 85px
     }
 }
@@ -129,6 +127,18 @@
     #team-head {
         top: 16vh;
         font-size: 105px;
+    }
+}
+
+/* TABLET HEADER WHEN LANDSCAPE AND NOT LOGO */
+@media only screen and (width: 834px) and (height: 548px) {
+
+    #home-head,
+    #salon-head,
+    #services-head,
+    #team-head {
+        top: 29.5vh;
+        font-size: 85px
     }
 }
 
