@@ -12,12 +12,15 @@ const HomeServicesInfo = () => {
   return (
     <div className="homeservices-info-wrap">
       <div className="homeservices-info">
-          <div className="homeservices-hair" id="homeservices-service">
-            <img src={hair}/><div><HomeSpecialiseHair /></div>
-          </div>
-          <div className="homeservices-nails"  id="homeservices-service">
-            <img src={nails}/><div><HomeSpecialiseNails /></div>
-          </div>
+        <div className="homeservices-flexwrap">
+            <div className="homeservices-hair" id="homeservices-service">
+              <img src={hair}/><div><HomeSpecialiseHair /></div>
+            </div>
+            <div className="homeservices-nails"  id="homeservices-service">
+              <img src={nails}/><div><HomeSpecialiseNails /></div>
+            </div>
+        </div>
+        <div className="homeservices-flexwrap">
           <div className="homeservices-brows" id="homeservices-service">
             <img src={brows}/><div><HomeSpecialiseBrows /></div>
           </div>
@@ -25,6 +28,7 @@ const HomeServicesInfo = () => {
             <img src={lashes}/><div><HomeSpecialiseLashes /></div>
           </div>
         </div>
+      </div>
         <a  href="/services" className="homeservices-link"><span>More Treatment Details</span></a>
     </div>
   )

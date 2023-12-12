@@ -45,10 +45,10 @@
         display: flex;
         flex-direction: column;
         font-family: 'noto serif display', serif;
-        font-size: 12px;
+        font-size: 13px;
         text-align: center;
         padding: 2% 1% 0% 1%;
-        line-height: 20px;
+        line-height: 24px;
         color: rgb(95, 64, 64);
         color: white;
         margin: 8% 8% 3% 8%;
@@ -97,6 +97,10 @@
         margin-top: 5vh;
     }
 
+    .homeservices-flexwrap {
+        display: flex;
+    }
+
     .homeservices-header {
         color: whitesmoke;
         font-size: 38px;
@@ -115,15 +119,15 @@
 
 
     .homeservices-info img {
-        width: 50%;
+        width: 80%;
         height: auto;
         border-radius: 1%;
-        margin-left: 25%;
+        margin-left: 10%;
     }
 
     .specialise-header {
         text-align: center;
-        font-size: 16px;
+        font-size: 20px;
         color: rgb(176, 147, 147);
         text-transform: uppercase;
         padding: 4% 0% 1% 0%;
@@ -151,7 +155,7 @@
         font-family: "noto serif display", serif;
         text-transform: uppercase;
         color: rgb(176, 147, 147);
-        font-size: 12px;
+        font-size: 14px;
     }
 
     .homeservices-link span:hover {
@@ -203,10 +207,16 @@
 
     .homestylists-button span {
         color: rgb(172, 140, 140);
-        font-size: 11px;
+        font-size: 13px;
         padding-top: 1%;
         display: flex;
         margin: 0 auto;
+    }
+
+    @media only screen and (width: 320px) {
+        .homestylists-button span {
+            font-size: 11px;
+        }
     }
 
 
@@ -300,7 +310,7 @@
         padding-top: 3%;
         font-size: 14.5px;
         margin: 0 auto;
-        line-height: 20px;
+        line-height: 24px;
         text-align: center;
     }
 

@@ -47,7 +47,6 @@
 
 
 
-
 /* TABLET AND BEYOND*/
 
 @media only screen and (min-width: 766px) and (max-width: 830px) {
@@ -56,8 +55,8 @@
     #salon-head,
     #services-head,
     #team-head {
-        top: 15.5vh;
-        font-size: 95px
+        top: 14.5vh;
+        font-size: 90px;
     }
 }
 
