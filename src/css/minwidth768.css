@@ -210,6 +210,9 @@
 
 
     /* Home Services */
+    .homeservices-flexwrap {
+        justify-content: space-evenly;
+    }
 
     .homeservices-header {
         margin: 0% 0% 5% 3%;
@@ -226,16 +229,20 @@
         display: inline-flex;
         flex-wrap: nowrap;
         margin-top: -1%;
+        margin: 0 2.5%;
+    }
+
+    .homeservices-hair {
+        margin-right: 2.5vw;
+    }
+
+    .homeservices-brows {
+        margin-right: 2.5vw;
     }
 
     .homeservices-info img {
-        /* height: auto;
-        border-radius: 1%;
-        display: inline-flex;
-        justify-content: space-evenly;
-        width: 100%;
-        margin-left: 0%; */
-        height: 70%;
+        height: 30vw;
+        /* height: 70%; */
         border-radius: 1%;
         display: inline-flex;
         justify-content: space-evenly;

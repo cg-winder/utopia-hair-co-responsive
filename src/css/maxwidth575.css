@@ -97,9 +97,12 @@
         margin-top: 5vh;
     }
 
-    .homeservices-flexwrap {
-        display: flex;
+    @media only screen and (max-width: 767px) {
+        .homeservices-flexwrap {
+            display: flex;
+        }
     }
+
 
     .homeservices-header {
         color: whitesmoke;
@@ -135,7 +138,7 @@
     }
 
     .rotate-word {
-        font-size: 28px;
+        font-size: 21px;
         color: white;
         text-transform: uppercase;
         font-family: "noto serif display", serif;

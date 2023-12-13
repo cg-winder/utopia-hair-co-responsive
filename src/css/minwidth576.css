@@ -106,6 +106,10 @@
         margin-top: 5vh;
     }
 
+    .homeservices-flexwrap {
+        display: flex;
+    }
+
     .homeservices-header {
         color: whitesmoke;
         font-size: 45px;
@@ -124,10 +128,10 @@
 
 
     .homeservices-info img {
-        width: 70%;
+        width: 80%;
         height: auto;
         border-radius: 1%;
-        margin-left: 15%;
+        margin-left: 10%;
     }
 
     .specialise-header {
@@ -156,7 +160,7 @@
     .homeservices-link span {
         display: table;
         margin: 0 auto;
-        padding: 8% 0% 6% 0%;
+        padding: 8% 0% 3% 0%;
         font-family: "noto serif display", serif;
         text-transform: uppercase;
         color: rgb(176, 147, 147);
