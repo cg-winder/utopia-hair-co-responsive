@@ -75,10 +75,10 @@
     }
 }
 
-@media (min-width: 320px) and (orientation: landscape) {
+@media (min-width: 320px) and (max-width: 568px) and (orientation: landscape) {
     .primary-navigation {
-        font-size: 19px;
-        --gap: 1.5em;
+        font-size: 16px;
+        --gap: 1em;
         position: fixed;
         inset: 0 0 0 35%;
         flex-direction: column;
@@ -99,7 +99,7 @@
     }
 }
 
-@media (min-width: 700px) and (orientation: landscape) {
+@media (min-width: 700px) and (max-width: 1024px) and (orientation: landscape) {
     .primary-navigation {
         --gap: 1.3em;
         font-size: 22px;
@@ -114,6 +114,8 @@
 @media (min-width: 1200px) {
     .primary-navigation {
         inset: 0 0 0 80%;
+        font-size: 22px;
+        --gap: 1.8em;
     }
 }
 
@@ -121,7 +123,8 @@
 @media (min-width: 1600px) {
     .primary-navigation {
         inset: 0 0 0 83%;
-        font-size: 19px;
+        font-size: 22px;
+        --gap: 2em;
     }
 }
 
