@@ -1002,13 +1002,20 @@
 
     /* Salon Gallery */
     .salon-gallery img {
-        height: 29vh;
+        height: 22vh;
         width: 32vw;
     }
 
     @media only screen and (min-width: 850px) {
         .salon-gallery img {
             height: 32vh;
+            width: 32vw;
+        }
+    }
+
+    @media only screen and (max-height: 575px) and (orientation: landscape) {
+        .salon-gallery img {
+            height: 60vh;
             width: 32vw;
         }
     }
@@ -1079,6 +1086,14 @@
         height: 18vh;
         width: 23vw;
         padding-left: 1%;
+    }
+
+    @media only screen and (max-height: 575px) and (orientation: landscape) {
+        .salon-access-gallery img {
+            height: 30vh;
+            width: 23vw;
+            padding-left: 1%;
+        }
     }
 
     .salon-access-gallery {
