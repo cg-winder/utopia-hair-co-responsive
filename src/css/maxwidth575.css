@@ -690,7 +690,7 @@
 
     /* Salon Gallery */
     .salon-gallery img {
-        height: 20vh;
+        height: 18vh;
         width: 32vw;
     }
 
@@ -700,6 +700,13 @@
         display: flex;
         padding-top: 2%;
         justify-content: space-between;
+    }
+
+    @media only screen and (max-height: 575px) and (orientation: landscape) {
+        .salon-gallery img {
+            height: 45vh;
+            width: 56vh;
+        }
     }
 
 
@@ -748,7 +755,7 @@
     .salon-context a {
         text-transform: uppercase;
         border: 1px solid white;
-        padding: 1% 2%;
+        padding: 1% 6%;
         background-color: #b0a9a6;
         color: white;
         text-decoration: none;

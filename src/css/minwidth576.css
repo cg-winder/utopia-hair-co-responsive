@@ -702,7 +702,12 @@
         justify-content: space-between;
     }
 
-   
+    @media only screen and (max-height: 575px) {
+        .salon-gallery img {
+            height: 50vh;
+            width: 32vw;
+        }
+    }
 
     /* Salon Info */
 
