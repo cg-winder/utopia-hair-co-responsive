@@ -1644,6 +1644,9 @@
     @media only screen and (min-width:390px) {
         .sitemap-list {
             padding-right: 11%;
+        }
+
+        .sitemap-list a {
             font-size: 12px;
         }
     }
