@@ -8,14 +8,14 @@
 @media only screen and (max-width: 766px) {
     .logo {
         position: absolute;
-        margin-left: 30%;
-        margin-top: 14%;
+        margin-left: 32%;
+        margin-top: 15%;
         z-index: 99;
     }
 
     .logo img {
-        height: 80%;
-        width: 60%;
+        height: 82%;
+        width: 62%;
     }
 
     .background {
@@ -27,13 +27,34 @@
     .logo {
         position: absolute;
         left: 3%;
-        top: 4%;
+        top: 3%;
         z-index: 99;
     }
 
     .logo img {
-        height: 65%;
-        width: 30%;
+        height: 62%;
+        width: 27%;
+        animation: gelatine 8.5s infinite;
+    }
+
+    @keyframes gelatine {
+
+        from,
+        to {
+            transform: scale(1, 1);
+        }
+
+        25% {
+            transform: scale(0.9, 1.1);
+        }
+
+        50% {
+            transform: scale(1.1, 0.9);
+        }
+
+        75% {
+            transform: scale(0.95, 1.05);
+        }
     }
 }
 
