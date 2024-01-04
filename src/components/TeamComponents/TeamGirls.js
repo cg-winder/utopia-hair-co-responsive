@@ -223,10 +223,10 @@ I offer a wide range of treatments across nails, lashes and brows!
                 onClick={(e) => {
                   e.preventDefault();
                   window.location.href =
-                    "https://www.instagram.com/browsbymillierasdale/";
+                    "https://www.fresha.com/a/nicola-at-utopia-hair-co-clifton-preston-uk-clifton-fields-lytham-road-y7md8eke/booking?employeeId=2774839";
                 }}
               >
-                BOOK VIA MESSAGE
+                BOOK WITH MILLIE
               </button>
               <div className="team-social-button">
                 <a href="https://www.instagram.com/browsbymillierasdale/">

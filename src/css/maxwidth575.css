@@ -1495,21 +1495,11 @@
         text-transform: uppercase;
         font-family: "noto serif display", serif;
         color: rgb(134, 112, 112);
-        animation: fade-in-left 2s ease;
+
         background-color: rgba(179, 161, 140, 0.335);
     }
 
-    @keyframes fade-in-left {
-        0% {
-            opacity: 0;
-            transform: translateX(-20px);
-        }
 
-        100% {
-            opacity: 1;
-            transform: translateX(0);
-        }
-    }
 
     .footer-address {
         display: flex;
