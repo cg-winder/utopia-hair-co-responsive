@@ -3,7 +3,7 @@ import React from 'react'
 const ServicesImgs = () => {
   return (
     <div className="services-imgs">
-      <div class="elfsight-app-c549ee23-6ca5-437f-bb09-a4ab1a6ee03c"></div>
+      <div class="elfsight-app-e4d52648-7280-417c-bd58-555b4f9c5f73"></div>
     </div>
  
   )
