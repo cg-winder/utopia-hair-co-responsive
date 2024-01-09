@@ -224,14 +224,16 @@
     .homeservices-flexwrap {
         justify-content: space-evenly;
         width: 50vw;
+
     }
 
     .homeservices-header {
         color: whitesmoke;
+        color: rgb(172, 140, 140);
         font-size: 38px;
         text-align: center;
-        margin-top: -3%;
         letter-spacing: -.25rem;
+        margin-top: -3%;
         text-transform: uppercase;
         font-family: "italiana";
     }
@@ -289,77 +291,6 @@
     }
 
 
-    /* .homeservices-info {
-        position: relative;
-        display: inline-flex;
-        flex-wrap: nowrap;
-        margin-top: -1%;
-        margin: 0 2.5%;
-    } */
-    /* 
-    .homeservices-hair {
-        margin-right: 2.5vw;
-    }
-
-    .homeservices-brows {
-        margin-right: 2.5vw;
-    }
-
-    .homeservices-info {
-        position: relative;
-        display: flex;
-        flex-wrap: wrap;
-        gap: 1em;
-        margin-top: 4vh;
-    }
-
-    .homeservices-info img {
-        height: 5vw;
-        border-radius: 1%;
-        display: inline-flex;
-        justify-content: space-evenly;
-        width: 100%;
-    }
-
-    .specialise-header {
-        text-align: center;
-        font-size: 10px;
-        color: rgb(176, 147, 147);
-        text-transform: uppercase;
-        padding: 4% 0% 1% 0%;
-        font-family: "noto serif display", serif;
-    }
-
-    .rotate-word {
-        font-size: 18px;
-        color: white;
-        text-transform: uppercase;
-        font-family: "noto serif display", serif;
-        display: table;
-        margin: 0 auto;
-        padding: 0% 2%;
-
-    }
-
-    .homeservices-link {
-        text-decoration: none;
-    }
-
-    .homeservices-link span {
-        display: table;
-        margin: 0 auto;
-        margin-top: -5%;
-        padding-bottom: 2%;
-        font-family: "noto serif display", serif;
-        text-transform: uppercase;
-        color: rgb(176, 147, 147);
-        font-size: 12px;
-    }
-
-    .homeservices-link span:hover {
-        color: white;
-        cursor: pointer;
-    } */
 
     /* Home Services finish*/
 
@@ -369,7 +300,7 @@
         background-image: url("../components/imgs/salonbrush2.png");
         background-image: url("../components/imgs/marble2bg.png");
         background-size: cover;
-        margin: 0% 0%;
+        margin: 0% 0% 0% 0%;
         padding: 5% 3% 4% 3%;
     }
 
@@ -423,163 +354,12 @@
         width: 60%;
         height: 60%;
         display: flex;
-        margin: 8% auto;
+        margin: 4% auto;
         border-radius: 2px;
     }
 
 
-    /* .homestylist-background-img {
-        height: auto;
-        position: absolute;
-        z-index: -1;
-        opacity: 0.6;
-    }
 
-    .homestylists-wrap {
-        width: 100vw;
-        background-image: url("../components/imgs/salonbrush2.png");
-        background-image: url("../components/imgs/marble2bg.png");
-        background-size: cover;
-        background-color: transparent;
-        margin-top: -0.1%;
-    }
-
-    .homestylists-header {
-        margin-left: 0%;
-        letter-spacing: -.25rem;
-        color: white;
-        color: rgb(172, 140, 140);
-        font-size: 47px;
-        text-align: left;
-        text-transform: uppercase;
-        font-family: "italiana";
-    }
-
-    .homestylists-text-img {
-        display: inline-flex;
-        margin: 1% 3%;
-        margin-bottom: 5%;
-        flex-direction: row-reverse;
-    }
-
-
-    .homestylists-subtext {
-        display: flex;
-        flex-wrap: wrap;
-        margin: -3% 4% 3% 2%;
-        color: rgb(197, 166, 166);
-        color: rgb(150, 115, 121);
-        font-family: "noto serif display", serif;
-        font-size: 13px;
-        line-height: 21px;
-        text-align: left;
-    }
-
-    @media only screen and (min-width: 835px) {
-        .homestylists-button {
-            margin-top: 1%;
-        }
-    }
-
-    @media only screen and (min-width: 900px) {
-        .homestylists-subtext {
-            font-size: 15px;
-        }
-    }
-
-
-    .homestylists-button {
-        display: flex;
-        text-decoration: none;
-        margin: -14% 0% 3% 4.5%;
-        width: 18%;
-        height: 3%;
-        background-color: transparent;
-        border: 1.5px solid white;
-        padding: 1.3% 1%;
-        border-radius: 1px;
-        font-family: "italiana", serif;
-        transition: 0.3s ease-in-out;
-        box-shadow: inset 0 0 0 0 #EFEEED;
-    }
-
-    .homestylists-button span {
-        color: white;
-        color: rgb(172, 140, 140);
-        font-size: 13px;
-        padding-top: 0.5%;
-        display: flex;
-        margin: 0 auto;
-    }
-
-
-    .homestylists-button:hover {
-        border: 2px solid white;
-        box-shadow: inset 400px 0 0 0 #EFEEED;
-    }
-
-    .homestylists-button span:hover {
-        color: rgb(176, 147, 147);
-    }
-
-
-    .homestylists-img {
-        width: 100px;
-        height: 100px;
-        display: flex;
-        border-radius: 3%;
-        margin: 0% auto;
-    } */
-
-    /* HOME STYLIST QUERIES*/
-    /* @media only screen and (min-width: 850px) {
-        .homestylists-subtext {
-            font-size: 11px;
-            line-height: 42px;
-        }
-
-
-    }
-
-    @media only screen and (min-width: 850px) and (max-width: 879px) {
-        .homestylists-button {
-            margin-top: -10%;
-        }
-    }
-
-    @media only screen and (min-width: 880px) {
-        .homestylists-header {
-            font-size: 33px;
-        }
-
-        .homestylists-subtext {
-            font-size: 11.5px;
-            line-height: 42px;
-        }
-
-        .homestylists-img {
-            width: 260px;
-            height: 240px;
-        }
-
-    }
-
-    @media only screen and (min-width: 950px) {
-        .homestylists-subtext {
-            font-size: 12px;
-            margin-top: 6.5%;
-        }
-
-        .homestylists-img {
-            width: 280px;
-            height: 260px;
-        }
-
-        .homestylists-button {
-            margin-top: -13.5%;
-        }
-
-    } */
 
     /* Home Stylists finish*/
 
