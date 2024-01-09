@@ -212,9 +212,9 @@
     .home-services-and-stylists {
         border: 2px solid white;
         display: flex;
-        background-image: url("../components/imgs/salonbrush2.png");
-        background-image: url("../components/imgs/marble2bg.png");
-        background-size: cover;
+        /* background-image: url("../components/imgs/marble2bg.png");
+        background-size: cover; */
+        opacity: 85%;
     }
 
 
@@ -245,10 +245,10 @@
     }
 
     .homeservices-info img {
-        width: 60%;
+        width: 50%;
         height: auto;
         border-radius: 6%;
-        margin-left: 21%;
+        margin-left: 25.5%;
     }
 
     .specialise-header {
@@ -368,7 +368,6 @@
         background-color: transparent;
         font-family: "noto serif display", serif;
     }
-
 
     .homecontact-banner {
         display: flex;
