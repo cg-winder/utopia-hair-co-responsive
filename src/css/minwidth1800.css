@@ -100,69 +100,46 @@
     /* Home Detail finish */
 
     /* Home Services */
-
     .homeservices-header {
-        margin: 2% 0% 4% 3%;
-        letter-spacing: -.34rem;
-        font-size: 64px;
+        font-size: 60px;
+        margin-top: 5%;
     }
 
-    .specialise-header {
-        font-size: 36px;
+    .homeservices-info {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1em;
+        margin-top: 2vh;
     }
 
-    .rotate-word {
-        font-size: 50px;
-    }
-
-    .homeservices-link span {
-        font-size: 20px;
-        margin-top: -5%;
-        margin-bottom: -2%;
+    .homeservices-info img {
+        width: 55%;
+        height: auto;
+        border-radius: 6%;
+        margin-left: 23%;
     }
 
     /* Home Services Finish */
 
     /* Home Stylists */
-    .homestylists-wrap {
-        margin-top: 3%;
-        padding: 4% 0% 7% 0%;
-        background-color: rgb(211, 198, 183);
-    }
-
     .homestylists-header {
-        font-size: 58px;
+        font-size: 60px;
     }
-
-    .homestylists-text-img {
-        display: inline-flex;
-        margin: 2% 3%;
-        flex-direction: row-reverse;
-    }
-
 
     .homestylists-subtext {
-        margin: -2% 5% 0% 2%;
-        font-size: 28px;
-        line-height: 6rem;
+        margin: 1% 3% 0% 3%;
+        color: rgb(150, 115, 121);
+        font-family: "noto serif display", serif;
+        font-size: 23px;
+        line-height: 50px;
+        text-align: center;
     }
 
-    .homestylists-img {
-        width: 35%;
-        height: 35%;
-        display: flex;
-        margin: 3% auto;
-    }
-
-    .homestylists-button {
-        margin-top: -10%;
-    }
 
     .homestylists-button span {
-        font-size: 27px;
+        font-size: 17px;
+        padding-top: 0%;
     }
-
-    /* HOME STYLIST QUERIES*/
 
     /* Home Stylists finish*/
 
