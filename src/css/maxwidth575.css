@@ -1314,7 +1314,7 @@
         font-family: "playfair display";
         font-weight: 100;
         color: rgb(167, 132, 138);
-        font-size: 23px;
+        font-size: 20px;
         letter-spacing: 0.10em;
         margin-left: 0%;
     }
@@ -1617,7 +1617,7 @@
     .footer-icon-link {
         text-decoration: none;
         color: rgb(105, 88, 88);
-        font-size: 7px;
+        font-size: 5px;
         text-align: center;
     }
 

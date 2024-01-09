@@ -94,6 +94,16 @@ const HomeContact = () => {
             onClick={(e) => {
               e.preventDefault();
               window.location.href =
+                "https://www.instagram.com/hairrbygabrielle_/";
+            }}
+          >
+            GABRIELLE
+          </a>
+          <a
+            className="homecontact-book-with"
+            onClick={(e) => {
+              e.preventDefault();
+              window.location.href =
                 "https://www.fresha.com/a/nicola-at-utopia-hair-co-clifton-preston-uk-clifton-fields-lytham-road-y7md8eke/booking?employeeId=2708407&pId=833656";
             }}
           >

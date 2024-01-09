@@ -5,6 +5,7 @@ import nicola from "../imgs/nicolabw.png"
 import alannah from "../imgs/final-alannah.png"
 import erin from "../imgs/final-erin.png"
 import ellie from "../imgs/final-ellie.png"
+import gabrielle from "../imgs/gabrielle.jpeg"
 import maddie from "../imgs/maddie.jpeg"
 import millie from "../imgs/milliebw.png"
 
@@ -132,6 +133,44 @@ I’m so blessed to be in a job I absolutely love, where I can bring my clients�
       </div>
 
       <div className="team-girls">
+        <div className="team-pic-name-flex">
+                  <div className="team-pics">
+                    <img src={gabrielle} id="nicola"/>
+                  </div>
+                  <div className="team-name-title">
+                        <h2 className="team-h2">GABRIELLE</h2>
+                        <div className="team-title">Hair Stylist</div>
+                  </div>
+                  </div>
+                  <div className="team-buttons">
+                  <button
+                      className="team-book-now-button"
+                      onClick={(e) => {
+                        e.preventDefault();
+                        window.location.href =
+                          "https://www.instagram.com/hairrbygabrielle_/";
+                      }}
+                    >
+                      BOOK WITH GABRIELLE
+                    </button>
+                    <div className="team-social-button">
+                      <a href="https://www.instagram.com/hairrbygabrielle_/">
+                        <img src={instagramlogo} alt="instagram-icon" />
+                      </a>
+                    </div>
+                    <div className="treatment-type">
+                        <span>HAIR</span>
+                      </div>
+                  </div>
+          <div className="team-about">
+          Hi I'm Gabrielle! I’m a hairstylist with over five years experience. I have previously worked at Toni&Guy, which is also where I trained.
+I love creating seamless balayages, beautiful blondes and brunettes. I’m so excited to be working in this beautiful salon for all my lovely clients.
+            <p className="team-specialise">Specialises in: balayages and lived-in colours. </p>
+            <p className="team-hours">Find me in the salon: Tuesday & Saturday</p>
+          </div>
+      </div>
+
+      <div className="team-girls">
       <div className="team-pic-name-flex">
             <div className="team-pics">
                   <img src={maddie} id="maddie"/>
@@ -167,6 +206,8 @@ I’m so blessed to be in a job I absolutely love, where I can bring my clients�
               <p className="team-hours">Find me in the salon: </p>
           </div>
         </div>
+
+    
 
       <div className="team-girls">
       <div className="team-pic-name-flex">
