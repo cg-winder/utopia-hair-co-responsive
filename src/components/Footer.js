@@ -19,8 +19,10 @@ const Footer = () => {
       </div>
       <hr className="footer-hr" />
       <p className="footer-disclaimer">
-        &copy;{new Date().getFullYear()} Utopia Hair Co | All rights reserved
+        &copy;{new Date().getFullYear()} Utopia Hair Co | All rights reserved |
+        <a href="https://www.flaticon.com/free-icons/hair" title="hair icons" className="footer-icon-link"> Hair icons created by Freepik - Flaticon</a>
       </p>
+  
     </div>
   );
 };

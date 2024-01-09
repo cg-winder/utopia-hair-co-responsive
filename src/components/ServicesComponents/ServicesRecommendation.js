@@ -16,7 +16,7 @@ const ServicesRecommedation = () => {
         guidance on the best style for you.
       </div>
       <div className="services-inspiration">
-        Need some inspiration? Check out some styles below...
+        Need some inspiration? Check out some styles on our Instagram...
       </div>
       </div>
 

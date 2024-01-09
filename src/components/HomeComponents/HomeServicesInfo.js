@@ -7,6 +7,10 @@ import HomeSpecialiseHair from  "./HomeSpecialiseHair"
 import HomeSpecialiseNails from  "./HomeSpecialiseNails" 
 import HomeSpecialiseBrows from  "./HomeSpecialiseBrows" 
 import HomeSpecialiseLashes from  "./HomeSpecialiseLashes" 
+import hairwash from "../imgs/hair-washing.png"
+import nailpolish from "../imgs/manicure.png"
+import eyelashes from "../imgs/eyelash-mascara.png"
+import eyebrows from "../imgs/mascara.png"
 
 const HomeServicesInfo = () => {
   return (
@@ -14,18 +18,18 @@ const HomeServicesInfo = () => {
       <div className="homeservices-info">
         <div className="homeservices-flexwrap">
             <div className="homeservices-hair" id="homeservices-service">
-              <img src={hair}/><div><HomeSpecialiseHair /></div>
+              <img src={hairwash}/><div><HomeSpecialiseHair /></div>
             </div>
             <div className="homeservices-nails"  id="homeservices-service">
-              <img src={nails}/><div><HomeSpecialiseNails /></div>
+              <img src={nailpolish}/><div><HomeSpecialiseNails /></div>
             </div>
         </div>
         <div className="homeservices-flexwrap">
           <div className="homeservices-brows" id="homeservices-service">
-            <img src={brows}/><div><HomeSpecialiseBrows /></div>
+            <img src={eyebrows}/><div><HomeSpecialiseBrows /></div>
           </div>
           <div className="homeservices-lashes" id="homeservices-service">
-            <img src={lashes}/><div><HomeSpecialiseLashes /></div>
+            <img src={eyelashes}/><div><HomeSpecialiseLashes /></div>
           </div>
         </div>
       </div>
