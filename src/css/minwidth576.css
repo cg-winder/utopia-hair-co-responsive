@@ -1375,7 +1375,19 @@
         color: rgb(105, 88, 88);
         text-align: center;
         font-size: 6px;
-        padding-bottom: 1%;
+        padding-bottom: 0%;
+    }
+
+    .footer-credit {
+        background-color: transparent;
+        text-align: center;
+        font-size: 6px;
+        padding-bottom: 1.5%;
+    }
+
+    .footer-credit a {
+        text-decoration: none;
+        color: rgb(105, 88, 88);
     }
 
 }

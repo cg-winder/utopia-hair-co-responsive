@@ -19,10 +19,13 @@ const Footer = () => {
       </div>
       <hr className="footer-hr" />
       <p className="footer-disclaimer">
-        &copy;{new Date().getFullYear()} Utopia Hair Co | All rights reserved |
-        <a href="https://www.flaticon.com/free-icons/hair" title="hair icons" className="footer-icon-link"> Hair icons created by Freepik - Flaticon</a>
+        &copy;{new Date().getFullYear()} Utopia Hair Co | All rights reserved
       </p>
-  
+      <p className="footer-credit">
+        <a href="https://www.flaticon.com/free-icons/hair" title="hair icons" className="footer-icon-link"> Icon created by Freepik - Flaticon | </a>
+        <a href="https://www.flaticon.com/free-icons/eyebrow-pencil" title="eyebrow pencil icons" className="footer-icon-link"> Icon created by Soni Sokell - Flaticon | </a>
+        <a href="https://www.flaticon.com/free-icons/nail-art" title="nail art icons" className="footer-icon-link"> Icon created by Mayor Icons - Flaticon | </a>
+        <a href="https://www.flaticon.com/free-icons/eyelash" title="eyelash icons" className="footer-icon-link"> Icon created by ShofiyyullohFaiz - Flaticon</a></p>
     </div>
   );
 };
