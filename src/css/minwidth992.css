@@ -166,7 +166,6 @@
     .homestylists-header {
         margin: 7.5% 2%;
         line-height: 28px;
-        color: rgb(172, 140, 140);
         font-size: 50px;
     }
 
@@ -203,6 +202,13 @@
     /* HomeContact */
     .homecontact-page-wrap {
         margin: 2% 0% 0% 0%;
+    }
+
+    .homecontact-weekdays {
+        line-height: 20px;
+        font-size: 12px;
+        color: rgb(176, 147, 147);
+        text-align: center;
     }
 
     /* HomeContact Finish */

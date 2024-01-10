@@ -152,7 +152,7 @@
     .homeservices-link span {
         display: table;
         margin: 0 auto;
-        padding: 8% 0% 2% 0%;
+        padding: 8% 0%;
         font-family: "noto serif display", serif;
         text-transform: uppercase;
         color: rgb(176, 147, 147);
@@ -166,6 +166,8 @@
 
     /* Home Stylists */
     .homestylists-wrap {
+        border-top: 0.8px solid white;
+        border-bottom: 0.8px solid white;
         background-image: url("../components/imgs/salonbrush2.png");
         background-image: url("../components/imgs/marble2bg.png");
         background-size: cover;

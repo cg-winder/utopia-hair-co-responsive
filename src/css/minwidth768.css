@@ -210,7 +210,7 @@
 
     /* Home Services and Stylists */
     .home-services-and-stylists {
-        border: 2px solid white;
+        border: 1.6px solid white;
         display: flex;
         background-image: url("../components/imgs/marble2bg.png");
         /* background-size: cover; */
@@ -227,7 +227,6 @@
     }
 
     .homeservices-header {
-        color: whitesmoke;
         color: rgb(172, 140, 140);
         font-size: 38px;
         text-align: center;
@@ -235,6 +234,36 @@
         margin-top: -3%;
         text-transform: uppercase;
         font-family: "italiana";
+    }
+
+    @media only screen and (width:812px) and (height: 375px) {
+        .homeservices-header {
+            margin-top: 6.5%;
+        }
+
+        .homeservices-info {
+            margin-top: 6vh;
+        }
+    }
+
+    @media only screen and (width:844px) and (height: 390px) {
+        .homeservices-header {
+            margin-top: 6.5%;
+        }
+
+        .homeservices-info {
+            margin-top: 6vh;
+        }
+    }
+
+    @media only screen and (width:852px) and (height: 393px) {
+        .homeservices-header {
+            margin-top: 6.5%;
+        }
+
+        .homeservices-info {
+            margin-top: 6vh;
+        }
     }
 
     .homeservices-info {
@@ -248,7 +277,7 @@
         width: 43%;
         height: auto;
         border-radius: 6%;
-        margin-left: 27.5%;
+        margin-left: 28.5%;
     }
 
     .specialise-header {
@@ -295,7 +324,7 @@
 
     /* Home Stylists */
     .homestylists-wrap {
-        border-left: 2px solid whitesmoke;
+        border-left: 1.6px solid whitesmoke;
         background-image: url("../components/imgs/salonbrush2.png");
         background-image: url("../components/imgs/marble2bg.png");
         background-size: cover;
@@ -304,9 +333,10 @@
     }
 
     .homestylists-header {
-        margin: 5% 2%;
+        margin: 3% 2% 6% 2%;
         line-height: 28px;
         color: rgb(172, 140, 140);
+        color: white;
         font-size: 37px;
         text-align: center;
         font-family: 'Italiana', serif;
@@ -339,13 +369,17 @@
     .homestylists-button span {
         color: rgb(172, 140, 140);
         font-size: 13px;
-        padding-top: 1%;
+        padding-top: 2%;
         display: flex;
         margin: 0 auto;
     }
 
     .homestylists-button:hover {
         border: 1.5px solid #b09797c9;
+    }
+
+    .homestylists-button span:hover {
+        color: white;
     }
 
 
@@ -470,11 +504,6 @@
             font-size: 16px;
         }
 
-        .homecontact-weekdays {
-            line-height: 13px;
-            font-size: 11px;
-        }
-
         .homecontact-book-h4 {
             font-size: 18px;
         }
@@ -497,11 +526,6 @@
 
         .homecontact-openingtimes-h4 {
             font-size: 16.5px;
-        }
-
-        .homecontact-weekdays {
-            line-height: 13px;
-            font-size: 11.5px;
         }
 
         .homecontact-book-h4 {

@@ -124,6 +124,8 @@
 
 
 
+
+
 @media only screen and (min-width: 831px) and (max-width: 900px) {
 
     #home-head,
@@ -337,6 +339,29 @@
     #team-head {
         top: 16vh;
         font-size: 90px;
+    }
+}
+
+@media only screen and (width: 812px) and (height: 375px) {
+
+    #home-head,
+    #salon-head,
+    #services-head,
+    #team-head {
+        top: 33.5vh;
+        font-size: 85px
+    }
+}
+
+/* MOBILE HEADER WHEN LANDSCAPE AND NOT LOGO */
+@media only screen and (width: 852px) and (height: 393px) {
+
+    #home-head,
+    #salon-head,
+    #services-head,
+    #team-head {
+        top: 33.5vh;
+        font-size: 85px
     }
 }
 

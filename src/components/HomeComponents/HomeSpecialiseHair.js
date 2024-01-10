@@ -4,8 +4,10 @@ const HomeSpecialiseHair = () => {
   const bannerRotate = [
     "BLONDES           ",
     "BALAYAGE          ",
-    "VIVIDS            ",
+    "COLOURS           ",
     "EXTENSIONS        ",
+    "STYLING           ",
+    "BLOWDRY           ",
   ];
   const [isDeleting, setIsDeleting] = useState(false);
   const [loopNumber, setLoopNumber] = useState(0);

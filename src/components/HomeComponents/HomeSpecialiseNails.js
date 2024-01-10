@@ -4,6 +4,7 @@ const HomeSpecialiseNails = () => {
   const bannerRotate = [
     "BIAB              ",
     "GEL NAILS         ",
+    "REMOVAL           ",
     "NAIL ART          ",
     "MANICURE          ",
   ];
