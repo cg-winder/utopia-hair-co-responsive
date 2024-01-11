@@ -56,7 +56,9 @@ body {
     opacity: 1;
 }
 
-/* for two page menus, nicola, ellie, gabrielle */
+/* popup for two page menus, nicola, ellie, gabrielle */
+/* popupOnePage for one page menus, alannah, maddie, erin, millie */
+
 .popup,
 .popupOnePage {
     margin: 70px auto;
