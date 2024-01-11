@@ -6,10 +6,10 @@ const popUpErin = () => {
   return (
 <>
       <div className="box">
-            <a className="button" href="#popup4">Erin</a>
+            <a className="button" href="#popup7">Erin</a>
         </div>
-        <div id="popup4" className="overlay">
-            <div className="popup4">
+        <div id="popup7" className="overlay">
+            <div className="popupOnePage">
                 <a className="close" href="#">&times;</a>
                 <div className="content">
                     <img src={Erin}/>

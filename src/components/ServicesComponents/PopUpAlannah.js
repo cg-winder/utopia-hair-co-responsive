@@ -8,7 +8,7 @@ const popUpAlannah = () => {
             <a className="button" href="#popup2">Alannah</a>
         </div>
         <div id="popup2" className="overlay">
-            <div className="popup2">
+            <div className="popupOnePage">
                 <a className="close" href="#">&times;</a>
                 <div className="content">
                     <img src={Alannah}/>

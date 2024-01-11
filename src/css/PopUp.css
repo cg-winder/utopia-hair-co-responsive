@@ -56,7 +56,9 @@ body {
     opacity: 1;
 }
 
-.popup {
+/* for two page menus, nicola, ellie, gabrielle */
+.popup,
+.popupOnePage {
     margin: 70px auto;
     padding: 0px;
     background: transparent;
@@ -67,45 +69,45 @@ body {
     transition: all 5s ease-in-out;
 }
 
-.popup2,
-.popup4,
-.popup5 {
-    margin: 70px auto;
-    padding: 20px;
-    background: transparent;
-    border-radius: 5px;
-    width: 100%;
-    height: 76%;
-    position: relative;
-    transition: all 5s ease-in-out;
-}
-
 .popup .close,
-.popup2 .close,
-.popup4 .close,
-.popup5 .close {
+.popupOnePage .close {
     position: fixed;
     top: 2rem;
     left: 4rem;
     transition: all 200ms;
-    font-size: 30px;
+    font-size: 40px;
     font-weight: bold;
     text-decoration: none;
     color: white;
 }
 
+@media only screen and (max-width: 601px) {
+
+    .popup .close,
+    .popupOnePage .close {
+        top: 1rem;
+        left: 3rem;
+    }
+}
+
+@media only screen and (min-width: 1600px) and (max-width: 1920px) {
+
+    .popup .close,
+    .popupOnePage .close {
+        top: 1rem;
+        left: 4rem;
+        font-size: 60px;
+    }
+}
+
 
 .popup .close:hover,
-.popup2 .close:hover,
-.popup4 .close:hover,
-.popup5 .close:hover {
+.popupOnePage .close:hover {
     color: rgb(219, 163, 173);
 }
 
 .popup .content,
-.popup2 .content,
-.popup4 .content,
-.popup5 .content {
+.popupOnePage .content {
     max-height: 90%;
     max-width: 100%;
     overflow: auto;
@@ -113,26 +115,36 @@ body {
 }
 
 .popup .content img,
-.popup2 .content img,
-.popup4 .content img,
-.popup5 .content img {
+.popupOnePage .content img {
     margin: 0% 1%;
     height: 110%;
     width: 100%;
 }
 
-@media screen and (max-width: 1920px) {
+@media screen and (max-width: 1000px) {
     .box {
         width: 63%;
     }
 
     .popup {
+        width: 70%;
+    }
+
+    .popupOnePage {
+        width: 70%;
+    }
+}
+
+@media screen and (min-width: 1001px) and (max-width: 1920px) {
+    .box {
         width: 63%;
     }
 
-    .popup2,
-    .popup4,
-    .popup5 {
-        width: 63%;
+    .popup {
+        width: 40%;
+    }
+
+    .popupOnePage {
+        width: 40%;
     }
 }

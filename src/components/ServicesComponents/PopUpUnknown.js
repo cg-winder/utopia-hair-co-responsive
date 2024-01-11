@@ -7,9 +7,9 @@ const popUpUnknown = () => {
   return (
 <>
       <div className="box">
-            <a className="button" href="#popup1">Unknown</a>
+            <a className="button" href="#popup6">Unknown</a>
         </div>
-        <div id="popup1" className="overlay">
+        <div id="popup6" className="overlay">
             <div className="popup">
                 <a className="close" href="#">&times;</a>
                 <div className="content">
