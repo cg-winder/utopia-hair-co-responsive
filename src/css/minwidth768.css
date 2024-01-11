@@ -306,7 +306,7 @@
     .homeservices-link span {
         display: table;
         margin: 0 auto;
-        padding: 13% 0% 2% 0%;
+        padding: 16% 0% 2% 0%;
         font-family: "noto serif display", serif;
         text-transform: uppercase;
         color: rgb(176, 147, 147);
@@ -318,13 +318,11 @@
         cursor: pointer;
     }
 
-
-
     /* Home Services finish*/
 
     /* Home Stylists */
     .homestylists-wrap {
-        border-left: 1.6px solid whitesmoke;
+        border-left: 1.3px solid whitesmoke;
         background-image: url("../components/imgs/salonbrush2.png");
         background-image: url("../components/imgs/marble2bg.png");
         background-size: cover;
@@ -336,7 +334,6 @@
         margin: 3% 2% 6% 2%;
         line-height: 28px;
         color: rgb(172, 140, 140);
-        color: white;
         font-size: 37px;
         text-align: center;
         font-family: 'Italiana', serif;
