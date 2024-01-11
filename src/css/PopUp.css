@@ -13,14 +13,21 @@ body {
     padding: 10% 0%;
     color: #ffffff;
     font-family: "playfair display";
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 500;
     text-decoration: none;
     text-transform: uppercase;
     background-color: rgba(218, 206, 206, 0.41);
     border: 1px solid #ffffff;
     border-radius: 5px;
-    width: 100px;
+    width: 80px;
+}
+
+@media only screen and (min-width: 992px) {
+    .button {
+        width: 95px;
+        font-size: 16px;
+    }
 }
 
 

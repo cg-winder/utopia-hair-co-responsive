@@ -31,6 +31,14 @@ const ServicesPricing = () => {
               <div className="pricing-menus">
                 <PopUpMaddie />
               </div>
+
+              <div className="pricing-menus">
+                <PopUpNicola />
+              </div>
+
+              <div className="pricing-menus">
+                <PopUpNicola />
+              </div>
             
               <div className="pricing-menus">
                 <PopUpErin />
