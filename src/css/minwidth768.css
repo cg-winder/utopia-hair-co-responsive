@@ -334,10 +334,9 @@
     }
 
     .homestylists-header {
-        margin: 4% 2% 8% 2%;
+        margin: 6.5% 2% 8% 2%;
         line-height: 28px;
         color: rgb(172, 140, 140);
-        color: white;
         font-size: 42px;
         text-align: center;
         /* font-family: 'Italiana', serif;
@@ -1543,7 +1542,7 @@
 
     .team-title {
         font-family: "noto serif display", serif;
-        margin: -16% 0% 0% 10%;
+        margin: -14% 0% 0% 10%;
         font-size: 13px;
         text-transform: uppercase;
         color: whitesmoke;
