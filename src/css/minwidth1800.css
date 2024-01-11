@@ -155,7 +155,10 @@
     /* HomeContact */
     /* HomeContact Finish */
 
-    /* Testimonials */
+    /* Home Instagram */
+    .homeinstagram-header {
+        font-size: 56px;
+    }
 
     /* Testimonials */
     .testimonials-page-wrap {
@@ -424,7 +427,7 @@
     }
 
     .services-book-text {
-        margin-top: -10%;
+        margin-top: -15%;
         text-align: center;
         text-transform: uppercase;
         padding-bottom: 0%;
