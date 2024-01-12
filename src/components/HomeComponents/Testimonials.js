@@ -37,7 +37,7 @@ const Testimonials = () => {
     </div>
     <div className="slider-contents">
       <h2 className="slider-caption">Chelsea E.</h2>
-      <p className="slider-text">My first visit with Ellie, she did exactly what I wanted and was very professional through out! My colours look fab and very vibrant, will be returning!</p>
+      <p className="slider-text">My first visit with Ellie, she did exactly what I wanted and was very professional throughout! My colours look fab and very vibrant, will be returning!</p>
     </div>
     <div className="slider-contents">
       <h2 className="slider-caption">Gillian C.</h2>
