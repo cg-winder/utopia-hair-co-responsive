@@ -166,7 +166,8 @@
     }
 
     .testimonials-header {
-        font-size: 45px;
+        margin-top: -2%;
+        font-size: 57px;
     }
 
     .testimonial-link {
@@ -218,8 +219,8 @@
     }
 
     .slider-nav {
-        width: 16px;
-        height: 16px;
+        width: 12px;
+        height: 12px;
         margin: 0% 1%;
         z-index: 10;
         outline: 6px solid rgb(172, 161, 161);
@@ -237,28 +238,44 @@
         animation: check 0.4s linear forwards;
     }
 
-    .slider-nav:checked:nth-of-type(1)~.slider-inner {
+    .home-slider-nav:checked:nth-of-type(1)~.slider-inner {
         left: 0%;
     }
 
-    .slider-nav:checked:nth-of-type(2)~.slider-inner {
+    .home-slider-nav:checked:nth-of-type(2)~.slider-inner {
         left: -100%;
     }
 
-    .slider-nav:checked:nth-of-type(3)~.slider-inner {
+    .home-slider-nav:checked:nth-of-type(3)~.slider-inner {
         left: -200%;
     }
 
-    .slider-nav:checked:nth-of-type(4)~.slider-inner {
+    .home-slider-nav:checked:nth-of-type(4)~.slider-inner {
         left: -300%;
     }
 
-    .slider-nav:checked:nth-of-type(5)~.slider-inner {
+    .home-slider-nav:checked:nth-of-type(5)~.slider-inner {
         left: -400%;
     }
 
-    .slider-nav:checked:nth-of-type(6)~.slider-inner {
+    .home-slider-nav:checked:nth-of-type(6)~.slider-inner {
         left: -500%;
+    }
+
+    .home-slider-nav:checked:nth-of-type(7)~.slider-inner {
+        left: -600%;
+    }
+
+    .home-slider-nav:checked:nth-of-type(8)~.slider-inner {
+        left: -700%;
+    }
+
+    .home-slider-nav:checked:nth-of-type(9)~.slider-inner {
+        left: -800%;
+    }
+
+    .home-slider-nav:checked:nth-of-type(10)~.slider-inner {
+        left: -900%;
     }
 
     .slider-inner {
@@ -305,7 +322,7 @@
 
 
     .slider-caption {
-        margin-top: 0%;
+        margin-top: 30%;
         text-transform: uppercase;
         font-size: 16px;
         min-width: 250px;
@@ -314,11 +331,11 @@
     .slider-text {
         color: white;
         font-size: 18.5px;
-        margin-bottom: 40%;
-        max-width: 210px;
+        margin-bottom: 75%;
+        max-width: 230px;
     }
 
-    #slide3,
+
     #slide4,
     #slide5,
     #slide6 {
@@ -326,7 +343,13 @@
     }
 
     #slide1 {
-        margin-left: 11.5%;
+        margin-left: 20%;
+    }
+
+    @media only screen and (min-width: 1900px) {
+        #slide1 {
+            margin-left: 20%;
+        }
     }
 
     @-webkit-keyframes check {

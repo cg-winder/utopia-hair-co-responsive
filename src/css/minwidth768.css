@@ -597,7 +597,6 @@
 
     .testimonial-link {
         font-family: 'noto serif display', serif;
-
         font-size: 14px;
         padding: 3% 0% 4% 0%;
         color: rgb(172, 140, 140);
@@ -700,6 +699,22 @@
         left: -500%;
     }
 
+    .home-slider-nav:checked:nth-of-type(7)~.slider-inner {
+        left: -600%;
+    }
+
+    .home-slider-nav:checked:nth-of-type(8)~.slider-inner {
+        left: -700%;
+    }
+
+    .home-slider-nav:checked:nth-of-type(9)~.slider-inner {
+        left: -800%;
+    }
+
+    .home-slider-nav:checked:nth-of-type(10)~.slider-inner {
+        left: -900%;
+    }
+
     .slider-inner {
         position: absolute;
         top: 0;
@@ -760,14 +775,23 @@
         font-family: "noto serif display", serif;
     }
 
-    #slide4,
-    #slide5,
-    #slide6 {
+
+    #slide6,
+    #slide7,
+    #slide8,
+    #slide9,
+    #slide10 {
         visibility: hidden;
     }
 
     #slide1 {
-        margin-left: 17%;
+        margin-left: 30%;
+    }
+
+    @media only screen and (min-width: 950px) {
+        #slide1 {
+            margin-left: 28%;
+        }
     }
 
     @-webkit-keyframes check {
@@ -797,10 +821,6 @@
 
     /* TESTIMONIALS QUERIES */
     @media only screen and (min-width: 800px) {
-        .testimonials-header {
-            font-size: 39px;
-        }
-
         .slider-caption {
             margin-top: 10%;
             text-transform: uppercase;
@@ -825,23 +845,27 @@
             padding: 4.5%;
         }
 
+        .testimonials-header {
+            margin-bottom: -2%;
+        }
 
     }
 
     @media only screen and (min-width: 830px) {
-        .testimonials-header {
-            font-size: 36px;
-        }
-
         .slider-contents {
             padding: 5%;
         }
 
         .slider-text {
-            font-size: 12.5px;
+            font-size: 13.5px;
+        }
+
+        .testimonials-header {
+            margin-bottom: -6%;
         }
 
     }
+
 
     @media only screen and (min-width: 850px) {
         .slider-contents {
@@ -850,24 +874,28 @@
     }
 
     @media only screen and (min-width: 880px) {
+
         .slider-contents {
             padding: 6%;
         }
     }
 
     @media only screen and (min-width: 900px) {
+
         .slider-contents {
             padding: 6.5%;
         }
     }
 
     @media only screen and (min-width: 920px) {
+
         .slider-contents {
             padding: 6.8%;
         }
     }
 
     @media only screen and (min-width: 940px) {
+
         .slider-contents {
             padding: 7.4%;
         }

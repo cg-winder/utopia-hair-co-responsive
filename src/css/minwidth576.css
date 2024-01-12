@@ -503,6 +503,21 @@
         left: -500%;
     }
 
+    .slider-nav:checked:nth-of-type(7)~.slider-inner {
+        left: -600%;
+    }
+
+    .slider-nav:checked:nth-of-type(8)~.slider-inner {
+        left: -700%;
+    }
+
+    .slider-nav:checked:nth-of-type(9)~.slider-inner {
+        left: -800%;
+    }
+    .slider-nav:checked:nth-of-type(10)~.slider-inner {
+        left: -900%;
+    }
+
     .slider-inner {
         position: absolute;
         top: 0;
