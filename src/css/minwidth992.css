@@ -470,6 +470,12 @@
         }
     }
 
+    @media only screen and (width: 1024px) and (height: 768px) {
+        .slider {
+            height: 44vh;
+        }
+    }
+
 
     /* Testimonials Finish */
 
