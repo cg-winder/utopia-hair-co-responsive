@@ -342,6 +342,30 @@
     }
 }
 
+@media only screen and (width: 780px) and (height: 360px) {
+
+    #home-head,
+    #salon-head,
+    #services-head,
+    #team-head {
+        top: 32.5vh;
+        font-size: 90px
+    }
+}
+
+@media only screen and (width: 800px) and (height: 360px) {
+
+    #home-head,
+    #salon-head,
+    #services-head,
+    #team-head {
+        top: 32.5vh;
+        font-size: 90px
+    }
+}
+
+
+
 @media only screen and (width: 812px) and (height: 375px) {
 
     #home-head,
@@ -387,6 +411,39 @@
     #team-head {
         top: 23.5vh;
         font-size: 130px
+    }
+}
+
+@media only screen and (width:1280px) and (height: 720px) {
+
+    #home-head,
+    #salon-head,
+    #services-head,
+    #team-head {
+        top: 37.5vh;
+        font-size: 110px
+    }
+}
+
+@media only screen and (width:1280px) and (height: 800px) {
+
+    #home-head,
+    #salon-head,
+    #services-head,
+    #team-head {
+        top: 33.5vh;
+        font-size: 110px
+    }
+}
+
+@media only screen and (width:1280px) and (height: 900px) {
+
+    #home-head,
+    #salon-head,
+    #services-head,
+    #team-head {
+        top: 30.5vh;
+        font-size: 110px
     }
 }
 
@@ -490,6 +547,74 @@
         font-size: 120px
     }
 }
+
+@media only screen and (width:820px) and (height: 1180px) {
+
+    #home-head,
+    #salon-head,
+    #services-head,
+    #team-head {
+        top: 14.5vh;
+        font-size: 90px
+    }
+}
+
+@media only screen and (width:834px) and (height: 1194px) {
+
+    #home-head,
+    #salon-head,
+    #services-head,
+    #team-head {
+        top: 14.5vh;
+        font-size: 90px
+    }
+}
+
+@media only screen and (width:800px) and (height: 1280px) {
+
+    #home-head,
+    #salon-head,
+    #services-head,
+    #team-head {
+        top: 12.5vh;
+        font-size: 90px
+    }
+}
+
+@media only screen and (width:1180px) and (height: 820px) {
+
+    #home-head,
+    #salon-head,
+    #services-head,
+    #team-head {
+        top: 26.5vh;
+        font-size: 110px
+    }
+}
+
+@media only screen and (width:1112px) and (height: 834px) {
+
+    #home-head,
+    #salon-head,
+    #services-head,
+    #team-head {
+        top: 27.5vh;
+        font-size: 110px
+    }
+}
+
+@media only screen and (width:1194px) and (height: 834px) {
+
+    #home-head,
+    #salon-head,
+    #services-head,
+    #team-head {
+        top: 27.5vh;
+        font-size: 110px
+    }
+}
+
+
 
 
 #page-components-wrap {
