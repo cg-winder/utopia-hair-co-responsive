@@ -12,6 +12,7 @@ import nailpolish from "../imgs/manicure.png"
 import eyelashes from "../imgs/eyelash-mascara.png"
 import eyebrows from "../imgs/eyebrow-pencil-2.png"
 
+
 const HomeServicesInfo = () => {
   return (
     <div className="homeservices-info-wrap">

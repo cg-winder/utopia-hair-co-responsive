@@ -283,6 +283,14 @@
         margin-left: 28.5%;
     }
 
+    .homeservices-nails img {
+        margin-left: 30%;
+    }
+
+    .homeservices-brows img {
+        margin-left: 30.5%;
+    }
+
     .specialise-header {
         text-align: center;
         font-size: 16px;
@@ -394,9 +402,6 @@
         border-radius: 0px;
         border: 1.6px solid white;
     }
-
-
-
 
     /* Home Stylists finish*/
 
