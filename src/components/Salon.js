@@ -2,6 +2,7 @@ import React from "react";
 import SalonContent from "./SalonComponents/SalonContent";
 import SalonInfo from "./SalonComponents/SalonInfo";
 import SalonGallery from "./SalonComponents/SalonGallery";
+import HomeContact from "./HomeComponents/HomeContact"
 
 
 const Salon = () => {
@@ -13,6 +14,7 @@ const Salon = () => {
       <SalonContent />
       <SalonGallery />
       <SalonInfo />
+      <HomeContact />
     </div>
   );
 };
