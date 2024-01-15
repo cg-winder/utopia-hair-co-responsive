@@ -896,9 +896,10 @@
     }
 
     .services-pricing {
-        background-image: url("../components/imgs/marble2bg.png");
+        /* background-image: url("../components/imgs/marble2bg.png"); */
         padding-bottom: 7%;
         border: 0.7px solid white;
+        box-shadow: inset 1930px 0 0 0 #e0d9d97e;
     }
 
     /* 
