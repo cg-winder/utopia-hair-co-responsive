@@ -554,7 +554,7 @@
     .homeinstagram {
         margin-top: 0%;
         background-image: url('../components/imgs/igbg.png');
-        padding-bottom: 2%;
+        padding-bottom: 0%;
     }
 
     .homeinstagram-header {
@@ -1169,7 +1169,7 @@
     } */
 
     .services-pricing {
-        box-shadow: inset 1930px 0 0 0 #c5b8b87e;
+        /* box-shadow: inset 1930px 0 0 0 #c5b8b87e; */
         /* background-image: url("../components/imgs/marble2bg.png"); */
         padding-bottom: 7%;
         border: 1px solid white;
