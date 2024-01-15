@@ -1171,6 +1171,7 @@
     .services-pricing {
         background-image: url("../components/imgs/marble2bg.png");
         padding-bottom: 7%;
+        border: 1.3px solid white;
     }
 
     .services-text {

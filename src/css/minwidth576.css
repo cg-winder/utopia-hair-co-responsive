@@ -855,6 +855,7 @@
     .services-pricing {
         background-image: url("../components/imgs/marble2bg.png");
         padding-bottom: 7%;
+        border: 0.8px solid white;
     }
 
     @media only screen and (min-width: 600px) and (orientation: portrait) {
