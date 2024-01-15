@@ -944,6 +944,7 @@
         color: white;
         font-size: 47px;
         text-transform: lowercase;
+        font-weight: 100;
     }
 
 
@@ -1023,7 +1024,9 @@
         color: white;
         font-size: 50px;
         margin-bottom: 3%;
+        margin-top: 2.5%;
         text-transform: lowercase;
+        font-weight: 100;
     }
 
     .salon-context {
