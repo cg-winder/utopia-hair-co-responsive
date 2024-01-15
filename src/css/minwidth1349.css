@@ -602,13 +602,15 @@
     }
 
     .salon-about-info-1 p {
-        line-height: 50px;
+        line-height: 40px;
     }
 
     .salon-about-info-1,
     .salon-about-info-2,
     .salon-about-info-3 {
         font-size: 18.5px;
+        margin-bottom: 3%;
+        line-height: 40px;
     }
 
     .salon-address-div h2 {
