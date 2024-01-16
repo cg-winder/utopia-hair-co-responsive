@@ -3,7 +3,7 @@ import PopUpNicola from './PopUpNicola';
 import PopUpEllie from "./PopUpEllie";
 import PopUpAlannah from "./PopUpAlannah"
 import PopUpGabrielle from './PopUpGabrielle';
-import PopUpUnknown from "./PopUpUnknown";
+import PopUpTiffany from "./PopUpTiffany";
 import PopUpErin from "./PopUpErin"
 import PopUpMillie from "./PopUpMillie"
 import PopUpMaddie from './PopUpMaddie';
@@ -38,7 +38,7 @@ const ServicesPricing = () => {
               </div>
 
               <div className="pricing-menus">
-                <PopUpUnknown />
+                <PopUpTiffany />
               </div>
             
               <div className="pricing-menus">

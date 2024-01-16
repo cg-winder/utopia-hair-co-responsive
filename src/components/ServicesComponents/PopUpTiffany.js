@@ -3,11 +3,11 @@ import Nicola1 from "../imgs/NicolaPricing1.png";
 import Nicola2 from "../imgs/NicolaPricing2.png"
 
 
-const popUpUnknown = () => {
+const popUpTiffany = () => {
   return (
 <>
       <div className="box">
-            <a className="button" href="#popup6">Unknown</a>
+            <a className="button" href="#popup6">Tiffany</a>
         </div>
         <div id="popup6" className="overlay">
             <div className="popup">
@@ -23,4 +23,4 @@ const popUpUnknown = () => {
   )
 }
 
-export default popUpUnknown;
+export default popUpTiffany;
