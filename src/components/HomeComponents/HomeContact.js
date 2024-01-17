@@ -94,7 +94,7 @@ const HomeContact = () => {
             onClick={(e) => {
               e.preventDefault();
               window.location.href =
-                "https://www.instagram.com/hairrbygabrielle_/";
+                "https://www.fresha.com/a/hair-by-gabrielle-clifton-uk-hzflak1l/booking?menu=true";
             }}
           >
             GABRIELLE

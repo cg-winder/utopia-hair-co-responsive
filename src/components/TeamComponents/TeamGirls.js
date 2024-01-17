@@ -148,7 +148,7 @@ Iâ€™m so blessed to be in a job I absolutely love, where I can bring my clientsâ
                       onClick={(e) => {
                         e.preventDefault();
                         window.location.href =
-                          "https://www.instagram.com/hairrbygabrielle_/";
+                          "https://www.fresha.com/a/hair-by-gabrielle-clifton-uk-hzflak1l/booking?menu=true";
                       }}
                     >
                       BOOK WITH GABRIELLE
