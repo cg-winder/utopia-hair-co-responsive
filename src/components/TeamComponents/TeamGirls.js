@@ -280,7 +280,7 @@ I love creating seamless balayages, beautiful blondes and brunettes. I’m so ex
                 </div>
             </div>
           <div className="team-about">
-          Hi I'm Erin. I have always been interested in the beauty world from a young age. This lead me to decide to train as a beauty therapist straight from school, and a few years down the line I made the jump to being self employed in the most amazing salon. 
+          Hi I'm Erin. I have always been interested in the beauty world from a young age. This led me to decide to train as a beauty therapist straight from school, and a few years down the line I made the jump to being self employed in the most amazing salon. 
 I offer a wide range of treatments across nails, lashes and brows!
             <p className="team-specialise">Specialises in: biab (builder in a bottle) nails. Helping my clients grow their natural nails and seeing their journey is very rewarding and satisfying.</p>
             <p className="team-hours">Find me in the salon: Tuesday 12pm-7pm, Wednesday & Thursday 9am-7pm, Friday 10am-6pm</p>
