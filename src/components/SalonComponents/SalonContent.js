@@ -12,7 +12,7 @@ const SalonContent = () => {
           <h2>welcome to utopia hair co</h2>
           <p>
            We are a spa-like salon based in a beautiful barn conversion on Clifton Fields, just
-            outside of Freckleton. It is home to eight amazing freelance artists, who create a friendly and relaxed
+            outside of Freckleton. The salon is home to eight talented freelance artists, who create a friendly and relaxed
             environment whilst giving you your dream hair.
           </p>
           </div>
