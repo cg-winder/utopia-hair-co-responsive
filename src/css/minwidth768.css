@@ -151,7 +151,7 @@
     .homedetail-subtext {
         line-height: 32px;
         font-family: 'noto serif display', serif;
-        font-size: 17px;
+        font-size: 16.5px;
         text-align: center;
         padding: 8% 0% 4% 8%;
         line-height: 27.5px;
@@ -340,7 +340,7 @@
     }
 
     .homestylists-header {
-        margin: 6.5% 2% 8% 2%;
+        margin: 6.8% 2% 8% 2%;
         line-height: 28px;
         color: rgb(172, 140, 140);
         font-size: 42px;
@@ -356,7 +356,7 @@
         margin: 1% 3% 0% 3%;
         color: rgb(150, 115, 121);
         font-family: "noto serif display", serif;
-        font-size: 14px;
+        font-size: 15px;
         line-height: 32px;
         text-align: center;
     }
@@ -589,7 +589,7 @@
         color: whitesmoke;
         font-size: 50px;
         line-height: 26px;
-        margin-bottom: 1%
+        margin-bottom: -2%
     }
 
     @media only screen and (min-width: 980px) {
@@ -940,7 +940,7 @@
     .salon-about-info-1 h2 {
         margin-bottom: 5%;
         color: white;
-        font-size: 47px;
+        font-size: 46px;
         text-transform: lowercase;
         font-weight: 100;
     }
@@ -953,7 +953,7 @@
     .salon-about-info-1,
     .salon-about-info-2,
     .salon-about-info-3 {
-        font-size: 17.5px;
+        font-size: 15.5px;
         text-align: center;
         color: rgb(158, 128, 128);
         line-height: 32px;
@@ -1020,7 +1020,7 @@
 
     .salon-address-div h2 {
         color: white;
-        font-size: 50px;
+        font-size: 46px;
         margin-bottom: 3%;
         margin-top: 2.5%;
         text-transform: lowercase;
@@ -1028,7 +1028,7 @@
     }
 
     .salon-context {
-        font-size: 17.5px;
+        font-size: 15.5px;
         text-align: center;
         color: rgb(158, 128, 128);
         line-height: 32px;
