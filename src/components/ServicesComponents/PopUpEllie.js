@@ -1,6 +1,6 @@
 import React from 'react'
-import Ellie1 from "../imgs/ElliePricing1.png";
-import Ellie2 from "../imgs/ElliePricing2.png"
+import Ellie1 from "../imgs/PricingEllie1.png";
+import Ellie2 from "../imgs/PricingEllie2.png"
 
 
 const popUpEllie = () => {
