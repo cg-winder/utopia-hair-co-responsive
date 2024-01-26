@@ -1088,6 +1088,7 @@
         /* box-shadow: inset 2000px 0 0 0 #ac95954f; */
         border-bottom: 1px solid white;
         border-top: 1px solid white;
+        opacity: 0.8;
     }
 
     .saloncontact-banner {
@@ -1096,10 +1097,9 @@
         justify-content: space-evenly;
     }
 
-
     .saloncontact-address-h4 {
         letter-spacing: 0.2em;
-        color: rgb(176, 147, 147);
+        color: rgb(137, 110, 110);
         font-size: 21px;
         text-align: center;
         margin-bottom: 4%;
@@ -1116,7 +1116,7 @@
 
     .saloncontact-openingtimes-h4 {
         letter-spacing: 0.2em;
-        color: rgb(176, 147, 147);
+        color: rgb(137, 110, 110);
         font-size: 19.5px;
         text-align: center;
         margin-bottom: 2%;
@@ -1135,7 +1135,7 @@
     }
 
     .salon-opening-current-day {
-        color: rgb(176, 147, 147);
+        color: rgb(137, 110, 110);
     }
 
 
