@@ -838,6 +838,101 @@
         display: flex;
     }
 
+    /* Salon Contact */
+    .saloncontact-page-wrap {
+        margin-top: 0%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        background-color: transparent;
+        font-family: "noto serif display", serif;
+        box-shadow: inset 2000px 0 0 0 #ac95954f;
+        border-bottom: 1px solid white;
+        border-top: 0px solid white;
+    }
+
+    .saloncontact-banner {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .saloncontact-address {
+        padding-top: 10%;
+    }
+
+
+    .saloncontact-address-h4 {
+        font-size: 17.5px;
+        text-align: center;
+        color: rgb(164, 119, 127);
+    }
+
+    .saloncontact-address-table {
+        padding-top: 3%;
+        font-size: 14.5px;
+        margin: 0 auto;
+        line-height: 24px;
+        text-align: center;
+    }
+
+    .saloncontact-address li {
+        list-style: none;
+    }
+
+    .saloncontact-openingtimes {
+        padding: 6% 0%;
+    }
+
+    .opening-current-day {
+        color: rgb(157, 127, 127);
+    }
+
+    .saloncontact-book {
+        padding: 2% 0%;
+    }
+
+    .saloncontact-openingtimes-h4 {
+        font-size: 17.5px;
+        text-align: center;
+        color: rgb(164, 119, 127);
+    }
+
+    .saloncontact-weekdays {
+        font-size: 13.5px;
+        padding-top: 3%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+
+    .saloncontact-book-h4 {
+        font-size: 17.5px;
+        text-align: center;
+        padding-bottom: 2%;
+        color: rgb(164, 119, 127);
+    }
+
+    .saloncontact-book a {
+        display: flex;
+        padding-top: 4%;
+        justify-content: center;
+        text-decoration: none;
+        font-size: 13px;
+        color: white;
+    }
+
+    .saloncontact-book {
+        padding-bottom: 10%;
+    }
+
+    .saloncontact-book a:hover {
+        cursor: pointer;
+        color: rgb(157, 127, 127);
+    }
+
+
+    /* Salon Contact Finish */
+
+
 
     /* SERVICES PAGE */
 

@@ -2,7 +2,7 @@ import React from "react";
 import SalonContent from "./SalonComponents/SalonContent";
 import SalonInfo from "./SalonComponents/SalonInfo";
 import SalonGallery from "./SalonComponents/SalonGallery";
-import HomeContact from "./HomeComponents/HomeContact"
+import SalonContact from "./SalonComponents/SalonContact"
 
 
 const Salon = () => {
@@ -12,9 +12,10 @@ const Salon = () => {
           <div>The Salon</div>
       </div>
       <SalonContent />
+      <SalonContact />
       <SalonGallery />
       <SalonInfo />
-      <HomeContact />
+
     </div>
   );
 };

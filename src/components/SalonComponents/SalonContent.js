@@ -1,8 +1,5 @@
 import React from "react";
-import salon2 from "../imgs/utopiawash.jpeg"
-import salonsolo from "../imgs/salonsolo.jpeg";
-import mug from "../imgs/salonmug.jpeg"
-import salon3 from "../imgs/salonmirrored.jpeg"
+
 
 
 const SalonContent = () => {

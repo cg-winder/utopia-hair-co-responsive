@@ -602,7 +602,7 @@
     }
 
     .salon-about-info-1 p {
-        line-height: 40px;
+        line-height: 35px;
     }
 
     .salon-about-info-1,
@@ -610,7 +610,7 @@
     .salon-about-info-3 {
         font-size: 18.5px;
         margin-bottom: 3%;
-        line-height: 40px;
+        line-height: 35px;
     }
 
     .salon-address-div h2 {
@@ -632,6 +632,32 @@
         padding-left: 1%;
     }
 
+    .saloncontact-page-wrap {
+        border-bottom: 1.5px solid white;
+        border-top: 1.5px solid white;
+        padding-top: 0%;
+        padding-bottom: 0%;
+    }
+
+    .saloncontact-address-h4 {
+        font-size: 29px;
+        margin-bottom: 4%;
+    }
+
+    .saloncontact-address-table {
+        line-height: 42px;
+        font-size: 19px;
+    }
+
+    .saloncontact-openingtimes-h4 {
+        font-size: 29px;
+        margin-bottom: 4%;
+    }
+
+    .saloncontact-weekdays {
+        line-height: 30px;
+        font-size: 18px;
+    }
 
     /* Services Page*/
 
@@ -1047,5 +1073,6 @@
         text-decoration: none;
         color: rgb(134, 112, 112);
     }
+
 
 }

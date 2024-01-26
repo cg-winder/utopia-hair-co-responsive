@@ -1077,6 +1077,109 @@
         display: flex;
     }
 
+    /* SalonContact */
+    .saloncontact-page-wrap {
+        border-radius: 4px;
+        margin: 2% 0% 0% 0%;
+        padding-top: 4%;
+        padding-bottom: 4%;
+        font-family: "noto serif display", serif;
+        box-shadow: inset 2000px 0 0 0 #ac95954f;
+        border-bottom: 1px solid white;
+        border-top: 1px solid white;
+    }
+
+    .saloncontact-banner {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+
+    .saloncontact-address-h4 {
+        letter-spacing: 0.2em;
+        color: rgb(176, 147, 147);
+        font-size: 21px;
+        text-align: center;
+        margin-bottom: 4%;
+    }
+
+    .saloncontact-address-table {
+        list-style: none;
+        margin: 0 auto;
+        color: white;
+        line-height: 35px;
+        text-align: center;
+        font-size: 13px;
+    }
+
+    .saloncontact-openingtimes-h4 {
+        letter-spacing: 0.2em;
+        color: rgb(176, 147, 147);
+        font-size: 19.5px;
+        text-align: center;
+        margin-bottom: 2%;
+    }
+
+    .saloncontact-weekdays {
+        margin: 0 auto;
+        line-height: 22px;
+        font-size: 12px;
+        color: white;
+        text-align: center;
+    }
+
+    .saloncontact-weekdays th {
+        font-weight: 100;
+    }
+
+    .salon-opening-current-day {
+        color: rgb(176, 147, 147);
+    }
+
+
+
+    /* SALONCONTACT QUERIES */
+
+    @media only screen and (min-width: 850px) {
+        .saloncontact-address-h4 {
+            font-size: 20px;
+        }
+
+        .saloncontact-address-table {
+            line-height: 33px;
+            font-size: 15px;
+        }
+
+        .saloncontact-openingtimes-h4 {
+            font-size: 20px;
+        }
+
+
+        .saloncontact-weekdays {
+            line-height: 28px;
+            font-size: 14px;
+        }
+    }
+
+    @media only screen and (min-width: 950px) {
+        .saloncontact-address-h4 {
+            font-size: 18.5px;
+        }
+
+        .saloncontact-address-table {
+            line-height: 30px;
+            font-size: 12.5px;
+        }
+
+        .saloncontact-openingtimes-h4 {
+            font-size: 16.5px;
+        }
+
+    }
+
+    /* saloncontact Finish */
+
 
 
     /* SERVICES PAGE */

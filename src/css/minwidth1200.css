@@ -407,6 +407,26 @@
         }
     }
 
+    .saloncontact-address-h4 {
+        font-size: 27px;
+        margin-bottom: 4%;
+    }
+
+    .saloncontact-address-table {
+        line-height: 40px;
+        font-size: 17px;
+    }
+
+    .saloncontact-openingtimes-h4 {
+        font-size: 27px;
+        margin-bottom: 4%;
+    }
+
+    .saloncontact-weekdays {
+        line-height: 28px;
+        font-size: 16px;
+    }
+
 
     /* SERVICES PAGE */
 
@@ -752,9 +772,10 @@
         color: rgb(134, 112, 112);
     }
 
-
-
-
-
+    .footer-credit {
+        font-size: 7px;
+        margin-top: -1%;
+        padding-bottom: 0.4%;
+    }
 
 }
