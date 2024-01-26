@@ -478,7 +478,7 @@
         width: 110px;
         height: 50px;
         display: inline-flex;
-        font-size: 9px;
+        font-size: 10px;
         font-weight: 300;
         color: #b0a9a6;
         border: 2px solid white;
@@ -495,7 +495,7 @@
     }
 
     .team-book-now-button span {
-        font-size: 8px;
+        font-size: 10px;
         z-index: 1;
         background-color: transparent;
         display: flex;
