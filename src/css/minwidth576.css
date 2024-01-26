@@ -799,6 +799,8 @@
         box-shadow: inset 2000px 0 0 0 #ac95954f;
         border-bottom: 1px solid white;
         border-top: 0px solid white;
+        background-image: url('../components/imgs/igbg.png');
+        background-color: transparent;
     }
 
     .saloncontact-banner {
