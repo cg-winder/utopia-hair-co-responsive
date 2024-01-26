@@ -45,9 +45,9 @@ const TeamGirls = () => {
                   </div>
           <div className="team-about">
           I’m Nicola, the face behind Utopia Hair Co!
-As far as I can remember I’ve always wanted to be a hairdresser. I started my hairdressing journey working in salons from the age of 15 as a Saturday girl. Fast forward 10 years, I can’t believe I have opened the salon of my dreams in the most beautiful barn conversion. 
+As far as I can remember I’ve always wanted to be a hairdresser. I started my hairdressing journey working in salons from the age of fifteen as a Saturday girl. Fast forward ten years, I can’t believe I have opened the salon of my dreams in the most beautiful barn conversion. 
 I’m so grateful to have built up such a lovely, loyal clientele that have turned into friends over the years. 
-I offer tape and weft extensions to give you that full hair transformation. To book in for extensions come and see me in the salon for a consultation. 
+To book in for extensions come and see me in the salon for a consultation, I offer tape and weft extensions to give you that full hair transformation. 
 I’m so blessed to be in a job I absolutely love, where I can bring my clients’ hair dreams to life. 
             <p className="team-specialise">Specialises in: free hand balayage, extensions and vivid
             hair colours but I love all aspects of hair! </p>
@@ -126,7 +126,7 @@ I’m so blessed to be in a job I absolutely love, where I can bring my clients�
                 </div>
             </div>
           <div className="team-about">
-          Hi, I'm Ellie! Hairdressing became a passion of mine 7 years ago. I started from the very bottom as an apprentice and have worked my way through the ranks. After learning all the skills and science behind everything hair, I am now self employed working in a gorgeous relaxing salon alongside likeminded and passionate freelance artists. 
+          Hi, I'm Ellie! Hairdressing became a passion of mine seven years ago. I started from the very bottom as an apprentice and have worked my way through the ranks. After learning all the skills and science behind everything hair, I am now self employed working in a gorgeous relaxing salon alongside likeminded and passionate freelance artists. 
             <p className="team-specialise">Specialises in: anything CREATIVE! This can be vibrant colours, unique hair styles and also wedding and occasion hair.</p>
             <p className="team-hours">Find me in the salon: Thursday & Friday 10am-7pm</p>
           </div>
@@ -240,7 +240,7 @@ I love creating seamless balayages, beautiful blondes and brunettes. I’m so ex
                 </div>
             </div>
           <div className="team-about">
-          Hi! My name is Maddie. I have recently started my hairdressing apprenticeship at college, and I'm currently a level 2 apprentice. I have always dreamed of being a hairdresser and now my dream is becoming a reality at Utopia Hair Co.
+          Hi! My name is Maddie. I have recently started my hairdressing apprenticeship at college, and I'm currently a Level 2 Apprentice. I have always dreamed of being a hairdresser and now my dream is becoming a reality at Utopia Hair Co.
               <p className="team-specialise">Specialises in: a curly blowdry!</p>
               <p className="team-hours">Find me in the salon: </p>
           </div>
