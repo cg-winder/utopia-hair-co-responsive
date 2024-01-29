@@ -740,6 +740,11 @@
         }
     }
 
+    /* GALLERY PAGE */
+    .gallerypage-gallery img {
+        height: 35vh;
+        width: 32vw;
+    }
 
 
 

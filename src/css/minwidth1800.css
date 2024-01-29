@@ -732,7 +732,18 @@
     }
 
 
+    /* GALLERY PAGE */
+    .gallerypage-gallery img {
+        height: 54vh;
+        width: 32vw;
+    }
 
+    @media only screen and (min-width: 1900px) {
+        .gallerypage-gallery img {
+            height: 58vh;
+            width: 32vw;
+        }
+    }
 
 
     /*FOOTER*/

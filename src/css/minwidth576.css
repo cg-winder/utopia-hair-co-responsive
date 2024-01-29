@@ -1316,6 +1316,36 @@
     }
 
 
+    /* Gallery Page */
+    .gallerypage-gallery img {
+        height: 20vh;
+        width: 32vw;
+        border-radius: 14px;
+    }
+
+    .gallerypage-gallery-1,
+    .gallerypage-gallery-2,
+    .gallerypage-gallery-3,
+    .gallerypage-gallery-4,
+    .gallerypage-gallery-5,
+    .gallerypage-gallery-6 {
+        display: flex;
+        padding-top: 2%;
+        justify-content: space-between;
+    }
+
+    .gallerypage-gallery-6 {
+        padding-bottom: 2%;
+    }
+
+    @media only screen and (max-height: 575px) {
+        .gallery-gallery img {
+            height: 50vh;
+            width: 32vw;
+        }
+    }
+
+
     /*FOOTER*/
     .main-footer {
         border-top: 0.5px solid white;
