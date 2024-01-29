@@ -24,7 +24,7 @@ const FooterDetails = () => {
         <table className="footer-weekdays">
           <tr id="day-1">
             <th>Monday</th>
-            <td>9 - 7</td>
+            <td>10 - 7</td>
           </tr>
           <tr id="day-2">
             <th>Tuesday</th>
@@ -44,7 +44,7 @@ const FooterDetails = () => {
           </tr>
           <tr id="day-6">
             <th>Saturday</th>
-            <td>10 - 4</td>
+            <td>9 - 4</td>
           </tr>
           <tr id="day-0">
             <th>Sunday</th>

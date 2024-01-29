@@ -129,16 +129,6 @@ const HomeContact = () => {
           >
             ERIN
           </a>
-          <a
-            className="homecontact-book-with"
-            onClick={(e) => {
-              e.preventDefault();
-              window.location.href =
-                "https://www.instagram.com/browsbymillierasdale/";
-            }}
-          >
-            MILLIE
-          </a>
         </div>
       </div>
     </div>
