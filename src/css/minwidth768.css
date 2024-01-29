@@ -776,7 +776,8 @@
     }
 
     .slider-text {
-        color: whitesmoke;
+        color: white;
+        color: rgb(142, 108, 114);
         font-size: 13.5px;
         line-height: 24px;
         margin-bottom: 5.5%;
@@ -1079,6 +1080,7 @@
     }
 
     /* SalonContact */
+
     .saloncontact-page-wrap {
         padding-top: 2%;
         padding-bottom: 2%;
@@ -1873,6 +1875,11 @@
     }
 
     .footer-current-day {
+        color: white;
+    }
+
+    .footer-salon-number {
+        text-align: center;
         color: white;
     }
 

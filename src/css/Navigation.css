@@ -203,6 +203,7 @@
 
 .primary-navigation a:hover {
     color: rgb(197, 159, 166);
+    /* color: black; */
 }
 
 #primary-navigation-inactive {

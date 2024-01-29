@@ -29,9 +29,9 @@ const ServicesPricing = () => {
                 <PopUpEllie />
               </div>
 
-              <div className="pricing-menus">
+              {/* <div className="pricing-menus">
                 <PopUpMaddie />
-              </div>
+              </div> */}
 
               <div className="pricing-menus">
                 <PopUpGabrielle />
@@ -44,10 +44,7 @@ const ServicesPricing = () => {
               <div className="pricing-menus">
                 <PopUpErin />
               </div>
-          
-              <div className="pricing-menus">
-                <PopUpMillie />
-              </div>
+        
             </div>
         </div>
     </div>

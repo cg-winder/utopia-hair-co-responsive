@@ -29,7 +29,7 @@ const SalonContact = () => {
             <table className="saloncontact-weekdays">
               <tr id="salon-week-day-1">
                 <th>Monday</th>
-                <td>Closed</td>
+                <td>10 - 7</td>
               </tr>
               <tr id="salon-week-day-2">
                 <th>Tuesday</th>
@@ -49,7 +49,7 @@ const SalonContact = () => {
               </tr>
               <tr id="salon-week-day-6">
                 <th>Saturday</th>
-                <td>Closed</td>
+                <td>9 - 4</td>
               </tr>
               <tr id="salon-week-day-0">
                 <th>Sunday</th>

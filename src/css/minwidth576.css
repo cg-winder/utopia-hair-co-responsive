@@ -1377,6 +1377,12 @@
         color: white;
     }
 
+    .footer-salon-number {
+        text-align: center;
+        color: white;
+    }
+
+
     .footer-socials {
         display: flex;
         flex-direction: column;

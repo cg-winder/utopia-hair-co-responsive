@@ -166,7 +166,7 @@ I’m so blessed to be in a job I absolutely love, where I can bring my clients�
           Hi I'm Gabrielle! I’m a hairstylist with over five years experience. I have previously worked at Toni&Guy, which is also where I trained.
 I love creating seamless balayages, beautiful blondes and brunettes. I’m so excited to be working in this beautiful salon for all my lovely clients.
             <p className="team-specialise">Specialises in: balayages and lived-in colours. </p>
-            <p className="team-hours">Find me in the salon: Tuesday & Saturday</p>
+            <p className="team-hours">Find me in the salon: Tuesday 10am-7pm & Saturday 9am-4pm</p>
           </div>
       </div>
 
@@ -201,10 +201,9 @@ I love creating seamless balayages, beautiful blondes and brunettes. I’m so ex
                       </div>
                   </div>
           <div className="team-about">
-          Hi I'm Gabrielle! I’m a hairstylist with over five years experience. I have previously worked at Toni&Guy, which is also where I trained.
-I love creating seamless balayages, beautiful blondes and brunettes. I’m so excited to be working in this beautiful salon for all my lovely clients.
-            <p className="team-specialise">Specialises in: balayages and lived-in colours. </p>
-            <p className="team-hours">Find me in the salon: Tuesday & Saturday</p>
+          Hi I'm Tiffany. I have ten years experience as a hairstylist. I love being creative and making my clients feel confident again through their hair. 
+            <p className="team-specialise">Specialises in: occasion and bridal hair. </p>
+            <p className="team-hours">Find me in the salon: Monday 10am-7pm & Thursday 10am-7pm</p>
           </div>
       </div>
 
@@ -287,7 +286,7 @@ I offer a wide range of treatments across nails, lashes and brows!
           </div>
         </div>
 
-        <div className="team-girls">
+        {/* <div className="team-girls">
       <div className="team-pic-name-flex">
             <div className="team-pics">
                   <img src={millie} id="millie"/>
@@ -322,7 +321,7 @@ I offer a wide range of treatments across nails, lashes and brows!
               <p className="team-specialise">Specialises in:  </p>
               <p className="team-hours">Find me in the salon: </p>
           </div>
-        </div>
+        </div> */}
     </div>
   );
 };

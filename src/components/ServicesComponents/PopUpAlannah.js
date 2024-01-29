@@ -1,5 +1,5 @@
 import React from 'react'
-import Alannah from "../imgs/AlannahPricing.png";
+import Alannah from "../imgs/AlannahPricing-2.png";
 
 const popUpAlannah = () => {
   return (
