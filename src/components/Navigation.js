@@ -37,6 +37,11 @@ const Navigation = () => {
             </a>
         </li>
         <li className="active" onClick={closeMenu}>
+            <a href="/gallery">
+                <span aria-hidden="true"></span>Gallery
+            </a>
+        </li>
+        <li className="active" onClick={closeMenu}>
             <a href="https://linktr.ee/utopiahairco">
                 <span aria-hidden="true"></span>Book Now
             </a>

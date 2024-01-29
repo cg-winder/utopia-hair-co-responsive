@@ -10,7 +10,8 @@
 #home-head,
 #salon-head,
 #services-head,
-#team-head {
+#team-head,
+#gallery-head {
     position: absolute;
     color: white;
     width: 100%;
@@ -40,7 +41,8 @@
     #home-head,
     #salon-head,
     #services-head,
-    #team-head {
+    #team-head,
+    #gallery-head {
         color: transparent;
         font-size: 0px;
     }
@@ -51,7 +53,8 @@
     #home-head,
     #salon-head,
     #services-head,
-    #team-head {
+    #team-head,
+    #gallery-head {
         color: transparent;
         font-size: 0px;
     }
@@ -64,7 +67,8 @@
     #home-head,
     #salon-head,
     #services-head,
-    #team-head {
+    #team-head,
+    #gallery-head {
         top: 13.5vh;
         font-size: 90px;
     }
@@ -76,7 +80,8 @@
     #home-head,
     #salon-head,
     #services-head,
-    #team-head {
+    #team-head,
+    #gallery-head {
         top: 17vh;
         font-size: 105px;
     }
@@ -88,7 +93,8 @@
     #home-head,
     #salon-head,
     #services-head,
-    #team-head {
+    #team-head,
+    #gallery-head {
         top: 35.5vh;
         font-size: 85px
     }
@@ -101,7 +107,8 @@
     #home-head,
     #salon-head,
     #services-head,
-    #team-head {
+    #team-head,
+    #gallery-head {
         top: 35vh;
         font-size: 85px
     }
@@ -116,7 +123,8 @@
     #home-head,
     #salon-head,
     #services-head,
-    #team-head {
+    #team-head,
+    #gallery-head {
         top: 33.5vh;
         font-size: 85px
     }
@@ -131,7 +139,8 @@
     #home-head,
     #salon-head,
     #services-head,
-    #team-head {
+    #team-head,
+    #gallery-head {
         top: 20vh;
         font-size: 95px
     }
@@ -144,7 +153,8 @@
     #home-head,
     #salon-head,
     #services-head,
-    #team-head {
+    #team-head,
+    #gallery-head {
         top: 16vh;
         font-size: 105px;
     }
@@ -157,7 +167,8 @@
     #home-head,
     #salon-head,
     #services-head,
-    #team-head {
+    #team-head,
+    #gallery-head {
         top: 29.5vh;
         font-size: 85px
     }
@@ -170,7 +181,8 @@
     #home-head,
     #salon-head,
     #services-head,
-    #team-head {
+    #team-head,
+    #gallery-head {
         top: 36.5vh;
         font-size: 85px
     }
@@ -183,7 +195,8 @@
     #home-head,
     #salon-head,
     #services-head,
-    #team-head {
+    #team-head,
+    #gallery-head {
         top: 33.5vh;
         font-size: 85px
     }
@@ -196,7 +209,8 @@
     #home-head,
     #salon-head,
     #services-head,
-    #team-head {
+    #team-head,
+    #gallery-head {
         top: 34.5vh;
         font-size: 85px
     }
@@ -209,7 +223,8 @@
     #home-head,
     #salon-head,
     #services-head,
-    #team-head {
+    #team-head,
+    #gallery-head {
         top: 34.5vh;
         font-size: 85px
     }
@@ -221,7 +236,8 @@
     #home-head,
     #salon-head,
     #services-head,
-    #team-head {
+    #team-head,
+    #gallery-head {
         top: 22vh;
         font-size: 95px
     }
@@ -233,7 +249,8 @@
     #home-head,
     #salon-head,
     #services-head,
-    #team-head {
+    #team-head,
+    #gallery-head {
         top: 16vh;
         font-size: 105px;
     }
@@ -246,7 +263,8 @@
     #home-head,
     #salon-head,
     #services-head,
-    #team-head {
+    #team-head,
+    #gallery-head {
         top: 34.5vh;
         font-size: 85px
     }
@@ -259,7 +277,8 @@
     #home-head,
     #salon-head,
     #services-head,
-    #team-head {
+    #team-head,
+    #gallery-head {
         top: 34.5vh;
         font-size: 85px
     }
@@ -272,7 +291,8 @@
     #home-head,
     #salon-head,
     #services-head,
-    #team-head {
+    #team-head,
+    #gallery-head {
         top: 32.5vh;
         font-size: 105px
     }
@@ -285,7 +305,8 @@
     #home-head,
     #salon-head,
     #services-head,
-    #team-head {
+    #team-head,
+    #gallery-head {
         top: 22vh;
         font-size: 115px
     }
@@ -297,7 +318,8 @@
     #home-head,
     #salon-head,
     #services-head,
-    #team-head {
+    #team-head,
+    #gallery-head {
         top: 16vh;
         font-size: 105px
     }
@@ -310,7 +332,8 @@
     #home-head,
     #salon-head,
     #services-head,
-    #team-head {
+    #team-head,
+    #gallery-head {
         top: 32.5vh;
         font-size: 115px
     }
@@ -323,7 +346,8 @@
     #home-head,
     #salon-head,
     #services-head,
-    #team-head {
+    #team-head,
+    #gallery-head {
         top: 26.5vh;
         font-size: 115px;
     }
@@ -336,7 +360,8 @@
     #home-head,
     #salon-head,
     #services-head,
-    #team-head {
+    #team-head,
+    #gallery-head {
         top: 16vh;
         font-size: 90px;
     }
@@ -347,7 +372,8 @@
     #home-head,
     #salon-head,
     #services-head,
-    #team-head {
+    #team-head,
+    #gallery-head {
         top: 32.5vh;
         font-size: 90px
     }
@@ -358,7 +384,8 @@
     #home-head,
     #salon-head,
     #services-head,
-    #team-head {
+    #team-head,
+    #gallery-head {
         top: 32.5vh;
         font-size: 90px
     }
@@ -371,7 +398,8 @@
     #home-head,
     #salon-head,
     #services-head,
-    #team-head {
+    #team-head,
+    #gallery-head {
         top: 33.5vh;
         font-size: 85px
     }
@@ -383,7 +411,8 @@
     #home-head,
     #salon-head,
     #services-head,
-    #team-head {
+    #team-head,
+    #gallery-head {
         top: 33.5vh;
         font-size: 85px
     }
@@ -408,7 +437,8 @@
     #home-head,
     #salon-head,
     #services-head,
-    #team-head {
+    #team-head,
+    #gallery-head {
         top: 23.5vh;
         font-size: 130px
     }
@@ -419,7 +449,8 @@
     #home-head,
     #salon-head,
     #services-head,
-    #team-head {
+    #team-head,
+    #gallery-head {
         top: 37.5vh;
         font-size: 110px
     }
@@ -430,7 +461,8 @@
     #home-head,
     #salon-head,
     #services-head,
-    #team-head {
+    #team-head,
+    #gallery-head {
         top: 33.5vh;
         font-size: 110px
     }
@@ -441,7 +473,8 @@
     #home-head,
     #salon-head,
     #services-head,
-    #team-head {
+    #team-head,
+    #gallery-head {
         top: 30.5vh;
         font-size: 110px
     }
@@ -452,7 +485,8 @@
     #home-head,
     #salon-head,
     #services-head,
-    #team-head {
+    #team-head,
+    #gallery-head {
         top: 17vh;
         font-size: 110px
     }
@@ -463,7 +497,8 @@
     #home-head,
     #salon-head,
     #services-head,
-    #team-head {
+    #team-head,
+    #gallery-head {
         top: 29vh;
         font-size: 140px
     }
@@ -476,7 +511,8 @@
     #home-head,
     #salon-head,
     #services-head,
-    #team-head {
+    #team-head,
+    #gallery-head {
         top: 14.5vh;
         font-size: 110px
     }
@@ -487,7 +523,8 @@
     #home-head,
     #salon-head,
     #services-head,
-    #team-head {
+    #team-head,
+    #gallery-head {
         top: 30.5vh;
         font-size: 150px
     }
@@ -498,7 +535,8 @@
     #home-head,
     #salon-head,
     #services-head,
-    #team-head {
+    #team-head,
+    #gallery-head {
         top: 13.5vh;
         font-size: 115px
     }
@@ -509,7 +547,8 @@
     #home-head,
     #salon-head,
     #services-head,
-    #team-head {
+    #team-head,
+    #gallery-head {
         top: 33vh;
         font-size: 155px
     }
@@ -520,7 +559,8 @@
     #home-head,
     #salon-head,
     #services-head,
-    #team-head {
+    #team-head,
+    #gallery-head {
         top: 12vh;
         font-size: 115px
     }
@@ -531,7 +571,8 @@
     #home-head,
     #salon-head,
     #services-head,
-    #team-head {
+    #team-head,
+    #gallery-head {
         top: 37vh;
         font-size: 160px
     }
@@ -542,7 +583,8 @@
     #home-head,
     #salon-head,
     #services-head,
-    #team-head {
+    #team-head,
+    #gallery-head {
         top: 12vh;
         font-size: 120px
     }
@@ -553,7 +595,8 @@
     #home-head,
     #salon-head,
     #services-head,
-    #team-head {
+    #team-head,
+    #gallery-head {
         top: 14.5vh;
         font-size: 90px
     }
@@ -564,7 +607,8 @@
     #home-head,
     #salon-head,
     #services-head,
-    #team-head {
+    #team-head,
+    #gallery-head {
         top: 14.5vh;
         font-size: 90px
     }
@@ -575,7 +619,8 @@
     #home-head,
     #salon-head,
     #services-head,
-    #team-head {
+    #team-head,
+    #gallery-head {
         top: 12.5vh;
         font-size: 90px
     }
@@ -586,7 +631,8 @@
     #home-head,
     #salon-head,
     #services-head,
-    #team-head {
+    #team-head,
+    #gallery-head {
         top: 26.5vh;
         font-size: 110px
     }
@@ -597,7 +643,8 @@
     #home-head,
     #salon-head,
     #services-head,
-    #team-head {
+    #team-head,
+    #gallery-head {
         top: 27.5vh;
         font-size: 110px
     }
@@ -608,7 +655,8 @@
     #home-head,
     #salon-head,
     #services-head,
-    #team-head {
+    #team-head,
+    #gallery-head {
         top: 27.5vh;
         font-size: 110px
     }

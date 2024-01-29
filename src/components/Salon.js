@@ -15,7 +15,6 @@ const Salon = () => {
       <SalonContact />
       <SalonGallery />
       <SalonInfo />
-
     </div>
   );
 };

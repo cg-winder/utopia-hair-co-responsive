@@ -16,6 +16,7 @@ import Services from "./components/Services";
 import Team from "./components/Team";
 import Footer from "./components/Footer";
 import Navigation from "./components/Navigation"
+import Gallery from "./components/Gallery"
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
             <Route path="/salon" element={<Salon />} />
             <Route path="/services" element={<Services />} />
             <Route path="/team" element={<Team />} />
+            <Route path="/gallery" element={<Gallery />} />
           </Routes>
         </div>
         <Footer />
