@@ -7,7 +7,7 @@ import erin from "../imgs/final-erin.png"
 import ellie from "../imgs/final-ellie.png"
 import gabrielle from "../imgs/gabrielle.jpeg"
 import maddie from "../imgs/maddie.jpeg"
-import millie from "../imgs/milliebw.png"
+import tiffany from "../imgs/lusciouslocks.jpeg"
 
 
 const TeamGirls = () => {
@@ -135,7 +135,7 @@ I’m so blessed to be in a job I absolutely love, where I can bring my clients�
       <div className="team-girls">
         <div className="team-pic-name-flex">
                   <div className="team-pics">
-                    <img src={gabrielle} id="nicola"/>
+                    <img src={gabrielle} id="gabrielle"/>
                   </div>
                   <div className="team-name-title">
                         <h2 className="team-h2">GABRIELLE</h2>
@@ -173,7 +173,7 @@ I love creating seamless balayages, beautiful blondes and brunettes. I’m so ex
       <div className="team-girls">
         <div className="team-pic-name-flex">
                   <div className="team-pics">
-                    <img src={gabrielle} id="nicola"/>
+                    <img src={tiffany} id="tiffany"/>
                   </div>
                   <div className="team-name-title">
                         <h2 className="team-h2">TIFFANY</h2>
