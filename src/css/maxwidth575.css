@@ -840,13 +840,12 @@
 
     /* Salon Contact */
     .saloncontact-page-wrap {
-        margin-top: 0%;
+        margin: 2% 4%;
         padding-top: 2%;
         padding-bottom: 2%;
         font-family: "noto serif display", serif;
         box-shadow: inset 2000px 0 0 0 #ac95954f;
-        border-bottom: 1.5px solid white;
-        border-top: 1.5px solid white;
+        border: 1.5px solid white;
         background-image: url('../components/imgs/igbg.png');
         background-color: transparent;
         opacity: 0.8;
@@ -937,12 +936,10 @@
     /* Salon Shop */
 
     .salon-shop-wrap {
-        margin-top: 2%;
+        margin: 2% 4%;
         font-family: "noto serif display", serif;
         box-shadow: inset 2000px 0 0 0 #beadad97;
-        border: 1px solid white;
-        border-left: 0px;
-        border-right: 0px;
+        border: 1.5px solid white;
         text-align: center;
     }
 
@@ -1026,96 +1023,97 @@
         .salon-shop-link {
             font-size: 19px;
             padding: 2% 4%;
-            background-color:
-        }
 
-
-
-        .salon-shop-logos {
-            padding: 7% 0%;
-            align-items: center;
-        }
-
-        #salon-shop-utopia-logo {
-            height: 11vh;
-            width: 11vh;
-        }
-
-        #salon-shop-elth-logo {
-            margin-left: 2%;
-            height: 6vh;
-            width: 12vh;
-            margin-bottom: 5%;
         }
     }
 
 
-    /* SERVICES PAGE */
 
-    .services-book-wrap {
-        background-image: url("../components/imgs/blackoutsalonstretch.png");
-        background-repeat: no-repeat;
-        background-size: cover;
-        padding-bottom: 0.5%;
-        margin-bottom: 0%;
-        position: relative;
+    .salon-shop-logos {
+        padding: 7% 0%;
+        align-items: center;
     }
 
-    .services-book-text {
-        font-family: "noto serif display", serif;
-        text-align: center;
-        padding-top: 10%;
-        text-transform: uppercase;
-        font-size: 14.5px;
+    #salon-shop-utopia-logo {
+        height: 11vh;
+        width: 11vh;
     }
 
-    .services-book-2 {
-        text-transform: lowercase;
-        font-size: 22px;
-        font-style: italic;
-        padding-bottom: 2%;
+    #salon-shop-elth-logo {
+        margin-left: 2%;
+        height: 6vh;
+        width: 12vh;
+        margin-bottom: 5%;
     }
+}
 
-    .services-book-3 {
-        text-transform: uppercase;
-        font-style: normal;
-    }
 
-    .services-book-button {
-        display: flex;
-        margin: 0 auto;
-        background-color: transparent;
-        padding: 2% 3%;
-        font-weight: 400;
-        transition: 0.3s ease-in-out;
-        color: whitesmoke;
-        border: 2px solid white;
-        box-shadow: inset 600px 0 0 0 #09000057;
-        margin-bottom: 12%
-    }
+/* SERVICES PAGE */
 
-    .services-book-button:hover {
-        color: whitesmoke;
-        box-shadow: inset 600px 0 0 0 #e0d9d997;
-        border: 2px solid transparent;
-    }
+.services-book-wrap {
+    background-image: url("../components/imgs/blackoutsalonstretch.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 0.5%;
+    margin-bottom: 0%;
+    position: relative;
+}
 
-    .services-book-button span {
-        padding-top: 1.1%;
-        color: white;
-        display: flex;
-        margin: 0 auto;
-        font-size: 14px;
-    }
+.services-book-text {
+    font-family: "noto serif display", serif;
+    text-align: center;
+    padding-top: 10%;
+    text-transform: uppercase;
+    font-size: 14.5px;
+}
 
-    .services-pricing {
-        /* background-image: url("../components/imgs/marble2bg.png"); */
-        padding-bottom: 7%;
-        border: 0.7px solid white;
-        box-shadow: inset 1930px 0 0 0 #e0d9d98b;
-    }
+.services-book-2 {
+    text-transform: lowercase;
+    font-size: 22px;
+    font-style: italic;
+    padding-bottom: 2%;
+}
 
-    /* 
+.services-book-3 {
+    text-transform: uppercase;
+    font-style: normal;
+}
+
+.services-book-button {
+    display: flex;
+    margin: 0 auto;
+    background-color: transparent;
+    padding: 2% 3%;
+    font-weight: 400;
+    transition: 0.3s ease-in-out;
+    color: whitesmoke;
+    border: 2px solid white;
+    box-shadow: inset 600px 0 0 0 #09000057;
+    margin-bottom: 12%
+}
+
+.services-book-button:hover {
+    color: whitesmoke;
+    box-shadow: inset 600px 0 0 0 #e0d9d997;
+    border: 2px solid transparent;
+}
+
+.services-book-button span {
+    padding-top: 1.1%;
+    color: white;
+    display: flex;
+    margin: 0 auto;
+    font-size: 14px;
+}
+
+.services-pricing {
+    /* background-image: url("../components/imgs/marble2bg.png"); */
+    padding-bottom: 7%;
+    border: 0.7px solid white;
+    box-shadow: inset 1930px 0 0 0 #e0d9d98b;
+}
+
+/* 
     .services-background-img {
         position: absolute;
         z-index: -99;
@@ -1128,943 +1126,943 @@
         width: auto;
     } */
 
+.services-text {
+    text-align: center;
+}
+
+.pricing-header {
+    padding-top: 6%;
+    font-size: 45px;
+    line-height: 32px;
+    text-transform: lowercase;
+    color: rgb(172, 140, 140);
+    font-family: "noto serif display";
+}
+
+.pricing-menu-wrap p {
+    color: rgb(172, 140, 140);
+    text-transform: uppercase;
+    margin: 3.5% 0% 0% 4%;
+    font-size: 9px;
+}
+
+.services-artists {
+    font-family: "noto serif display", serif;
+    margin: 6% 4% 6% 4%;
+    font-size: 14.5px;
+    text-transform: uppercase;
+    color: rgb(158, 137, 137);
+}
+
+.pricing-menus {
+    display: inline-flex;
+    padding: 3% 1%;
+    margin: 0% 11% 0% 0%;
+    justify-content: center;
+}
+
+.services-recommendation-wrap {
+    margin: 8% 2% 0% 2%;
+    font-family: "noto serif display", serif;
+}
+
+.recommendation-header {
+    font-weight: 100;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 3%;
+    text-transform: lowercase;
+    color: rgb(172, 140, 140);
+    font-family: "noto serif display";
+}
+
+@media only screen and (min-width: 360px) {
+    .recommendation-header {
+        margin-top: -13%;
+    }
+}
+
+@media only screen and (width: 568px) and (orientation: landscape) {
+    .services-book-wrap {
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+    }
+
+    .recommendation-header {
+        margin-top: -8%;
+    }
+}
+
+.services-recommendation-info {
+    font-size: 14.5px;
+    color: rgb(134, 110, 110);
+    color: white;
+    line-height: 29px;
+    margin: 0% 1%;
+    text-align: center;
+}
+
+.services-inspiration {
+    text-align: center;
+    font-size: 16px;
+    margin: 2% 1% 4% 1%;
+    color: white;
+    line-height: 32px;
+
+}
+
+.services-policies {
+    border: 1px solid white;
+    box-shadow: inset 1000px 0 0 0 #e0d9d97e;
+    font-family: "noto serif display", serif;
+}
+
+.services-policies-header {
+    margin: 4% 0% 3% 3%;
+    text-align: center;
+    font-size: 35px;
+    text-transform: lowercase;
+    color: rgb(172, 140, 140);
+    font-family: "noto serif display";
+}
+
+.policy-header {
+    text-transform: uppercase;
+    margin: 0% 0% 1% 3%;
+    text-align: center;
+    font-size: 16px;
+    color: rgb(172, 140, 140);
+    font-family: "noto serif display";
+}
+
+.policy-p {
+    text-align: center;
+    font-size: 14px;
+    color: white;
+    line-height: 25px;
+    margin: 0% 7% 2.5% 7%;
+}
+
+.policy-p a {
+    text-decoration: none;
+    color: rgb(186, 142, 150);
+}
+
+.policy-p a:hover {
+    color: rgb(212, 197, 200);
+}
+
+/* Services Media Queries */
+
+@media only screen and (min-width: 360px) {
+    .services-text {
+        padding-top: 4%;
+    }
+
+    .services-recommendation-wrap {
+        margin-top: 20%;
+    }
+}
+
+@media only screen and (min-width: 375px) {
+    .pricing-menus {
+        display: inline-flex;
+        padding: 4% 1%;
+    }
+
+    .services-recommendation-wrap {
+        margin-top: 19%;
+    }
+}
+
+@media only screen and (min-width: 390px) {
+    .services-book-text {
+        padding-top: 15%;
+    }
+
+    .services-book-2 {
+        padding-top: 1%;
+    }
+}
+
+@media only screen and (min-width: 412px) {
+    .services-recommendation-wrap {
+        margin-top: 21%;
+    }
+
+    .services-artists {
+        font-size: 13px;
+    }
+
+    .services-recommendation-info {
+        font-size: 14px;
+    }
+
+    .services-inspiration {
+        font-size: 13px;
+    }
+
+    .policy-p {
+        font-size: 14px;
+    }
+
+    .policy-header {
+        font-size: 15.5px;
+    }
+
+    .services-policies-header {
+        font-size: 27px;
+    }
+
+    .pricing-header {
+        font-size: 38px;
+        padding-top: 5%;
+    }
+}
+
+@media only screen and (min-width: 568px) and (min-height: 320px) {
+    .services-book-text {
+        padding-top: 5%;
+    }
+
+    .pricing-header {
+        padding-top: 5%
+    }
+
     .services-text {
         text-align: center;
     }
 
     .pricing-header {
-        padding-top: 6%;
-        font-size: 45px;
-        line-height: 32px;
-        text-transform: lowercase;
-        color: rgb(172, 140, 140);
-        font-family: "noto serif display";
+        padding-top: 4%;
+        font-size: 37px;
     }
 
     .pricing-menu-wrap p {
-        color: rgb(172, 140, 140);
-        text-transform: uppercase;
-        margin: 3.5% 0% 0% 4%;
-        font-size: 9px;
+        margin: 2% 0% 0% 0%;
+        font-size: 10px;
     }
 
     .services-artists {
-        font-family: "noto serif display", serif;
-        margin: 6% 4% 6% 4%;
-        font-size: 14.5px;
-        text-transform: uppercase;
-        color: rgb(158, 137, 137);
+        margin: 6% 4%;
+        font-size: 16px;
     }
 
     .pricing-menus {
-        display: inline-flex;
-        padding: 3% 1%;
-        margin: 0% 11% 0% 0%;
-        justify-content: center;
+        padding: 3% 2%;
+        margin: 0% 8% 0% 0%;
     }
 
     .services-recommendation-wrap {
-        margin: 8% 2% 0% 2%;
-        font-family: "noto serif display", serif;
+        margin: 12.5% 2% 0% 2%;
+    }
+}
+
+@media only screen and (min-width: 546px) and (min-height: 320px) {
+
+    .services-book-wrap {
+        margin-top: 30%;
+        position: relative;
     }
 
-    .recommendation-header {
-        font-weight: 100;
-        font-size: 30px;
-        text-align: center;
-        margin-bottom: 3%;
-        text-transform: lowercase;
-        color: rgb(172, 140, 140);
-        font-family: "noto serif display";
+    .pricing-header {
+        padding-top: 5%
     }
 
-    @media only screen and (min-width: 360px) {
-        .recommendation-header {
-            margin-top: -13%;
-        }
+    .services-recommendation-wrap {
+        margin: 11.5% 2% 0% 2%;
+    }
+}
+
+@media only screen and (min-width: 548px) and (min-height: 834px) {
+    .services-book-text {
+        padding-top: 24%;
+        font-size: 18px;
     }
 
-    @media only screen and (width: 568px) and (orientation: landscape) {
-        .services-book-wrap {
-            background-repeat: no-repeat;
-            background-size: cover;
-            position: relative;
-        }
-
-        .recommendation-header {
-            margin-top: -8%;
-        }
+    .services-book-2 {
+        font-size: 26px;
+        padding-bottom: 4%;
     }
 
-    .services-recommendation-info {
-        font-size: 14.5px;
-        color: rgb(134, 110, 110);
-        color: white;
-        line-height: 29px;
-        margin: 0% 1%;
-        text-align: center;
+    .services-pricing {
+        margin-top: 9%;
     }
 
-    .services-inspiration {
-        text-align: center;
-        font-size: 16px;
-        margin: 2% 1% 4% 1%;
-        color: white;
-        line-height: 32px;
-
+    .pricing-header {
+        padding-top: 4%;
+        font-size: 40px;
     }
 
-    .services-policies {
-        border: 1px solid white;
-        box-shadow: inset 1000px 0 0 0 #e0d9d97e;
-        font-family: "noto serif display", serif;
+    .services-artists {
+        font-size: 17px;
     }
 
-    .services-policies-header {
-        margin: 4% 0% 3% 3%;
-        text-align: center;
-        font-size: 35px;
-        text-transform: lowercase;
-        color: rgb(172, 140, 140);
-        font-family: "noto serif display";
+    .pricing-menus {
+        padding: 4% 1%;
+        margin: 0% 8% 0% 0%;
     }
 
-    .policy-header {
-        text-transform: uppercase;
-        margin: 0% 0% 1% 3%;
-        text-align: center;
-        font-size: 16px;
-        color: rgb(172, 140, 140);
-        font-family: "noto serif display";
+    .services-recommendation-wrap {
+        margin-top: 10.5%;
     }
+}
 
-    .policy-p {
-        text-align: center;
-        font-size: 14px;
-        color: white;
-        line-height: 25px;
-        margin: 0% 7% 2.5% 7%;
+@media only screen and (min-width: 568px) and (min-height: 320px) {
+    .services-background-img img {
+        width: 200vw;
+        height: 210vh;
     }
-
-    .policy-p a {
-        text-decoration: none;
-        color: rgb(186, 142, 150);
-    }
-
-    .policy-p a:hover {
-        color: rgb(212, 197, 200);
-    }
-
-    /* Services Media Queries */
-
-    @media only screen and (min-width: 360px) {
-        .services-text {
-            padding-top: 4%;
-        }
-
-        .services-recommendation-wrap {
-            margin-top: 20%;
-        }
-    }
-
-    @media only screen and (min-width: 375px) {
-        .pricing-menus {
-            display: inline-flex;
-            padding: 4% 1%;
-        }
-
-        .services-recommendation-wrap {
-            margin-top: 19%;
-        }
-    }
-
-    @media only screen and (min-width: 390px) {
-        .services-book-text {
-            padding-top: 15%;
-        }
-
-        .services-book-2 {
-            padding-top: 1%;
-        }
-    }
-
-    @media only screen and (min-width: 412px) {
-        .services-recommendation-wrap {
-            margin-top: 21%;
-        }
-
-        .services-artists {
-            font-size: 13px;
-        }
-
-        .services-recommendation-info {
-            font-size: 14px;
-        }
-
-        .services-inspiration {
-            font-size: 13px;
-        }
-
-        .policy-p {
-            font-size: 14px;
-        }
-
-        .policy-header {
-            font-size: 15.5px;
-        }
-
-        .services-policies-header {
-            font-size: 27px;
-        }
-
-        .pricing-header {
-            font-size: 38px;
-            padding-top: 5%;
-        }
-    }
-
-    @media only screen and (min-width: 568px) and (min-height: 320px) {
-        .services-book-text {
-            padding-top: 5%;
-        }
-
-        .pricing-header {
-            padding-top: 5%
-        }
-
-        .services-text {
-            text-align: center;
-        }
-
-        .pricing-header {
-            padding-top: 4%;
-            font-size: 37px;
-        }
-
-        .pricing-menu-wrap p {
-            margin: 2% 0% 0% 0%;
-            font-size: 10px;
-        }
-
-        .services-artists {
-            margin: 6% 4%;
-            font-size: 16px;
-        }
-
-        .pricing-menus {
-            padding: 3% 2%;
-            margin: 0% 8% 0% 0%;
-        }
-
-        .services-recommendation-wrap {
-            margin: 12.5% 2% 0% 2%;
-        }
-    }
-
-    @media only screen and (min-width: 546px) and (min-height: 320px) {
-
-        .services-book-wrap {
-            margin-top: 30%;
-            position: relative;
-        }
-
-        .pricing-header {
-            padding-top: 5%
-        }
-
-        .services-recommendation-wrap {
-            margin: 11.5% 2% 0% 2%;
-        }
-    }
-
-    @media only screen and (min-width: 548px) and (min-height: 834px) {
-        .services-book-text {
-            padding-top: 24%;
-            font-size: 18px;
-        }
-
-        .services-book-2 {
-            font-size: 26px;
-            padding-bottom: 4%;
-        }
-
-        .services-pricing {
-            margin-top: 9%;
-        }
-
-        .pricing-header {
-            padding-top: 4%;
-            font-size: 40px;
-        }
-
-        .services-artists {
-            font-size: 17px;
-        }
-
-        .pricing-menus {
-            padding: 4% 1%;
-            margin: 0% 8% 0% 0%;
-        }
-
-        .services-recommendation-wrap {
-            margin-top: 10.5%;
-        }
-    }
-
-    @media only screen and (min-width: 568px) and (min-height: 320px) {
-        .services-background-img img {
-            width: 200vw;
-            height: 210vh;
-        }
-    }
+}
 
 
 
-    /* TEAM PAGE */
+/* TEAM PAGE */
 
-    .team-page-wrap {
-        font-family: "italiana";
-        margin-bottom: 0%;
-        margin-top: 10%;
-    }
+.team-page-wrap {
+    font-family: "italiana";
+    margin-bottom: 0%;
+    margin-top: 10%;
+}
 
-    #team-intro {
-        color: transparent;
-        font-size: 1px;
+#team-intro {
+    color: transparent;
+    font-size: 1px;
 
-    }
+}
 
-    .team-girls {
-        padding-top: 10%;
-    }
+.team-girls {
+    padding-top: 10%;
+}
 
 
+.teamgirls-wrap {
+    font-family: "playfair display";
+    margin-top: -10%;
+}
+
+
+
+
+.team-pic-name-flex {
+    display: inline-flex;
+}
+
+/* Team buttons */
+
+.team-buttons {
+    display: flex;
+    margin-left: 2.4%;
+    margin-top: 4%;
+}
+
+
+.team-book-now-button {
+    width: 90px;
+    height: 35px;
+    display: inline-flex;
+    font-size: 9px;
+    font-weight: 300;
+    color: #b0a9a6;
+    border: 2px solid white;
+    background-color: #ecebeb;
+    padding: 1.9% 2%;
+    position: relative;
+    transition: 0.3s ease-in-out;
+    box-shadow: inset 0 0 0 0 #D3C4BE;
+    cursor: pointer;
+    font-family: "noto serif display", serif;
+    margin-right: 3%;
+}
+
+.team-book-now-button span {
+    margin: 0 auto;
+}
+
+.team-book-now-button:hover {
+    color: #b0a9a6;
+    border: 2.5px solid white;
+    box-shadow: inset 140px 0 0 0 #eae6e4;
+}
+
+
+.team-social-button a {
+    width: 35px;
+    height: 35px;
+    border: 2px solid white;
+    background-color: #ecebeb;
+    display: inline-flex;
+    border-radius: 50%;
+    border-radius: 0%;
+    margin-left: 0%;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+}
+
+.team-social-button a::before {
+    content: "";
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    background-color: #dcd3d1;
+    border: 2px solid white;
+    border-radius: 0%;
+    transform: scale(0);
+    transition: 0.3s ease-in-out;
+}
+
+.team-social-button a:hover::before {
+    transform: scale(1);
+    border: 2.5px solid white;
+    box-shadow: inset 140px 0 0 0 #eae6e4;
+}
+
+.team-social-button a img {
+    width: 60%;
+    z-index: 1;
+    transition: 0.3s ease-in-out;
+    background-color: #eae6e4;
+    background-color: transparent;
+}
+
+.team-social-button a:hover img {
+    outline: none;
+    background-color: #eae6e4;
+    background-color: transparent;
+}
+
+
+/* Team treatment type */
+
+.treatment-type {
+    font-family: "noto serif display", serif;
+    width: 90px;
+    height: 35px;
+    font-size: 15px;
+    font-weight: 300;
+    color: #b0a9a6;
+    border: 2px solid white;
+    background-color: #ecebeb;
+    padding: 0% 2%;
+    margin-left: 3%;
+    display: inline-flex;
+}
+
+.treatment-type span {
+    margin: 0 auto;
+    padding-top: 6%;
+}
+
+.treatment-type-erin {
+    font-family: "noto serif display", serif;
+    width: 90px;
+    height: 35px;
+    font-size: 8px;
+    font-weight: 300;
+    color: #b0a9a6;
+    border: 2px solid white;
+    background-color: #ecebeb;
+    padding: 0% 2%;
+    margin-left: 3%;
+    display: inline-flex;
+}
+
+.treatment-type-erin span {
+    margin: 0 auto;
+    padding-top: 7%;
+    text-align: center;
+}
+
+/* Team profiles */
+.team-h2 {
+    font-family: "playfair display";
+    font-weight: 100;
+    color: rgb(167, 132, 138);
+    font-size: 20px;
+    letter-spacing: 0.10em;
+    margin-left: 0%;
+}
+
+.team-name-title {
+    margin: 17% 0% 0% 8%;
+}
+
+.team-title {
+    font-family: "noto serif display", serif;
+    margin: -15% 0% 0% 1%;
+    font-size: 9.5px;
+    text-transform: uppercase;
+    color: whitesmoke;
+}
+
+.team-pics img {
+    height: 160px;
+    width: 160px;
+    display: flex;
+    padding-bottom: 3.5%;
+    margin-top: 3%;
+    margin-left: 6%
+}
+
+
+.team-about {
+    color: white;
+    font-size: 13px;
+    line-height: 2.5;
+    margin: 4% 3%;
+    margin-right: 12%;
+    font-family: "noto serif display", serif;
+    letter-spacing: -0.03em;
+}
+
+.team-specialise {
+    margin-top: 2%;
+    color: rgb(167, 132, 138);
+    font-size: 12px;
+}
+
+
+.team-hours {
+    margin-top: -0.5%;
+    color: rgb(141, 113, 118);
+    font-size: 12px;
+}
+
+/* Team Media Queries */
+
+@media only screen and (min-width: 359px) {
     .teamgirls-wrap {
-        font-family: "playfair display";
-        margin-top: -10%;
+        margin-top: 12%;
     }
-
-
-
-
-    .team-pic-name-flex {
-        display: inline-flex;
-    }
-
-    /* Team buttons */
-
-    .team-buttons {
-        display: flex;
-        margin-left: 2.4%;
-        margin-top: 4%;
-    }
-
 
     .team-book-now-button {
-        width: 90px;
-        height: 35px;
-        display: inline-flex;
-        font-size: 9px;
-        font-weight: 300;
-        color: #b0a9a6;
-        border: 2px solid white;
-        background-color: #ecebeb;
-        padding: 1.9% 2%;
-        position: relative;
-        transition: 0.3s ease-in-out;
-        box-shadow: inset 0 0 0 0 #D3C4BE;
-        cursor: pointer;
-        font-family: "noto serif display", serif;
-        margin-right: 3%;
+        padding: 1.6% 2%;
     }
 
-    .team-book-now-button span {
-        margin: 0 auto;
+    .team-pics img {
+        height: 180px;
+        width: 180px;
     }
 
-    .team-book-now-button:hover {
-        color: #b0a9a6;
-        border: 2.5px solid white;
-        box-shadow: inset 140px 0 0 0 #eae6e4;
+    .team-title {
+        font-size: 9.5px;
     }
 
+    .team-about {
+        font-size: 12.5px;
+        margin: 4% 2.5%;
+    }
+
+    .team-specialise,
+    .team-hours {
+        font-size: 13px;
+    }
+}
+
+@media only screen and (min-width: 374px) {
+    .team-title {
+        font-size: 9.8px;
+    }
+}
+
+@media only screen and (min-width: 389px) {
+    .team-title {
+        font-size: 11px;
+    }
+
+    .team-pics img {
+        height: 200px;
+        width: 200px;
+    }
+
+    .team-book-now-button {
+        padding: 1.25% 2%;
+        font-size: 10px;
+    }
+
+    .team-about {
+        font-size: 15px;
+    }
+
+    .team-specialise,
+    .team-hours {
+        font-size: 15px;
+    }
+
+}
+
+@media only screen and (min-width: 411px) {
+    .team-book-now-button {
+        padding: 1.5% 2%;
+        font-size: 11px;
+        width: 95px;
+        height: 40px;
+    }
 
     .team-social-button a {
-        width: 35px;
-        height: 35px;
-        border: 2px solid white;
-        background-color: #ecebeb;
-        display: inline-flex;
-        border-radius: 50%;
-        border-radius: 0%;
-        margin-left: 0%;
-        align-items: center;
-        justify-content: center;
-        line-height: 1;
+        height: 40px;
+        width: 40px;
     }
 
     .team-social-button a::before {
         content: "";
-        width: 35px;
-        height: 35px;
-        position: absolute;
-        background-color: #dcd3d1;
-        border: 2px solid white;
-        border-radius: 0%;
-        transform: scale(0);
-        transition: 0.3s ease-in-out;
-    }
-
-    .team-social-button a:hover::before {
-        transform: scale(1);
-        border: 2.5px solid white;
-        box-shadow: inset 140px 0 0 0 #eae6e4;
-    }
-
-    .team-social-button a img {
-        width: 60%;
-        z-index: 1;
-        transition: 0.3s ease-in-out;
-        background-color: #eae6e4;
-        background-color: transparent;
-    }
-
-    .team-social-button a:hover img {
-        outline: none;
-        background-color: #eae6e4;
-        background-color: transparent;
-    }
-
-
-    /* Team treatment type */
-
-    .treatment-type {
-        font-family: "noto serif display", serif;
-        width: 90px;
-        height: 35px;
-        font-size: 15px;
-        font-weight: 300;
-        color: #b0a9a6;
-        border: 2px solid white;
-        background-color: #ecebeb;
-        padding: 0% 2%;
-        margin-left: 3%;
-        display: inline-flex;
-    }
-
-    .treatment-type span {
-        margin: 0 auto;
-        padding-top: 6%;
+        width: 40px;
+        height: 40px;
     }
 
     .treatment-type-erin {
-        font-family: "noto serif display", serif;
-        width: 90px;
-        height: 35px;
-        font-size: 8px;
-        font-weight: 300;
-        color: #b0a9a6;
-        border: 2px solid white;
-        background-color: #ecebeb;
-        padding: 0% 2%;
-        margin-left: 3%;
-        display: inline-flex;
+        width: 95px;
+        height: 40px;
     }
 
     .treatment-type-erin span {
-        margin: 0 auto;
-        padding-top: 7%;
-        text-align: center;
+        font-size: 9px
     }
 
-    /* Team profiles */
+    .treatment-type {
+        width: 95px;
+        height: 40px;
+        padding-top: 0.5%;
+    }
+
+    .treatment-type span {
+        font-size: 16px;
+    }
+
     .team-h2 {
-        font-family: "playfair display";
-        font-weight: 100;
-        color: rgb(167, 132, 138);
-        font-size: 20px;
-        letter-spacing: 0.10em;
-        margin-left: 0%;
-    }
-
-    .team-name-title {
-        margin: 17% 0% 0% 8%;
+        font-size: 25px
     }
 
     .team-title {
-        font-family: "noto serif display", serif;
-        margin: -15% 0% 0% 1%;
-        font-size: 9.5px;
-        text-transform: uppercase;
-        color: whitesmoke;
+        font-size: 12px
     }
+}
 
+@media only screen and (min-width:427px) {
     .team-pics img {
-        height: 160px;
-        width: 160px;
-        display: flex;
-        padding-bottom: 3.5%;
-        margin-top: 3%;
-        margin-left: 6%
+        height: 210px;
+        width: 210px;
+    }
+}
+
+@media only screen and (min-width:548px) {
+    .teamgirls-wrap {
+        margin-top: 20%;
     }
 
+    .team-book-now-button {
+        padding: 1.2% 2%;
+    }
 
     .team-about {
-        color: white;
-        font-size: 13px;
-        line-height: 2.5;
-        margin: 4% 3%;
-        margin-right: 12%;
-        font-family: "noto serif display", serif;
-        letter-spacing: -0.03em;
+        margin-right: 5%;
     }
+}
 
-    .team-specialise {
-        margin-top: 2%;
-        color: rgb(167, 132, 138);
-        font-size: 12px;
+@media only screen and (max-width:575px) {
+    .teamgirls-wrap {
+        margin-top: -10%;
     }
+}
+
+/* Salon Gallery */
+iframe#webpack-dev-server-client-overlay {
+    display: none !important
+}
+
+.gallery-imgs {
+    padding-top: 3%;
+}
 
 
-    .team-hours {
-        margin-top: -0.5%;
-        color: rgb(141, 113, 118);
-        font-size: 12px;
-    }
+.gallery-extra-heading {
+    padding: 3% 0%;
+    text-align: center;
+    font-family: "noto serif display", serif;
+    text-transform: lowercase;
+    font-size: 25px;
+}
 
-    /* Team Media Queries */
-
-    @media only screen and (min-width: 359px) {
-        .teamgirls-wrap {
-            margin-top: 12%;
-        }
-
-        .team-book-now-button {
-            padding: 1.6% 2%;
-        }
-
-        .team-pics img {
-            height: 180px;
-            width: 180px;
-        }
-
-        .team-title {
-            font-size: 9.5px;
-        }
-
-        .team-about {
-            font-size: 12.5px;
-            margin: 4% 2.5%;
-        }
-
-        .team-specialise,
-        .team-hours {
-            font-size: 13px;
-        }
-    }
-
-    @media only screen and (min-width: 374px) {
-        .team-title {
-            font-size: 9.8px;
-        }
-    }
-
-    @media only screen and (min-width: 389px) {
-        .team-title {
-            font-size: 11px;
-        }
-
-        .team-pics img {
-            height: 200px;
-            width: 200px;
-        }
-
-        .team-book-now-button {
-            padding: 1.25% 2%;
-            font-size: 10px;
-        }
-
-        .team-about {
-            font-size: 15px;
-        }
-
-        .team-specialise,
-        .team-hours {
-            font-size: 15px;
-        }
-
-    }
-
-    @media only screen and (min-width: 411px) {
-        .team-book-now-button {
-            padding: 1.5% 2%;
-            font-size: 11px;
-            width: 95px;
-            height: 40px;
-        }
-
-        .team-social-button a {
-            height: 40px;
-            width: 40px;
-        }
-
-        .team-social-button a::before {
-            content: "";
-            width: 40px;
-            height: 40px;
-        }
-
-        .treatment-type-erin {
-            width: 95px;
-            height: 40px;
-        }
-
-        .treatment-type-erin span {
-            font-size: 9px
-        }
-
-        .treatment-type {
-            width: 95px;
-            height: 40px;
-            padding-top: 0.5%;
-        }
-
-        .treatment-type span {
-            font-size: 16px;
-        }
-
-        .team-h2 {
-            font-size: 25px
-        }
-
-        .team-title {
-            font-size: 12px
-        }
-    }
-
-    @media only screen and (min-width:427px) {
-        .team-pics img {
-            height: 210px;
-            width: 210px;
-        }
-    }
-
-    @media only screen and (min-width:548px) {
-        .teamgirls-wrap {
-            margin-top: 20%;
-        }
-
-        .team-book-now-button {
-            padding: 1.2% 2%;
-        }
-
-        .team-about {
-            margin-right: 5%;
-        }
-    }
-
-    @media only screen and (max-width:575px) {
-        .teamgirls-wrap {
-            margin-top: -10%;
-        }
-    }
-
-    /* Salon Gallery */
-    iframe#webpack-dev-server-client-overlay {
-        display: none !important
-    }
-
-    .gallery-imgs {
-        padding-top: 3%;
-    }
-
-
+@media only screen and (min-width: 390px) {
     .gallery-extra-heading {
-        padding: 3% 0%;
-        text-align: center;
-        font-family: "noto serif display", serif;
-        text-transform: lowercase;
-        font-size: 25px;
+        font-size: 34px;
     }
+}
 
-    @media only screen and (min-width: 390px) {
-        .gallery-extra-heading {
-            font-size: 34px;
-        }
-    }
+.gallerypage-gallery img {
+    height: 18vh;
+    width: 32vw;
+    border-radius: 14px;
+}
 
+.gallerypage-gallery-1,
+.gallerypage-gallery-2,
+.gallerypage-gallery-3,
+.gallerypage-gallery-4,
+.gallerypage-gallery-5,
+.gallerypage-gallery-6 {
+    display: flex;
+    padding-top: 2%;
+    justify-content: space-between;
+}
+
+.gallerypage-gallery-6 {
+    padding-bottom: 2%;
+}
+
+@media only screen and (max-height: 575px) and (orientation: landscape) {
     .gallerypage-gallery img {
-        height: 18vh;
-        width: 32vw;
-        border-radius: 14px;
+        height: 45vh;
+        width: 56vh;
     }
+}
 
-    .gallerypage-gallery-1,
-    .gallerypage-gallery-2,
-    .gallerypage-gallery-3,
-    .gallerypage-gallery-4,
-    .gallerypage-gallery-5,
-    .gallerypage-gallery-6 {
-        display: flex;
-        padding-top: 2%;
-        justify-content: space-between;
-    }
+/*FOOTER*/
 
-    .gallerypage-gallery-6 {
-        padding-bottom: 2%;
-    }
+.main-footer {
+    border-top: 0.5px solid white;
+    bottom: 0;
+    width: 100%;
+    text-transform: uppercase;
+    font-family: "noto serif display", serif;
+    color: rgb(134, 112, 112);
 
-    @media only screen and (max-height: 575px) and (orientation: landscape) {
-        .gallerypage-gallery img {
-            height: 45vh;
-            width: 56vh;
-        }
-    }
-
-    /*FOOTER*/
-
-    .main-footer {
-        border-top: 0.5px solid white;
-        bottom: 0;
-        width: 100%;
-        text-transform: uppercase;
-        font-family: "noto serif display", serif;
-        color: rgb(134, 112, 112);
-
-        background-color: rgba(179, 161, 140, 0.335);
-    }
+    background-color: rgba(179, 161, 140, 0.335);
+}
 
 
 
+.footer-address {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3%;
+    padding-right: 8.6%;
+    font-size: 11.8px;
+}
+
+@media only screen and (min-width:315px) {
     .footer-address {
-        display: flex;
-        flex-direction: column;
-        margin-top: 3%;
-        padding-right: 8.6%;
-        font-size: 11.8px;
+        padding-right: 9%;
+        font-size: 10px;
     }
+}
 
-    @media only screen and (min-width:315px) {
-        .footer-address {
-            padding-right: 9%;
-            font-size: 10px;
-        }
+@media only screen and (min-width:559px) {
+    .footer-address {
+        padding-right: 7%;
     }
+}
 
-    @media only screen and (min-width:559px) {
-        .footer-address {
-            padding-right: 7%;
-        }
-    }
+.footer-address-list {
+    list-style: none;
+    display: flex;
+    margin: 0 auto;
+    color: white;
+}
 
-    .footer-address-list {
-        list-style: none;
-        display: flex;
-        margin: 0 auto;
-        color: white;
-    }
+.footer-address-list li {
+    margin-left: 4px;
+    display: flex;
+    flex-direction: column;
+}
 
-    .footer-address-list li {
-        margin-left: 4px;
-        display: flex;
-        flex-direction: column;
-    }
+.footer-opening-times {
+    align-items: center;
+    margin: 10px 0%;
+    display: flex;
+    flex-direction: column;
+}
 
-    .footer-opening-times {
-        align-items: center;
-        margin: 10px 0%;
-        display: flex;
-        flex-direction: column;
-    }
+.footer-weekdays {
+    font-size: 11px;
+    list-style: none;
+    text-decoration: none;
+    text-align: left;
+}
 
-    .footer-weekdays {
-        font-size: 11px;
-        list-style: none;
-        text-decoration: none;
-        text-align: left;
-    }
+.footer-weekdays th {
+    padding-right: 5px;
+}
 
-    .footer-weekdays th {
-        padding-right: 5px;
-    }
+.footer-current-day {
+    color: white;
+}
 
-    .footer-current-day {
-        color: white;
-    }
-
-    .footer-salon-number {
-        text-align: center;
-        color: white;
-        font-size: 13px;
-    }
+.footer-salon-number {
+    text-align: center;
+    color: white;
+    font-size: 13px;
+}
 
 
-    .footer-socials {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin: 18px 0px;
-    }
+.footer-socials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 18px 0px;
+}
 
-    .footer-socials img {
-        height: 35px;
-        width: 35px;
-        padding: 0px 7px;
-        margin-right: 13px;
-        max-width: 100%;
-    }
+.footer-socials img {
+    height: 35px;
+    width: 35px;
+    padding: 0px 7px;
+    margin-right: 13px;
+    max-width: 100%;
+}
 
-    .tiktok-footer img {
-        max-width: 100%;
-        height: 80%;
-        padding-bottom: 5%;
-        /* display: block; */
-    }
+.tiktok-footer img {
+    max-width: 100%;
+    height: 80%;
+    padding-bottom: 5%;
+    /* display: block; */
+}
 
-    .sitemap {
-        display: flex;
-        flex-direction: column;
-        margin: 20px 0px;
-    }
+.sitemap {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0px;
+}
 
+.sitemap-list {
+    display: flex;
+    margin: 0 auto;
+    padding-right: 12%;
+}
+
+.footer-icon-link a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.footer-icon-link {
+    text-decoration: none;
+    color: rgb(105, 88, 88);
+    font-size: 5px;
+    text-align: center;
+}
+
+@media only screen and (min-width: 471px) {
     .sitemap-list {
         display: flex;
         margin: 0 auto;
-        padding-right: 12%;
+        padding-right: 10%;
     }
+}
 
-    .footer-icon-link a {
-        text-decoration: none;
-        color: white;
-
+@media only screen and (min-width: 559px) {
+    .sitemap-list {
+        display: flex;
+        margin: 0 auto;
+        padding-right: 8%;
     }
+}
 
-    .footer-icon-link {
-        text-decoration: none;
-        color: rgb(105, 88, 88);
-        font-size: 5px;
-        text-align: center;
-    }
+.sitemap-list a {
+    margin-left: 10px;
+    font-size: 15px;
+    text-decoration: none;
+    color: rgb(134, 112, 112);
+}
 
-    @media only screen and (min-width: 471px) {
-        .sitemap-list {
-            display: flex;
-            margin: 0 auto;
-            padding-right: 10%;
-        }
-    }
-
-    @media only screen and (min-width: 559px) {
-        .sitemap-list {
-            display: flex;
-            margin: 0 auto;
-            padding-right: 8%;
-        }
+@media only screen and (min-width:315px) {
+    .sitemap-list {
+        padding-right: 14.5%;
     }
 
     .sitemap-list a {
-        margin-left: 10px;
-        font-size: 15px;
-        text-decoration: none;
-        color: rgb(134, 112, 112);
+        font-size: 10px;
     }
-
-    @media only screen and (min-width:315px) {
-        .sitemap-list {
-            padding-right: 14.5%;
-        }
-
-        .sitemap-list a {
-            font-size: 10px;
-        }
-    }
-
-    @media only screen and (min-width:334px) {
-        .sitemap-list {
-            padding-right: 13%;
-        }
-    }
-
-    @media only screen and (min-width:390px) {
-        .sitemap-list {
-            padding-right: 11%;
-        }
-
-        .sitemap-list a {
-            font-size: 12px;
-        }
-    }
-
-    @media only screen and (min-width:475px) {
-        .sitemap-list {
-            padding-right: 10%;
-        }
-    }
-
-    @media only screen and (min-width:520px) {
-        .sitemap-list {
-            padding-right: 9%;
-        }
-    }
-
-    .sitemap-list a:hover {
-        color: white;
-    }
-
-    .footer-logo img {
-        max-width: 120px;
-        max-height: 120px;
-        border-radius: 50%;
-        display: flex;
-        margin: 0 auto;
-        margin-bottom: 15px;
-        animation: gelatine 8.5s infinite;
-    }
-
-    @keyframes gelatine {
-
-        from,
-        to {
-            transform: scale(1, 1);
-        }
-
-        25% {
-            transform: scale(0.9, 1.1);
-        }
-
-        50% {
-            transform: scale(1.1, 0.9);
-        }
-
-        75% {
-            transform: scale(0.95, 1.05);
-        }
-    }
-
-    .footer-logo img:hover {
-        cursor: pointer;
-    }
-
-    .footer-hr {
-        margin: 0;
-    }
-
-    .footer-disclaimer {
-        color: rgb(105, 88, 88);
-        text-align: center;
-        font-size: 5px;
-        padding-bottom: 0%;
-    }
-
-    .footer-credit {
-        color: rgb(105, 88, 88);
-        background-color: transparent;
-        text-align: center;
-        font-size: 5px;
-        padding-bottom: 1.5%;
-    }
-
 }
+
+@media only screen and (min-width:334px) {
+    .sitemap-list {
+        padding-right: 13%;
+    }
+}
+
+@media only screen and (min-width:390px) {
+    .sitemap-list {
+        padding-right: 11%;
+    }
+
+    .sitemap-list a {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (min-width:475px) {
+    .sitemap-list {
+        padding-right: 10%;
+    }
+}
+
+@media only screen and (min-width:520px) {
+    .sitemap-list {
+        padding-right: 9%;
+    }
+}
+
+.sitemap-list a:hover {
+    color: white;
+}
+
+.footer-logo img {
+    max-width: 120px;
+    max-height: 120px;
+    border-radius: 50%;
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    animation: gelatine 8.5s infinite;
+}
+
+@keyframes gelatine {
+
+    from,
+    to {
+        transform: scale(1, 1);
+    }
+
+    25% {
+        transform: scale(0.9, 1.1);
+    }
+
+    50% {
+        transform: scale(1.1, 0.9);
+    }
+
+    75% {
+        transform: scale(0.95, 1.05);
+    }
+}
+
+.footer-logo img:hover {
+    cursor: pointer;
+}
+
+.footer-hr {
+    margin: 0;
+}
+
+.footer-disclaimer {
+    color: rgb(105, 88, 88);
+    text-align: center;
+    font-size: 5px;
+    padding-bottom: 0%;
+}
+
+.footer-credit {
+    color: rgb(105, 88, 88);
+    background-color: transparent;
+    text-align: center;
+    font-size: 5px;
+    padding-bottom: 1.5%;
+}
+
+
 
 /* for any imgs :
 

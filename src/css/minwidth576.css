@@ -791,14 +791,13 @@
 
     /* Salon Contact */
     .saloncontact-page-wrap {
-        margin-top: 2%;
+        margin: 2% 4%;
         padding-top: -2%;
         padding-bottom: 1%;
         background-color: transparent;
         font-family: "noto serif display", serif;
         box-shadow: inset 2000px 0 0 0 #ac95954f;
-        border-bottom: 1.5px solid white;
-        border-top: 1.5px solid white;
+        border: 1.5px solid white;
         background-image: url('../components/imgs/igbg.png');
         background-color: transparent;
         opacity: 0.8;
@@ -867,12 +866,10 @@
     /* Salon Shop */
 
     .salon-shop-wrap {
-        margin-top: 2%;
+        margin: 2% 4%;
         font-family: "noto serif display", serif;
         box-shadow: inset 2000px 0 0 0 #beadad97;
-        border: 1px solid white;
-        border-left: 0px;
-        border-right: 0px;
+        border: 1.5px solid white;
         text-align: center;
     }
 
