@@ -52,7 +52,7 @@ const FooterDetails = () => {
           </tr>
         </table>
       </div>
-      <div className="footer-salon-number">Call Us: 07412186181</div>
+      <div className="footer-salon-number">Call 07412186181</div>
     </div>
   );
 };

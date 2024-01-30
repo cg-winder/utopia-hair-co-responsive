@@ -4,7 +4,8 @@ const HomeInstagram = () => {
   return (
     <div className="homeinstagram">
       <div className="homeinstagram-header">The perfect finish every time</div>
-      <div class="elfsight-app-e4d52648-7280-417c-bd58-555b4f9c5f73"></div>
+      <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
+<div class="elfsight-app-f6dfb961-b60b-47a8-96ee-3f8f72d05667" data-elfsight-app-lazy></div>
     </div>
   )
 }
