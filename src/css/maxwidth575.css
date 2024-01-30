@@ -1656,6 +1656,29 @@
     }
 
     /* Salon Gallery */
+    iframe#webpack-dev-server-client-overlay {
+        display: none !important
+    }
+
+    .gallery-imgs {
+        padding-top: 3%;
+    }
+
+
+    .gallery-extra-heading {
+        padding: 3% 0%;
+        text-align: center;
+        font-family: "noto serif display", serif;
+        text-transform: lowercase;
+        font-size: 25px;
+    }
+
+    @media only screen and (min-width: 390px) {
+        .gallery-extra-heading {
+            font-size: 34px;
+        }
+    }
+
     .gallerypage-gallery img {
         height: 18vh;
         width: 32vw;

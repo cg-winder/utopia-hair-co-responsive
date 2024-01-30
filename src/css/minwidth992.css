@@ -747,6 +747,14 @@
     }
 
     /* GALLERY PAGE */
+    iframe#webpack-dev-server-client-overlay {
+        display: none !important
+    }
+
+    .gallery-imgs {
+        padding-top: 3%;
+    }
+
     .gallerypage-gallery img {
         height: 35vh;
         width: 32vw;

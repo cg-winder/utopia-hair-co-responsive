@@ -978,6 +978,22 @@
 
 
     /* GALLERY PAGE */
+    iframe#webpack-dev-server-client-overlay {
+        display: none !important
+    }
+
+    .gallery-imgs {
+        padding-top: 3%;
+    }
+
+    .gallery-extra-heading {
+        padding: 2% 0%;
+        text-align: center;
+        font-family: "noto serif display", serif;
+        text-transform: lowercase;
+        font-size: 50px;
+    }
+
     .gallerypage-gallery img {
         height: 42vh;
         width: 32vw;
