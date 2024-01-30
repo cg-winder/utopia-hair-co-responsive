@@ -482,9 +482,15 @@
     /* Testimonials Finish */
 
     /* SALON PAGE */
-    .salon-gallery img {
-        height: 35vh;
-        width: 32vw;
+    .salon-access-gallery img {
+        height: 23vh;
+        width: 30vw;
+    }
+
+    .salon-access-gallery {
+        justify-content: center;
+        padding-bottom: 2%;
+        display: inline;
     }
 
 

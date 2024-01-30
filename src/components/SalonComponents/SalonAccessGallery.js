@@ -7,10 +7,14 @@ import salonaccess4 from "../imgs/utopiadirections4.png"
 const SalonAccessGallery = () => {
   return (
     <div className="salon-access-gallery">
-      <img src={salonaccess1}/>
-      <img src={salonaccess2}/>
-      <img src={salonaccess3}/>
-      <img src={salonaccess4}/>
+      <div className="salon-access-gallery-1">
+        <img src={salonaccess1}/>
+        <img src={salonaccess2}/>
+      </div>
+      <div className="salon-access-gallery-2"> 
+        <img src={salonaccess3}/>
+        <img src={salonaccess4}/>
+      </div>
     </div>
   )
 }

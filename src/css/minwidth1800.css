@@ -444,9 +444,17 @@
     }
 
     .salon-access-gallery img {
-        height: 33vh;
+        height: 40vh;
         width: 35vw;
         padding-left: 1%;
+    }
+
+    .salon-access-gallery {
+        display: inline;
+    }
+
+    .salon-access-gallery-2 {
+        padding-bottom: 2%;
     }
 
     /* Services Page*/
