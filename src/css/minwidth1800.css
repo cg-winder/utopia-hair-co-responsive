@@ -457,6 +457,42 @@
         padding-bottom: 2%;
     }
 
+    /* salon shop */
+
+    .salon-shop-header {
+        padding-top: 2%;
+        margin-bottom: 2%;
+        font-size: 58px;
+    }
+
+    .salon-shop-content {
+        font-size: 21.5px;
+        line-height: 42px;
+        padding-bottom: 2%;
+    }
+
+    .salon-shop-link {
+        font-size: 30px;
+    }
+
+
+    .salon-shop-logos {
+        padding: 1% 0% 2% 0%;
+        align-items: center;
+    }
+
+    #salon-shop-utopia-logo {
+        height: 17vh;
+        width: 17vh;
+    }
+
+    #salon-shop-elth-logo {
+        margin-left: 2%;
+        height: 12vh;
+        width: 20vh;
+        margin-bottom: 1.4%;
+    }
+
     /* Services Page*/
     .services-book-wrap {
         background-image: url("../components/imgs/blackoutsalonstretch.png");

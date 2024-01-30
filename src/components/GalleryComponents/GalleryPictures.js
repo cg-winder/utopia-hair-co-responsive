@@ -63,7 +63,7 @@ const GalleryPictures = () => {
   <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
   <div class="elfsight-app-4cca1a6a-76cb-404b-94b0-9d88ce0c0784" data-elfsight-app-lazy></div>
       <div className="gallery-extra">
-        <div className="gallery-extra-heading">For more check out our Instagram...</div>
+        <div className="gallery-extra-heading">Check out our socials for more...</div>
       <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
 <div class="elfsight-app-6456f125-3de2-4701-b267-6caff217b735" data-elfsight-app-lazy></div>
       </div>

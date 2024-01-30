@@ -1177,7 +1177,72 @@
 
     /* saloncontact Finish */
 
+    /* Salon Shop */
 
+    .salon-shop-wrap {
+        margin-top: 2%;
+        font-family: "noto serif display", serif;
+        box-shadow: inset 2000px 0 0 0 #beadad97;
+        border: 1px solid white;
+        border-left: 0px;
+        border-right: 0px;
+        text-align: center;
+    }
+
+    .salon-shop-header {
+        padding-top: 2%;
+        margin-bottom: 3%;
+        color: white;
+        font-size: 46px;
+        text-transform: lowercase;
+        font-weight: 100;
+    }
+
+    .salon-shop-content {
+        font-size: 15.5px;
+        margin: 0% 17%;
+        color: rgb(143, 112, 112);
+        line-height: 32px;
+        padding-bottom: 5%;
+    }
+
+
+    .salon-shop-link {
+        display: flex;
+        margin: 0 auto;
+        margin-bottom: 2%;
+        background-color: transparent;
+        padding: 2% 2%;
+        font-family: "noto serif display", serif;
+        font-weight: 400;
+        transition: 0.3s ease-in-out;
+        color: whitesmoke;
+        border: 2px solid white;
+        box-shadow: inset 600px 0 0 0 #e0d9d997;
+        text-transform: uppercase;
+    }
+
+    .salon-shop-link span {
+        font-size: 20px;
+    }
+
+
+    .salon-shop-logos {
+        padding: 5% 0%;
+        align-items: center;
+    }
+
+    #salon-shop-utopia-logo {
+        height: 9vh;
+        width: 9vh;
+    }
+
+    #salon-shop-elth-logo {
+        margin-left: 2%;
+        height: 6vh;
+        width: 12vh;
+        margin-bottom: 2%;
+    }
 
     /* SERVICES PAGE */
     .services-page-wrap {

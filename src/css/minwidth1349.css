@@ -660,6 +660,42 @@
         font-size: 16px;
     }
 
+    /* salon shop */
+
+    .salon-shop-header {
+        padding-top: 2%;
+        margin-bottom: 3%;
+        font-size: 52px;
+    }
+
+    .salon-shop-content {
+        font-size: 18.5px;
+        line-height: 33px;
+        padding-bottom: 3%;
+    }
+
+    .salon-shop-link {
+        font-size: 28px;
+    }
+
+
+    .salon-shop-logos {
+        padding: 3% 0%;
+        align-items: center;
+    }
+
+    #salon-shop-utopia-logo {
+        height: 13vh;
+        width: 13vh;
+    }
+
+    #salon-shop-elth-logo {
+        margin-left: 2%;
+        height: 10vh;
+        width: 16vh;
+        margin-bottom: 1.3%;
+    }
+
     /* Services Page*/
 
 
