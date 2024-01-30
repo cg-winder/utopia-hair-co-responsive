@@ -1180,12 +1180,10 @@
     /* Salon Shop */
 
     .salon-shop-wrap {
-        margin-top: 2%;
+        margin: 2% 8% 0% 8%;
         font-family: "noto serif display", serif;
         box-shadow: inset 2000px 0 0 0 #beadad97;
-        border: 1px solid white;
-        border-left: 0px;
-        border-right: 0px;
+        border: 1.7px solid white;
         text-align: center;
     }
 
@@ -1200,7 +1198,7 @@
 
     .salon-shop-content {
         font-size: 15.5px;
-        margin: 0% 17%;
+        margin: 0% 13%;
         color: rgb(143, 112, 112);
         line-height: 32px;
         padding-bottom: 5%;
