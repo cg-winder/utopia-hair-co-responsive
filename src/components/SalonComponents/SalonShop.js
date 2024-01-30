@@ -6,7 +6,7 @@ const SalonShop = () => {
   return (
     <div className="salon-shop-wrap">
         <div className="salon-shop-header">Utopia Shop</div>
-        <div className="salon-shop-content">In affiliation with Elth, Nicola has curated a list of her most well-loved hair products used in the salon. Please be aware Utopia Hair Co uses an affiliate link which generates a 20% commission from clicks that result in a purchase (at no extra cost to you!) Thank you for your support.</div>
+        <div className="salon-shop-content">In affiliation with Elth, Nicola has curated a list of her most well-loved hair products used in the salon, including big brands such as Olaplex and ColorWow. Please be aware Utopia Hair Co uses an affiliate link which generates a 20% commission from clicks that result in a purchase (at no extra cost to you!) <div>Thank you for your support.</div></div>
         <button
                 className="salon-shop-link"
                 onClick={(e) => {

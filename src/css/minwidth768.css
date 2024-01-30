@@ -1083,6 +1083,7 @@
     .saloncontact-page-wrap {
         padding-top: 2%;
         padding-bottom: 2%;
+        margin-bottom: 0%;
         font-family: "noto serif display", serif;
         /* box-shadow: inset 2000px 0 0 0 #ac95954f; */
     }
@@ -1182,7 +1183,7 @@
     .salon-shop-wrap {
         margin: 2% 8% 0% 8%;
         font-family: "noto serif display", serif;
-        box-shadow: inset 2000px 0 0 0 #beadad97;
+        box-shadow: inset 2000px 0 0 0 #a5939368;
         border: 1.7px solid white;
         text-align: center;
     }
