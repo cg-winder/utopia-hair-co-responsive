@@ -999,6 +999,7 @@
     #salon-shop-utopia-logo {
         height: 9vh;
         width: 9vh;
+        border-radius: 50%;
     }
 
     #salon-shop-elth-logo {
