@@ -1010,8 +1010,6 @@
     }
 
     @media only screen and (min-width: 390px) {
-
-
         .salon-shop-header {
             font-size: 33px;
         }
@@ -1785,6 +1783,10 @@ iframe#webpack-dev-server-client-overlay {
     font-family: "noto serif display", serif;
     text-transform: lowercase;
     font-size: 25px;
+}
+
+#gallery-extra-feed {
+    padding-left: -1%;
 }
 
 @media only screen and (min-width: 390px) {
