@@ -60,6 +60,18 @@
     }
 }
 
+@media only screen and (min-width: 300px) and (max-width: 766px) {
+
+    #home-head,
+    #salon-head,
+    #services-head,
+    #team-head,
+    #gallery-head {
+        color: transparent;
+        font-size: 0px;
+    }
+}
+
 
 /* TABLET AND BEYOND*/
 @media only screen and (min-width: 767px) and (max-width: 830px) {

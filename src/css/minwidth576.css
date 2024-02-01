@@ -951,13 +951,13 @@
     }
 
     .services-book-text {
-        margin-top: 16%;
         font-family: "noto serif display", serif;
         text-align: center;
         text-transform: uppercase;
     }
 
     .services-book-1 {
+        padding-top: 8%;
         font-size: 23px;
     }
 

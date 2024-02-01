@@ -697,9 +697,9 @@
     }
 
     /* Services Page*/
-    .pricing-header {
+    /* .pricing-header {
         margin: -7% 60% 1% 2.5%;
-    }
+    } */
 
     @media only screen and (min-width: 1366px) {
         .services-artists {

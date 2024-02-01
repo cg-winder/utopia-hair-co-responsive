@@ -1183,6 +1183,7 @@
 
 @media only screen and (width: 568px) and (orientation: landscape) {
     .services-book-wrap {
+
         background-repeat: no-repeat;
         background-size: cover;
         position: relative;
@@ -1325,6 +1326,7 @@
         padding-top: 5%;
     }
 
+
     .pricing-header {
         padding-top: 5%
     }
@@ -1361,7 +1363,7 @@
 @media only screen and (min-width: 546px) and (min-height: 320px) {
 
     .services-book-wrap {
-        margin-top: 30%;
+        /* margin-top: 30%; */
         position: relative;
     }
 
@@ -1375,7 +1377,7 @@
 }
 
 @media only screen and (min-width: 548px) and (min-height: 834px) {
-    .services-book-text {
+    /* .services-book-text {
         padding-top: 24%;
         font-size: 18px;
     }
@@ -1401,7 +1403,7 @@
     .pricing-menus {
         padding: 4% 1%;
         margin: 0% 8% 0% 0%;
-    }
+    } */
 
     .services-recommendation-wrap {
         margin-top: 10.5%;
