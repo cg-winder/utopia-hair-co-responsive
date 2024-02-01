@@ -1265,6 +1265,7 @@
     } */
 
     .services-book-wrap {
+        padding: 3% 0%;
         background-image: url("../components/imgs/blackoutsalonstretch.png");
         background-repeat: no-repeat;
         background-size: cover;
@@ -1348,7 +1349,7 @@
     }
 
     .pricing-header {
-        margin: -3% 60% 3% 3.5%;
+        margin: -5% 60% 3% 3.5%;
         font-size: 55px;
         letter-spacing: -0.3rem;
         color: rgb(172, 140, 140);
@@ -1378,6 +1379,7 @@
     }
 
     .services-recommendation-wrap {
+        margin-top: 5%;
         height: auto;
         float: right;
         z-index: -1;

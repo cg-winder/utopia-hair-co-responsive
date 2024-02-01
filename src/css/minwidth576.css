@@ -942,10 +942,11 @@
     /* Services Page */
 
     .services-book-wrap {
+        margin-top: 0%;
         background-image: url("../components/imgs/blackoutsalonstretch.png");
         background-repeat: no-repeat;
         background-size: cover;
-        padding: 8% 0%;
+        padding: 5% 0%;
         position: relative;
     }
 
@@ -1000,6 +1001,7 @@
     }
 
     .services-pricing {
+        margin-top: 0%;
         box-shadow: inset 1930px 0 0 0 #c5b8b87e;
         /* background-image: url("../components/imgs/marble2bg.png"); */
         padding-bottom: 7%;
@@ -1049,7 +1051,7 @@
     }
 
     .services-recommendation-wrap {
-        margin: 5% 2% 0% 2%;
+        margin: 16% 2% 0% 2%;
         font-family: "noto serif display", serif;
     }
 
