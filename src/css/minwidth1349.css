@@ -700,8 +700,19 @@
     /* .pricing-header {
         margin: -7% 60% 1% 2.5%;
     } */
+    .pricing-header {
+        margin-left: 1.9%;
+    }
 
-    @media only screen and (min-width: 1366px) {
+    .services-artists {
+        margin-left: 2%;
+    }
+
+    .pricing-menu-wrap p {
+        margin: 2% 0%-3% 2%;
+    }
+
+    /* @media only screen and (min-width: 1366px) {
         .services-artists {
             margin-left: 3%;
         }
@@ -715,7 +726,7 @@
             text-transform: uppercase;
             margin: 2% 0%-3% 3%;
         }
-    }
+    } */
 
     @media only screen and (min-width: 1536px) and (min-width: 863px) {
 
