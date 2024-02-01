@@ -1250,7 +1250,7 @@
     }
 
     .services-book-wrap {
-        /* padding: 3% 0%; */
+        padding: 1% 0%;
         background-image: url("../components/imgs/blackoutsalonstretch.png");
         background-repeat: no-repeat;
         background-size: cover;
