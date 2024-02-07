@@ -87,7 +87,7 @@ Iâ€™m so blessed to be in a job I absolutely love, where I can bring my clientsâ
                 </div>
             </div>
           <div className="team-about">
-          My name is Alannah, and I'm a hair stylist who found her true passion in the world of hair. I began my journey at Utopia Hair Co in April 2023, and it's been amazing! 
+          Hi my name is Alannah, and I'm a hair stylist who found her true passion in the world of hair. I began my journey at Utopia Hair Co in April 2023, and it's been amazing! 
  What really sets me apart is my genuine love for what I do. I believe that hair isn't just about aesthetics, it's about helping people feel confident and happy with themselves. I'm not just here to style hair,  I'm here to build connections, understand your vision and bring it to life. I'm always striving to improve and stay on top of industry trends. So if you're looking for a skilled stylist with a passion for hair, I'm here to help you achieve your hair goals.
             <p className="team-specialise">Specialises in: blondes! I've always been fascinated by the beauty of blonde hair, and I've invested time in learning the latest techniques to ensure I can create the most stunning blonde looks. </p>
             <p className="team-hours">Find me in the salon: Tuesday & Thursday 9am-7pm</p>
