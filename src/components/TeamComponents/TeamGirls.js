@@ -186,13 +186,13 @@ I love creating seamless balayages, beautiful blondes and brunettes. I’m so ex
                       onClick={(e) => {
                         e.preventDefault();
                         window.location.href =
-                          "https://www.instagram.com/hairrbygabrielle_/";
+                          "https://www.instagram.com/lusciouslocks_xx/";
                       }}
                     >
                       BOOK WITH TIFFANY
                     </button>
                     <div className="team-social-button">
-                      <a href="https://www.instagram.com/hairrbygabrielle_/">
+                      <a href="https://www.instagram.com/lusciouslocks_xx/">
                         <img src={instagramlogo} alt="instagram-icon" />
                       </a>
                     </div>
@@ -285,43 +285,6 @@ I offer a wide range of treatments across nails, lashes and brows!
             <p className="team-hours">Find me in the salon: Tuesday 12pm-7pm, Wednesday & Thursday 9am-7pm, Friday 10am-6pm</p>
           </div>
         </div>
-
-        {/* <div className="team-girls">
-      <div className="team-pic-name-flex">
-            <div className="team-pics">
-                  <img src={millie} id="millie"/>
-                </div>
-                <div className="team-name-title">
-                        <h2 className="team-h2">MILLIE</h2>
-                        <div className="team-title">Brow Specialist</div>
-                  </div>
-            </div>
-            <div className="team-buttons">
-            <button
-                className="team-book-now-button"
-                onClick={(e) => {
-                  e.preventDefault();
-                  window.location.href =
-                    "https://www.fresha.com/a/nicola-at-utopia-hair-co-clifton-preston-uk-clifton-fields-lytham-road-y7md8eke/booking?employeeId=2774839";
-                }}
-              >
-                BOOK WITH MILLIE
-              </button>
-              <div className="team-social-button">
-                <a href="https://www.instagram.com/browsbymillierasdale/">
-                  <img src={instagramlogo} alt="instagram-icon" />
-                </a>
-              </div>
-              <div className="treatment-type">
-                  <span>BROWS</span>
-                </div>
-            </div>
-          <div className="team-about">
- Hi I'm Millie! I am a newly qualified brow specialist. I decided to take my love for brows and make it my dream job. I can't wait to meet my clients and start your brow journey together.
-              <p className="team-specialise">Specialises in:  </p>
-              <p className="team-hours">Find me in the salon: </p>
-          </div>
-        </div> */}
     </div>
   );
 };
