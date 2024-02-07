@@ -1,5 +1,5 @@
 
-import instagramlogo from "/Users/chloewinder/Desktop/ /Code/Projects/utopia-hair-co-responsive/src/components/imgs/nav-icon3-instagram.svg"
+import instagramlogo from "../imgs/nav-icon3-instagram.svg"
 import React from "react";
 import nicola from "../imgs/nicolabw.png"
 import alannah from "../imgs/final-alannah.png"
