@@ -9,7 +9,7 @@ const Footer = () => {
     <div className="main-footer">
       <div className="footer-no-disclaimer">
         <FooterDetails />
-        <FooterSocials />
+        {/* <FooterSocials /> */}
         <FooterSitemap />
         <div className="footer-logo">
           <a href="/home">
