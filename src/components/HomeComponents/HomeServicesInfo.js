@@ -1,14 +1,8 @@
 import React from 'react'
-import hair from "../imgs/blondec.png"
-import nails from "../imgs/nails2.jpeg"
-import brows from "../imgs/brows3.jpeg"
-import lashes from "../imgs/lashes2.jpeg";
 import HomeSpecialiseHair from  "./HomeSpecialiseHair" 
 import HomeSpecialiseNails from  "./HomeSpecialiseNails" 
 import HomeSpecialiseBrows from  "./HomeSpecialiseBrows" 
 import HomeSpecialiseLashes from  "./HomeSpecialiseLashes" 
-// import hairwash from "../imgs/like.png"
-// import hairwash from "../imgs/shampoo.png"
 import hairwash from "../imgs/hair-washing.png"
 import nailpolish from "../imgs/manicure.png"
 import eyelashes from "../imgs/eyelash-mascara.png"

@@ -5,8 +5,7 @@ import PopUpAlannah from "./PopUpAlannah"
 import PopUpGabrielle from './PopUpGabrielle';
 import PopUpTiffany from "./PopUpTiffany";
 import PopUpErin from "./PopUpErin"
-import PopUpMillie from "./PopUpMillie"
-import PopUpMaddie from './PopUpMaddie';
+
 
 
 const ServicesPricing = () => {

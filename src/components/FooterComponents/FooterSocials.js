@@ -1,6 +1,6 @@
 import React from "react";
 import tiktoklogo from "../imgs/tiktok3-removebg-preview.png";
-import instagramlogo from "../imgs/nav-icon3-instagram.svg";
+import instagramlogo from "/Users/chloewinder/Desktop/ /Code/Projects/utopia-hair-co-responsive/src/components/imgs/nav-icon3-instagram.svg";
 
 const FooterSocials = () => {
   return (
